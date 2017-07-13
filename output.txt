@@ -1,0 +1,1511 @@
+2015-08-24T03:11:05.422160+00:00 app[web.1]:                     [draft] => 0
+2015-08-24T03:11:05.422252+00:00 app[web.1]:                     [assignment_nid] => 269102308
+2015-08-24T03:11:05.422347+00:00 app[web.1]:                     [attachments] => stdClass Object
+2015-08-24T03:11:05.422398+00:00 app[web.1]:                         (
+2015-08-24T03:11:05.422500+00:00 app[web.1]:                             [files] => stdClass Object
+2015-08-24T03:11:05.422670+00:00 app[web.1]:                                     [file] => stdClass Object
+2015-08-24T03:11:05.431473+00:00 app[web.1]:                                         (
+2015-08-24T03:11:05.431845+00:00 app[web.1]:                                                     [id] => 118543131
+2015-08-24T03:11:05.431997+00:00 app[web.1]:                                                     [fid] => 653718175
+2015-08-24T03:11:05.422560+00:00 app[web.1]:                                 (
+2015-08-24T03:11:05.421721+00:00 app[web.1]:                     [uid] => 11545535
+2015-08-24T03:11:05.431710+00:00 app[web.1]:                                                 (
+2015-08-24T03:11:05.431610+00:00 app[web.1]:                                             [118543131] => stdClass Object
+2015-08-24T03:11:05.497669+00:00 app[web.1]: 
+2015-08-24T03:11:05.497755+00:00 app[web.1]: [24-Aug-2015 03:11:05 UTC] Array
+2015-08-24T03:11:05.497757+00:00 app[web.1]: (
+2015-08-24T03:11:05.497801+00:00 app[web.1]:     [req_type] => courses
+2015-08-24T03:11:05.497803+00:00 app[web.1]: )
+2015-08-24T03:11:05.497806+00:00 app[web.1]: 
+2015-08-24T03:11:05.502821+00:00 app[web.1]: [24-Aug-2015 03:11:05 UTC] got token!
+2015-08-24T03:11:05.497810+00:00 app[web.1]: 
+2015-08-24T03:11:05.497998+00:00 app[web.1]: 10.157.115.7 - - [24/Aug/2015:03:11:05 +0000] "POST /?req_type=courses HTTP/1.1" 302 - "-" "-
+2015-08-24T03:11:05.503043+00:00 app[web.1]:     [token_key] => b02bc01919e633cc4cbd3b1b6917966d0558071f2
+2015-08-24T03:11:05.433870+00:00 app[web.1]:                                                     [extension] => pptx
+2015-08-24T03:11:05.502824+00:00 app[web.1]: 
+2015-08-24T03:11:05.433324+00:00 app[web.1]:                                                     [filemime] => application/vnd.openxmlformats-officedocument.presentationml.presentation
+2015-08-24T03:11:05.502882+00:00 app[web.1]: [24-Aug-2015 03:11:05 UTC] Array
+2015-08-24T03:11:05.432105+00:00 app[web.1]:                                                     [type] => file
+2015-08-24T03:11:05.461093+00:00 app[web.1]:                                                     [filename] => Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx
+2015-08-24T03:11:05.479645+00:00 app[web.1]:                                                     [md5_checksum] => eedcd29f6c335ba77b7748b64e0569f4
+2015-08-24T03:11:05.479782+00:00 app[web.1]:                                                     [timestamp] => 1440385825
+2015-08-24T03:11:05.480027+00:00 app[web.1]:                                                     [filemime] => application/vnd.openxmlformats-officedocument.wordprocessingml.document
+2015-08-24T03:11:05.488737+00:00 app[web.1]:                                                     [extension] => docx
+2015-08-24T03:11:05.488868+00:00 app[web.1]:                                                     [converted_status] => 1
+2015-08-24T03:11:05.489016+00:00 app[web.1]:                                                     [converted_type] => 4
+2015-08-24T03:11:05.490015+00:00 app[web.1]:                                                     [converted_download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf
+2015-08-24T03:11:05.497121+00:00 app[web.1]:                                                     [converted_md5_checksum] => 2bb849273b5b1f0036102b6425f0b3de
+2015-08-24T03:11:05.497209+00:00 app[web.1]:                                                 )
+2015-08-24T03:11:05.497215+00:00 app[web.1]: 
+2015-08-24T03:11:05.497367+00:00 app[web.1]:                                         )
+2015-08-24T03:11:05.497369+00:00 app[web.1]: 
+2015-08-24T03:11:05.497371+00:00 app[web.1]:                                 )
+2015-08-24T03:11:05.497372+00:00 app[web.1]: 
+2015-08-24T03:11:05.497421+00:00 app[web.1]:                         )
+2015-08-24T03:11:05.497423+00:00 app[web.1]: 
+2015-08-24T03:11:05.497463+00:00 app[web.1]:                 )
+2015-08-24T03:11:05.432338+00:00 app[web.1]:                                                     [title] => Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections.pptx
+2015-08-24T03:11:05.422296+00:00 heroku[router]: at=info method=POST path="/?req_type=courses" host=glacial-tor-7252.herokuapp.com request_id=71efcc2f-3f70-4894-bf8b-4c057cf07c93 fwd="50.56.38.11" dyno=web.1 connect=1ms service=265ms status=302 bytes=296
+2015-08-24T03:11:05.433998+00:00 app[web.1]:                                                     [converted_status] => 1
+2015-08-24T03:11:05.434132+00:00 app[web.1]:                                                     [converted_type] => 4
+2015-08-24T03:11:05.434450+00:00 app[web.1]:                                                     [converted_filename] => 1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf
+2015-08-24T03:11:05.497465+00:00 app[web.1]: 
+2015-08-24T03:11:05.497497+00:00 app[web.1]:         )
+2015-08-24T03:11:05.497499+00:00 app[web.1]: 
+2015-08-24T03:11:05.497500+00:00 app[web.1]: )
+2015-08-24T03:11:05.497504+00:00 app[web.1]: 
+2015-08-24T03:11:05.497667+00:00 app[web.1]: [24-Aug-2015 03:11:05 UTC] Requirement Type found - courses
+2015-08-24T03:11:05.459280+00:00 app[web.1]:                                                     [converted_download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf
+2015-08-24T03:11:05.503143+00:00 app[web.1]:     [token_secret] => 595e3771523d7c63b374b437297fb75f
+2015-08-24T03:11:05.502886+00:00 app[web.1]: (
+2015-08-24T03:11:05.502932+00:00 app[web.1]:     [uid] => 22135108
+2015-08-24T03:11:05.503196+00:00 app[web.1]:     [token_is_access] => 1
+2015-08-24T03:11:05.508814+00:00 app[web.1]:     [uid] => 11545535
+2015-08-24T03:11:05.503200+00:00 app[web.1]: )
+2015-08-24T03:11:05.503201+00:00 app[web.1]: 
+2015-08-24T03:11:05.503204+00:00 app[web.1]: 
+2015-08-24T03:11:05.508689+00:00 app[web.1]: [24-Aug-2015 03:11:05 UTC] {"uid":11545535,"timestamp":1440385829,"type":"dropbox_submission.update","data":{"realm":"section","section_id":124485753,"realm_id":124485753,"uid":"11545535","revision_id":"1","assignment_nid":"269102308","object":{"revision_id":1,"uid":11545535,"created":1440385829,"num_items":1,"late":1,"draft":0,"assignment_nid":"269102308","attachments":{"files":{"file":{"118543131":{"id":118543131,"fid":653718175,"type":"file","title":"Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections.pptx","filename":"Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections.pptx","filesize":64437,"md5_checksum":"7ad94fd7b5f4b60e092a04696ab95753","timestamp":1440385826,"filemime":"application\/vnd.openxmlformats-officedocument.presentationml.presentation","download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee.pptx","extension":"pptx","converted_status":"1","converted_type":4,"converted_filename":"1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf","converted_download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf","converted_extension":"pdf","converted_filemime":"application\/pdf","converted_filesize":66492,"converted_md5_checksum":"4de485b66e8e1424bdfb263cc6505159"},"118543129":{"id":118543129,"fid":653718169,"type":"file","title":"Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx","filename":"Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx","filesize":45927,"md5_checksum":"eedcd29f6c335ba77b7748b64e0569f4","timestamp":1440385825,"filemime":"application\/vnd.openxmlformats-officedocument.wordprocessingml.document","download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930.docx","extension":"docx","converted_status":"1","converted_type":4,"converted_filename":"1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf","converted_download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf","converted_extension":"pdf","converted_filemime":"application\/pdf","converted_filesize":80911,"converted_md5_checksum":"2bb849273b5b1f0036102b6425f0b3de"}}}}}}}
+2015-08-24T03:11:05.508756+00:00 app[web.1]: [24-Aug-2015 03:11:05 UTC] stdClass Object
+2015-08-24T03:11:05.508758+00:00 app[web.1]: (
+2015-08-24T03:11:05.508939+00:00 app[web.1]:     [type] => dropbox_submission.update
+2015-08-24T03:11:05.508994+00:00 app[web.1]:     [data] => stdClass Object
+2015-08-24T03:11:05.509023+00:00 app[web.1]:         (
+2015-08-24T03:11:05.515843+00:00 app[web.1]:             [realm_id] => 124485753
+2015-08-24T03:11:05.508861+00:00 app[web.1]:     [timestamp] => 1440385829
+2015-08-24T03:11:05.509147+00:00 app[web.1]:             [section_id] => 124485753
+2015-08-24T03:11:05.509093+00:00 app[web.1]:             [realm] => section
+2015-08-24T03:11:05.515889+00:00 app[web.1]:             [uid] => 11545535
+2015-08-24T03:11:05.515950+00:00 app[web.1]:             [revision_id] => 1
+2015-08-24T03:11:05.516025+00:00 app[web.1]:             [assignment_nid] => 269102308
+2015-08-24T03:11:05.516279+00:00 app[web.1]:                     [uid] => 11545535
+2015-08-24T03:11:05.516101+00:00 app[web.1]:             [object] => stdClass Object
+2015-08-24T03:11:05.516587+00:00 app[web.1]:                     [draft] => 0
+2015-08-24T03:11:05.516360+00:00 app[web.1]:                     [created] => 1440385829
+2015-08-24T03:11:05.516135+00:00 app[web.1]:                 (
+2015-08-24T03:11:05.522418+00:00 app[web.1]:                     [assignment_nid] => 269102308
+2015-08-24T03:11:05.516521+00:00 app[web.1]:                     [late] => 1
+2015-08-24T03:11:05.516205+00:00 app[web.1]:                     [revision_id] => 1
+2015-08-24T03:11:05.516519+00:00 app[web.1]:                     [num_items] => 1
+2015-08-24T03:11:05.522510+00:00 app[web.1]:                     [attachments] => stdClass Object
+2015-08-24T03:11:05.522674+00:00 app[web.1]:                             [files] => stdClass Object
+2015-08-24T03:11:05.522553+00:00 app[web.1]:                         (
+2015-08-24T03:11:05.522733+00:00 app[web.1]:                                 (
+2015-08-24T03:11:05.523912+00:00 app[web.1]:                                     [file] => stdClass Object
+2015-08-24T03:11:05.523989+00:00 app[web.1]:                                         (
+2015-08-24T03:11:05.524124+00:00 app[web.1]:                                             [118543131] => stdClass Object
+2015-08-24T03:11:05.524804+00:00 app[web.1]:                                                     [fid] => 653718175
+2015-08-24T03:11:05.524318+00:00 app[web.1]:                                                 (
+2015-08-24T03:11:05.524643+00:00 app[web.1]:                                                     [id] => 118543131
+2015-08-24T03:11:05.524915+00:00 app[web.1]:                                                     [type] => file
+2015-08-24T03:11:05.525150+00:00 app[web.1]:                                                     [title] => Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections.pptx
+2015-08-24T03:11:05.526121+00:00 app[web.1]:                                                     [filemime] => application/vnd.openxmlformats-officedocument.presentationml.presentation
+2015-08-24T03:11:05.459433+00:00 app[web.1]:                                                     [converted_extension] => pdf
+2015-08-24T03:11:05.459617+00:00 app[web.1]:                                                     [converted_filemime] => application/pdf
+2015-08-24T03:11:05.459770+00:00 app[web.1]:                                                     [converted_filesize] => 66492
+2015-08-24T03:11:05.459996+00:00 app[web.1]:                                                     [converted_md5_checksum] => 4de485b66e8e1424bdfb263cc6505159
+2015-08-24T03:11:05.460087+00:00 app[web.1]:                                                 )
+2015-08-24T03:11:05.460092+00:00 app[web.1]: 
+2015-08-24T03:11:05.460227+00:00 app[web.1]:                                             [118543129] => stdClass Object
+2015-08-24T03:11:05.460319+00:00 app[web.1]:                                                 (
+2015-08-24T03:11:05.460444+00:00 app[web.1]:                                                     [id] => 118543129
+2015-08-24T03:11:05.460571+00:00 app[web.1]:                                                     [fid] => 653718169
+2015-08-24T03:11:05.460691+00:00 app[web.1]:                                                     [type] => file
+2015-08-24T03:11:05.460891+00:00 app[web.1]:                                                     [title] => Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx
+2015-08-24T03:11:05.479465+00:00 app[web.1]:                                                     [filesize] => 45927
+2015-08-24T03:11:05.485657+00:00 app[web.1]:                                                     [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930.docx
+2015-08-24T03:11:05.489319+00:00 app[web.1]:                                                     [converted_filename] => 1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf
+2015-08-24T03:11:05.490207+00:00 app[web.1]:                                                     [converted_extension] => pdf
+2015-08-24T03:11:05.490402+00:00 app[web.1]:                                                     [converted_filemime] => application/pdf
+2015-08-24T03:11:05.496936+00:00 app[web.1]:                                                     [converted_filesize] => 80911
+2015-08-24T03:11:05.525393+00:00 app[web.1]:                                                     [filename] => Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections.pptx
+2015-08-24T03:11:05.525506+00:00 app[web.1]:                                                     [filesize] => 64437
+2015-08-24T03:11:05.525724+00:00 app[web.1]:                                                     [md5_checksum] => 7ad94fd7b5f4b60e092a04696ab95753
+2015-08-24T03:11:05.525875+00:00 app[web.1]:                                                     [timestamp] => 1440385826
+2015-08-24T03:11:05.544493+00:00 app[web.1]:                                                     [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee.pptx
+2015-08-24T03:11:05.544502+00:00 app[web.1]:                                                     [extension] => pptx
+2015-08-24T03:11:05.544503+00:00 app[web.1]:                                                     [converted_status] => 1
+2015-08-24T03:11:05.544505+00:00 app[web.1]:                                                     [converted_type] => 4
+2015-08-24T03:11:05.544506+00:00 app[web.1]:                                                     [converted_filename] => 1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf
+2015-08-24T03:11:05.546923+00:00 app[web.1]:                                                     [converted_download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf
+2015-08-24T03:11:05.546929+00:00 app[web.1]:                                                     [converted_extension] => pdf
+2015-08-24T03:11:05.546946+00:00 app[web.1]:                                                     [converted_filemime] => application/pdf
+2015-08-24T03:11:05.546947+00:00 app[web.1]:                                                     [converted_filesize] => 66492
+2015-08-24T03:11:05.546949+00:00 app[web.1]:                                                     [converted_md5_checksum] => 4de485b66e8e1424bdfb263cc6505159
+2015-08-24T03:11:05.547051+00:00 app[web.1]:                                                 )
+2015-08-24T03:11:05.547053+00:00 app[web.1]: 
+2015-08-24T03:11:05.547402+00:00 app[web.1]:                                                 (
+2015-08-24T03:11:05.547577+00:00 app[web.1]:                                                     [id] => 118543129
+2015-08-24T03:11:05.547235+00:00 app[web.1]:                                             [118543129] => stdClass Object
+2015-08-24T03:11:05.547705+00:00 app[web.1]:                                                     [fid] => 653718169
+2015-08-24T03:11:05.548049+00:00 app[web.1]:                                                     [title] => Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx
+2015-08-24T03:11:05.547830+00:00 app[web.1]:                                                     [type] => file
+2015-08-24T03:11:05.548528+00:00 app[web.1]:                                                     [filesize] => 45927
+2015-08-24T03:11:05.554642+00:00 app[web.1]:                                                     [converted_filename] => 1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf
+2015-08-24T03:11:05.548733+00:00 app[web.1]:                                                     [md5_checksum] => eedcd29f6c335ba77b7748b64e0569f4
+2015-08-24T03:11:05.548327+00:00 app[web.1]:                                                     [filename] => Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx
+2015-08-24T03:11:05.549570+00:00 app[web.1]:                                                     [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930.docx
+2015-08-24T03:11:05.549566+00:00 app[web.1]:                                                     [timestamp] => 1440385825
+2015-08-24T03:11:05.555594+00:00 app[web.1]:                                                     [converted_filemime] => application/pdf
+2015-08-24T03:11:05.549568+00:00 app[web.1]:                                                     [filemime] => application/vnd.openxmlformats-officedocument.wordprocessingml.document
+2015-08-24T03:11:05.555726+00:00 app[web.1]:                                                     [converted_filesize] => 80911
+2015-08-24T03:11:05.555351+00:00 app[web.1]:                                                     [converted_extension] => pdf
+2015-08-24T03:11:05.556285+00:00 app[web.1]:                         )
+2015-08-24T03:11:05.556072+00:00 app[web.1]:                                                 )
+2015-08-24T03:11:05.556077+00:00 app[web.1]: 
+2015-08-24T03:11:05.554231+00:00 app[web.1]:                                                     [converted_type] => 4
+2015-08-24T03:11:05.556227+00:00 app[web.1]:                                 )
+2015-08-24T03:11:05.553852+00:00 app[web.1]:                                                     [extension] => docx
+2015-08-24T03:11:05.556156+00:00 app[web.1]:                                         )
+2015-08-24T03:11:05.554023+00:00 app[web.1]:                                                     [converted_status] => 1
+2015-08-24T03:11:05.556158+00:00 app[web.1]: 
+2015-08-24T03:11:05.555223+00:00 app[web.1]:                                                     [converted_download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf
+2015-08-24T03:11:05.556229+00:00 app[web.1]: 
+2015-08-24T03:11:05.556286+00:00 app[web.1]: 
+2015-08-24T03:11:05.556333+00:00 app[web.1]:                 )
+2015-08-24T03:11:05.555981+00:00 app[web.1]:                                                     [converted_md5_checksum] => 2bb849273b5b1f0036102b6425f0b3de
+2015-08-24T03:11:05.556337+00:00 app[web.1]: 
+2015-08-24T03:11:05.556378+00:00 app[web.1]:         )
+2015-08-24T03:11:05.556379+00:00 app[web.1]: 
+2015-08-24T03:11:05.556508+00:00 app[web.1]: [24-Aug-2015 03:11:05 UTC] Requirement Type found - courses
+2015-08-24T03:11:05.556383+00:00 app[web.1]: )
+2015-08-24T03:11:05.556386+00:00 app[web.1]: 
+2015-08-24T03:11:05.556510+00:00 app[web.1]: 
+2015-08-24T03:11:05.556595+00:00 app[web.1]: (
+2015-08-24T03:11:05.556635+00:00 app[web.1]:     [req_type] => courses
+2015-08-24T03:11:05.556582+00:00 app[web.1]: [24-Aug-2015 03:11:05 UTC] Array
+2015-08-24T03:11:05.556637+00:00 app[web.1]: )
+2015-08-24T03:11:05.556640+00:00 app[web.1]: 
+2015-08-24T03:11:05.556644+00:00 app[web.1]: 
+2015-08-24T03:11:05.556857+00:00 app[web.1]: 10.79.141.18 - - [24/Aug/2015:03:11:05 +0000] "POST /?req_type=courses HTTP/1.1" 302 - "-" "-
+2015-08-24T03:17:18.273729+00:00 heroku[router]: at=info method=POST path="/?req_type=courses" host=glacial-tor-7252.herokuapp.com request_id=15f38d35-1f59-4755-9734-08b1d979993c fwd="50.56.38.11" dyno=web.1 connect=7ms service=55ms status=302 bytes=296
+2015-08-24T03:17:18.238880+00:00 app[web.1]: [24-Aug-2015 03:17:18 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+2015-08-24T03:17:18.273794+00:00 app[web.1]:                     [created] => 1440385302
+2015-08-24T03:17:18.273899+00:00 app[web.1]:                     [num_items] => 1
+2015-08-24T03:17:18.273994+00:00 app[web.1]:                     [late] => 1
+2015-08-24T03:17:18.274076+00:00 app[web.1]:                     [draft] => 0
+2015-08-24T03:17:18.274207+00:00 app[web.1]:                     [assignment_nid] => 274733392
+2015-08-24T03:17:18.274326+00:00 app[web.1]:                     [attachments] => stdClass Object
+2015-08-24T03:17:18.274443+00:00 app[web.1]:                         (
+2015-08-24T03:17:18.274537+00:00 app[web.1]:                             [files] => stdClass Object
+2015-08-24T03:17:18.274601+00:00 app[web.1]:                                 (
+2015-08-24T03:17:18.274727+00:00 app[web.1]:                                     [file] => stdClass Object
+2015-08-24T03:17:18.274821+00:00 app[web.1]:                                         (
+2015-08-24T03:17:18.274975+00:00 app[web.1]:                                             [118542015] => stdClass Object
+2015-08-24T03:17:18.275075+00:00 app[web.1]:                                                 (
+2015-08-24T03:17:18.275206+00:00 app[web.1]:                                                     [id] => 118542015
+2015-08-24T03:17:18.275337+00:00 app[web.1]:                                                     [fid] => 653705283
+2015-08-24T03:17:18.275505+00:00 app[web.1]:                                                     [type] => file
+2015-08-24T03:17:18.275687+00:00 app[web.1]:                                                     [title] => Stafford_-_Capstone_Project_-_Year_1_Reflection.pdf
+2015-08-24T03:17:18.275897+00:00 app[web.1]:                                                     [filename] => Stafford_-_Capstone_Project_-_Year_1_Reflection.pdf
+2015-08-24T03:17:18.276026+00:00 app[web.1]:                                                     [filesize] => 197080
+2015-08-24T03:17:18.276212+00:00 app[web.1]:                                                     [md5_checksum] => b611ce66cf8a960704328c756467f65e
+2015-08-24T03:17:18.276348+00:00 app[web.1]:                                                     [timestamp] => 1440385299
+2015-08-24T03:17:18.276505+00:00 app[web.1]:                                                     [filemime] => application/pdf
+2015-08-24T03:17:18.276910+00:00 app[web.1]:                                                     [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/Stafford_-_Capstone_Project_-_Year_1_Reflection_55da8912e1a45.pdf
+2015-08-24T03:17:18.277000+00:00 app[web.1]:                                                     [extension] => pdf
+2015-08-24T03:17:18.277141+00:00 app[web.1]:                                                     [converted_status] => 1
+2015-08-24T03:17:18.277287+00:00 app[web.1]:                                                     [converted_type] => 4
+2015-08-24T03:17:18.277999+00:00 app[web.1]:                                                     [converted_download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/1440385319-Stafford_-_Capstone_Project_-_Year_1_Reflection_55da8912e1a45_55da892841bf3.pdf
+2015-08-24T03:17:18.278316+00:00 app[web.1]:                                                     [converted_filemime] => application/pdf
+2015-08-24T03:17:18.278495+00:00 app[web.1]:                                                     [converted_filesize] => 197080
+2015-08-24T03:17:18.278790+00:00 app[web.1]:                                                     [converted_md5_checksum] => b611ce66cf8a960704328c756467f65e
+2015-08-24T03:17:18.278859+00:00 app[web.1]:                                                 )
+2015-08-24T03:17:18.278861+00:00 app[web.1]: 
+2015-08-24T03:17:18.278936+00:00 app[web.1]:                                         )
+2015-08-24T03:17:18.278938+00:00 app[web.1]: 
+2015-08-24T03:17:18.279005+00:00 app[web.1]:                                 )
+2015-08-24T03:17:18.279007+00:00 app[web.1]: 
+2015-08-24T03:17:18.279065+00:00 app[web.1]:                         )
+2015-08-24T03:17:18.279067+00:00 app[web.1]: 
+2015-08-24T03:17:18.279111+00:00 app[web.1]:                 )
+2015-08-24T03:17:18.279131+00:00 app[web.1]:         )
+2015-08-24T03:17:18.279113+00:00 app[web.1]: 
+2015-08-24T03:17:18.279133+00:00 app[web.1]: 
+2015-08-24T03:17:18.279136+00:00 app[web.1]: )
+2015-08-24T03:17:18.279140+00:00 app[web.1]: 
+2015-08-24T03:17:18.279283+00:00 app[web.1]: [24-Aug-2015 03:17:18 UTC] Requirement Type found - courses
+2015-08-24T03:17:18.279285+00:00 app[web.1]: 
+2015-08-24T03:17:18.279345+00:00 app[web.1]: [24-Aug-2015 03:17:18 UTC] Array
+2015-08-24T03:17:18.279349+00:00 app[web.1]: (
+2015-08-24T03:17:18.279411+00:00 app[web.1]:     [req_type] => courses
+2015-08-24T03:17:18.279428+00:00 app[web.1]: )
+2015-08-24T03:17:18.279431+00:00 app[web.1]: 
+2015-08-24T03:17:18.279458+00:00 app[web.1]: 
+2015-08-24T03:17:18.279676+00:00 app[web.1]: 10.33.159.55 - - [24/Aug/2015:03:17:18 +0000] "POST /?req_type=courses HTTP/1.1" 302 - "-" "-
+2015-08-24T03:17:18.268726+00:00 app[web.1]: [24-Aug-2015 03:17:18 UTC] got token!
+2015-08-24T03:17:18.268737+00:00 app[web.1]: 
+2015-08-24T03:17:18.268807+00:00 app[web.1]: [24-Aug-2015 03:17:18 UTC] Array
+2015-08-24T03:17:18.268865+00:00 app[web.1]:     [uid] => 22135108
+2015-08-24T03:17:18.268811+00:00 app[web.1]: (
+2015-08-24T03:17:18.268970+00:00 app[web.1]:     [token_key] => b02bc01919e633cc4cbd3b1b6917966d0558071f2
+2015-08-24T03:17:18.269078+00:00 app[web.1]:     [token_secret] => 595e3771523d7c63b374b437297fb75f
+2015-08-24T03:17:18.269131+00:00 app[web.1]:     [token_is_access] => 1
+2015-08-24T03:17:18.269135+00:00 app[web.1]: )
+2015-08-24T03:17:18.269138+00:00 app[web.1]: 
+2015-08-24T03:17:18.269142+00:00 app[web.1]: 
+2015-08-24T03:17:18.271865+00:00 app[web.1]: [24-Aug-2015 03:17:18 UTC] {"uid":11545535,"timestamp":1440385302,"type":"dropbox_submission.update","data":{"realm":"section","section_id":124485753,"realm_id":124485753,"uid":"11545535","revision_id":"1","assignment_nid":"274733392","object":{"revision_id":1,"uid":11545535,"created":1440385302,"num_items":1,"late":1,"draft":0,"assignment_nid":"274733392","attachments":{"files":{"file":{"118542015":{"id":118542015,"fid":653705283,"type":"file","title":"Stafford_-_Capstone_Project_-_Year_1_Reflection.pdf","filename":"Stafford_-_Capstone_Project_-_Year_1_Reflection.pdf","filesize":197080,"md5_checksum":"b611ce66cf8a960704328c756467f65e","timestamp":1440385299,"filemime":"application\/pdf","download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/Stafford_-_Capstone_Project_-_Year_1_Reflection_55da8912e1a45.pdf","extension":"pdf","converted_status":"1","converted_type":4,"converted_filename":"1440385319-Stafford_-_Capstone_Project_-_Year_1_Reflection_55da8912e1a45_55da892841bf3.pdf","converted_download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/1440385319-Stafford_-_Capstone_Project_-_Year_1_Reflection_55da8912e1a45_55da892841bf3.pdf","converted_extension":"pdf","converted_filemime":"application\/pdf","converted_filesize":197080,"converted_md5_checksum":"b611ce66cf8a960704328c756467f65e"}}}}}}}
+2015-08-24T03:17:18.271937+00:00 app[web.1]: (
+2015-08-24T03:17:18.271932+00:00 app[web.1]: [24-Aug-2015 03:17:18 UTC] stdClass Object
+2015-08-24T03:17:18.271988+00:00 app[web.1]:     [uid] => 11545535
+2015-08-24T03:17:18.272041+00:00 app[web.1]:     [timestamp] => 1440385302
+2015-08-24T03:17:18.272119+00:00 app[web.1]:     [type] => dropbox_submission.update
+2015-08-24T03:17:18.272175+00:00 app[web.1]:     [data] => stdClass Object
+2015-08-24T03:17:18.272198+00:00 app[web.1]:         (
+2015-08-24T03:17:18.272331+00:00 app[web.1]:             [section_id] => 124485753
+2015-08-24T03:17:18.272260+00:00 app[web.1]:             [realm] => section
+2015-08-24T03:17:18.272400+00:00 app[web.1]:             [realm_id] => 124485753
+2015-08-24T03:17:18.272463+00:00 app[web.1]:             [uid] => 11545535
+2015-08-24T03:17:18.272518+00:00 app[web.1]:             [revision_id] => 1
+2015-08-24T03:17:18.272597+00:00 app[web.1]:             [assignment_nid] => 274733392
+2015-08-24T03:17:18.272676+00:00 app[web.1]:             [object] => stdClass Object
+2015-08-24T03:17:18.272711+00:00 app[web.1]:                 (
+2015-08-24T03:17:18.272782+00:00 app[web.1]:                     [revision_id] => 1
+2015-08-24T03:17:18.273596+00:00 app[web.1]:                     [uid] => 11545535
+2015-08-24T03:17:18.277558+00:00 app[web.1]:                                                     [converted_filename] => 1440385319-Stafford_-_Capstone_Project_-_Year_1_Reflection_55da8912e1a45_55da892841bf3.pdf
+2015-08-24T03:17:18.278152+00:00 app[web.1]:                                                     [converted_extension] => pdf
+2015-08-24T03:32:34.483329+00:00 app[web.1]: [24-Aug-2015 03:32:34 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+2015-08-24T03:32:34.547167+00:00 app[web.1]:                                                     [filename] => Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections.pptx
+2015-08-24T03:32:34.547303+00:00 app[web.1]:                                                     [filesize] => 64437
+2015-08-24T03:32:34.547476+00:00 app[web.1]:                                                     [md5_checksum] => 7ad94fd7b5f4b60e092a04696ab95753
+2015-08-24T03:32:34.547616+00:00 app[web.1]:                                                     [timestamp] => 1440385826
+2015-08-24T03:32:34.547860+00:00 app[web.1]:                                                     [filemime] => application/vnd.openxmlformats-officedocument.presentationml.presentation
+2015-08-24T03:32:34.549439+00:00 app[web.1]:                                                     [converted_download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf
+2015-08-24T03:32:34.549566+00:00 app[web.1]:                                                     [converted_extension] => pdf
+2015-08-24T03:32:34.549732+00:00 app[web.1]:                                                     [converted_filemime] => application/pdf
+2015-08-24T03:32:34.549880+00:00 app[web.1]:                                                     [converted_filesize] => 66492
+2015-08-24T03:32:34.550073+00:00 app[web.1]:                                                     [converted_md5_checksum] => 4de485b66e8e1424bdfb263cc6505159
+2015-08-24T03:32:34.550527+00:00 app[web.1]:                                                     [id] => 118543129
+2015-08-24T03:32:34.550163+00:00 app[web.1]:                                                 )
+2015-08-24T03:32:34.550165+00:00 app[web.1]: 
+2015-08-24T03:32:34.550393+00:00 app[web.1]:                                             [118543129] => stdClass Object
+2015-08-24T03:32:34.550395+00:00 app[web.1]:                                                 (
+2015-08-24T03:32:34.561407+00:00 app[web.1]:                                                     [converted_download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf
+2015-08-24T03:32:34.561721+00:00 app[web.1]:                                                     [converted_filemime] => application/pdf
+2015-08-24T03:32:34.559243+00:00 app[web.1]:                                                     [filename] => Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx
+2015-08-24T03:32:34.562141+00:00 app[web.1]:                                                 )
+2015-08-24T03:32:34.559354+00:00 app[web.1]:                                                     [filesize] => 45927
+2015-08-24T03:32:34.562143+00:00 app[web.1]: 
+2015-08-24T03:32:34.559537+00:00 app[web.1]:                                                     [md5_checksum] => eedcd29f6c335ba77b7748b64e0569f4
+2015-08-24T03:32:34.562222+00:00 app[web.1]:                                         )
+2015-08-24T03:32:34.559685+00:00 app[web.1]:                                                     [timestamp] => 1440385825
+2015-08-24T03:32:34.562295+00:00 app[web.1]:                                 )
+2015-08-24T03:32:34.559967+00:00 app[web.1]:                                                     [filemime] => application/vnd.openxmlformats-officedocument.wordprocessingml.document
+2015-08-24T03:32:34.562224+00:00 app[web.1]: 
+2015-08-24T03:32:34.561562+00:00 app[web.1]:                                                     [converted_extension] => pdf
+2015-08-24T03:32:34.562347+00:00 app[web.1]:                         )
+2015-08-24T03:32:34.550654+00:00 app[web.1]:                                                     [fid] => 653718169
+2015-08-24T03:32:34.561847+00:00 app[web.1]:                                                     [converted_filesize] => 80911
+2015-08-24T03:32:34.562389+00:00 app[web.1]:                 )
+2015-08-24T03:32:34.558841+00:00 app[web.1]:                                                     [type] => file
+2015-08-24T03:32:34.562058+00:00 app[web.1]:                                                     [converted_md5_checksum] => 2bb849273b5b1f0036102b6425f0b3de
+2015-08-24T03:32:34.562391+00:00 app[web.1]: 
+2015-08-24T03:32:34.562348+00:00 app[web.1]: 
+2015-08-24T03:32:34.562417+00:00 app[web.1]:         )
+2015-08-24T03:32:34.562425+00:00 app[web.1]: 
+2015-08-24T03:32:34.562429+00:00 app[web.1]: )
+2015-08-24T03:32:34.562558+00:00 app[web.1]: [24-Aug-2015 03:32:34 UTC] Requirement Type found - courses
+2015-08-24T03:32:34.562430+00:00 app[web.1]: 
+2015-08-24T03:32:34.562297+00:00 app[web.1]: 
+2015-08-24T03:32:34.562560+00:00 app[web.1]: 
+2015-08-24T03:32:34.562616+00:00 app[web.1]: (
+2015-08-24T03:32:34.566759+00:00 app[web.1]: 
+2015-08-24T03:32:34.566763+00:00 app[web.1]: 
+2015-08-24T03:32:34.566937+00:00 app[web.1]: 10.236.245.106 - - [24/Aug/2015:03:32:34 +0000] "POST /?req_type=courses HTTP/1.1" 302 - "-" "-
+2015-08-24T03:32:34.562674+00:00 app[web.1]: )
+2015-08-24T03:32:34.562672+00:00 app[web.1]:     [req_type] => courses
+2015-08-24T03:32:34.562612+00:00 app[web.1]: [24-Aug-2015 03:32:34 UTC] Array
+2015-08-24T03:32:34.540055+00:00 heroku[router]: at=info method=POST path="/?req_type=courses" host=glacial-tor-7252.herokuapp.com request_id=647c21d3-9660-4fee-bd8c-f5db2c672ff1 fwd="50.56.38.11" dyno=web.1 connect=1ms service=93ms status=302 bytes=296
+2015-08-24T03:32:34.526901+00:00 app[web.1]: [24-Aug-2015 03:32:34 UTC] got token!
+2015-08-24T03:32:34.526907+00:00 app[web.1]: 
+2015-08-24T03:32:34.526932+00:00 app[web.1]: [24-Aug-2015 03:32:34 UTC] Array
+2015-08-24T03:32:34.526936+00:00 app[web.1]: (
+2015-08-24T03:32:34.527003+00:00 app[web.1]:     [uid] => 22135108
+2015-08-24T03:32:34.527202+00:00 app[web.1]:     [token_secret] => 595e3771523d7c63b374b437297fb75f
+2015-08-24T03:32:34.527112+00:00 app[web.1]:     [token_key] => b02bc01919e633cc4cbd3b1b6917966d0558071f2
+2015-08-24T03:32:34.527255+00:00 app[web.1]:     [token_is_access] => 1
+2015-08-24T03:32:34.527260+00:00 app[web.1]: )
+2015-08-24T03:32:34.527
+261+00:00 app[web.1]: 
+2015-08-24T03:32:34.527264+00:00 app[web.1]: 
+2015-08-24T03:32:34.540298+00:00 app[web.1]: [24-Aug-2015 03:32:34 UTC] {"uid":11545535,"timestamp":1440385829,"type":"dropbox_submission.update","data":{"realm":"section","section_id":124485753,"realm_id":124485753,"uid":"11545535","revision_id":"1","assignment_nid":"269102308","object":{"revision_id":1,"uid":11545535,"created":1440385829,"num_items":1,"late":1,"draft":0,"assignment_nid":"269102308","attachments":{"files":{"file":{"118543131":{"id":118543131,"fid":653718175,"type":"file","title":"Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections.pptx","filename":"Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections.pptx","filesize":64437,"md5_checksum":"7ad94fd7b5f4b60e092a04696ab95753","timestamp":1440385826,"filemime":"application\/vnd.openxmlformats-officedocument.presentationml.presentation","download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee.pptx","extension":"pptx","converted_status":"1","converted_type":4,"converted_filename":"1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf","converted_download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf","converted_extension":"pdf","converted_filemime":"application\/pdf","converted_filesize":66492,"converted_md5_checksum":"4de485b66e8e1424bdfb263cc6505159"},"118543129":{"id":118543129,"fid":653718169,"type":"file","title":"Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx","filename":"Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx","filesize":45927,"md5_checksum":"eedcd29f6c335ba77b7748b64e0569f4","timestamp":1440385825,"filemime":"application\/vnd.openxmlformats-officedocument.wordprocessingml.document","download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930.docx","extension":"docx","converted_status":"1","converted_type":4,"converted_filename":"1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf","converted_download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf","converted_extension":"pdf","converted_filemime":"application\/pdf","converted_filesize":80911,"converted_md5_checksum":"2bb849273b5b1f0036102b6425f0b3de"}}}}}}}
+2015-08-24T03:32:34.540317+00:00 app[web.1]: [24-Aug-2015 03:32:34 UTC] stdClass Object
+2015-08-24T03:32:34.540320+00:00 app[web.1]: (
+2015-08-24T03:32:34.540323+00:00 app[web.1]:     [uid] => 11545535
+2015-08-24T03:32:34.540327+00:00 app[web.1]:     [timestamp] => 1440385829
+2015-08-24T03:32:34.540413+00:00 app[web.1]:     [type] => dropbox_submission.update
+2015-08-24T03:32:34.540492+00:00 app[web.1]:         (
+2015-08-24T03:32:34.540467+00:00 app[web.1]:     [data] => stdClass Object
+2015-08-24T03:32:34.540555+00:00 app[web.1]:             [realm] => section
+2015-08-24T03:32:34.540659+00:00 app[web.1]:             [section_id] => 124485753
+2015-08-24T03:32:34.540697+00:00 app[web.1]:             [realm_id] => 124485753
+2015-08-24T03:32:34.540756+00:00 app[web.1]:             [uid] => 11545535
+2015-08-24T03:32:34.540811+00:00 app[web.1]:             [revision_id] => 1
+2015-08-24T03:32:34.540931+00:00 app[web.1]:             [assignment_nid] => 269102308
+2015-08-24T03:32:34.540961+00:00 app[web.1]:             [object] => stdClass Object
+2015-08-24T03:32:34.541074+00:00 app[web.1]:                     [revision_id] => 1
+2015-08-24T03:32:34.541000+00:00 app[web.1]:                 (
+2015-08-24T03:32:34.541353+00:00 app[web.1]:                     [uid] => 11545535
+2015-08-24T03:32:34.541355+00:00 app[web.1]:                     [created] => 1440385829
+2015-08-24T03:32:34.541356+00:00 app[web.1]:                     [num_items] => 1
+2015-08-24T03:32:34.541358+00:00 app[web.1]:                     [late] => 1
+2015-08-24T03:32:34.541503+00:00 app[web.1]:                     [assignment_nid] => 269102308
+2015-08-24T03:32:34.541411+00:00 app[web.1]:                     [draft] => 0
+2015-08-24T03:32:34.541599+00:00 app[web.1]:                     [attachments] => stdClass Object
+2015-08-24T03:32:34.541651+00:00 app[web.1]:                         (
+2015-08-24T03:32:34.541829+00:00 app[web.1]:                                 (
+2015-08-24T03:32:34.541950+00:00 app[web.1]:                                     [file] => stdClass Object
+2015-08-24T03:32:34.541753+00:00 app[web.1]:                             [files] => stdClass Object
+2015-08-24T03:32:34.542009+00:00 app[web.1]:                                         (
+2015-08-24T03:32:34.542145+00:00 app[web.1]:                                             [118543131] => stdClass Object
+2015-08-24T03:32:34.542234+00:00 app[web.1]:                                                 (
+2015-08-24T03:32:34.542361+00:00 app[web.1]:                                                     [id] => 118543131
+2015-08-24T03:32:34.542489+00:00 app[web.1]:                                                     [fid] => 653718175
+2015-08-24T03:32:34.542609+00:00 app[web.1]:                                                     [type] => file
+2015-08-24T03:32:34.546947+00:00 app[web.1]:                                                     [title] => Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections.pptx
+2015-08-24T03:32:34.548265+00:00 app[web.1]:                                                     [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee.pptx
+2015-08-24T03:32:34.548552+00:00 app[web.1]:                                                     [converted_status] => 1
+2015-08-24T03:32:34.548395+00:00 app[web.1]:                                                     [extension] => pptx
+2015-08-24T03:32:34.548653+00:00 app[web.1]:                                                     [converted_type] => 4
+2015-08-24T03:32:34.548969+00:00 app[web.1]:                                                     [converted_filename] => 1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf
+2015-08-24T03:32:34.559023+00:00 app[web.1]:                                                     [title] => Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx
+2015-08-24T03:32:34.560424+00:00 app[web.1]:                                                     [extension] => docx
+2015-08-24T03:32:34.560585+00:00 app[web.1]:                                                     [converted_status] => 1
+2015-08-24T03:32:34.560295+00:00 app[web.1]:                                                     [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930.docx
+2015-08-24T03:32:34.560685+00:00 app[web.1]:                                                     [converted_type] => 4
+2015-08-24T03:32:34.560970+00:00 app[web.1]:                                                     [converted_filename] => 1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf
+2015-08-24T03:32:34.773074+00:00 app[web.1]: [24-Aug-2015 03:32:34 UTC] stdClass Object
+2015-08-24T03:32:34.736976+00:00 app[web.1]: [24-Aug-2015 03:32:34 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+2015-08-24T03:32:34.773149+00:00 app[web.1]: (
+2015-08-24T03:32:34.773282+00:00 app[web.1]:     [uid] => 11545535
+2015-08-24T03:32:34.773387+00:00 app[web.1]:     [timestamp] => 1440385829
+2015-08-24T03:32:34.773599+00:00 app[web.1]:     [data] => stdClass Object
+2015-08-24T03:32:34.773508+00:00 app[web.1]:     [type] => dropbox_submission.update
+2015-08-24T03:32:34.773635+00:00 app[web.1]:         (
+2015-08-24T03:32:34.773737+00:00 app[web.1]:             [realm] => section
+2015-08-24T03:32:34.774018+00:00 app[web.1]:             [uid] => 11545535
+2015-08-24T03:32:34.773941+00:00 app[web.1]:             [realm_id] => 124485753
+2015-08-24T03:32:34.773841+00:00 app[web.1]:             [section_id] => 124485753
+2015-08-24T03:32:34.774314+00:00 app[web.1]:             [revision_id] => 1
+2015-08-24T03:32:34.774418+00:00 app[web.1]:             [assignment_nid] => 269102308
+2015-08-24T03:32:34.774615+00:00 app[web.1]:                 (
+2015-08-24T03:32:34.774527+00:00 app[web.1]:             [object] => stdClass Object
+2015-08-24T03:32:34.774811+00:00 app[web.1]:                     [revision_id] => 1
+2015-08-24T03:32:34.774932+00:00 app[web.1]:                     [uid] => 11545535
+2015-08-24T03:32:34.775057+00:00 app[web.1]:                     [created] => 1440385829
+2015-08-24T03:32:34.775449+00:00 app[web.1]:                     [late] => 1
+2015-08-24T03:32:34.775160+00:00 app[web.1]:                     [num_items] => 1
+2015-08-24T03:32:34.775564+00:00 app[web.1]:                     [draft] => 0
+2015-08-24T03:32:34.775703+00:00 app[web.1]:                     [assignment_nid] => 269102308
+2015-08-24T03:32:34.775956+00:00 app[web.1]:                     [attachments] => stdClass Object
+2015-08-24T03:32:34.776944+00:00 app[web.1]:                                         (
+2015-08-24T03:32:34.777118+00:00 app[web.1]:                                             [118543131] => stdClass Object
+2015-08-24T03:32:34.777257+00:00 app[web.1]:                                                 (
+2015-08-24T03:32:34.777420+00:00 app[web.1]:                                                     [id] => 118543131
+2015-08-24T03:32:34.777558+00:00 app[web.1]:                                                     [fid] => 653718175
+2015-08-24T03:32:34.777690+00:00 app[web.1]:                                                     [type] => file
+2015-08-24T03:32:34.765873+00:00 heroku[router]: at=info method=POST path="/?req_type=courses" host=glacial-tor-7252.herokuapp.com request_id=a779eff0-7da7-4b56-9209-ffcd86a7eb9a fwd="50.56.38.11" dyno=web.1 connect=1ms service=66ms status=302 bytes=296
+2015-08-24T03:32:34.766875+00:00 app[web.1]: [24-Aug-2015 03:32:34 UTC] got token!
+2015-08-24T03:32:34.766880+00:00 app[web.1]: 
+2015-08-24T03:32:34.766955+00:00 app[web.1]: [24-Aug-2015 03:32:34 UTC] Array
+2015-08-24T03:32:34.766957+00:00 app[web.1]: (
+2015-08-24T03:32:34.767028+00:00 app[web.1]:     [uid] => 22135108
+2015-08-24T03:32:34.767162+00:00 app[web.1]:     [token_key] => b02bc01919e633cc4cbd3b1b6917966d0558071f2
+2015-08-24T03:32:34.767289+00:00 app[web.1]:     [token_secret] => 595e3771523d7c63b374b437297fb75f
+2015-08-24T03:32:34.767385+00:00 app[web.1]:     [token_is_access] => 1
+2015-08-24T03:32:34.767387+00:00 app[web.1]: )
+2015-08-24T03:32:34.767392+00:00 app[web.1]: 
+2015-08-24T03:32:34.767393+00:00 app[web.1]: 
+2015-08-24T03:32:34.772716+00:00 app[web.1]: [24-Aug-2015 03:32:34 UTC] {"uid":11545535,"timestamp":1440385829,"type":"dropbox_submission.update","data":{"realm":"section","section_id":124485753,"realm_id":124485753,"uid":"11545535","revision_id":"1","assignment_nid":"269102308","object":{"revision_id":1,"uid":11545535,"created":1440385829,"num_items":1,"late":1,"draft":0,"assignment_nid":"269102308","attachments":{"files":{"file":{"118543131":{"id":118543131,"fid":653718175,"type":"file","title":"Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections.pptx","filename":"Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections.pptx","filesize":64437,"md5_checksum":"7ad94fd7b5f4b60e092a04696ab95753","timestamp":1440385826,"filemime":"application\/vnd.openxmlformats-officedocument.presentationml.presentation","download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee.pptx","extension":"pptx","converted_status":"1","converted_type":4,"converted_filename":"1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf","converted_download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf","converted_extension":"pdf","converted_filemime":"application\/pdf","converted_filesize":66492,"converted_md5_checksum":"4de485b66e8e1424bdfb263cc6505159"},"118543129":{"id":118543129,"fid":653718169,"type":"file","title":"Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx","filename":"Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx","filesize":45927,"md5_checksum":"eedcd29f6c335ba77b7748b64e0569f4","timestamp":1440385825,"filemime":"application\/vnd.openxmlformats-officedocument.wordprocessingml.document","download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930.docx","extension":"docx","converted_status":"1","converted_type":4,"converted_filename":"1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf","converted_download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf","converted_extension":"pdf","converted_filemime":"application\/pdf","converted_filesize":80911,"converted_md5_checksum":"2bb849273b5b1f0036102b6425f0b3de"}}}}}}}
+2015-08-24T03:32:34.776151+00:00 app[web.1]:                         (
+2015-08-24T03:32:34.776317+00:00 app[web.1]:                             [files] => stdClass Object
+2015-08-24T03:32:34.776789+00:00 app[web.1]:                                     [file] => stdClass Object
+2015-08-24T03:32:34.776417+00:00 app[web.1]:                                 (
+2015-08-24T03:32:34.778574+00:00 app[web.1]:                                                     [title] => Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections.pptx
+2015-08-24T03:32:34.778577+00:00 app[web.1]:                                                     [filename] => Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections.pptx
+2015-08-24T03:32:34.778578+00:00 app[web.1]:                                                     [filesize] => 64437
+2015-08-24T03:32:34.778580+00:00 app[web.1]:                                                     [md5_checksum] => 7ad94fd7b5f4b60e092a04696ab95753
+2015-08-24T03:32:34.778605+00:00 app[web.1]:                                                     [timestamp] => 1440385826
+2015-08-24T03:32:34.779591+00:00 app[web.1]:                                                     [filemime] => application/vnd.openxmlformats-officedocument.presentationml.presentation
+2015-08-24T03:32:34.780094+00:00 app[web.1]:                                                     [extension] => pptx
+2015-08-24T03:32:34.780211+00:00 app[web.1]:                                                     [converted_status] => 1
+2015-08-24T03:32:34.780342+00:00 app[web.1]:                                                     [converted_type] => 4
+2015-08-24T03:32:34.780736+00:00 app[web.1]:                                                     [converted_filename] => 1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf
+2015-08-24T03:32:34.781443+00:00 app[web.1]:                                                     [converted_extension] => pdf
+2015-08-24T03:32:34.781598+00:00 app[web.1]:                                                     [converted_filemime] => application/pdf
+2015-08-24T03:32:34.781744+00:00 app[web.1]:                                                     [converted_filesize] => 66492
+2015-08-
+24T03:32:34.782052+00:00 app[web.1]:                                                     [converted_md5_checksum] => 4de485b66e8e1424bdfb263cc6505159
+2015-08-24T03:32:34.782057+00:00 app[web.1]:                                                 )
+2015-08-24T03:32:34.782058+00:00 app[web.1]: 
+2015-08-24T03:32:34.782199+00:00 app[web.1]:                                             [118543129] => stdClass Object
+2015-08-24T03:32:34.782296+00:00 app[web.1]:                                                 (
+2015-08-24T03:32:34.782422+00:00 app[web.1]:                                                     [id] => 118543129
+2015-08-24T03:32:34.782550+00:00 app[web.1]:                                                     [fid] => 653718169
+2015-08-24T03:32:34.782670+00:00 app[web.1]:                                                     [type] => file
+2015-08-24T03:32:34.789090+00:00 app[web.1]:                                                     [filemime] => application/vnd.openxmlformats-officedocument.wordprocessingml.document
+2015-08-24T03:32:34.782894+00:00 app[web.1]:                                                     [title] => Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx
+2015-08-24T03:32:34.789094+00:00 app[web.1]:                                                     [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930.docx
+2015-08-24T03:32:34.789096+00:00 app[web.1]:                                                     [extension] => docx
+2015-08-24T03:32:34.789098+00:00 app[web.1]:                                                     [converted_status] => 1
+2015-08-24T03:32:34.789100+00:00 app[web.1]:                                                     [converted_type] => 4
+2015-08-24T03:32:34.789102+00:00 app[web.1]:                                                     [converted_filename] => 1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf
+2015-08-24T03:32:34.789106+00:00 app[web.1]:                                                     [converted_extension] => pdf
+2015-08-24T03:32:34.789108+00:00 app[web.1]:                                                     [converted_filemime] => application/pdf
+2015-08-24T03:32:34.789104+00:00 app[web.1]:                                                     [converted_download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf
+2015-08-24T03:32:34.789110+00:00 app[web.1]:                                                     [converted_filesize] => 80911
+2015-08-24T03:32:34.789112+00:00 app[web.1]:                                                     [converted_md5_checksum] => 2bb849273b5b1f0036102b6425f0b3de
+2015-08-24T03:32:34.789114+00:00 app[web.1]:                                                 )
+2015-08-24T03:32:34.789115+00:00 app[web.1]: 
+2015-08-24T03:32:34.789116+00:00 app[web.1]:                                         )
+2015-08-24T03:32:34.789118+00:00 app[web.1]: 
+2015-08-24T03:32:34.789119+00:00 app[web.1]:                                 )
+2015-08-24T03:32:34.789120+00:00 app[web.1]: 
+2015-08-24T03:32:34.789121+00:00 app[web.1]:                         )
+2015-08-24T03:32:34.789123+00:00 app[web.1]: 
+2015-08-24T03:32:34.789124+00:00 app[web.1]:                 )
+2015-08-24T03:32:34.789125+00:00 app[web.1]: 
+2015-08-24T03:32:34.789127+00:00 app[web.1]:         )
+2015-08-24T03:32:34.789128+00:00 app[web.1]: 
+2015-08-24T03:32:34.789129+00:00 app[web.1]: )
+2015-08-24T03:32:34.789130+00:00 app[web.1]: 
+2015-08-24T03:32:34.789148+00:00 app[web.1]: [24-Aug-2015 03:32:34 UTC] Requirement Type found - courses
+2015-08-24T03:32:34.789151+00:00 app[web.1]: [24-Aug-2015 03:32:34 UTC] Array
+2015-08-24T03:32:34.789150+00:00 app[web.1]: 
+2015-08-24T03:32:34.789152+00:00 app[web.1]: (
+2015-08-24T03:32:34.789154+00:00 app[web.1]: )
+2015-08-24T03:32:34.789153+00:00 app[web.1]:     [req_type] => courses
+2015-08-24T03:32:34.789155+00:00 app[web.1]: 
+2015-08-24T03:32:34.789157+00:00 app[web.1]: 
+2015-08-24T03:32:34.789158+00:00 app[web.1]: 10.138.123.182 - - [24/Aug/2015:03:32:34 +0000] "POST /?req_type=courses HTTP/1.1" 302 - "-" "-
+2015-08-24T03:32:34.779944+00:00 app[web.1]:                                                     [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee.pptx
+2015-08-24T03:32:34.783103+00:00 app[web.1]:                                                     [filename] => Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx
+2015-08-24T03:32:34.781285+00:00 app[web.1]:                                                     [converted_download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf
+2015-08-24T03:32:34.783220+00:00 app[web.1]:                                                     [filesize] => 45927
+2015-08-24T03:32:34.783409+00:00 app[web.1]:                                                     [md5_checksum] => eedcd29f6c335ba77b7748b64e0569f4
+2015-08-24T03:32:34.783576+00:00 app[web.1]:                                                     [timestamp] => 1440385825
+2015-08-24T03:33:08.224904+00:00 heroku[router]: at=info method=POST path="/?req_type=courses" host=glacial-tor-7252.herokuapp.com request_id=09351e6e-933c-4915-8642-2aaee3393155 fwd="50.56.38.11" dyno=web.1 connect=1ms service=48ms status=302 bytes=296
+2015-08-24T03:33:08.203032+00:00 app[web.1]: [24-Aug-2015 03:33:08 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+2015-08-24T03:33:08.226005+00:00 app[web.1]:     [token_secret] => 595e3771523d7c63b374b437297fb75f
+2015-08-24T03:33:08.226095+00:00 app[web.1]:     [token_is_access] => 1
+2015-08-24T03:33:08.226104+00:00 app[web.1]: )
+2015-08-24T03:33:08.226106+00:00 app[web.1]: 
+2015-08-24T03:33:08.226110+00:00 app[web.1]: 
+2015-08-24T03:33:08.236054+00:00 app[web.1]: [24-Aug-2015 03:33:08 UTC] stdClass Object
+2015-08-24T03:33:08.235975+00:00 app[web.1]: [24-Aug-2015 03:33:08 UTC] {"uid":11545535,"timestamp":1440385302,"type":"dropbox_submission.update","data":{"realm":"section","section_id":124485753,"realm_id":124485753,"uid":"11545535","revision_id":"1","assignment_nid":"274733392","object":{"revision_id":1,"uid":11545535,"created":1440385302,"num_items":1,"late":1,"draft":0,"assignment_nid":"274733392","attachments":{"files":{"file":{"118542015":{"id":118542015,"fid":653705283,"type":"file","title":"Stafford_-_Capstone_Project_-_Year_1_Reflection.pdf","filename":"Stafford_-_Capstone_Project_-_Year_1_Reflection.pdf","filesize":197080,"md5_checksum":"b611ce66cf8a960704328c756467f65e","timestamp":1440385299,"filemime":"application\/pdf","download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/Stafford_-_Capstone_Project_-_Year_1_Reflection_55da8912e1a45.pdf","extension":"pdf","converted_status":"1","converted_type":4,"converted_filename":"1440385319-Stafford_-_Capstone_Project_-_Year_1_Reflection_55da8912e1a45_55da892841bf3.pdf","converted_download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/1440385319-Stafford_-_Capstone_Project_-_Year_1_Reflection_55da8912e1a45_55da892841bf3.pdf","converted_extension":"pdf","converted_filemime":"application\/pdf","converted_filesize":197080,"converted_md5_checksum":"b611ce66cf8a960704328c756467f65e"}}}}}}}
+2015-08-24T03:33:08.236056+00:00 app[web.1]: (
+2015-08-24T03:33:08.236087+00:00 app[web.1]:     [uid] => 11545535
+2015-08-24T03:33:08.236151+00:00 app[web.1]:     [timestamp] => 1440385302
+2015-08-24T03:33:08.236222+00:00 app[web.1]:     [type] => dropbox_submission.update
+2015-08-24T03:33:08.236284+00:00 app[web.1]:     [data] => stdClass Object
+2015-08-24T03:33:08.236359+00:00 app[web.1]:             [realm] => section
+2015-08-24T03:33:08.236298+00:00 app[web.1]:         (
+2015-08-24T03:33:08.236878+00:00 app[web.1]:                     [revision_id] => 1
+2015-08-24T03:33:08.236431+00:00 app[web.1]:             [section_id] => 124485753
+2015-08-24T03:33:08.236555+00:00 app[web.1]:             [uid] => 11545535
+2015-08-24T03:33:08.236514+00:00 app[web.1]:             [realm_id] => 124485753
+2015-08-24T03:33:08.239055+00:00 app[web.1]:                     [late] => 1
+2015-08-24T03:33:08.236630+00:00 app[web.1]:             [revision_id] => 1
+2015-08-24T03:33:08.236692+00:00 app[web.1]:             [assignment_nid] => 274733392
+2015-08-24T03:33:08.236767+00:00 app[web.1]:             [object] => stdClass Object
+2015-08-24T03:33:08.238925+00:00 app[web.1]:                     [created] => 1440385302
+2015-08-24T03:33:08.236803+00:00 app[web.1]:                 (
+2015-08-24T03:33:08.239467+00:00 app[web.1]:                             [files] => stdClass Object
+2015-08-24T03:33:08.238852+00:00 app[web.1]:                     [uid] => 11545535
+2015-08-24T03:33:08.239640+00:00 app[web.1]:                                     [file] => stdClass Object
+2015-08-24T03:33:08.238993+00:00 app[web.1]:                     [num_items] => 1
+2015-08-24T03:33:08.239977+00:00 app[web.1]:                                                 (
+2015-08-24T03:33:08.239127+00:00 app[web.1]:                     [draft] => 0
+2015-08-24T03:33:08.240239+00:00 app[web.1]:                                                     [id] => 118542015
+2015-08-24T03:33:08.239861+00:00 app[web.1]:                                             [118542015] => stdClass Object
+2015-08-24T03:33:08.239209+00:00 app[web.1]:                     [assignment_nid] => 274733392
+2015-08-24T03:33:08.240391+00:00 app[web.1]:                                                     [fid] => 653705283
+2015-08-24T03:33:08.239308+00:00 app[web.1]:                     [attachments] => stdClass Object
+2015-08-24T03:33:08.240527+00:00 app[web.1]:                                                     [type] => file
+2015-08-24T03:33:08.239364+00:00 app[web.1]:                         (
+2015-08-24T03:33:08.240744+00:00 app[web.1]:                                                     [title] => Stafford_-_Capstone_Project_-_Year_1_Reflection.pdf
+2015-08-24T03:33:08.239746+00:00 app[web.1]:                                         (
+2015-08-24T03:33:08.242422+00:00 app[web.1]:                                                     [converted_status] => 1
+2015-08-24T03:33:08.239524+00:00 app[web.1]:                                 (
+2015-08-24T03:33:08.242160+00:00 app[web.1]:                                                     [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/Stafford_-_Capstone_Project_-_Year_1_Reflection_55da8912e1a45.pdf
+2015-08-24T03:33:08.242869+00:00 app[web.1]:                                                     [converted_filename] => 1440385319-Stafford_-_Capstone_Project_-_Year_1_Reflection_55da8912e1a45_55da892841bf3.pdf
+2015-08-24T03:33:08.244734+00:00 app[web.1]:                         )
+2015-08-24T03:33:08.243507+00:00 app[web.1]:                                                     [converted_extension] => pdf
+2015-08-24T03:33:08.244736+00:00 app[web.1]: 
+2015-08-24T03:33:08.242552+00:00 app[web.1]:                                                     [converted_type] => 4
+2015-08-24T03:33:08.244680+00:00 app[web.1]: 
+2015-08-24T03:33:08.244248+00:00 app[web.1]:                                                     [converted_filesize] => 197080
+2015-08-24T03:33:08.244774+00:00 app[web.1]:                 )
+2015-08-24T03:33:08.244432+00:00 app[web.1]:                                                     [converted_md5_checksum] => b611ce66cf8a960704328c756467f65e
+2015-08-24T03:33:08.244776+00:00 app[web.1]: 
+2015-08-24T03:33:08.244523+00:00 app[web.1]:                                                 )
+2015-08-24T03:33:08.244817+00:00 app[web.1]:         )
+2015-08-24T03:33:08.244678+00:00 app[web.1]:                                 )
+2015-08-24T03:33:08.245003+00:00 app[web.1]: [24-Aug-2015 03:33:08 UTC] Requirement Type found - courses
+2015-08-24T03:33:08.244607+00:00 app[web.1]:                                         )
+2015-08-24T03:33:08.244820+00:00 app[web.1]: )
+2015-08-24T03:33:08.245318+00:00 app[web.1]: 10.35.202.243 - - [24/Aug/2015:03:33:08 +0000] "POST /?req_type=courses HTTP/1.1" 302 - "-" "-
+2015-08-24T03:33:08.240975+00:00 app[web.1]:                                                     [filename] => Stafford_-_Capstone_Project_-_Year_1_Reflection.pdf
+2015-08-24T03:33:08.244525+00:00 app[web.1]: 
+2015-08-24T03:33:08.244818+00:00 app[web.1]: 
+2015-08-24T03:33:08.245137+00:00 app[web.1]: 
+2015-08-24T03:33:08.242289+00:00 app[web.1]:                                                     [extension] => pdf
+2015-08-24T03:33:08.244609+00:00 app[web.1]: 
+2015-08-24T03:33:08.244821+00:00 app[web.1]: 
+2015-08-24T03:33:08.245071+00:00 app[web.1]: [24-Aug-2015 03:33:08 UTC] Array
+2015-08-24T03:33:08.245076+00:00 app[web.1]: (
+2015-08-24T03:33:08.245005+00:00 app[web.1]: 
+2015-08-24T03:33:08.245130+00:00 app[web.1]:     [req_type] => courses
+2015-08-24T03:33:08.245132+00:00 app[web.1]: )
+2015-08-24T03:33:08.245136+00:00 app[web.1]: 
+2015-08-24T03:33:08.221832+00:00 app[web.1]: [24-Aug-2015 03:33:08 UTC] got token!
+2015-08-24T03:33:08.224817+00:00 app[web.1]: [24-Aug-2015 03:33:08 UTC] Array
+2015-08-24T03:33:08.224959+00:00 app[web.1]: (
+2015-08-24T03:33:08.225025+00:00 app[web.1]:     [uid] => 22135108
+2015-08-24T03:33:08.225193+00:00 app[web.1]:     [token_key] => b02bc01919e633cc4cbd3b1b6917966d0558071f2
+2015-08-24T03:33:08.241172+00:00 app[web.1]:                                                     [filesize] => 197080
+2015-08-24T03:33:08.221862+00:00 app[web.1]: 
+2015-08-24T03:33:08.241699+00:00 app[web.1]:                                                     [filemime] => application/pdf
+2015-08-24T03:33:08.241372+00:00 app[web.1]:                                                     [md5_checksum] => b611ce66cf8a960704328c756467f65e
+2015-08-24T03:33:08.241506+00:00 app[web.1]:                                                     [timestamp] => 1440385299
+2015-08-24T03:33:08.244093+00:00 app[web.1]:                                                     [converted_filemime] => application/pdf
+2015-08-24T03:33:08.243366+00:00 app[web.1]:                                                     [converted_download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/1440385319-Stafford_-_Capstone_Project_-_Year_1_Reflection_55da8912e1a45_55da892841bf3.pdf
+2015-08-24T03:47:05.041915+00:00 heroku[router]: at=info method=POST path="/?req_type=courses" host=glacial-tor-7252.herokuapp.com request_id=a96d74c8-0230-4b79-b7b9-53185a8dc986 fwd="50.56.38.11" dyno=web.1 connect=13ms service=84ms status=302 bytes=296
+2015-08-24T03:47:04.978386+00:00 heroku[router]: at=info method=POST path="/?req_type=courses" host=glacial-tor-7252.herokuapp.com request_id=0f1f6d51-09a9-4bbd-aaaa-0ba7bc1d8348 fwd="50.56.38.11" dyno=web.1 connect=0ms service=55ms status=302 bytes=296
+2015-08-24T03:47:04.951526+00:00 app[web.1]: [24-Aug-2015 03:47:04 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+2015-08-24T03:47:04.972105+00:00 app[web.1]:     [token_secret] => 595e3771523d7c63b374b437297fb75f
+2015-08-24T03:47:04.972172+00:00 
+app[web.1]:     [token_is_access] => 1
+2015-08-24T03:47:04.972209+00:00 app[web.1]: )
+2015-08-24T03:47:04.983908+00:00 app[web.1]:                                                     [title] => Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections.pptx
+2015-08-24T03:47:04.977369+00:00 app[web.1]: [24-Aug-2015 03:47:04 UTC] {"uid":11545535,"timestamp":1440385829,"type":"dropbox_submission.update","data":{"realm":"section","section_id":124485753,"realm_id":124485753,"uid":"11545535","revision_id":"1","assignment_nid":"269102308","object":{"revision_id":1,"uid":11545535,"created":1440385829,"num_items":1,"late":1,"draft":0,"assignment_nid":"269102308","attachments":{"files":{"file":{"118543131":{"id":118543131,"fid":653718175,"type":"file","title":"Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections.pptx","filename":"Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections.pptx","filesize":64437,"md5_checksum":"7ad94fd7b5f4b60e092a04696ab95753","timestamp":1440385826,"filemime":"application\/vnd.openxmlformats-officedocument.presentationml.presentation","download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee.pptx","extension":"pptx","converted_status":"1","converted_type":4,"converted_filename":"1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf","converted_download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf","converted_extension":"pdf","converted_filemime":"application\/pdf","converted_filesize":66492,"converted_md5_checksum":"4de485b66e8e1424bdfb263cc6505159"},"118543129":{"id":118543129,"fid":653718169,"type":"file","title":"Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx","filename":"Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx","filesize":45927,"md5_checksum":"eedcd29f6c335ba77b7748b64e0569f4","timestamp":1440385825,"filemime":"application\/vnd.openxmlformats-officedocument.wordprocessingml.document","download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930.docx","extension":"docx","converted_status":"1","converted_type":4,"converted_filename":"1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf","converted_download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf","converted_extension":"pdf","converted_filemime":"application\/pdf","converted_filesize":80911,"converted_md5_checksum":"2bb849273b5b1f0036102b6425f0b3de"}}}}}}}
+2015-08-24T03:47:04.985291+00:00 app[web.1]:                                                     [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee.pptx
+2015-08-24T03:47:04.972230+00:00 app[web.1]: 
+2015-08-24T03:47:04.985419+00:00 app[web.1]:                                                     [extension] => pptx
+2015-08-24T03:47:04.972251+00:00 app[web.1]: 
+2015-08-24T03:47:04.985552+00:00 app[web.1]:                                                     [converted_status] => 1
+2015-08-24T03:47:04.985684+00:00 app[web.1]:                                                     [converted_type] => 4
+2015-08-24T03:47:04.986000+00:00 app[web.1]:                                                     [converted_filename] => 1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf
+2015-08-24T03:47:04.986591+00:00 app[web.1]:                                                     [converted_extension] => pdf
+2015-08-24T03:47:04.993179+00:00 app[web.1]:                                                     [filename] => Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx
+2015-08-24T03:47:04.993290+00:00 app[web.1]:                                                     [filesize] => 45927
+2015-08-24T03:47:04.993685+00:00 app[web.1]:                                                     [timestamp] => 1440385825
+2015-08-24T03:47:04.994073+00:00 app[web.1]:                                                     [filemime] => application/vnd.openxmlformats-officedocument.wordprocessingml.document
+2015-08-24T03:47:04.993475+00:00 app[web.1]:                                                     [md5_checksum] => eedcd29f6c335ba77b7748b64e0569f4
+2015-08-24T03:47:04.997338+00:00 app[web.1]:                                                     [converted_md5_checksum] => 2bb849273b5b1f0036102b6425f0b3de
+2015-08-24T03:47:04.997154+00:00 app[web.1]:                                                     [converted_filesize] => 80911
+2015-08-24T03:47:04.996156+00:00 app[web.1]:                                                     [converted_filename] => 1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf
+2015-08-24T03:47:04.997430+00:00 app[web.1]:                                                 )
+2015-08-24T03:47:04.997517+00:00 app[web.1]: 
+2015-08-24T03:47:04.996983+00:00 app[web.1]:                                                     [converted_filemime] => application/pdf
+2015-08-24T03:47:04.997584+00:00 app[web.1]: 
+2015-08-24T03:47:04.997583+00:00 app[web.1]:                                 )
+2015-08-24T03:47:04.997513+00:00 app[web.1]:                                         )
+2015-08-24T03:47:04.996804+00:00 app[web.1]:                                                     [converted_extension] => pdf
+2015-08-24T03:47:04.997431+00:00 app[web.1]: 
+2015-08-24T03:47:04.997646+00:00 app[web.1]:                         )
+2015-08-24T03:47:04.997681+00:00 app[web.1]:                 )
+2015-08-24T03:47:04.997648+00:00 app[web.1]: 
+2015-08-24T03:47:04.997682+00:00 app[web.1]: 
+2015-08-24T03:47:04.997721+00:00 app[web.1]: 
+2015-08-24T03:47:04.997722+00:00 app[web.1]: )
+2015-08-24T03:47:04.997720+00:00 app[web.1]:         )
+2015-08-24T03:47:04.997724+00:00 app[web.1]: 
+2015-08-24T03:47:04.997851+00:00 app[web.1]: [24-Aug-2015 03:47:04 UTC] Requirement Type found - courses
+2015-08-24T03:47:04.997910+00:00 app[web.1]: (
+2015-08-24T03:47:04.997853+00:00 app[web.1]: 
+2015-08-24T03:47:04.997908+00:00 app[web.1]: [24-Aug-2015 03:47:04 UTC] Array
+2015-08-24T03:47:04.997969+00:00 app[web.1]:     [req_type] => courses
+2015-08-24T03:47:04.997976+00:00 app[web.1]: 
+2015-08-24T03:47:05.029015+00:00 app[web.1]: [24-Aug-2015 03:47:05 UTC] got token!
+2015-08-24T03:47:04.997974+00:00 app[web.1]: )
+2015-08-24T03:47:04.998155+00:00 app[web.1]: 10.71.192.166 - - [24/Aug/2015:03:47:04 +0000] "POST /?req_type=courses HTTP/1.1" 302 - "-" "-
+2015-08-24T03:47:04.997975+00:00 app[web.1]: 
+2015-08-24T03:47:05.029022+00:00 app[web.1]: 
+2015-08-24T03:47:05.031361+00:00 app[web.1]: )
+2015-08-24T03:47:05.029447+00:00 app[web.1]: [24-Aug-2015 03:47:05 UTC] Array
+2015-08-24T03:47:05.031287+00:00 app[web.1]:     [token_secret] => 595e3771523d7c63b374b437297fb75f
+2015-08-24T03:47:05.031357+00:00 app[web.1]:     [token_is_access] => 1
+2015-08-24T03:47:05.036964+00:00 app[web.1]: [24-Aug-2015 03:47:05 UTC] {"uid":11545535,"timestamp":1440385829,"type":"dropbox_submission.update","data":{"realm":"section","section_id":124485753,"realm_id":124485753,"uid":"11545535","revision_id":"1","assignment_nid":"269102308","object":{"revision_id":1,"uid":11545535,"created":1440385829,"num_items":1,"late":1,"draft":0,"assignment_nid":"269102308","attachments":{"files":{"file":{"118543131":{"id":118543131,"fid":653718175,"type":"file","title":"Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections.pptx","filename":"Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections.pptx","filesize":64437,"md5_checksum":"7ad94fd7b5f4b60e092a04696ab95753","timestamp":1440385826,"filemime":"application\/vnd.openxmlformats-officedocument.presentationml.presentation","download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee.pptx","extension":"pptx","converted_status":"1","converted_type":4,"converted_filename":"1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf","converted_download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf","converted_extension":"pdf","converted_filemime":"application\/pdf","converted_filesize":66492,"converted_md5_checksum":"4de485b66e8e1424bdfb263cc6505159"},"118543129":{"id":118543129,"fid":653718169,"type":"file","title":"Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx","filename":"Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx","filesize":45927,"md5_checksum":"eedcd29f6c335ba77b7748b64e0569f4","timestamp":1440385825,"filemime":"application\/vnd.openxmlformats-officedocument.wordprocessingml.document","download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930.docx","extension":"docx","converted_status":"1","converted_type":4,"converted_filename":"1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf","converted_download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf","converted_extension":"pdf","converted_filemime":"application\/pdf","converted_filesize":80911,"converted_md5_checksum":"2bb849273b5b1f0036102b6425f0b3de"}}}}}}}
+2015-08-24T03:47:05.031382+00:00 app[web.1]: 
+2015-08-24T03:47:05.037510+00:00 app[web.1]:             [realm_id] => 124485753
+2015-08-24T03:47:05.037034+00:00 app[web.1]: [24-Aug-2015 03:47:05 UTC] stdClass Object
+2015-08-24T03:47:05.037779+00:00 app[web.1]:             [object] => stdClass Object
+2015-08-24T03:47:05.037037+00:00 app[web.1]: (
+2015-08-24T03:47:05.037813+00:00 app[web.1]:                 (
+2015-08-24T03:47:05.031386+00:00 app[web.1]: 
+2015-08-24T03:47:05.037703+00:00 app[web.1]:             [assignment_nid] => 269102308
+2015-08-24T03:47:05.037573+00:00 app[web.1]:             [uid] => 11545535
+2015-08-24T03:47:05.037889+00:00 app[web.1]:                     [revision_id] => 1
+2015-08-24T03:47:05.037627+00:00 app[web.1]:             [revision_id] => 1
+2015-08-24T03:47:05.037088+00:00 app[web.1]:     [uid] => 11545535
+2015-08-24T03:47:05.038127+00:00 app[web.1]:                     [num_items] => 1
+2015-08-24T03:47:05.038188+00:00 app[web.1]:                     [late] => 1
+2015-08-24T03:47:05.038592+00:00 app[web.1]:                             [files] => stdClass Object
+2015-08-24T03:47:05.038251+00:00 app[web.1]:                     [draft] => 0
+2015-08-24T03:47:05.038042+00:00 app[web.1]:                     [created] => 1440385829
+2015-08-24T03:47:05.038340+00:00 app[web.1]:                     [assignment_nid] => 269102308
+2015-08-24T03:47:05.038436+00:00 app[web.1]:                     [attachments] => stdClass Object
+2015-08-24T03:47:05.038493+00:00 app[web.1]:                         (
+2015-08-24T03:47:04.971084+00:00 app[web.1]: [24-Aug-2015 03:47:04 UTC] got token!
+2015-08-24T03:47:05.038656+00:00 app[web.1]:                                 (
+2015-08-24T03:47:04.971398+00:00 app[web.1]: [24-Aug-2015 03:47:04 UTC] Array
+2015-08-24T03:47:04.971134+00:00 app[web.1]: 
+2015-08-24T03:47:05.038784+00:00 app[web.1]:                                     [file] => stdClass Object
+2015-08-24T03:47:04.971425+00:00 app[web.1]: (
+2015-08-24T03:47:05.038986+00:00 app[web.1]:                                             [118543131] => stdClass Object
+2015-08-24T03:47:04.971505+00:00 app[web.1]:     [uid] => 22135108
+2015-08-24T03:47:05.039080+00:00 app[web.1]:                                                 (
+2015-08-24T03:47:05.039343+00:00 app[web.1]:                                                     [fid] => 653718175
+2015-08-24T03:47:04.971940+00:00 app[web.1]:     [token_key] => b02bc01919e633cc4cbd3b1b6917966d0558071f2
+2015-08-24T03:47:05.039216+00:00 app[web.1]:                                                     [id] => 118543131
+2015-08-24T03:47:05.040155+00:00 app[web.1]:                                                     [filename] => Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections.pptx
+2015-08-24T03:47:05.039491+00:00 app[web.1]:                                                     [type] => file
+2015-08-24T03:47:04.978866+00:00 app[web.1]: [24-Aug-2015 03:47:04 UTC] stdClass Object
+2015-08-24T03:47:05.042916+00:00 app[web.1]:                                                     [converted_download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf
+2015-08-24T03:47:04.978895+00:00 app[web.1]: (
+2015-08-24T03:47:05.043210+00:00 app[web.1]:                                                     [converted_filemime] => application/pdf
+2015-08-24T03:47:04.978971+00:00 app[web.1]:     [uid] => 11545535
+2015-08-24T03:47:04.979131+00:00 app[web.1]:     [type] => dropbox_submission.update
+2015-08-24T03:47:05.043565+00:00 app[web.1]:                                                     [converted_md5_checksum] => 4de485b66e8e1424bdfb263cc6505159
+2015-08-24T03:47:04.979202+00:00 app[web.1]:     [data] => stdClass Object
+2015-08-24T03:47:04.979245+00:00 app[web.1]:         (
+2015-08-24T03:47:04.979042+00:00 app[web.1]:     [timestamp] => 1440385829
+2015-08-24T03:47:04.979361+00:00 app[web.1]:             [realm] => section
+2015-08-24T03:47:04.981306+00:00 app[web.1]:             [section_id] => 124485753
+2015-08-24T03:47:04.981407+00:00 app[web.1]:             [realm_id] => 124485753
+2015-08-24T03:47:04.981487+00:00 app[web.1]:             [uid] => 11545535
+2015-08-24T03:47:04.981553+00:00 app[web.1]:             [revision_id] => 1
+2015-08-24T03:47:04.981629+00:00 app[web.1]:             [assignment_nid] => 269102308
+2015-08-24T03:47:05.037142+00:00 app[web.1]:     [timestamp] => 1440385829
+2015-08-24T03:47:05.037226+00:00 app[web.1]:     [type] => dropbox_submission.update
+2015-08-24T03:47:05.037287+00:00 app[web.1]:     [data] => stdClass Object
+2015-08-24T03:47:05.037317+00:00 app[web.1]:         (
+2015-08-24T03:47:05.037370+00:00 app[web.1]:             [realm] => section
+2015-08-24T03:47:05.037445+00:00 app[web.1]:             [section_id] => 124485753
+2015-08-24T03:47:04.981742+00:00 app[web.1]:                 (
+2015-08-24T03:47:04.981809+00:00 app[web.1]:                     [revision_id] => 1
+2015-08-24T03:47:04.981988+00:00 app[web.1]:                     [created] => 1440385829
+2015-08-24T03:47:04.981698+00:00 app[web.1]:             [object] => stdClass Object
+2015-08-24T03:47:04.982058+00:00 app[web.1]:                     [num_items] => 1
+2015-08-24T03:47:04.981904+00:00 app[web.1]:                     [uid] => 11545535
+2015-08-24T03:47:04.982112+00:00 app[web.1]:                     [late] => 1
+2015-08-24T03:47:04.982182+00:00 app[web.1]:                     [draft] => 0
+2015-08-24T03:47:04.982266+00:00 app[web.1]:                     [assignment_nid] => 269102308
+2015-08-24T03:47:04.982407+00:00 app[web.1]:                     [attachments] => stdClass Object
+2015-08-24T03:47:04.982597+00:00 app[web.1]:                             [files] => stdClass Object
+2015-08-24T03:47:04.982700+00:00 app[web.1]:                                 (
+2015-08-24T03:47:04.982829+00:00 app[web.1]:                                     [file] => stdClass Object
+2015-08-24T03:47:04.982921+00:00 app[web.1]:                                         (
+2015-08-24T0
+3:47:04.982483+00:00 app[web.1]:                         (
+2015-08-24T03:47:04.983070+00:00 app[web.1]:                                             [118543131] => stdClass Object
+2015-08-24T03:47:04.983174+00:00 app[web.1]:                                                 (
+2015-08-24T03:47:04.983315+00:00 app[web.1]:                                                     [id] => 118543131
+2015-08-24T03:47:04.983455+00:00 app[web.1]:                                                     [fid] => 653718175
+2015-08-24T03:47:04.983626+00:00 app[web.1]:                                                     [type] => file
+2015-08-24T03:47:04.984471+00:00 app[web.1]:                                                     [md5_checksum] => 7ad94fd7b5f4b60e092a04696ab95753
+2015-08-24T03:47:04.984283+00:00 app[web.1]:                                                     [filesize] => 64437
+2015-08-24T03:47:04.984613+00:00 app[web.1]:                                                     [timestamp] => 1440385826
+2015-08-24T03:47:05.043659+00:00 app[web.1]: 
+2015-08-24T03:47:05.046153+00:00 app[web.1]:                                                     [converted_type] => 4
+2015-08-24T03:47:04.984159+00:00 app[web.1]:                                                     [filename] => Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections.pptx
+2015-08-24T03:47:04.984867+00:00 app[web.1]:                                                     [filemime] => application/vnd.openxmlformats-officedocument.presentationml.presentation
+2015-08-24T03:47:04.986456+00:00 app[web.1]:                                                     [converted_download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf
+2015-08-24T03:47:04.991721+00:00 app[web.1]:                                                     [converted_filemime] => application/pdf
+2015-08-24T03:47:05.043790+00:00 app[web.1]:                                             [118543129] => stdClass Object
+2015-08-24T03:47:05.046453+00:00 app[web.1]:                                                     [converted_filename] => 1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf
+2015-08-24T03:47:04.991858+00:00 app[web.1]:                                                     [converted_filesize] => 66492
+2015-08-24T03:47:04.992049+00:00 app[web.1]:                                                     [converted_md5_checksum] => 4de485b66e8e1424bdfb263cc6505159
+2015-08-24T03:47:04.992145+00:00 app[web.1]:                                                 )
+2015-08-24T03:47:05.037958+00:00 app[web.1]:                     [uid] => 11545535
+2015-08-24T03:47:05.038863+00:00 app[web.1]:                                         (
+2015-08-24T03:47:05.043049+00:00 app[web.1]:                                                     [converted_extension] => pdf
+2015-08-24T03:47:05.044260+00:00 app[web.1]:                                                     [type] => file
+2015-08-24T03:47:05.043646+00:00 app[web.1]:                                                 )
+2015-08-24T03:47:05.046032+00:00 app[web.1]:                                                     [converted_status] => 1
+2015-08-24T03:47:04.992286+00:00 app[web.1]:                                             [118543129] => stdClass Object
+2015-08-24T03:47:04.992371+00:00 app[web.1]:                                                 (
+2015-08-24T03:47:04.992497+00:00 app[web.1]:                                                     [id] => 118543129
+2015-08-24T03:47:04.992624+00:00 app[web.1]:                                                     [fid] => 653718169
+2015-08-24T03:47:04.992147+00:00 app[web.1]: 
+2015-08-24T03:47:04.992745+00:00 app[web.1]:                                                     [type] => file
+2015-08-24T03:47:05.043356+00:00 app[web.1]:                                                     [converted_filesize] => 66492
+2015-08-24T03:47:05.045761+00:00 app[web.1]:                                                     [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930.docx
+2015-08-24T03:47:04.992949+00:00 app[web.1]:                                                     [title] => Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx
+2015-08-24T03:47:05.044134+00:00 app[web.1]:                                                     [fid] => 653718169
+2015-08-24T03:47:05.040635+00:00 app[web.1]:                                                     [md5_checksum] => 7ad94fd7b5f4b60e092a04696ab95753
+2015-08-24T03:47:05.043878+00:00 app[web.1]:                                                 (
+2015-08-24T03:47:05.041200+00:00 app[web.1]:                                                     [filemime] => application/vnd.openxmlformats-officedocument.presentationml.presentation
+2015-08-24T03:47:05.044005+00:00 app[web.1]:                                                     [id] => 118543129
+2015-08-24T03:47:05.044449+00:00 app[web.1]:                                                     [title] => Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx
+2015-08-24T03:47:04.994498+00:00 app[web.1]:                                                     [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930.docx
+2015-08-24T03:47:04.994619+00:00 app[web.1]:                                                     [extension] => docx
+2015-08-24T03:47:04.994775+00:00 app[web.1]:                                                     [converted_status] => 1
+2015-08-24T03:47:05.045885+00:00 app[web.1]:                                                     [extension] => docx
+2015-08-24T03:47:04.996643+00:00 app[web.1]:                                                     [converted_download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf
+2015-08-24T03:47:04.998703+00:00 app[web.1]: [24-Aug-2015 03:47:04 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+2015-08-24T03:47:05.029639+00:00 app[web.1]: (
+2015-08-24T03:47:05.040354+00:00 app[web.1]:                                                     [filesize] => 64437
+2015-08-24T03:47:05.040838+00:00 app[web.1]:                                                     [timestamp] => 1440385826
+2015-08-24T03:47:05.030174+00:00 app[web.1]:     [token_key] => b02bc01919e633cc4cbd3b1b6917966d0558071f2
+2015-08-24T03:47:05.029681+00:00 app[web.1]:     [uid] => 22135108
+2015-08-24T03:47:04.995873+00:00 app[web.1]:                                                     [converted_type] => 4
+2015-08-24T03:47:05.039732+00:00 app[web.1]:                                                     [title] => Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections.pptx
+2015-08-24T03:47:05.041667+00:00 app[web.1]:                                                     [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee.pptx
+2015-08-24T03:47:05.042407+00:00 app[web.1]:                                                     [converted_filename] => 1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf
+2015-08-24T03:47:05.044799+00:00 app[web.1]:                                                     [filesize] => 45927
+2015-08-24T03:47:05.044663+00:00 app[web.1]:                                                     [filename] => Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx
+2015-08-24T03:47:05.041935+00:00 app[web.1]:                                                     [converted_status] => 1
+2015-08-24T03:47:05.042060+00:00 app[web.1]:                                                     [converted_type] => 4
+2015-08-24T03:47:05.044994+00:00 app[web.1]:                                                     [md5_checksum] => eedcd29f6c335ba77b7748b64e0569f4
+2015-08-24T03:47:05.041796+00:00 app[web.1]:                                                     [extension] => pptx
+2015-08-24T03:47:05.045125+00:00 app[web.1]:                                                     [timestamp] => 1440385825
+2015-08-24T03:47:05.045376+00:00 app[web.1]:                                                     [filemime] => application/vnd.openxmlformats-officedocument.wordprocessingml.document
+2015-08-24T03:47:05.047032+00:00 app[web.1]:                                                     [converted_extension] => pdf
+2015-08-24T03:47:05.047203+00:00 app[web.1]:                                                     [converted_filemime] => application/pdf
+2015-08-24T03:47:05.047350+00:00 app[web.1]:                                                     [converted_filesize] => 80911
+2015-08-24T03:47:05.047548+00:00 app[web.1]:                                                     [converted_md5_checksum] => 2bb849273b5b1f0036102b6425f0b3de
+2015-08-24T03:47:05.047638+00:00 app[web.1]:                                                 )
+2015-08-24T03:47:05.047641+00:00 app[web.1]: 
+2015-08-24T03:47:05.047731+00:00 app[web.1]:                                         )
+2015-08-24T03:47:05.047733+00:00 app[web.1]: 
+2015-08-24T03:47:05.046904+00:00 app[web.1]:                                                     [converted_download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf
+2015-08-24T03:47:05.047853+00:00 app[web.1]:                         )
+2015-08-24T03:47:05.047793+00:00 app[web.1]: 
+2015-08-24T03:47:05.047855+00:00 app[web.1]: 
+2015-08-24T03:47:05.047885+00:00 app[web.1]: 
+2015-08-24T03:47:05.047884+00:00 app[web.1]:                 )
+2015-08-24T03:47:05.047911+00:00 app[web.1]:         )
+2015-08-24T03:47:05.047915+00:00 app[web.1]: 
+2015-08-24T03:47:05.047791+00:00 app[web.1]:                                 )
+2015-08-24T03:47:05.047918+00:00 app[web.1]: )
+2015-08-24T03:47:05.047921+00:00 app[web.1]: 
+2015-08-24T03:47:05.048048+00:00 app[web.1]: 
+2015-08-24T03:47:05.048103+00:00 app[web.1]: [24-Aug-2015 03:47:05 UTC] Array
+2015-08-24T03:47:05.048118+00:00 app[web.1]: (
+2015-08-24T03:47:05.048176+00:00 app[web.1]:     [req_type] => courses
+2015-08-24T03:47:05.048178+00:00 app[web.1]: )
+2015-08-24T03:47:05.048179+00:00 app[web.1]: 
+2015-08-24T03:47:05.048182+00:00 app[web.1]: 
+2015-08-24T03:47:05.048046+00:00 app[web.1]: [24-Aug-2015 03:47:05 UTC] Requirement Type found - courses
+2015-08-24T03:47:05.048362+00:00 app[web.1]: 10.61.195.47 - - [24/Aug/2015:03:47:04 +0000] "POST /?req_type=courses HTTP/1.1" 302 - "-" "-
+2015-08-24T03:47:07.434075+00:00 heroku[router]: at=info method=POST path="/?req_type=courses" host=glacial-tor-7252.herokuapp.com request_id=864da20a-e8bc-4f53-a8cf-609fe919494d fwd="50.56.38.11" dyno=web.1 connect=1ms service=75ms status=302 bytes=296
+2015-08-24T03:47:07.387338+00:00 app[web.1]: [24-Aug-2015 03:47:07 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+2015-08-24T03:47:07.446871+00:00 app[web.1]: [24-Aug-2015 03:47:07 UTC] stdClass Object
+2015-08-24T03:47:07.446919+00:00 app[web.1]: (
+2015-08-24T03:47:07.446979+00:00 app[web.1]:     [uid] => 11545535
+2015-08-24T03:47:07.447072+00:00 app[web.1]:     [timestamp] => 1440385302
+2015-08-24T03:47:07.447180+00:00 app[web.1]:     [type] => dropbox_submission.update
+2015-08-24T03:47:07.447271+00:00 app[web.1]:     [data] => stdClass Object
+2015-08-24T03:47:07.447326+00:00 app[web.1]:         (
+2015-08-24T03:47:07.447453+00:00 app[web.1]:             [realm] => section
+2015-08-24T03:47:07.447584+00:00 app[web.1]:             [section_id] => 124485753
+2015-08-24T03:47:07.447677+00:00 app[web.1]:             [realm_id] => 124485753
+2015-08-24T03:47:07.447768+00:00 app[web.1]:             [uid] => 11545535
+2015-08-24T03:47:07.447861+00:00 app[web.1]:             [revision_id] => 1
+2015-08-24T03:47:07.447971+00:00 app[web.1]:             [assignment_nid] => 274733392
+2015-08-24T03:47:07.448078+00:00 app[web.1]:             [object] => stdClass Object
+2015-08-24T03:47:07.448128+00:00 app[web.1]:                 (
+2015-08-24T03:47:07.448232+00:00 app[web.1]:                     [revision_id] => 1
+2015-08-24T03:47:07.448336+00:00 app[web.1]:                     [uid] => 11545535
+2015-08-24T03:47:07.448581+00:00 app[web.1]:                     [num_items] => 1
+2015-08-24T03:47:07.448451+00:00 app[web.1]:                     [created] => 1440385302
+2015-08-24T03:47:07.448675+00:00 app[web.1]:                     [late] => 1
+2015-08-24T03:47:07.448770+00:00 app[web.1]:                     [draft] => 0
+2015-08-24T03:47:07.448905+00:00 app[web.1]:                     [assignment_nid] => 274733392
+2015-08-24T03:47:07.455546+00:00 app[web.1]:                     [attachments] => stdClass Object
+2015-08-24T03:47:07.455637+00:00 app[web.1]:                         (
+2015-08-24T03:47:07.455892+00:00 app[web.1]:                             [files] => stdClass Object
+2015-08-24T03:47:07.456032+00:00 app[web.1]:                                 (
+2015-08-24T03:47:07.456242+00:00 app[web.1]:                                     [file] => stdClass Object
+2015-08-24T03:47:07.456359+00:00 app[web.1]:                                         (
+2015-08-24T03:47:07.456528+00:00 app[web.1]:                                             [118542015] => stdClass Object
+2015-08-24T03:47:07.457012+00:00 app[web.1]:                                                     [fid] => 653705283
+2015-08-24T03:47:07.456653+00:00 app[web.1]:                                                 (
+2015-08-24T03:47:07.456850+00:00 app[web.1]:                                                     [id] => 118542015
+2015-08-24T03:47:07.457214+00:00 app[web.1]:                                                     [type] => file
+2015-08-24T03:47:07.457768+00:00 app[web.1]:                                                     [filename] => Stafford_-_Capstone_Project_-_Year_1_Reflection.pdf
+2015-08-24T03:47:07.458215+00:00 app[web.1]:                                                     [md5_checksum] => b611ce66cf8a960704328c756467f65e
+2015-08-24T03:47:07.466984+00:00 app[web.1]:                                                     [filemime] => application/pdf
+2015-08-24T03:47:07.468422+00:00 app[web.1]:                                                     [extension] => pdf
+2015-08-24T03:47:07.468598+00:00 app[web.1]:                                                     [converted_status] => 1
+2015-08-24T03:47:07.468791+00:00 app[web.1]:                                                     [converted_type] => 4
+2015-08-24T03:47:07.469940+00:00 app[web.1]:                                                     [converted_download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/1440385319-Stafford_-_Capstone_Project_-_Year_1_Reflection_55da8912e1a45_55da892841bf3.pdf
+2015-08-24T03:47:07.470563+00:00 app[web.1]:                                                     [converted_filemime] => application/pdf
+2015-08-24T03:47:07.471552+00:00 app[web.1]:                                                 )
+2015-08-24T03:47:07.471585+00:00 app[web.1]: 
+2015-08-24T03:47:07.471429+00:00 app[web.1]:                                                     [converted_md5_checksum] => b611ce66cf8a960704328c756467f65e
+2015-08-24T03:47:07.471718+00:00 app[web.1]: 
+2015-08-24T03:47:07.471814+00:00 app[web.1]:              
+                   )
+2015-08-24T03:47:07.471835+00:00 app[web.1]: 
+2015-08-24T03:47:07.471697+00:00 app[web.1]:                                         )
+2015-08-24T03:47:07.471918+00:00 app[web.1]:                         )
+2015-08-24T03:47:07.471938+00:00 app[web.1]: 
+2015-08-24T03:47:07.471988+00:00 app[web.1]:                 )
+2015-08-24T03:47:07.472013+00:00 app[web.1]: 
+2015-08-24T03:47:07.472058+00:00 app[web.1]:         )
+2015-08-24T03:47:07.472093+00:00 app[web.1]: 
+2015-08-24T03:47:07.472100+00:00 app[web.1]: 
+2015-08-24T03:47:07.472237+00:00 app[web.1]: [24-Aug-2015 03:47:07 UTC] Requirement Type found - courses
+2015-08-24T03:47:07.472095+00:00 app[web.1]: )
+2015-08-24T03:47:07.472239+00:00 app[web.1]: 
+2015-08-24T03:47:07.472346+00:00 app[web.1]: (
+2015-08-24T03:47:07.472341+00:00 app[web.1]: [24-Aug-2015 03:47:07 UTC] Array
+2015-08-24T03:47:07.472462+00:00 app[web.1]: 
+2015-08-24T03:47:07.472456+00:00 app[web.1]:     [req_type] => courses
+2015-08-24T03:47:07.472464+00:00 app[web.1]: 
+2015-08-24T03:47:07.472458+00:00 app[web.1]: )
+2015-08-24T03:47:07.472723+00:00 app[web.1]: 10.33.160.40 - - [24/Aug/2015:03:47:07 +0000] "POST /?req_type=courses HTTP/1.1" 302 - "-" "-
+2015-08-24T03:47:07.430832+00:00 app[web.1]: [24-Aug-2015 03:47:07 UTC] got token!
+2015-08-24T03:47:07.430884+00:00 app[web.1]: 
+2015-08-24T03:47:07.430970+00:00 app[web.1]: [24-Aug-2015 03:47:07 UTC] Array
+2015-08-24T03:47:07.431005+00:00 app[web.1]: (
+2015-08-24T03:47:07.431151+00:00 app[web.1]:     [uid] => 22135108
+2015-08-24T03:47:07.431400+00:00 app[web.1]:     [token_key] => b02bc01919e633cc4cbd3b1b6917966d0558071f2
+2015-08-24T03:47:07.431537+00:00 app[web.1]:     [token_secret] => 595e3771523d7c63b374b437297fb75f
+2015-08-24T03:47:07.431625+00:00 app[web.1]:     [token_is_access] => 1
+2015-08-24T03:47:07.431647+00:00 app[web.1]: )
+2015-08-24T03:47:07.431668+00:00 app[web.1]: 
+2015-08-24T03:47:07.431688+00:00 app[web.1]: 
+2015-08-24T03:47:07.434350+00:00 app[web.1]: [24-Aug-2015 03:47:07 UTC] {"uid":11545535,"timestamp":1440385302,"type":"dropbox_submission.update","data":{"realm":"section","section_id":124485753,"realm_id":124485753,"uid":"11545535","revision_id":"1","assignment_nid":"274733392","object":{"revision_id":1,"uid":11545535,"created":1440385302,"num_items":1,"late":1,"draft":0,"assignment_nid":"274733392","attachments":{"files":{"file":{"118542015":{"id":118542015,"fid":653705283,"type":"file","title":"Stafford_-_Capstone_Project_-_Year_1_Reflection.pdf","filename":"Stafford_-_Capstone_Project_-_Year_1_Reflection.pdf","filesize":197080,"md5_checksum":"b611ce66cf8a960704328c756467f65e","timestamp":1440385299,"filemime":"application\/pdf","download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/Stafford_-_Capstone_Project_-_Year_1_Reflection_55da8912e1a45.pdf","extension":"pdf","converted_status":"1","converted_type":4,"converted_filename":"1440385319-Stafford_-_Capstone_Project_-_Year_1_Reflection_55da8912e1a45_55da892841bf3.pdf","converted_download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/1440385319-Stafford_-_Capstone_Project_-_Year_1_Reflection_55da8912e1a45_55da892841bf3.pdf","converted_extension":"pdf","converted_filemime":"application\/pdf","converted_filesize":197080,"converted_md5_checksum":"b611ce66cf8a960704328c756467f65e"}}}}}}}
+2015-08-24T03:47:07.457488+00:00 app[web.1]:                                                     [title] => Stafford_-_Capstone_Project_-_Year_1_Reflection.pdf
+2015-08-24T03:47:07.457963+00:00 app[web.1]:                                                     [filesize] => 197080
+2015-08-24T03:47:07.466466+00:00 app[web.1]:                                                     [timestamp] => 1440385299
+2015-08-24T03:47:07.468230+00:00 app[web.1]:                                                     [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/Stafford_-_Capstone_Project_-_Year_1_Reflection_55da8912e1a45.pdf
+2015-08-24T03:47:07.469207+00:00 app[web.1]:                                                     [converted_filename] => 1440385319-Stafford_-_Capstone_Project_-_Year_1_Reflection_55da8912e1a45_55da892841bf3.pdf
+2015-08-24T03:47:07.470336+00:00 app[web.1]:                                                     [converted_extension] => pdf
+2015-08-24T03:47:07.470970+00:00 app[web.1]:                                                     [converted_filesize] => 197080
+2015-08-24T04:02:53.310714+00:00 app[web.1]: [24-Aug-2015 04:02:53 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+2015-08-24T04:02:53.382840+00:00 app[web.1]:                                                     [filesize] => 64437
+2015-08-24T04:02:53.383836+00:00 app[web.1]:                                                     [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee.pptx
+2015-08-24T04:02:53.383965+00:00 app[web.1]:                                                     [extension] => pptx
+2015-08-24T04:02:53.384125+00:00 app[web.1]:                                                     [converted_status] => 1
+2015-08-24T04:02:53.384234+00:00 app[web.1]:                                                     [converted_type] => 4
+2015-08-24T04:02:53.384541+00:00 app[web.1]:                                                     [converted_filename] => 1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf
+2015-08-24T04:02:53.385183+00:00 app[web.1]:                                                     [converted_extension] => pdf
+2015-08-24T04:02:53.385321+00:00 app[web.1]:                                                     [converted_filemime] => application/pdf
+2015-08-24T04:02:53.385469+00:00 app[web.1]:                                                     [converted_filesize] => 66492
+2015-08-24T04:02:53.385660+00:00 app[web.1]:                                                     [converted_md5_checksum] => 4de485b66e8e1424bdfb263cc6505159
+2015-08-24T04:02:53.385767+00:00 app[web.1]:                                                 )
+2015-08-24T04:02:53.385769+00:00 app[web.1]: 
+2015-08-24T04:02:53.385899+00:00 app[web.1]:                                             [118543129] => stdClass Object
+2015-08-24T04:02:53.386007+00:00 app[web.1]:                                                 (
+2015-08-24T04:02:53.386112+00:00 app[web.1]:                                                     [id] => 118543129
+2015-08-24T04:02:53.386243+00:00 app[web.1]:                                                     [fid] => 653718169
+2015-08-24T04:02:53.386375+00:00 app[web.1]:                                                     [type] => file
+2015-08-24T04:02:53.386562+00:00 app[web.1]:                                                     [title] => Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx
+2015-08-24T04:02:53.390849+00:00 app[web.1]:                                                     [filename] => Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx
+2015-08-24T04:02:53.390976+00:00 app[web.1]:                                                     [filesize] => 45927
+2015-08-24T04:02:53.391167+00:00 app[web.1]:                                                     [md5_checksum] => eedcd29f6c335ba77b7748b64e0569f4
+2015-08-24T04:02:53.391310+00:00 app[web.1]:                                                     [timestamp] => 1440385825
+2015-08-24T04:02:53.391560+00:00 app[web.1]:                                                     [filemime] => application/vnd.openxmlformats-officedocument.wordprocessingml.document
+2015-08-24T04:02:53.392201+00:00 app[web.1]:                                                     [converted_status] => 1
+2015-08-24T04:02:53.392093+00:00 app[web.1]:                                                     [extension] => docx
+2015-08-24T04:02:53.392331+00:00 app[web.1]:                                                     [converted_type] => 4
+2015-08-24T04:02:53.392625+00:00 app[web.1]:                                                     [converted_filename] => 1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf
+2015-08-24T04:02:53.393218+00:00 app[web.1]:                                                     [converted_extension] => pdf
+2015-08-24T04:02:53.393357+00:00 app[web.1]:                                                     [converted_filemime] => application/pdf
+2015-08-24T04:02:53.393504+00:00 app[web.1]:                                                     [converted_filesize] => 80911
+2015-08-24T04:02:53.393721+00:00 app[web.1]:                                                     [converted_md5_checksum] => 2bb849273b5b1f0036102b6425f0b3de
+2015-08-24T04:02:53.393816+00:00 app[web.1]:                                                 )
+2015-08-24T04:02:53.393820+00:00 app[web.1]: 
+2015-08-24T04:02:53.393921+00:00 app[web.1]:                                         )
+2015-08-24T04:02:53.393923+00:00 app[web.1]: 
+2015-08-24T04:02:53.393978+00:00 app[web.1]:                                 )
+2015-08-24T04:02:53.393980+00:00 app[web.1]: 
+2015-08-24T04:02:53.394034+00:00 app[web.1]:                         )
+2015-08-24T04:02:53.394042+00:00 app[web.1]: 
+2015-08-24T04:02:53.394075+00:00 app[web.1]:                 )
+2015-08-24T04:02:53.394077+00:00 app[web.1]: 
+2015-08-24T04:02:53.394104+00:00 app[web.1]:         )
+2015-08-24T04:02:53.394105+00:00 app[web.1]: 
+2015-08-24T04:02:53.394109+00:00 app[web.1]: )
+2015-08-24T04:02:53.394112+00:00 app[web.1]: 
+2015-08-24T04:02:53.394236+00:00 app[web.1]: [24-Aug-2015 04:02:53 UTC] Requirement Type found - courses
+2015-08-24T04:02:53.394238+00:00 app[web.1]: 
+2015-08-24T04:02:53.394294+00:00 app[web.1]: [24-Aug-2015 04:02:53 UTC] Array
+2015-08-24T04:02:53.394299+00:00 app[web.1]: (
+2015-08-24T04:02:53.394356+00:00 app[web.1]:     [req_type] => courses
+2015-08-24T04:02:53.394358+00:00 app[web.1]: )
+2015-08-24T04:02:53.394362+00:00 app[web.1]: 
+2015-08-24T04:02:53.394363+00:00 app[web.1]: 
+2015-08-24T04:02:53.394557+00:00 app[web.1]: 10.138.123.182 - - [24/Aug/2015:04:02:53 +0000] "POST /?req_type=courses HTTP/1.1" 302 - "-" "-
+2015-08-24T04:02:53.372583+00:00 heroku[router]: at=info method=POST path="/?req_type=courses" host=glacial-tor-7252.herokuapp.com request_id=6a04e9a9-4c9a-4474-987b-e2306b9f2625 fwd="50.56.38.11" dyno=web.1 connect=1ms service=90ms status=302 bytes=296
+2015-08-24T04:02:53.362160+00:00 app[web.1]: [24-Aug-2015 04:02:53 UTC] got token!
+2015-08-24T04:02:53.362983+00:00 app[web.1]: 
+2015-08-24T04:02:53.362164+00:00 app[web.1]: 
+2015-08-24T04:02:53.375471+00:00 app[web.1]: [24-Aug-2015 04:02:53 UTC] {"uid":11545535,"timestamp":1440385829,"type":"dropbox_submission.update","data":{"realm":"section","section_id":124485753,"realm_id":124485753,"uid":"11545535","revision_id":"1","assignment_nid":"269102308","object":{"revision_id":1,"uid":11545535,"created":1440385829,"num_items":1,"late":1,"draft":0,"assignment_nid":"269102308","attachments":{"files":{"file":{"118543131":{"id":118543131,"fid":653718175,"type":"file","title":"Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections.pptx","filename":"Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections.pptx","filesize":64437,"md5_checksum":"7ad94fd7b5f4b60e092a04696ab95753","timestamp":1440385826,"filemime":"application\/vnd.openxmlformats-officedocument.presentationml.presentation","download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee.pptx","extension":"pptx","converted_status":"1","converted_type":4,"converted_filename":"1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf","converted_download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf","converted_extension":"pdf","converted_filemime":"application\/pdf","converted_filesize":66492,"converted_md5_checksum":"4de485b66e8e1424bdfb263cc6505159"},"118543129":{"id":118543129,"fid":653718169,"type":"file","title":"Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx","filename":"Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx","filesize":45927,"md5_checksum":"eedcd29f6c335ba77b7748b64e0569f4","timestamp":1440385825,"filemime":"application\/vnd.openxmlformats-officedocument.wordprocessingml.document","download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930.docx","extension":"docx","converted_status":"1","converted_type":4,"converted_filename":"1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf","converted_download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf","converted_extension":"pdf","converted_filemime":"application\/pdf","converted_filesize":80911,"converted_md5_checksum":"2bb849273b5b1f0036102b6425f0b3de"}}}}}}}
+2015-08-24T04:02:53.362511+00:00 app[web.1]: [24-Aug-2015 04:02:53 UTC] Array
+2015-08-24T04:02:53.375532+00:00 app[web.1]: [24-Aug-2015 04:02:53 UTC] stdClass Object
+2015-08-24T04:02:53.362517+00:00 app[web.1]: (
+2015-08-24T04:02:53.375616+00:00 app[web.1]:     [uid] => 11545535
+2015-08-24T04:02:53.362601+00:00 app[web.1]:     [uid] => 22135108
+2015-08-24T04:02:53.375559+00:00 app[web.1]: (
+2015-08-24T04:02:53.376266+00:00 app[web.1]:             [revision_id] => 1
+2015-08-24T04:02:53.362977+00:00 app[web.1]:     [token_secret] => 595e3771523d7c63b374b437297fb75f
+2015-08-24T04:02:53.375686+00:00 app[web.1]:     [timestamp] => 1440385829
+2015-08-24T04:02:53.362681+00:00 app[web.1]:     [token_key] => b02bc01919e633cc4cbd3b1b6917966d0558071f2
+2015-08-24T04:02:53.375774+00:00 app[web.1]:     [type] => dropbox_submission.update
+2015-08-24T04:02:53.362979+00:00 app[web.1]:     [token_is_access] => 1
+2015-08-24T04:02:53.375844+00:00 app[web.1]:     [data] => stdClass Object
+2015-08-24T04:02:53.362981+00:00 app[web.1]: )
+2015-08-24T04:02:53.375880+00:00 app[web.1]:         (
+2015-08-24T04:02:53.362982+00:00 app[web.1]: 
+2015-08-24T04:02:53.375952+00:00 app[web.1]:             [realm] => section
+2015-08-24T04:02:53.376037+00:00 app[web.1]:             [section_id] => 124485753
+2015-08-24T04:02:53.376845+00:00 app[web.1]:                     [num_items] => 1
+2015-08-24T04:02:53.376117+00:00 app[web.1]:             [realm_id] => 124485753
+2015-08-24T04:02:53.376187+00:00 app[web.1]:             [uid] => 11545535
+2015-08-24T04:02:53.377002+00:00 app[web.1]:                     [draft] => 0
+2015-08-24T04:02:53.376358+00:00 app[web.1]:             [assignment_nid] => 269102308
+2015-08-24T04:02:53.377191+00:00 app[web.1]:                     [attachments] => stdClass Object
+2015-08-24T04:02:53.376448+00:00 app[web.1]:             [object] => stdClass Object
+2015-08-24T04:02:53.377243+00:00 app[web.1]:                         (
+2015-08-24T04:02:53.376498+00:00 app[web.1]:                 (
+2015-08-24T04:02:53.377345+00:00 app[web.1]:                             [files] => stdClass Object
+2015-08-24T04:02:53.376584+00:00 app[web.1]:                     [revision_id] => 1
+2015-08-24T04:02:53.377417+00:00 app[web.1]:                                 (
+2015-08-24T04:02:53.376668+00:00 app[web.1]:                     [uid] => 11545535
+2015-08-24T04:02:53.376763+00:00 app[web.1]:                     [created] => 1440385829
+2015-08-24T04:02:53.376919+00:00 app[web.1]:                    
+ [late] => 1
+2015-08-24T04:02:53.377091+00:00 app[web.1]:                     [assignment_nid] => 269102308
+2015-08-24T04:02:53.377527+00:00 app[web.1]:                                     [file] => stdClass Object
+2015-08-24T04:02:53.377593+00:00 app[web.1]:                                         (
+2015-08-24T04:02:53.377818+00:00 app[web.1]:                                                 (
+2015-08-24T04:02:53.377943+00:00 app[web.1]:                                                     [id] => 118543131
+2015-08-24T04:02:53.378075+00:00 app[web.1]:                                                     [fid] => 653718175
+2015-08-24T04:02:53.377727+00:00 app[web.1]:                                             [118543131] => stdClass Object
+2015-08-24T04:02:53.378234+00:00 app[web.1]:                                                     [type] => file
+2015-08-24T04:02:53.378419+00:00 app[web.1]:                                                     [title] => Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections.pptx
+2015-08-24T04:02:53.378652+00:00 app[web.1]:                                                     [filename] => Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections.pptx
+2015-08-24T04:02:53.383040+00:00 app[web.1]:                                                     [md5_checksum] => 7ad94fd7b5f4b60e092a04696ab95753
+2015-08-24T04:02:53.383184+00:00 app[web.1]:                                                     [timestamp] => 1440385826
+2015-08-24T04:02:53.383465+00:00 app[web.1]:                                                     [filemime] => application/vnd.openxmlformats-officedocument.presentationml.presentation
+2015-08-24T04:02:53.385024+00:00 app[web.1]:                                                     [converted_download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf
+2015-08-24T04:02:53.391933+00:00 app[web.1]:                                                     [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930.docx
+2015-08-24T04:02:53.393059+00:00 app[web.1]:                                                     [converted_download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf
+2015-08-24T04:02:54.715264+00:00 heroku[router]: at=info method=POST path="/?req_type=courses" host=glacial-tor-7252.herokuapp.com request_id=b2bd6fb5-c687-4d3e-adb5-8844d76cae37 fwd="50.56.38.11" dyno=web.1 connect=1ms service=61ms status=302 bytes=296
+2015-08-24T04:02:54.689604+00:00 app[web.1]: [24-Aug-2015 04:02:54 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+2015-08-24T04:02:54.726203+00:00 app[web.1]:                                                     [filename] => Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections.pptx
+2015-08-24T04:02:54.726324+00:00 app[web.1]:                                                     [filesize] => 64437
+2015-08-24T04:02:54.726510+00:00 app[web.1]:                                                     [md5_checksum] => 7ad94fd7b5f4b60e092a04696ab95753
+2015-08-24T04:02:54.726648+00:00 app[web.1]:                                                     [timestamp] => 1440385826
+2015-08-24T04:02:54.727454+00:00 app[web.1]:                                                     [extension] => pptx
+2015-08-24T04:02:54.726904+00:00 app[web.1]:                                                     [filemime] => application/vnd.openxmlformats-officedocument.presentationml.presentation
+2015-08-24T04:02:54.727565+00:00 app[web.1]:                                                     [converted_status] => 1
+2015-08-24T04:02:54.727698+00:00 app[web.1]:                                                     [converted_type] => 4
+2015-08-24T04:02:54.728012+00:00 app[web.1]:                                                     [converted_filename] => 1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf
+2015-08-24T04:02:54.729153+00:00 app[web.1]:                                                     [converted_md5_checksum] => 4de485b66e8e1424bdfb263cc6505159
+2015-08-24T04:02:54.729250+00:00 app[web.1]:                                                 )
+2015-08-24T04:02:54.728617+00:00 app[web.1]:                                                     [converted_extension] => pdf
+2015-08-24T04:02:54.728774+00:00 app[web.1]:                                                     [converted_filemime] => application/pdf
+2015-08-24T04:02:54.729616+00:00 app[web.1]:                                             [118543129] => stdClass Object
+2015-08-24T04:02:54.729461+00:00 app[web.1]: 
+2015-08-24T04:02:54.729702+00:00 app[web.1]:                                                 (
+2015-08-24T04:02:54.730375+00:00 app[web.1]:                                                     [title] => Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx
+2015-08-24T04:02:54.730135+00:00 app[web.1]:                                                     [type] => file
+2015-08-24T04:02:54.729992+00:00 app[web.1]:                                                     [fid] => 653718169
+2015-08-24T04:02:54.728913+00:00 app[web.1]:                                                     [converted_filesize] => 66492
+2015-08-24T04:02:54.729843+00:00 app[web.1]:                                                     [id] => 118543129
+2015-08-24T04:02:54.730802+00:00 app[web.1]:                                                     [filesize] => 45927
+2015-08-24T04:02:54.731875+00:00 app[web.1]:                                                     [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930.docx
+2015-08-24T04:02:54.734346+00:00 app[web.1]:                                                     [converted_filesize] => 80911
+2015-08-24T04:02:54.733139+00:00 app[web.1]:                                                     [converted_filename] => 1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf
+2015-08-24T04:02:54.732526+00:00 app[web.1]:                                                     [converted_status] => 1
+2015-08-24T04:02:54.733849+00:00 app[web.1]:                                                     [converted_extension] => pdf
+2015-08-24T04:02:54.716433+00:00 app[web.1]: [24-Aug-2015 04:02:54 UTC] got token!
+2015-08-24T04:02:54.716438+00:00 app[web.1]: 
+2015-08-24T04:02:54.716482+00:00 app[web.1]: [24-Aug-2015 04:02:54 UTC] Array
+2015-08-24T04:02:54.716486+00:00 app[web.1]: (
+2015-08-24T04:02:54.716532+00:00 app[web.1]:     [uid] => 22135108
+2015-08-24T04:02:54.716644+00:00 app[web.1]:     [token_key] => b02bc01919e633cc4cbd3b1b6917966d0558071f2
+2015-08-24T04:02:54.716744+00:00 app[web.1]:     [token_secret] => 595e3771523d7c63b374b437297fb75f
+2015-08-24T04:02:54.716807+00:00 app[web.1]:     [token_is_access] => 1
+2015-08-24T04:02:54.716809+00:00 app[web.1]: )
+2015-08-24T04:02:54.716810+00:00 app[web.1]: 
+2015-08-24T04:02:54.716814+00:00 app[web.1]: 
+2015-08-24T04:02:54.722818+00:00 app[web.1]: [24-Aug-2015 04:02:54 UTC] stdClass Object
+2015-08-24T04:02:54.722755+00:00 app[web.1]: [24-Aug-2015 04:02:54 UTC] {"uid":11545535,"timestamp":1440385829,"type":"dropbox_submission.update","data":{"realm":"section","section_id":124485753,"realm_id":124485753,"uid":"11545535","revision_id":"1","assignment_nid":"269102308","object":{"revision_id":1,"uid":11545535,"created":1440385829,"num_items":1,"late":1,"draft":0,"assignment_nid":"269102308","attachments":{"files":{"file":{"118543131":{"id":118543131,"fid":653718175,"type":"file","title":"Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections.pptx","filename":"Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections.pptx","filesize":64437,"md5_checksum":"7ad94fd7b5f4b60e092a04696ab95753","timestamp":1440385826,"filemime":"application\/vnd.openxmlformats-officedocument.presentationml.presentation","download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee.pptx","extension":"pptx","converted_status":"1","converted_type":4,"converted_filename":"1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf","converted_download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf","converted_extension":"pdf","converted_filemime":"application\/pdf","converted_filesize":66492,"converted_md5_checksum":"4de485b66e8e1424bdfb263cc6505159"},"118543129":{"id":118543129,"fid":653718169,"type":"file","title":"Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx","filename":"Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx","filesize":45927,"md5_checksum":"eedcd29f6c335ba77b7748b64e0569f4","timestamp":1440385825,"filemime":"application\/vnd.openxmlformats-officedocument.wordprocessingml.document","download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930.docx","extension":"docx","converted_status":"1","converted_type":4,"converted_filename":"1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf","converted_download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf","converted_extension":"pdf","converted_filemime":"application\/pdf","converted_filesize":80911,"converted_md5_checksum":"2bb849273b5b1f0036102b6425f0b3de"}}}}}}}
+2015-08-24T04:02:54.722821+00:00 app[web.1]: (
+2015-08-24T04:02:54.722871+00:00 app[web.1]:     [uid] => 11545535
+2015-08-24T04:02:54.722925+00:00 app[web.1]:     [timestamp] => 1440385829
+2015-08-24T04:02:54.723000+00:00 app[web.1]:     [type] => dropbox_submission.update
+2015-08-24T04:02:54.723056+00:00 app[web.1]:     [data] => stdClass Object
+2015-08-24T04:02:54.723081+00:00 app[web.1]:         (
+2015-08-24T04:02:54.723143+00:00 app[web.1]:             [realm] => section
+2015-08-24T04:02:54.723214+00:00 app[web.1]:             [section_id] => 124485753
+2015-08-24T04:02:54.723282+00:00 app[web.1]:             [realm_id] => 124485753
+2015-08-24T04:02:54.723341+00:00 app[web.1]:             [uid] => 11545535
+2015-08-24T04:02:54.723399+00:00 app[web.1]:             [revision_id] => 1
+2015-08-24T04:02:54.723478+00:00 app[web.1]:             [assignment_nid] => 269102308
+2015-08-24T04:02:54.723554+00:00 app[web.1]:             [object] => stdClass Object
+2015-08-24T04:02:54.723595+00:00 app[web.1]:                 (
+2015-08-24T04:02:54.723666+00:00 app[web.1]:                     [revision_id] => 1
+2015-08-24T04:02:54.723750+00:00 app[web.1]:                     [uid] => 11545535
+2015-08-24T04:02:54.723828+00:00 app[web.1]:                     [created] => 1440385829
+2015-08-24T04:02:54.723899+00:00 app[web.1]:                     [num_items] => 1
+2015-08-24T04:02:54.723959+00:00 app[web.1]:                     [late] => 1
+2015-08-24T04:02:54.724540+00:00 app[web.1]:                     [draft] => 0
+2015-08-24T04:02:54.724630+00:00 app[web.1]:                     [assignment_nid] => 269102308
+2015-08-24T04:02:54.724785+00:00 app[web.1]:                         (
+2015-08-24T04:02:54.724724+00:00 app[web.1]:                     [attachments] => stdClass Object
+2015-08-24T04:02:54.724899+00:00 app[web.1]:                             [files] => stdClass Object
+2015-08-24T04:02:54.724943+00:00 app[web.1]:                                 (
+2015-08-24T04:02:54.725061+00:00 app[web.1]:                                     [file] => stdClass Object
+2015-08-24T04:02:54.725141+00:00 app[web.1]:                                         (
+2015-08-24T04:02:54.725282+00:00 app[web.1]:                                             [118543131] => stdClass Object
+2015-08-24T04:02:54.725373+00:00 app[web.1]:                                                 (
+2015-08-24T04:02:54.725500+00:00 app[web.1]:                                                     [id] => 118543131
+2015-08-24T04:02:54.725625+00:00 app[web.1]:                                                     [fid] => 653718175
+2015-08-24T04:02:54.725750+00:00 app[web.1]:                                                     [type] => file
+2015-08-24T04:02:54.725967+00:00 app[web.1]:                                                     [title] => Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections.pptx
+2015-08-24T04:02:54.727305+00:00 app[web.1]:                                                     [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee.pptx
+2015-08-24T04:02:54.728470+00:00 app[web.1]:                                                     [converted_download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf
+2015-08-24T04:02:54.730626+00:00 app[web.1]:                                                     [filename] => Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx
+2015-08-24T04:02:54.731009+00:00 app[web.1]:                                                     [md5_checksum] => eedcd29f6c335ba77b7748b64e0569f4
+2015-08-24T04:02:54.731167+00:00 app[web.1]:                                                     [timestamp] => 1440385825
+2015-08-24T04:02:54.731446+00:00 app[web.1]:                                                     [filemime] => application/vnd.openxmlformats-officedocument.wordprocessingml.document
+2015-08-24T04:02:54.732102+00:00 app[web.1]:                                                     [extension] => docx
+2015-08-24T04:02:54.732756+00:00 app[web.1]:                                                     [converted_type] => 4
+2015-08-24T04:02:54.733648+00:00 app[web.1]:                                                     [converted_download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf
+2015-08-24T04:02:54.734080+00:00 app[web.1]:                                                     [converted_filemime] => application/pdf
+2015-08-24T04:02:54.734658+00:00 app[web.1]:                                                     [converted_md5_checksum] => 2bb849273b5b1f0036102b6425f0b3de
+2015-08-24T04:02:54.734783+00:00 app[web.1]:                                                 )
+2015-08-24T04:02:54.734817+00:00 app[web.1]: 
+2015-08-24T04:02:54.735408+00:00 app[web.1]:                                         )
+2015-08-24T04:02:54.735442+00:00 app[web.1]: 
+2015-08-24T04:02:54.735520+00:00 app[web.1]:                                 )
+2015-08-24T04:02:54.735556+00:00 app[web.1]: 
+2015-08-24T04:02:54.735620+00:00 app[web.1]:                         )
+2015-08-24T04:02:54.735646+00:00 app[web.1]: 
+2015-08-24T04:02:54.735704+00:00 app[web.1]:                 )
+2015-08-24T04:02:54.736053+00:00 app[web.1]: 
+2015-08-24T04:02:54.736101+00:00 app[web.1]:         )
+2015-08-24T04:02:54.736121+00:00 app[web.1]: 
+2015-08-24T04:02:54.736163+00:00 app[web.1]: 
+2015-08-24T04:02:54.736143+00:00 app[web.1]: )
+2015-08-24T04:02:54.736339+00:00 app[web.1]: [24-Aug-2015 04:02:54 UTC] Requir
+ement Type found - courses
+2015-08-24T04:02:54.736361+00:00 app[web.1]: 
+2015-08-24T04:02:54.736461+00:00 app[web.1]: [24-Aug-2015 04:02:54 UTC] Array
+2015-08-24T04:02:54.736484+00:00 app[web.1]: (
+2015-08-24T04:02:54.736570+00:00 app[web.1]:     [req_type] => courses
+2015-08-24T04:02:54.736593+00:00 app[web.1]: )
+2015-08-24T04:02:54.736614+00:00 app[web.1]: 
+2015-08-24T04:02:54.736635+00:00 app[web.1]: 
+2015-08-24T04:02:54.736880+00:00 app[web.1]: 10.31.102.73 - - [24/Aug/2015:04:02:54 +0000] "POST /?req_type=courses HTTP/1.1" 302 - "-" "-
+2015-08-24T04:02:57.689028+00:00 heroku[router]: at=info method=POST path="/?req_type=courses" host=glacial-tor-7252.herokuapp.com request_id=54cda7a1-b27e-4c82-b933-c8e6e3c33dcc fwd="50.56.38.11" dyno=web.1 connect=0ms service=55ms status=302 bytes=296
+2015-08-24T04:02:57.659067+00:00 app[web.1]: [24-Aug-2015 04:02:57 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+2015-08-24T04:02:57.686850+00:00 app[web.1]:     [token_secret] => 595e3771523d7c63b374b437297fb75f
+2015-08-24T04:02:57.686949+00:00 app[web.1]:     [token_is_access] => 1
+2015-08-24T04:02:57.686993+00:00 app[web.1]: )
+2015-08-24T04:02:57.687034+00:00 app[web.1]: 
+2015-08-24T04:02:57.689609+00:00 app[web.1]: [24-Aug-2015 04:02:57 UTC] {"uid":11545535,"timestamp":1440385302,"type":"dropbox_submission.update","data":{"realm":"section","section_id":124485753,"realm_id":124485753,"uid":"11545535","revision_id":"1","assignment_nid":"274733392","object":{"revision_id":1,"uid":11545535,"created":1440385302,"num_items":1,"late":1,"draft":0,"assignment_nid":"274733392","attachments":{"files":{"file":{"118542015":{"id":118542015,"fid":653705283,"type":"file","title":"Stafford_-_Capstone_Project_-_Year_1_Reflection.pdf","filename":"Stafford_-_Capstone_Project_-_Year_1_Reflection.pdf","filesize":197080,"md5_checksum":"b611ce66cf8a960704328c756467f65e","timestamp":1440385299,"filemime":"application\/pdf","download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/Stafford_-_Capstone_Project_-_Year_1_Reflection_55da8912e1a45.pdf","extension":"pdf","converted_status":"1","converted_type":4,"converted_filename":"1440385319-Stafford_-_Capstone_Project_-_Year_1_Reflection_55da8912e1a45_55da892841bf3.pdf","converted_download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/1440385319-Stafford_-_Capstone_Project_-_Year_1_Reflection_55da8912e1a45_55da892841bf3.pdf","converted_extension":"pdf","converted_filemime":"application\/pdf","converted_filesize":197080,"converted_md5_checksum":"b611ce66cf8a960704328c756467f65e"}}}}}}}
+2015-08-24T04:02:57.687014+00:00 app[web.1]: 
+2015-08-24T04:02:57.692545+00:00 app[web.1]:                     [attachments] => stdClass Object
+2015-08-24T04:02:57.692770+00:00 app[web.1]:                             [files] => stdClass Object
+2015-08-24T04:02:57.692611+00:00 app[web.1]:                         (
+2015-08-24T04:02:57.692859+00:00 app[web.1]:                                 (
+2015-08-24T04:02:57.693013+00:00 app[web.1]:                                     [file] => stdClass Object
+2015-08-24T04:02:57.693255+00:00 app[web.1]:                                             [118542015] => stdClass Object
+2015-08-24T04:02:57.693099+00:00 app[web.1]:                                         (
+2015-08-24T04:02:57.693507+00:00 app[web.1]:                                                     [id] => 118542015
+2015-08-24T04:02:57.693345+00:00 app[web.1]:                                                 (
+2015-08-24T04:02:57.693605+00:00 app[web.1]:                                                     [fid] => 653705283
+2015-08-24T04:02:57.693718+00:00 app[web.1]:                                                     [type] => file
+2015-08-24T04:02:57.693916+00:00 app[web.1]:                                                     [title] => Stafford_-_Capstone_Project_-_Year_1_Reflection.pdf
+2015-08-24T04:02:57.694131+00:00 app[web.1]:                                                     [filename] => Stafford_-_Capstone_Project_-_Year_1_Reflection.pdf
+2015-08-24T04:02:57.694260+00:00 app[web.1]:                                                     [filesize] => 197080
+2015-08-24T04:02:57.694501+00:00 app[web.1]:                                                     [md5_checksum] => b611ce66cf8a960704328c756467f65e
+2015-08-24T04:02:57.695528+00:00 app[web.1]:                                                     [converted_status] => 1
+2015-08-24T04:02:57.695442+00:00 app[web.1]:                                                     [extension] => pdf
+2015-08-24T04:02:57.695680+00:00 app[web.1]:                                                     [converted_type] => 4
+2015-08-24T04:02:57.696387+00:00 app[web.1]:                                                     [converted_download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/1440385319-Stafford_-_Capstone_Project_-_Year_1_Reflection_55da8912e1a45_55da892841bf3.pdf
+2015-08-24T04:02:57.697296+00:00 app[web.1]:                                                 )
+2015-08-24T04:02:57.697206+00:00 app[web.1]:                                                     [converted_md5_checksum] => b611ce66cf8a960704328c756467f65e
+2015-08-24T04:02:57.697372+00:00 app[web.1]: 
+2015-08-24T04:02:57.697410+00:00 app[web.1]:                                         )
+2015-08-24T04:02:57.697411+00:00 app[web.1]: 
+2015-08-24T04:02:57.697475+00:00 app[web.1]:                                 )
+2015-08-24T04:02:57.697477+00:00 app[web.1]: 
+2015-08-24T04:02:57.697538+00:00 app[web.1]:                         )
+2015-08-24T04:02:57.697540+00:00 app[web.1]: 
+2015-08-24T04:02:57.697569+00:00 app[web.1]:                 )
+2015-08-24T04:02:57.697571+00:00 app[web.1]: 
+2015-08-24T04:02:57.697599+00:00 app[web.1]:         )
+2015-08-24T04:02:57.697600+00:00 app[web.1]: 
+2015-08-24T04:02:57.697604+00:00 app[web.1]: )
+2015-08-24T04:02:57.697607+00:00 app[web.1]: 
+2015-08-24T04:02:57.697725+00:00 app[web.1]: [24-Aug-2015 04:02:57 UTC] Requirement Type found - courses
+2015-08-24T04:02:57.697727+00:00 app[web.1]: 
+2015-08-24T04:02:57.697789+00:00 app[web.1]: [24-Aug-2015 04:02:57 UTC] Array
+2015-08-24T04:02:57.697877+00:00 app[web.1]:     [req_type] => courses
+2015-08-24T04:02:57.697913+00:00 app[web.1]: )
+2015-08-24T04:02:57.697813+00:00 app[web.1]: (
+2015-08-24T04:02:57.697915+00:00 app[web.1]: 
+2015-08-24T04:02:57.698087+00:00 app[web.1]: 10.169.215.33 - - [24/Aug/2015:04:02:57 +0000] "POST /?req_type=courses HTTP/1.1" 302 - "-" "-
+2015-08-24T04:02:57.697916+00:00 app[web.1]: 
+2015-08-24T04:02:57.685952+00:00 app[web.1]: [24-Aug-2015 04:02:57 UTC] got token!
+2015-08-24T04:02:57.685995+00:00 app[web.1]: 
+2015-08-24T04:02:57.686081+00:00 app[web.1]: [24-Aug-2015 04:02:57 UTC] Array
+2015-08-24T04:02:57.686122+00:00 app[web.1]: (
+2015-08-24T04:02:57.686180+00:00 app[web.1]:     [uid] => 22135108
+2015-08-24T04:02:57.686587+00:00 app[web.1]:     [token_key] => b02bc01919e633cc4cbd3b1b6917966d0558071f2
+2015-08-24T04:02:57.690007+00:00 app[web.1]: [24-Aug-2015 04:02:57 UTC] stdClass Object
+2015-08-24T04:02:57.690049+00:00 app[web.1]: (
+2015-08-24T04:02:57.690129+00:00 app[web.1]:     [uid] => 11545535
+2015-08-24T04:02:57.690221+00:00 app[web.1]:     [timestamp] => 1440385302
+2015-08-24T04:02:57.690329+00:00 app[web.1]:     [type] => dropbox_submission.update
+2015-08-24T04:02:57.690420+00:00 app[web.1]:     [data] => stdClass Object
+2015-08-24T04:02:57.690456+00:00 app[web.1]:         (
+2015-08-24T04:02:57.690549+00:00 app[web.1]:             [realm] => section
+2015-08-24T04:02:57.690662+00:00 app[web.1]:             [section_id] => 124485753
+2015-08-24T04:02:57.690782+00:00 app[web.1]:             [realm_id] => 124485753
+2015-08-24T04:02:57.690907+00:00 app[web.1]:             [uid] => 11545535
+2015-08-24T04:02:57.691176+00:00 app[web.1]:             [revision_id] => 1
+2015-08-24T04:02:57.691291+00:00 app[web.1]:             [assignment_nid] => 274733392
+2015-08-24T04:02:57.691400+00:00 app[web.1]:             [object] => stdClass Object
+2015-08-24T04:02:57.691455+00:00 app[web.1]:                 (
+2015-08-24T04:02:57.691549+00:00 app[web.1]:                     [revision_id] => 1
+2015-08-24T04:02:57.691673+00:00 app[web.1]:                     [uid] => 11545535
+2015-08-24T04:02:57.691791+00:00 app[web.1]:                     [created] => 1440385302
+2015-08-24T04:02:57.691894+00:00 app[web.1]:                     [num_items] => 1
+2015-08-24T04:02:57.692011+00:00 app[web.1]:                     [late] => 1
+2015-08-24T04:02:57.692108+00:00 app[web.1]:                     [draft] => 0
+2015-08-24T04:02:57.692387+00:00 app[web.1]:                     [assignment_nid] => 274733392
+2015-08-24T04:02:57.694705+00:00 app[web.1]:                                                     [timestamp] => 1440385299
+2015-08-24T04:02:57.694870+00:00 app[web.1]:                                                     [filemime] => application/pdf
+2015-08-24T04:02:57.695263+00:00 app[web.1]:                                                     [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/Stafford_-_Capstone_Project_-_Year_1_Reflection_55da8912e1a45.pdf
+2015-08-24T04:02:57.695944+00:00 app[web.1]:                                                     [converted_filename] => 1440385319-Stafford_-_Capstone_Project_-_Year_1_Reflection_55da8912e1a45_55da892841bf3.pdf
+2015-08-24T04:02:57.696546+00:00 app[web.1]:                                                     [converted_extension] => pdf
+2015-08-24T04:02:57.696722+00:00 app[web.1]:                                                     [converted_filemime] => application/pdf
+2015-08-24T04:02:57.696914+00:00 app[web.1]:                                                     [converted_filesize] => 197080
+2015-08-24T04:17:51.321604+00:00 heroku[router]: at=info method=POST path="/?req_type=courses" host=glacial-tor-7252.herokuapp.com request_id=e0352388-085c-4f46-b239-4312654e2bee fwd="50.56.38.11" dyno=web.1 connect=1ms service=63ms status=302 bytes=296
+2015-08-24T04:17:51.291181+00:00 app[web.1]: [24-Aug-2015 04:17:51 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+2015-08-24T04:17:51.326239+00:00 app[web.1]:                                                     [filename] => Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections.pptx
+2015-08-24T04:17:51.326367+00:00 app[web.1]:                                                     [filesize] => 64437
+2015-08-24T04:17:51.326550+00:00 app[web.1]:                                                     [md5_checksum] => 7ad94fd7b5f4b60e092a04696ab95753
+2015-08-24T04:17:51.327577+00:00 app[web.1]:                                                     [filemime] => application/vnd.openxmlformats-officedocument.presentationml.presentation
+2015-08-24T04:17:51.328155+00:00 app[web.1]:                                                     [extension] => pptx
+2015-08-24T04:17:51.328306+00:00 app[web.1]:                                                     [converted_status] => 1
+2015-08-24T04:17:51.328452+00:00 app[web.1]:                                                     [converted_type] => 4
+2015-08-24T04:17:51.328789+00:00 app[web.1]:                                                     [converted_filename] => 1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf
+2015-08-24T04:17:51.329417+00:00 app[web.1]:                                                     [converted_extension] => pdf
+2015-08-24T04:17:51.329586+00:00 app[web.1]:                                                     [converted_filemime] => application/pdf
+2015-08-24T04:17:51.329748+00:00 app[web.1]:                                                     [converted_filesize] => 66492
+2015-08-24T04:17:51.329953+00:00 app[web.1]:                                                     [converted_md5_checksum] => 4de485b66e8e1424bdfb263cc6505159
+2015-08-24T04:17:51.330040+00:00 app[web.1]:                                                 )
+2015-08-24T04:17:51.330042+00:00 app[web.1]: 
+2015-08-24T04:17:51.330179+00:00 app[web.1]:                                             [118543129] => stdClass Object
+2015-08-24T04:17:51.330318+00:00 app[web.1]:                                                 (
+2015-08-24T04:17:51.330457+00:00 app[web.1]:                                                     [id] => 118543129
+2015-08-24T04:17:51.330614+00:00 app[web.1]:                                                     [fid] => 653718169
+2015-08-24T04:17:51.330734+00:00 app[web.1]:                                                     [type] => file
+2015-08-24T04:17:51.332067+00:00 app[web.1]:                                                     [title] => Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx
+2015-08-24T04:17:51.333379+00:00 app[web.1]:                                                     [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930.docx
+2015-08-24T04:17:51.334496+00:00 app[web.1]:                                                     [converted_download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf
+2015-08-24T04:17:51.334851+00:00 app[web.1]:                                                     [converted_filemime] => application/pdf
+2015-08-24T04:17:51.334640+00:00 app[web.1]:                                                     [converted_extension] => pdf
+2015-08-24T04:17:51.336580+00:00 app[web.1]: 
+2015-08-24T04:17:51.336615+00:00 app[web.1]: )
+2015-08-24T04:17:51.337022+00:00 app[web.1]: [24-Aug-2015 04:17:51 UTC] Requirement Type found - courses
+2015-08-24T04:17:51.336637+00:00 app[web.1]: 
+2015-08-24T04:17:51.313434+00:00 app[web.1]: [24-Aug-2015 04:17:51 UTC] got token!
+2015-08-24T04:17:51.313478+00:00 app[web.1]: 
+2015-08-24T04:17:51.313685+00:00 app[web.1]: [24-Aug-2015 04:17:51 UTC] Array
+2015-08-24T04:17:51.313709+00:00 app[web.1]: (
+2015-08-24T04:17:51.313875+00:00 app[web.1]:     [token_key] => b02bc01919e633cc4cbd3b1b6917966d0558071f2
+2015-08-24T04:17:51.313754+00:00 app[web.1]:     [uid] => 22135108
+2015-08-24T04:17:51.313986+00:00 app[web.1]:     [token_secret] => 595e3771523d7c63b374b437297fb75f
+2015-08-24T04:17:51.314046+00:00 app[web.1]:     [token_is_access] => 1
+2015-08-24T04:17:51.314052+00:00 app[web.1]: 
+2015-08-24T04:17:51.314048+00:00 app[web.1]: )
+2015-08-24T04:17:51.314053+00:00 app[web.1]: 
+2015-08-24T04:17:51.321695+00:00 app[web.1]: [24-Aug-2015 04:17:51 UTC] {"uid":11545535,"timestamp":1440385829,"type":"dropbox_submission.update","data":{"realm":"section","section_id":124485753,"realm_id":124485753,"uid":"11545535","revision_id":"1","assignment_nid":"269102308","object":{"revision_id":1,"uid":11545535,"created":1440385829,"num_items":1,"late":1,"draft":0,"assignment_nid":"269102308","attachments":{"files":{"file":{"118543131":{"id":118543131,"fid":653718175,"type":"file","title":"Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections.pptx","filename":"Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections.pptx","filesize":64437,"md5_checksum":"7ad94fd7b5f4b60e092a04696ab95753","timestamp":1440385826,"filemime":"application\/vnd.openxmlformats-officedocument.presentationml.presentation","download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/Stafford_S5-2015-Resident_A
+nnual_Plan-Part_A-360_Reflections_55da8b22082ee.pptx","extension":"pptx","converted_status":"1","converted_type":4,"converted_filename":"1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf","converted_download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf","converted_extension":"pdf","converted_filemime":"application\/pdf","converted_filesize":66492,"converted_md5_checksum":"4de485b66e8e1424bdfb263cc6505159"},"118543129":{"id":118543129,"fid":653718169,"type":"file","title":"Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx","filename":"Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx","filesize":45927,"md5_checksum":"eedcd29f6c335ba77b7748b64e0569f4","timestamp":1440385825,"filemime":"application\/vnd.openxmlformats-officedocument.wordprocessingml.document","download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930.docx","extension":"docx","converted_status":"1","converted_type":4,"converted_filename":"1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf","converted_download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf","converted_extension":"pdf","converted_filemime":"application\/pdf","converted_filesize":80911,"converted_md5_checksum":"2bb849273b5b1f0036102b6425f0b3de"}}}}}}}
+2015-08-24T04:17:51.321765+00:00 app[web.1]: [24-Aug-2015 04:17:51 UTC] stdClass Object
+2015-08-24T04:17:51.321767+00:00 app[web.1]: (
+2015-08-24T04:17:51.321824+00:00 app[web.1]:     [uid] => 11545535
+2015-08-24T04:17:51.321875+00:00 app[web.1]:     [timestamp] => 1440385829
+2015-08-24T04:17:51.321965+00:00 app[web.1]:     [type] => dropbox_submission.update
+2015-08-24T04:17:51.322008+00:00 app[web.1]:     [data] => stdClass Object
+2015-08-24T04:17:51.322028+00:00 app[web.1]:         (
+2015-08-24T04:17:51.323725+00:00 app[web.1]:             [realm] => section
+2015-08-24T04:17:51.323789+00:00 app[web.1]:             [section_id] => 124485753
+2015-08-24T04:17:51.323877+00:00 app[web.1]:             [realm_id] => 124485753
+2015-08-24T04:17:51.323913+00:00 app[web.1]:             [uid] => 11545535
+2015-08-24T04:17:51.323982+00:00 app[web.1]:             [revision_id] => 1
+2015-08-24T04:17:51.324050+00:00 app[web.1]:             [assignment_nid] => 269102308
+2015-08-24T04:17:51.324120+00:00 app[web.1]:             [object] => stdClass Object
+2015-08-24T04:17:51.324159+00:00 app[web.1]:                 (
+2015-08-24T04:17:51.324239+00:00 app[web.1]:                     [revision_id] => 1
+2015-08-24T04:17:51.324304+00:00 app[web.1]:                     [uid] => 11545535
+2015-08-24T04:17:51.324385+00:00 app[web.1]:                     [created] => 1440385829
+2015-08-24T04:17:51.324466+00:00 app[web.1]:                     [num_items] => 1
+2015-08-24T04:17:51.324516+00:00 app[web.1]:                     [late] => 1
+2015-08-24T04:17:51.324597+00:00 app[web.1]:                     [draft] => 0
+2015-08-24T04:17:51.324677+00:00 app[web.1]:                     [assignment_nid] => 269102308
+2015-08-24T04:17:51.324815+00:00 app[web.1]:                         (
+2015-08-24T04:17:51.324768+00:00 app[web.1]:                     [attachments] => stdClass Object
+2015-08-24T04:17:51.324928+00:00 app[web.1]:                             [files] => stdClass Object
+2015-08-24T04:17:51.324980+00:00 app[web.1]:                                 (
+2015-08-24T04:17:51.325092+00:00 app[web.1]:                                     [file] => stdClass Object
+2015-08-24T04:17:51.325183+00:00 app[web.1]:                                         (
+2015-08-24T04:17:51.325364+00:00 app[web.1]:                                             [118543131] => stdClass Object
+2015-08-24T04:17:51.325409+00:00 app[web.1]:                                                 (
+2015-08-24T04:17:51.325535+00:00 app[web.1]:                                                     [id] => 118543131
+2015-08-24T04:17:51.325662+00:00 app[web.1]:                                                     [fid] => 653718175
+2015-08-24T04:17:51.325790+00:00 app[web.1]:                                                     [type] => file
+2015-08-24T04:17:51.326012+00:00 app[web.1]:                                                     [title] => Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections.pptx
+2015-08-24T04:17:51.328001+00:00 app[web.1]:                                                     [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee.pptx
+2015-08-24T04:17:51.327313+00:00 app[web.1]:                                                     [timestamp] => 1440385826
+2015-08-24T04:17:51.329277+00:00 app[web.1]:                                                     [converted_download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf
+2015-08-24T04:17:51.332256+00:00 app[web.1]:                                                     [filename] => Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx
+2015-08-24T04:17:51.332393+00:00 app[web.1]:                                                     [filesize] => 45927
+2015-08-24T04:17:51.332587+00:00 app[web.1]:                                                     [md5_checksum] => eedcd29f6c335ba77b7748b64e0569f4
+2015-08-24T04:17:51.332728+00:00 app[web.1]:                                                     [timestamp] => 1440385825
+2015-08-24T04:17:51.332968+00:00 app[web.1]:                                                     [filemime] => application/vnd.openxmlformats-officedocument.wordprocessingml.document
+2015-08-24T04:17:51.333499+00:00 app[web.1]:                                                     [extension] => docx
+2015-08-24T04:17:51.333633+00:00 app[web.1]:                                                     [converted_status] => 1
+2015-08-24T04:17:51.333764+00:00 app[web.1]:                                                     [converted_type] => 4
+2015-08-24T04:17:51.335018+00:00 app[web.1]:                                                     [converted_filesize] => 80911
+2015-08-24T04:17:51.334054+00:00 app[web.1]:                                                     [converted_filename] => 1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf
+2015-08-24T04:17:51.335342+00:00 app[web.1]:                                                 )
+2015-08-24T04:17:51.335364+00:00 app[web.1]: 
+2015-08-24T04:17:51.335236+00:00 app[web.1]:                                                     [converted_md5_checksum] => 2bb849273b5b1f0036102b6425f0b3de
+2015-08-24T04:17:51.335456+00:00 app[web.1]:                                         )
+2015-08-24T04:17:51.335477+00:00 app[web.1]: 
+2015-08-24T04:17:51.335695+00:00 app[web.1]: 
+2015-08-24T04:17:51.335582+00:00 app[web.1]:                                 )
+2015-08-24T04:17:51.335760+00:00 app[web.1]:                         )
+2015-08-24T04:17:51.335782+00:00 app[web.1]: 
+2015-08-24T04:17:51.335832+00:00 app[web.1]:                 )
+2015-08-24T04:17:51.335853+00:00 app[web.1]: 
+2015-08-24T04:17:51.336191+00:00 app[web.1]:         )
+2015-08-24T04:17:51.337404+00:00 app[web.1]: (
+2015-08-24T04:17:51.337342+00:00 app[web.1]: 
+2015-08-24T04:17:51.337400+00:00 app[web.1]: [24-Aug-2015 04:17:51 UTC] Array
+2015-08-24T04:17:51.337491+00:00 app[web.1]: )
+2015-08-24T04:17:51.337489+00:00 app[web.1]:     [req_type] => courses
+2015-08-24T04:17:51.337494+00:00 app[web.1]: 
+2015-08-24T04:17:51.337495+00:00 app[web.1]: 
+2015-08-24T04:17:51.338894+00:00 app[web.1]: 10.146.244.44 - - [24/Aug/2015:04:17:51 +0000] "POST /?req_type=courses HTTP/1.1" 302 - "-" "-
+2015-08-24T04:17:53.110658+00:00 heroku[router]: at=info method=POST path="/?req_type=courses" host=glacial-tor-7252.herokuapp.com request_id=29ab9f7a-3430-4c90-afc7-6c0b98b1b951 fwd="50.56.38.11" dyno=web.1 connect=1ms service=47ms status=302 bytes=296
+2015-08-24T04:17:53.093419+00:00 app[web.1]: [24-Aug-2015 04:17:53 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+2015-08-24T04:17:53.112144+00:00 app[web.1]:     [token_secret] => 595e3771523d7c63b374b437297fb75f
+2015-08-24T04:17:53.112218+00:00 app[web.1]:     [token_is_access] => 1
+2015-08-24T04:17:53.112250+00:00 app[web.1]: )
+2015-08-24T04:17:53.112270+00:00 app[web.1]: 
+2015-08-24T04:17:53.120790+00:00 app[web.1]:                                                     [filename] => Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections.pptx
+2015-08-24T04:17:53.120927+00:00 app[web.1]:                                                     [filesize] => 64437
+2015-08-24T04:17:53.121105+00:00 app[web.1]:                                                     [md5_checksum] => 7ad94fd7b5f4b60e092a04696ab95753
+2015-08-24T04:17:53.121251+00:00 app[web.1]:                                                     [timestamp] => 1440385826
+2015-08-24T04:17:53.112290+00:00 app[web.1]: 
+2015-08-24T04:17:53.117112+00:00 app[web.1]: [24-Aug-2015 04:17:53 UTC] {"uid":11545535,"timestamp":1440385829,"type":"dropbox_submission.update","data":{"realm":"section","section_id":124485753,"realm_id":124485753,"uid":"11545535","revision_id":"1","assignment_nid":"269102308","object":{"revision_id":1,"uid":11545535,"created":1440385829,"num_items":1,"late":1,"draft":0,"assignment_nid":"269102308","attachments":{"files":{"file":{"118543131":{"id":118543131,"fid":653718175,"type":"file","title":"Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections.pptx","filename":"Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections.pptx","filesize":64437,"md5_checksum":"7ad94fd7b5f4b60e092a04696ab95753","timestamp":1440385826,"filemime":"application\/vnd.openxmlformats-officedocument.presentationml.presentation","download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee.pptx","extension":"pptx","converted_status":"1","converted_type":4,"converted_filename":"1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf","converted_download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf","converted_extension":"pdf","converted_filemime":"application\/pdf","converted_filesize":66492,"converted_md5_checksum":"4de485b66e8e1424bdfb263cc6505159"},"118543129":{"id":118543129,"fid":653718169,"type":"file","title":"Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx","filename":"Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx","filesize":45927,"md5_checksum":"eedcd29f6c335ba77b7748b64e0569f4","timestamp":1440385825,"filemime":"application\/vnd.openxmlformats-officedocument.wordprocessingml.document","download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930.docx","extension":"docx","converted_status":"1","converted_type":4,"converted_filename":"1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf","converted_download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/124485753\/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf","converted_extension":"pdf","converted_filemime":"application\/pdf","converted_filesize":80911,"converted_md5_checksum":"2bb849273b5b1f0036102b6425f0b3de"}}}}}}}
+2015-08-24T04:17:53.121498+00:00 app[web.1]:                                                     [filemime] => application/vnd.openxmlformats-officedocument.presentationml.presentation
+2015-08-24T04:17:53.123123+00:00 app[web.1]:                                                     [converted_download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf
+2015-08-24T04:17:53.123868+00:00 app[web.1]:                                                     [converted_md5_checksum] => 4de485b66e8e1424bdfb263cc6505159
+2015-08-24T04:17:53.124094+00:00 app[web.1]:                                             [118543129] => stdClass Object
+2015-08-24T04:17:53.123965+00:00 app[web.1]: 
+2015-08-24T04:17:53.123963+00:00 app[web.1]:                                                 )
+2015-08-24T04:17:53.124338+00:00 app[web.1]:                                                     [id] => 118543129
+2015-08-24T04:17:53.126247+00:00 app[web.1]:                                                     [extension] => docx
+2015-08-24T04:17:53.124809+00:00 app[web.1]:                                                     [title] => Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx
+2015-08-24T04:17:53.126850+00:00 app[web.1]:                                                     [converted_filename] => 1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf
+2015-08-24T04:17:53.127436+00:00 app[web.1]:                                                     [converted_extension] => pdf
+2015-08-24T04:17:53.124191+00:00 app[web.1]:                                                 (
+2015-08-24T04:17:53.127732+00:00 app[web.1]:                                                     [converted_filesize] => 80911
+2015-08-24T04:17:53.127588+00:00 app[web.1]:                                                     [converted_filemime] => application/pdf
+2015-08-24T04:17:53.127929+00:00 app[web.1]:                                                     [converted_md5_checksum] => 2bb849273b5b1f0036102b6425f0b3de
+2015-08-24T04:17:53.126383+00:00 app[web.1]:                                                     [converted_status] => 1
+2015-08-24T04:17:53.124496+00:00 app[web.1]:                                                     [fid] => 653718169
+2015-08-24T04:17:53.126542+00:00 app[web.1]:                                                     [converted_type] => 4
+2015-08-24T04:17:53.124611+00:00 app[web.1]:                                                     [type] => file
+2015-08-24T04:17:53.128022+00:00 app[web.1]: 
+2015-08-24T04:17:53.126125+00:00 app[web.1]:                                                     [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930.docx
+2015-08-24T04:17:53.128016+00:00 app[web.1]:                                                 )
+2015-08-24T04:17:53.128106+00:00 app[web.1]: 
+2015-08-24T04:17:53.128104+00:00 app[web.1]:                                         )
+2015-08-24T04:17:53.128177+00:00 app[web.1]: 
+2015-08-24T04:17:53.128176+00:00 app[web.1]:                                 )
+2015-08-24T04:17:53.128240+00:00 app[web.1]:                         )
+2015-08-24T04:17:53.128242+00:00 app[web.1]: 
+2015-08-24T04:17:53.128274+00:00 app[web.1]:                 )
+2015-08-24T04:17:53.128276+00:00 app[web.1]: 
+2015-08-24T04:17:53.128305+00:00 app[web.1]: 
+2015-08-24T04:17:53.128303+00:00 app[web.1]:         )
+2015-08-24T04:17:53.128308+00:00 app[web.1]: )
+2015-08-24T04:17:53.128311+00:00 app[web.1]: 
+2015-08-24T04:17:53.128433+00:00 app[web.1]: [24-Aug-2015 04:17:53 UTC] Requirement Type found - courses
+2015-08-24T04:17:53.128435+00:00 app[web.1]: 
+2015-08-24T04:17:53.128494+00
+:00 app[web.1]: [24-Aug-2015 04:17:53 UTC] Array
+2015-08-24T04:17:53.128498+00:00 app[web.1]: (
+2015-08-24T04:17:53.128557+00:00 app[web.1]:     [req_type] => courses
+2015-08-24T04:17:53.128559+00:00 app[web.1]: )
+2015-08-24T04:17:53.128560+00:00 app[web.1]: 
+2015-08-24T04:17:53.128563+00:00 app[web.1]: 
+2015-08-24T04:17:53.128735+00:00 app[web.1]: 10.146.244.44 - - [24/Aug/2015:04:17:53 +0000] "POST /?req_type=courses HTTP/1.1" 302 - "-" "-
+2015-08-24T04:17:53.111451+00:00 app[web.1]: [24-Aug-2015 04:17:53 UTC] got token!
+2015-08-24T04:17:53.111492+00:00 app[web.1]: 
+2015-08-24T04:17:53.111579+00:00 app[web.1]: [24-Aug-2015 04:17:53 UTC] Array
+2015-08-24T04:17:53.111612+00:00 app[web.1]: (
+2015-08-24T04:17:53.111671+00:00 app[web.1]:     [uid] => 22135108
+2015-08-24T04:17:53.111976+00:00 app[web.1]:     [token_key] => b02bc01919e633cc4cbd3b1b6917966d0558071f2
+2015-08-24T04:17:53.117332+00:00 app[web.1]: [24-Aug-2015 04:17:53 UTC] stdClass Object
+2015-08-24T04:17:53.117377+00:00 app[web.1]: (
+2015-08-24T04:17:53.117524+00:00 app[web.1]:     [timestamp] => 1440385829
+2015-08-24T04:17:53.117756+00:00 app[web.1]:         (
+2015-08-24T04:17:53.117434+00:00 app[web.1]:     [uid] => 11545535
+2015-08-24T04:17:53.117630+00:00 app[web.1]:     [type] => dropbox_submission.update
+2015-08-24T04:17:53.117951+00:00 app[web.1]:             [section_id] => 124485753
+2015-08-24T04:17:53.117848+00:00 app[web.1]:             [realm] => section
+2015-08-24T04:17:53.117720+00:00 app[web.1]:     [data] => stdClass Object
+2015-08-24T04:17:53.118038+00:00 app[web.1]:             [realm_id] => 124485753
+2015-08-24T04:17:53.118117+00:00 app[web.1]:             [uid] => 11545535
+2015-08-24T04:17:53.118232+00:00 app[web.1]:             [revision_id] => 1
+2015-08-24T04:17:53.118424+00:00 app[web.1]:                 (
+2015-08-24T04:17:53.118310+00:00 app[web.1]:             [assignment_nid] => 269102308
+2015-08-24T04:17:53.118493+00:00 app[web.1]:                     [revision_id] => 1
+2015-08-24T04:17:53.118403+00:00 app[web.1]:             [object] => stdClass Object
+2015-08-24T04:17:53.118564+00:00 app[web.1]:                     [uid] => 11545535
+2015-08-24T04:17:53.118646+00:00 app[web.1]:                     [created] => 1440385829
+2015-08-24T04:17:53.118748+00:00 app[web.1]:                     [num_items] => 1
+2015-08-24T04:17:53.118864+00:00 app[web.1]:                     [draft] => 0
+2015-08-24T04:17:53.118944+00:00 app[web.1]:                     [assignment_nid] => 269102308
+2015-08-24T04:17:53.118792+00:00 app[web.1]:                     [late] => 1
+2015-08-24T04:17:53.119038+00:00 app[web.1]:                     [attachments] => stdClass Object
+2015-08-24T04:17:53.119101+00:00 app[web.1]:                         (
+2015-08-24T04:17:53.119193+00:00 app[web.1]:                             [files] => stdClass Object
+2015-08-24T04:17:53.119258+00:00 app[web.1]:                                 (
+2015-08-24T04:17:53.119513+00:00 app[web.1]:                                     [file] => stdClass Object
+2015-08-24T04:17:53.119596+00:00 app[web.1]:                                         (
+2015-08-24T04:17:53.119724+00:00 app[web.1]:                                             [118543131] => stdClass Object
+2015-08-24T04:17:53.119930+00:00 app[web.1]:                                                 (
+2015-08-24T04:17:53.120304+00:00 app[web.1]:                                                     [type] => file
+2015-08-24T04:17:53.120183+00:00 app[web.1]:                                                     [fid] => 653718175
+2015-08-24T04:17:53.121904+00:00 app[web.1]:                                                     [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee.pptx
+2015-08-24T04:17:53.120529+00:00 app[web.1]:                                                     [title] => Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections.pptx
+2015-08-24T04:17:53.122024+00:00 app[web.1]:                                                     [extension] => pptx
+2015-08-24T04:17:53.120028+00:00 app[web.1]:                                                     [id] => 118543131
+2015-08-24T04:17:53.122159+00:00 app[web.1]:                                                     [converted_status] => 1
+2015-08-24T04:17:53.122325+00:00 app[web.1]:                                                     [converted_type] => 4
+2015-08-24T04:17:53.122642+00:00 app[web.1]:                                                     [converted_filename] => 1440385829-Stafford_S5-2015-Resident_Annual_Plan-Part_A-360_Reflections_55da8b22082ee_55da8b2a92823.pdf
+2015-08-24T04:17:53.125029+00:00 app[web.1]:                                                     [filename] => Stafford_S5-2015-Resident_Annual_Plan-Year_2.docx
+2015-08-24T04:17:53.125179+00:00 app[web.1]:                                                     [filesize] => 45927
+2015-08-24T04:17:53.125366+00:00 app[web.1]:                                                     [md5_checksum] => eedcd29f6c335ba77b7748b64e0569f4
+2015-08-24T04:17:53.125517+00:00 app[web.1]:                                                     [timestamp] => 1440385825
+2015-08-24T04:17:53.123316+00:00 app[web.1]:                                                     [converted_extension] => pdf
+2015-08-24T04:17:53.123483+00:00 app[web.1]:                                                     [converted_filemime] => application/pdf
+2015-08-24T04:17:53.123632+00:00 app[web.1]:                                                     [converted_filesize] => 66492
+2015-08-24T04:17:53.125754+00:00 app[web.1]:                                                     [filemime] => application/vnd.openxmlformats-officedocument.wordprocessingml.document
+2015-08-24T04:17:53.127285+00:00 app[web.1]:                                                     [converted_download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/124485753/1440385829-Stafford_S5-2015-Resident_Annual_Plan-Year_2_55da8b210a930_55da8b28608c1.pdf
+2015-08-24T04:50:35.115022+00:00 heroku[web.1]: Idling
+2015-08-24T04:50:35.115022+00:00 heroku[web.1]: State changed from up to down
+2015-08-24T04:50:37.913432+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2015-08-24T04:50:38.608086+00:00 app[web.1]: Going down, terminating child processes...
+2015-08-24T04:50:39.560737+00:00 heroku[web.1]: Process exited with status 0
+2015-08-24T18:26:42.747656+00:00 heroku[slug-compiler]: Slug compilation started
+2015-08-24T18:26:42.747673+00:00 heroku[slug-compiler]: Slug compilation finished
+2015-08-24T18:26:42.684000+00:00 heroku[api]: Deploy 66e72c6 by egallo@broadcenter.org
+2015-08-24T18:26:42.684000+00:00 heroku[api]: Release v102 created by egallo@broadcenter.org
+2015-08-24T18:28:10.168685+00:00 heroku[web.1]: Unidling
+2015-08-24T18:28:10.168947+00:00 heroku[web.1]: State changed from down to starting
+2015-08-24T18:28:19.213848+00:00 heroku[web.1]: Starting process with command `vendor/bin/heroku-php-apache2 web/`
+2015-08-24T18:28:21.432524+00:00 app[web.1]: DOCUMENT_ROOT changed to 'web/'
+2015-08-24T18:28:21.672294+00:00 app[web.1]: 4 processes at 128MB memory limit.
+2015-08-24T18:28:21.487566+00:00 app[web.1]: Optimizing defaults for 1X dyno...
+2015-08-24T18:28:21.703986+00:00 app[web.1]: Starting php-fpm...
+2015-08-24T18:28:23.719373+00:00 app[web.1]: Starting httpd...
+2015-08-24T18:28:24.288546+00:00 heroku[web.1]: State changed from starting to up
+2015-08-24T18:28:26.314266+00:00 heroku[router]: at=info method=POST path="/?req_type=courses" host=glacial-tor-7252.herokuapp.com request_id=c459074d-fcbd-4431-b680-3039835c69fb fwd="50.56.38.11" dyno=web.1 connect=1ms service=82ms status=302 bytes=296
+2015-08-24T18:28:26.236737+00:00 app[web.1]: [24-Aug-2015 18:28:26 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+2015-08-24T18:28:26.321833+00:00 app[web.1]:                                                     [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/315598229/dropbox_24224407_r1_55db621f13605.html
+2015-08-24T18:28:26.322179+00:00 app[web.1]:                                                     [converted_status] => 1
+2015-08-24T18:28:26.321960+00:00 app[web.1]:                                                     [extension] => html
+2015-08-24T18:28:26.322249+00:00 app[web.1]:                                                     [converted_type] => 4
+2015-08-24T18:28:26.322563+00:00 app[web.1]:                                                     [converted_filename] => 1440440869-08c50bcff865c7d6eff0bdf03d0a12c6-55db62253aae4_55db6225dcd10.pdf
+2015-08-24T18:28:26.313474+00:00 app[web.1]: [24-Aug-2015 18:28:26 UTC] got token!
+2015-08-24T18:28:26.313590+00:00 app[web.1]: 
+2015-08-24T18:28:26.313675+00:00 app[web.1]: [24-Aug-2015 18:28:26 UTC] Array
+2015-08-24T18:28:26.313764+00:00 app[web.1]: (
+2015-08-24T18:28:26.313864+00:00 app[web.1]:     [uid] => 22135108
+2015-08-24T18:28:26.314274+00:00 app[web.1]:     [token_key] => b02bc01919e633cc4cbd3b1b6917966d0558071f2
+2015-08-24T18:28:26.314414+00:00 app[web.1]:     [token_secret] => 595e3771523d7c63b374b437297fb75f
+2015-08-24T18:28:26.314486+00:00 app[web.1]:     [token_is_access] => 1
+2015-08-24T18:28:26.314520+00:00 app[web.1]: )
+2015-08-24T18:28:26.314563+00:00 app[web.1]: 
+2015-08-24T18:28:26.317078+00:00 app[web.1]: [24-Aug-2015 18:28:26 UTC] {"uid":24224407,"timestamp":1440440863,"type":"dropbox_submission.update","data":{"realm":"section","section_id":315598229,"realm_id":315598229,"uid":"24224407","revision_id":"1","assignment_nid":"340468553","object":{"revision_id":1,"uid":24224407,"created":1440440862,"num_items":1,"late":0,"draft":0,"assignment_nid":"340468553","attachments":{"files":{"file":{"118698239":{"id":118698239,"fid":655330249,"type":"file","title":"dropbox_24224407_r1.html","filename":"dropbox_24224407_r1.html","filesize":159,"md5_checksum":"08c50bcff865c7d6eff0bdf03d0a12c6","timestamp":1440440863,"filemime":"text\/html","download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/315598229\/dropbox_24224407_r1_55db621f13605.html","extension":"html","converted_status":"1","converted_type":4,"converted_filename":"1440440869-08c50bcff865c7d6eff0bdf03d0a12c6-55db62253aae4_55db6225dcd10.pdf","converted_download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/315598229\/1440440869-08c50bcff865c7d6eff0bdf03d0a12c6-55db62253aae4_55db6225dcd10.pdf","converted_extension":"pdf","converted_filemime":"application\/pdf","converted_filesize":6933,"converted_md5_checksum":"e4a5621a2307d2eba650bb445ca51645"}}}}}}}
+2015-08-24T18:28:26.317245+00:00 app[web.1]: [24-Aug-2015 18:28:26 UTC] stdClass Object
+2015-08-24T18:28:26.317270+00:00 app[web.1]: (
+2015-08-24T18:28:26.314542+00:00 app[web.1]: 
+2015-08-24T18:28:26.317348+00:00 app[web.1]:     [uid] => 24224407
+2015-08-24T18:28:26.317452+00:00 app[web.1]:     [timestamp] => 1440440863
+2015-08-24T18:28:26.317561+00:00 app[web.1]:     [type] => dropbox_submission.update
+2015-08-24T18:28:26.317632+00:00 app[web.1]:     [data] => stdClass Object
+2015-08-24T18:28:26.317771+00:00 app[web.1]:             [realm] => section
+2015-08-24T18:28:26.317686+00:00 app[web.1]:         (
+2015-08-24T18:28:26.317856+00:00 app[web.1]:             [section_id] => 315598229
+2015-08-24T18:28:26.317957+00:00 app[web.1]:             [realm_id] => 315598229
+2015-08-24T18:28:26.318047+00:00 app[web.1]:             [uid] => 24224407
+2015-08-24T18:28:26.318139+00:00 app[web.1]:             [revision_id] => 1
+2015-08-24T18:28:26.318250+00:00 app[web.1]:             [assignment_nid] => 340468553
+2015-08-24T18:28:26.318357+00:00 app[web.1]:             [object] => stdClass Object
+2015-08-24T18:28:26.318407+00:00 app[web.1]:                 (
+2015-08-24T18:28:26.318535+00:00 app[web.1]:                     [revision_id] => 1
+2015-08-24T18:28:26.318643+00:00 app[web.1]:                     [uid] => 24224407
+2015-08-24T18:28:26.318757+00:00 app[web.1]:                     [created] => 1440440862
+2015-08-24T18:28:26.318859+00:00 app[web.1]:                     [num_items] => 1
+2015-08-24T18:28:26.318953+00:00 app[web.1]:                     [late] => 0
+2015-08-24T18:28:26.319048+00:00 app[web.1]:                     [draft] => 0
+2015-08-24T18:28:26.319175+00:00 app[web.1]:                     [assignment_nid] => 340468553
+2015-08-24T18:28:26.319305+00:00 app[web.1]:                     [attachments] => stdClass Object
+2015-08-24T18:28:26.319388+00:00 app[web.1]:                         (
+2015-08-24T18:28:26.319521+00:00 app[web.1]:                             [files] => stdClass Object
+2015-08-24T18:28:26.319640+00:00 app[web.1]:                                 (
+2015-08-24T18:28:26.319787+00:00 app[web.1]:                                     [file] => stdClass Object
+2015-08-24T18:28:26.319915+00:00 app[web.1]:                                         (
+2015-08-24T18:28:26.320048+00:00 app[web.1]:                                             [118698239] => stdClass Object
+2015-08-24T18:28:26.320140+00:00 app[web.1]:                                                 (
+2015-08-24T18:28:26.320285+00:00 app[web.1]:                                                     [id] => 118698239
+2015-08-24T18:28:26.320608+00:00 app[web.1]:                                                     [type] => file
+2015-08-24T18:28:26.320439+00:00 app[web.1]:                                                     [fid] => 655330249
+2015-08-24T18:28:26.320724+00:00 app[web.1]:                                                     [title] => dropbox_24224407_r1.html
+2015-08-24T18:28:26.320887+00:00 app[web.1]:                                                     [filename] => dropbox_24224407_r1.html
+2015-08-24T18:28:26.321011+00:00 app[web.1]:                                                     [filesize] => 159
+2015-08-24T18:28:26.321193+00:00 app[web.1]:                                                     [md5_checksum] => 08c50bcff865c7d6eff0bdf03d0a12c6
+2015-08-24T18:28:26.321331+00:00 app[web.1]:                                                     [timestamp] => 1440440863
+2015-08-24T18:28:26.321518+00:00 app[web.1]:                                                     [filemime] => text/html
+2015-08-24T18:28:26.322963+00:00 app[web.1]:                                                     [converted_download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/315598229/1440440869-08c50bcff865c7d6eff0bdf03d0a12c6-55db62253aae4_55db6225dcd10.pdf
+2015-08-24T18:28:26.323106+00:00 app[web.1]:                                                     [converted_extension] => pdf
+2015-08-24T18:28:26.323260+00:00 app[web.1]:                                                     [converted_filemime] => application/pdf
+2015-08-24T18:28:26.323407+00:00 app[web.1]:                                                     [converted_filesize] => 6933
+2015-08-24T18:28:26.323605+00:00 app[web.1]:                                                     [converted_md5_checksum] => e4a5621a2307d2eba650bb445ca51645
+2015-08-24T18:28:26.323692+00:00 app[web.1]:                                                 )
+2015-08-24T18:28:26.323696+00:00 app[web.1]: 
+2015-08-24T18:28:26.323779+00:00 app[web.1]:                                         )
+2015-08-24T18:28:26.323780+00:00 app[web.1]: 
+2015-08-24T18:28:26.323848+00:00 app[web.1]:                                 )
+2015-08-24T18:28:26.323850+00:00 app[web.1]: 
+2015-08-24T18:28:26.323913+00:00 app[web.1]:                         )
+2015-08-24T18:28:26.323914+00:00 app[web.1]: 
+2015-08-24T18:28:26.323946+00:00 app[web.1]:      
+           )
+2015-08-24T18:28:26.323949+00:00 app[web.1]: 
+2015-08-24T18:28:26.323975+00:00 app[web.1]:         )
+2015-08-24T18:28:26.323977+00:00 app[web.1]: 
+2015-08-24T18:28:26.323981+00:00 app[web.1]: )
+2015-08-24T18:28:26.323996+00:00 app[web.1]: 
+2015-08-24T18:28:26.324075+00:00 app[web.1]: [24-Aug-2015 18:28:26 UTC] UID: 24224407
+2015-08-24T18:28:26.324172+00:00 app[web.1]: [24-Aug-2015 18:28:26 UTC] Assignment ID: 340468553
+2015-08-24T18:28:26.324300+00:00 app[web.1]: [24-Aug-2015 18:28:26 UTC] Requirement Type found - courses
+2015-08-24T18:28:26.324303+00:00 app[web.1]: 
+2015-08-24T18:28:26.324368+00:00 app[web.1]: [24-Aug-2015 18:28:26 UTC] Array
+2015-08-24T18:28:26.324386+00:00 app[web.1]: (
+2015-08-24T18:28:26.324425+00:00 app[web.1]:     [req_type] => courses
+2015-08-24T18:28:26.324429+00:00 app[web.1]: )
+2015-08-24T18:28:26.324432+00:00 app[web.1]: 
+2015-08-24T18:28:26.324435+00:00 app[web.1]: 
+2015-08-24T18:28:26.324822+00:00 app[web.1]: 10.30.205.44 - - [24/Aug/2015:18:28:26 +0000] "POST /?req_type=courses HTTP/1.1" 302 - "-" "-

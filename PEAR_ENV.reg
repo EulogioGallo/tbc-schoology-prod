@@ -1,0 +1,9 @@
+REGEDIT4
+[HKEY_CURRENT_USER\Environment]
+"PHP_PEAR_SYSCONF_DIR"="C:\\Users\\egallo\\php-getting-started"
+"PHP_PEAR_INSTALL_DIR"="C:\\Users\\egallo\\php-getting-started\\pear"
+"PHP_PEAR_DOC_DIR"="C:\\Users\\egallo\\php-getting-started\\docs"
+"PHP_PEAR_BIN_DIR"="C:\\Users\\egallo\\php-getting-started"
+"PHP_PEAR_DATA_DIR"="C:\\Users\\egallo\\php-getting-started\\data"
+"PHP_PEAR_PHP_BIN"="C:\\Program Files (x86)\\iis express\\PHP\\v5.5\\php.exe"
+"PHP_PEAR_TEST_DIR"="C:\\Users\\egallo\\php-getting-started\\tests"

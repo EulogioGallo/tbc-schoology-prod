@@ -1,0 +1,415 @@
+2015-08-07T20:15:16.796995+00:00 heroku[slug-compiler]: Slug compilation started
+2015-08-07T20:15:16.797002+00:00 heroku[slug-compiler]: Slug compilation finished
+2015-08-07T20:15:16.732585+00:00 heroku[api]: Deploy 19ce384 by egallo@broadcenter.org
+2015-08-07T20:15:16.732636+00:00 heroku[api]: Release v98 created by egallo@broadcenter.org
+2015-08-07T20:27:34.850190+00:00 heroku[web.1]: Unidling
+2015-08-07T20:27:34.850691+00:00 heroku[web.1]: State changed from down to starting
+2015-08-07T20:27:49.250281+00:00 heroku[web.1]: Starting process with command `vendor/bin/heroku-php-apache2 web/`
+2015-08-07T20:27:52.112710+00:00 app[web.1]: DOCUMENT_ROOT changed to 'web/'
+2015-08-07T20:27:52.252085+00:00 app[web.1]: Optimizing defaults for 1X dyno...
+2015-08-07T20:27:52.495390+00:00 app[web.1]: 4 processes at 128MB memory limit.
+2015-08-07T20:27:52.518482+00:00 app[web.1]: Starting php-fpm...
+2015-08-07T20:27:54.523964+00:00 app[web.1]: Starting httpd...
+2015-08-07T20:27:54.845031+00:00 heroku[web.1]: State changed from starting to up
+2015-08-07T20:27:57.020743+00:00 heroku[router]: at=info method=GET path="/?req_type=courses" host=glacial-tor-7252.herokuapp.com request_id=590865a4-9b78-458f-a38b-ad9a5d5b2c57 fwd="67.151.98.115" dyno=web.1 connect=9ms service=91ms status=302 bytes=296
+2015-08-07T20:27:57.022555+00:00 app[web.1]: [07-Aug-2015 20:27:57 UTC] got token!
+2015-08-07T20:27:57.022560+00:00 app[web.1]: 
+2015-08-07T20:27:57.022602+00:00 app[web.1]: [07-Aug-2015 20:27:57 UTC] Array
+2015-08-07T20:27:57.022619+00:00 app[web.1]: (
+2015-08-07T20:27:57.022659+00:00 app[web.1]:     [uid] => 22135108
+2015-08-07T20:27:57.022906+00:00 app[web.1]:     [token_secret] => 595e3771523d7c63b374b437297fb75f
+2015-08-07T20:27:57.022973+00:00 app[web.1]:     [token_is_access] => 1
+2015-08-07T20:27:57.022791+00:00 app[web.1]:     [token_key] => b02bc01919e633cc4cbd3b1b6917966d0558071f2
+2015-08-07T20:27:57.022997+00:00 app[web.1]: )
+2015-08-07T20:27:57.023138+00:00 app[web.1]: [07-Aug-2015 20:27:57 UTC] Requirement Type found - courses
+2015-08-07T20:27:57.023030+00:00 app[web.1]: 
+2015-08-07T20:27:57.023143+00:00 app[web.1]: 
+2015-08-07T20:27:57.023230+00:00 app[web.1]: (
+2015-08-07T20:27:57.023028+00:00 app[web.1]: 
+2015-08-07T20:27:57.023293+00:00 app[web.1]:     [req_type] => courses
+2015-08-07T20:27:57.023336+00:00 app[web.1]: 
+2015-08-07T20:27:57.024136+00:00 app[web.1]: 10.157.133.28 - - [07/Aug/2015:20:27:56 +0000] "GET /?req_type=courses HTTP/1.1" 302 - "-" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.130 Safari/537.36
+2015-08-07T20:27:57.023207+00:00 app[web.1]: [07-Aug-2015 20:27:57 UTC] Array
+2015-08-07T20:27:57.023315+00:00 app[web.1]: )
+2015-08-07T20:27:57.023357+00:00 app[web.1]: 
+2015-08-07T20:38:10.959758+00:00 heroku[router]: at=info method=POST path="/?req_type=courses" host=glacial-tor-7252.herokuapp.com request_id=b6ecf324-670a-4ded-83f2-451d7f993c23 fwd="50.56.38.11" dyno=web.1 connect=2ms service=101ms status=302 bytes=296
+2015-08-07T20:38:10.895481+00:00 app[web.1]: [07-Aug-2015 20:38:10 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+2015-08-07T20:38:10.957547+00:00 app[web.1]: [07-Aug-2015 20:38:10 UTC] got token!
+2015-08-07T20:38:10.957552+00:00 app[web.1]: 
+2015-08-07T20:38:10.958660+00:00 app[web.1]:     [uid] => 22135108
+2015-08-07T20:38:10.957746+00:00 app[web.1]: [07-Aug-2015 20:38:10 UTC] Array
+2015-08-07T20:38:10.958663+00:00 app[web.1]:     [token_secret] => 595e3771523d7c63b374b437297fb75f
+2015-08-07T20:38:10.957748+00:00 app[web.1]: (
+2015-08-07T20:38:10.958665+00:00 app[web.1]:     [token_is_access] => 1
+2015-08-07T20:38:10.958662+00:00 app[web.1]:     [token_key] => b02bc01919e633cc4cbd3b1b6917966d0558071f2
+2015-08-07T20:38:10.958672+00:00 app[web.1]: [07-Aug-2015 20:38:10 UTC] Array
+2015-08-07T20:38:10.958678+00:00 app[web.1]: 
+2015-08-07T20:38:10.958670+00:00 app[web.1]: [07-Aug-2015 20:38:10 UTC] Requirement Type found - courses
+2015-08-07T20:38:10.958674+00:00 app[web.1]: (
+2015-08-07T20:38:10.958666+00:00 app[web.1]: )
+2015-08-07T20:38:10.958679+00:00 app[web.1]: 
+2015-08-07T20:38:10.958667+00:00 app[web.1]: 
+2015-08-07T20:38:10.958675+00:00 app[web.1]:     [req_type] => courses
+2015-08-07T20:38:10.958676+00:00 app[web.1]: )
+2015-08-07T20:38:10.961389+00:00 app[web.1]: 10.150.81.254 - - [07/Aug/2015:20:38:10 +0000] "POST /?req_type=courses HTTP/1.1" 302 - "-" "-
+2015-08-07T20:38:10.958668+00:00 app[web.1]: 
+2015-08-07T20:38:10.958671+00:00 app[web.1]: 
+2015-08-07T20:47:39.376268+00:00 heroku[slug-compiler]: Slug compilation started
+2015-08-07T20:47:39.376288+00:00 heroku[slug-compiler]: Slug compilation finished
+2015-08-07T20:47:39.308676+00:00 heroku[api]: Deploy 220a342 by egallo@broadcenter.org
+2015-08-07T20:47:39.308676+00:00 heroku[api]: Release v99 created by egallo@broadcenter.org
+2015-08-07T20:47:39.451127+00:00 heroku[web.1]: State changed from up to starting
+2015-08-07T20:47:42.808132+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2015-08-07T20:47:43.731492+00:00 app[web.1]: Going down, terminating child processes...
+2015-08-07T20:47:44.639634+00:00 heroku[web.1]: Process exited with status 0
+2015-08-07T20:47:45.937902+00:00 heroku[web.1]: Starting process with command `vendor/bin/heroku-php-apache2 web/`
+2015-08-07T20:47:48.738950+00:00 app[web.1]: DOCUMENT_ROOT changed to 'web/'
+2015-08-07T20:47:48.977093+00:00 app[web.1]: 4 processes at 128MB memory limit.
+2015-08-07T20:47:48.788254+00:00 app[web.1]: Optimizing defaults for 1X dyno...
+2015-08-07T20:47:48.990538+00:00 app[web.1]: Starting php-fpm...
+2015-08-07T20:47:50.994949+00:00 app[web.1]: Starting httpd...
+2015-08-07T20:47:51.517469+00:00 heroku[web.1]: State changed from starting to up
+2015-08-07T20:50:38.079252+00:00 heroku[router]: at=info method=POST path="/?req_type=courses" host=glacial-tor-7252.herokuapp.com request_id=d9915242-805a-49a1-9247-2a4b11a365a3 fwd="50.56.38.11" dyno=web.1 connect=1ms service=82ms status=302 bytes=296
+2015-08-07T20:50:38.026346+00:00 app[web.1]: [07-Aug-2015 20:50:38 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+2015-08-07T20:50:38.075500+00:00 app[web.1]: [07-Aug-2015 20:50:38 UTC] got token!
+2015-08-07T20:50:38.075541+00:00 app[web.1]: 
+2015-08-07T20:50:38.075612+00:00 app[web.1]: [07-Aug-2015 20:50:38 UTC] Array
+2015-08-07T20:50:38.075817+00:00 app[web.1]: (
+2015-08-07T20:50:38.075875+00:00 app[web.1]:     [uid] => 22135108
+2015-08-07T20:50:38.076408+00:00 app[web.1]: )
+2015-08-07T20:50:38.075996+00:00 app[web.1]:     [token_key] => b02bc01919e633cc4cbd3b1b6917966d0558071f2
+2015-08-07T20:50:38.076317+00:00 app[web.1]:     [token_secret] => 595e3771523d7c63b374b437297fb75f
+2015-08-07T20:50:38.076386+00:00 app[web.1]:     [token_is_access] => 1
+2015-08-07T20:50:38.076427+00:00 app[web.1]: 
+2015-08-07T20:50:38.078509+00:00 app[web.1]: [07-Aug-2015 20:50:38 UTC] {"uid":24224407,"timestamp":1438979882,"type":"dropbox_submission.update","data":{"realm":"section","section_id":315598229,"realm_id":315598229,"uid":"24224407","revision_id":"1","assignment_nid":"315604555","object":{"revision_id":1,"uid":24224407,"created":1438979881,"num_items":1,"late":0,"draft":0,"assignment_nid":"315604555","attachments":{"files":{"file":{"117071823":{"id":117071823,"fid":630825933,"type":"file","title":"dropbox_24224407_r1.html","filename":"dropbox_24224407_r1.html","filesize":171,"md5_checksum":"260b96afd9a45e2ebe738544e965ffad","timestamp":1438979882,"filemime":"text\/html","download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/315598229\/dropbox_24224407_r1_55c5172a00c4e.html","extension":"html","converted_status":"1","converted_type":4,"converted_filename":"1438979888-260b96afd9a45e2ebe738544e965ffad-55c517300e446_55c51730c49c7.pdf","converted_download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/315598229\/1438979888-260b96afd9a45e2ebe738544e965ffad-55c517300e446_55c51730c49c7.pdf","converted_extension":"pdf","converted_filemime":"application\/pdf","converted_filesize":6705,"converted_md5_checksum":"d7eb0472c682d81d22858f8532eb24fd"}}}}}}}
+2015-08-07T20:50:38.078637+00:00 app[web.1]: [07-Aug-2015 20:50:38 UTC] Requirement Type found - courses
+2015-08-07T20:50:38.076459+00:00 app[web.1]: 
+2015-08-07T20:50:38.078720+00:00 app[web.1]: 
+2015-08-07T20:50:38.078816+00:00 app[web.1]: [07-Aug-2015 20:50:38 UTC] Array
+2015-08-07T20:50:38.078837+00:00 app[web.1]: (
+2015-08-07T20:50:38.078913+00:00 app[web.1]:     [req_type] => courses
+2015-08-07T20:50:38.078933+00:00 app[web.1]: )
+2015-08-07T20:50:38.078952+00:00 app[web.1]: 
+2015-08-07T20:50:38.078971+00:00 app[web.1]: 
+2015-08-07T20:50:38.079244+00:00 app[web.1]: 10.145.4.45 - - [07/Aug/2015:20:50:37 +0000] "POST /?req_type=courses HTTP/1.1" 302 - "-" "-
+2015-08-07T20:50:41.006251+00:00 heroku[router]: at=info method=POST path="/?req_type=courses" host=glacial-tor-7252.herokuapp.com request_id=f6f9bf80-f1c7-4f3a-b3d3-58676802ac6d fwd="50.56.38.11" dyno=web.1 connect=0ms service=71ms status=302 bytes=296
+2015-08-07T20:50:40.975903+00:00 app[web.1]: [07-Aug-2015 20:50:40 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+2015-08-07T20:50:40.998457+00:00 app[web.1]: (
+2015-08-07T20:50:40.998519+00:00 app[web.1]:     [uid] => 22135108
+2015-08-07T20:50:40.999168+00:00 app[web.1]:     [token_key] => b02bc01919e633cc4cbd3b1b6917966d0558071f2
+2015-08-07T20:50:41.004674+00:00 app[web.1]: [07-Aug-2015 20:50:41 UTC] Requirement Type found - courses
+2015-08-07T20:50:41.004713+00:00 app[web.1]: 
+2015-08-07T20:50:41.004889+00:00 app[web.1]: [07-Aug-2015 20:50:41 UTC] Array
+2015-08-07T20:50:41.004917+00:00 app[web.1]: (
+2015-08-07T20:50:41.005003+00:00 app[web.1]:     [req_type] => courses
+2015-08-07T20:50:41.005025+00:00 app[web.1]: )
+2015-08-07T20:50:41.005070+00:00 app[web.1]: 
+2015-08-07T20:50:41.005102+00:00 app[web.1]: 
+2015-08-07T20:50:41.006367+00:00 app[web.1]: 10.63.55.228 - - [07/Aug/2015:20:50:40 +0000] "POST /?req_type=courses HTTP/1.1" 302 - "-" "-
+2015-08-07T20:50:40.997690+00:00 app[web.1]: 
+2015-08-07T20:50:40.997602+00:00 app[web.1]: [07-Aug-2015 20:50:40 UTC] got token!
+2015-08-07T20:50:40.999486+00:00 app[web.1]:     [token_secret] => 595e3771523d7c63b374b437297fb75f
+2015-08-07T20:50:40.998193+00:00 app[web.1]: [07-Aug-2015 20:50:40 UTC] Array
+2015-08-07T20:50:40.999570+00:00 app[web.1]:     [token_is_access] => 1
+2015-08-07T20:50:40.999784+00:00 app[web.1]: )
+2015-08-07T20:50:40.999805+00:00 app[web.1]: 
+2015-08-07T20:50:40.999825+00:00 app[web.1]: 
+2015-08-07T20:50:41.002307+00:00 app[web.1]: [07-Aug-2015 20:50:40 UTC] {"uid":24224407,"timestamp":1438980566,"type":"dropbox_submission.update","data":{"realm":"section","section_id":315598229,"realm_id":315598229,"uid":"24224407","revision_id":"2","assignment_nid":"315604555","object":{"revision_id":2,"uid":24224407,"created":1438980566,"num_items":1,"late":0,"draft":0,"assignment_nid":"315604555","attachments":{"files":{"file":{"117072111":{"id":117072111,"fid":630830987,"type":"file","title":"dropbox_24224407_r2.html","filename":"dropbox_24224407_r2.html","filesize":172,"md5_checksum":"9bac81d1fbb832ff51bf99f14f371ff5","timestamp":1438980566,"filemime":"text\/html","download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/315598229\/dropbox_24224407_r2_55c519d6496ee.html","extension":"html","converted_status":"1","converted_type":4,"converted_filename":"1438980571-9bac81d1fbb832ff51bf99f14f371ff5-55c519db1cd78_55c519dba7554.pdf","converted_download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/315598229\/1438980571-9bac81d1fbb832ff51bf99f14f371ff5-55c519db1cd78_55c519dba7554.pdf","converted_extension":"pdf","converted_filemime":"application\/pdf","converted_filesize":6659,"converted_md5_checksum":"e876fb2a64bbba8bdcf6aa9bf8938134"}}}}}}}
+2015-08-07T20:51:59.256825+00:00 app[web.1]: [07-Aug-2015 20:51:59 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+2015-08-07T20:51:59.283573+00:00 app[web.1]: [07-Aug-2015 20:51:59 UTC] Requirement Type found - courses
+2015-08-07T20:51:59.283618+00:00 app[web.1]: 
+2015-08-07T20:51:59.283688+00:00 app[web.1]: [07-Aug-2015 20:51:59 UTC] Array
+2015-08-07T20:51:59.283736+00:00 app[web.1]: (
+2015-08-07T20:51:59.283776+00:00 app[web.1]:     [req_type] => courses
+2015-08-07T20:51:59.283779+00:00 app[web.1]: )
+2015-08-07T20:51:59.283782+00:00 app[web.1]: 
+2015-08-07T20:51:59.283785+00:00 app[web.1]: 
+2015-08-07T20:51:59.283958+00:00 app[web.1]: 10.144.101.155 - - [07/Aug/2015:20:51:59 +0000] "POST /?req_type=courses HTTP/1.1" 302 - "-" "-
+2015-08-07T20:51:59.282400+00:00 heroku[router]: at=info method=POST path="/?req_type=courses" host=glacial-tor-7252.herokuapp.com request_id=fb7becbf-9ea9-4b4f-ae1b-7d4bd184a511 fwd="50.56.38.11" dyno=web.1 connect=2ms service=52ms status=302 bytes=296
+2015-08-07T20:51:59.281138+00:00 app[web.1]: [07-Aug-2015 20:51:59 UTC] got token!
+2015-08-07T20:51:59.281144+00:00 app[web.1]: 
+2015-08-07T20:51:59.281257+00:00 app[web.1]:     [uid] => 22135108
+2015-08-07T20:51:59.281511+00:00 app[web.1]:     [token_secret] => 595e3771523d7c63b374b437297fb75f
+2015-08-07T20:51:59.281582+00:00 app[web.1]:     [token_is_access] => 1
+2015-08-07T20:51:59.281587+00:00 app[web.1]: )
+2015-08-07T20:51:59.281588+00:00 app[web.1]: 
+2015-08-07T20:51:59.281201+00:00 app[web.1]: (
+2015-08-07T20:51:59.281178+00:00 app[web.1]: [07-Aug-2015 20:51:59 UTC] Array
+2015-08-07T20:51:59.283488+00:00 app[web.1]: [07-Aug-2015 20:51:59 UTC] {"uid":24224407,"timestamp":1438980690,"type":"dropbox_submission.update","data":{"realm":"section","section_id":315598229,"realm_id":315598229,"uid":"24224407","revision_id":"1","assignment_nid":"315641805","object":{"revision_id":1,"uid":24224407,"created":1438980689,"num_items":1,"late":0,"draft":0,"assignment_nid":"315641805","attachments":{"files":{"file":{"117072167":{"id":117072167,"fid":630832223,"type":"file","title":"dropbox_24224407_r1.html","filename":"dropbox_24224407_r1.html","filesize":172,"md5_checksum":"9bac81d1fbb832ff51bf99f14f371ff5","timestamp":1438980689,"filemime":"text\/html","download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/315598229\/dropbox_24224407_r1_55c51a51eac11.html","extension":"html","converted_status":"1","converted_type":4,"converted_filename":"dropbox_24224407_r1_55c51a52258a0.pdf","converted_download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/315598229\/dropbox_24224407_r1_55c51a52258a0.pdf","converted_extension":"pdf","converted_filemime":"application\/pdf","converted_filesize":6659,"converted_md5_checksum":"e876fb2a64bbba8bdcf6aa9bf8938134"}}}}}}}
+2015-08-07T20:51:59.281383+00:00 app[web.1]:     [token_key] => b02bc01919e633cc4cbd3b1b6917966d0558071f2
+2015-08-07T20:51:59.281591+00:00 app[web.1]: 
+2015-08-07T21:01:29.545256+00:00 heroku[api]: Deploy c3fbdc7 by egallo@broadcenter.org
+2015-08-07T21:01:29.545256+00:00 heroku[api]: Release v100 created by egallo@broadcenter.org
+2015-08-07T21:01:29.608437+00:00 heroku[slug-compiler]: Slug compilation started
+2015-08-07T21:01:29.608443+00:00 heroku[slug-compiler]: Slug compilation finished
+2015-08-07T21:01:29.814548+00:00 heroku[web.1]: State changed from up to starting
+2015-08-07T21:01:32.587698+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2015-08-07T21:01:33.255582+00:00 app[web.1]: Going down, terminating child processes...
+2015-08-07T21:01:34.716613+00:00 heroku[web.1]: Process exited with status 0
+2015-08-07T21:01:37.504177+00:00 heroku[web.1]: Starting process with command `vendor/bin/heroku-php-apache2 web/`
+2015-08-07T21:01:41.125521+00:00 app[web.1]: DOCUMENT_ROOT changed to 'web/'
+2015-08-07T21:01:41.378523+00:00 app[web.1]: Optimizing defaults for 1X dyno...
+2015-08-07T21:01:42.140600+00:00 app[web.1]: 4 processes at 128MB memory limit.
+2015-08-07T21:01:42.376589+00:00 app[web.1]: Starting php-fpm...
+2015-08-07T21:01:44.412612+00:00 app[web.1]: Starting httpd...
+2015-08-07T21:01:44.831599+00:00 heroku[web.1]: State changed from starting to up
+2015-08-07T21:03:24.371231+00:00 app[web.1]: [07-Aug-2015 21:03:24 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+2015-08-07T21:03:24.502198+00:00 app[web.1]: [07-Aug-2015 21:03:24 UTC] PHP Warning:  error_log() expects parameter 1 to be string, object given in /app/web/index.php on line 192
+2015-08-07T21:03:24.519116+00:00 heroku[router]: at=info method=POST path="/?req_type=courses" host=glacial-tor-7252.herokuapp.com request_id=f98c22b9-9b04-40a7-b9a7-327dce0d4eb9 fwd="50.56.38.11" dyno=web.1 connect=0ms service=193ms status=302 bytes=296
+2015-08-07T21:03:24.498139+00:00 app[web.1]: [07-Aug-2015 21:03:24 UTC] got token!
+2015-08-07T21:03:24.498144+00:00 app[web.1]: 
+2015-08-07T21:03:24.498339+00:00 app[web.1]: [07-Aug-2015 21:03:24 UTC] Array
+2015-08-07T21:03:24.498584+00:00 app[web.1]:     [token_key] => b02bc01919e633cc4cbd3b1b6917966d0558071f2
+2015-08-07T21:03:24.498341+00:00 app[web.1]: (
+2015-08-07T21:03:24.498370+00:00 app[web.1]:     [uid] => 22135108
+2015-08-07T21:03:24.498743+00:00 app[web.1]:     [token_is_access] => 1
+2015-08-07T21:03:24.498745+00:00 app[web.1]: )
+2015-08-07T21:03:24.498750+00:00 app[web.1]: 
+2015-08-07T21:03:24.498684+00:00 app[web.1]:     [token_secret] => 595e3771523d7c63b374b437297fb75f
+2015-08-07T21:03:24.498751+00:00 app[web.1]: 
+2015-08-07T21:03:24.502408+00:00 app[web.1]: [07-Aug-2015 21:03:24 UTC] Requirement Type found - courses
+2015-08-07T21:03:24.502473+00:00 app[web.1]: [07-Aug-2015 21:03:24 UTC] Array
+2015-08-07T21:03:24.501750+00:00 app[web.1]: [07-Aug-2015 21:03:24 UTC] {"uid":24224407,"timestamp":1438979882,"type":"dropbox_submission.update","data":{"realm":"section","section_id":315598229,"realm_id":315598229,"uid":"24224407","revision_id":"1","assignment_nid":"315604555","object":{"revision_id":1,"uid":24224407,"created":1438979881,"num_items":1,"late":0,"draft":0,"assignment_nid":"315604555","attachments":{"files":{"file":{"117071823":{"id":117071823,"fid":630825933,"type":"file","title":"dropbox_24224407_r1.html","filename":"dropbox_24224407_r1.html","filesize":171,"md5_checksum":"260b96afd9a45e2ebe738544e965ffad","timestamp":1438979882,"filemime":"text\/html","download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/315598229\/dropbox_24224407_r1_55c5172a00c4e.html","extension":"html","converted_status":"1","converted_type":4,"converted_filename":"1438979888-260b96afd9a45e2ebe738544e965ffad-55c517300e446_55c51730c49c7.pdf","converted_download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/315598229\/1438979888-260b96afd9a45e2ebe738544e965ffad-55c517300e446_55c51730c49c7.pdf","converted_extension":"pdf","converted_filemime":"application\/pdf","converted_filesize":6705,"converted_md5_checksum":"d7eb0472c682d81d22858f8532eb24fd"}}}}}}}
+2015-08-07T21:03:24.502533+00:00 app[web.1]:     [req_type] => courses
+2015-08-07T21:03:24.502537+00:00 app[web.1]: )
+2015-08-07T21:03:24.502410+00:00 app[web.1]: 
+2015-08-07T21:03:24.502477+00:00 app[web.1]: (
+2015-08-07T21:03:24.502541+00:00 app[web.1]: 
+2015-08-07T21:03:24.502544+00:00 app[web.1]: 
+2015-08-07T21:03:24.509141+00:00 app[web.1]: 10.171.111.19 - - [07/Aug/2015:21:03:24 +0000] "POST /?req_type=courses HTTP/1.1" 302 - "-" "-
+2015-08-07T21:03:25.070836+00:00 heroku[router]: at=info method=POST path="/?req_type=courses" host=glacial-tor-7252.herokuapp.com request_id=0982c9f1-415b-4a2d-b332-584e023287ee fwd="50.56.38.11" dyno=web.1 connect=1ms service=86ms status=302 bytes=296
+2015-08-07T21:03:25.021454+00:00 app[web.1]: [07-Aug-2015 21:03:25 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+2015-08-07T21:03:25.067716+00:00 app[web.1]: 
+2015-08-07T21:03:25.071537+00:00 app[web.1]: [07-Aug-2015 21:03:25 UTC] PHP Warning:  error_log() expects parameter 1 to be string, object given in /app/web/index.php on line 192
+2015-08-07T21:03:25.071647+00:00 app[web.1]: 
+2015-08-07T21:03:25.071645+00:00 app[web.1]: [07-Aug-2015 21:03:25 UTC] Requirement Type found - courses
+2015-08-07T21:03:25.071712+00:00 app[web.1]: [07-Aug-2015 21:03:25 UTC] Array
+2015-08-07T21:03:25.071716+00:00 app[web.1]: (
+2015-08-07T21:03:25.071769+00:00 app[web.1]:     [req_type] => courses
+2015-08-07T21:03:25.071774+00:00 app[web.1]: )
+2015-08-07T21:03:25.071777+00:00 app[web.1]: 
+2015-08-07T21:03:25.071780+00:00 app[web.1]: 
+2015-08-07T21:03:25.071960+00:00 app[web.1]: 10.232.141.156 - - [07/Aug/2015:21:03:24 +0000] "POST /?req_type=courses HTTP/1.1" 302 - "-" "-
+2015-08-07T21:03:25.067426+00:00 app[web.1]: [07-Aug-2015 21:03:25 UTC] got token!
+2015-08-07T21:03:25.067946+00:00 app[web.1]: [07-Aug-2015 21:03:25 UTC] Array
+2015-08-07T21:03:25.068017+00:00 app[web.1]: (
+2015-08-07T21:03:25.068090+00:00 app[web.1]:     [uid] => 22135108
+2015-08-07T21:03:25.068475+00:00 app[web.1]:     [token_secret] => 595e3771523d7c63b374b437297fb75f
+2015-08-07T21:03:25.068562+00:00 app[web.1]:     [token_is_access] => 1
+2015-08-07T21:03:25.068285+00:00 app[web.1]:     [token_key] => b02bc01919e633cc4cbd3b1b6917966d0558071f2
+2015-08-07T21:03:25.068597+00:00 app[web.1]: )
+2015-08-07T21:03:25.068619+00:00 app[web.1]: 
+2015-08-07T21:03:25.068639+00:00 app[web.1]: 
+2015-08-07T21:03:25.071323+00:00 app[web.1]: [07-Aug-2015 21:03:25 UTC] {"uid":24224407,"timestamp":1438980566,"type":"dropbox_submission.update","data":{"realm":"section","section_id":315598229,"realm_id":315598229,"uid":"24224407","revision_id":"2","assignment_nid":"315604555","object":{"revision_id":2,"uid":24224407,"created":1438980566,"num_items":1,"late":0,"draft":0,"assignment_nid":"315604555","attachments":{"files":{"file":{"117072111":{"id":117072111,"fid":630830987,"type":"file","title":"dropbox_24224407_r2.html","filename":"dropbox_24224407_r2.html","filesize":172,"md5_checksum":"9bac81d1fbb832ff51bf99f14f371ff5","timestamp":1438980566,"filemime":"text\/html","download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/315598229\/dropbox_24224407_r2_55c519d6496ee.html","extension":"html","converted_status":"1","converted_type":4,"converted_filename":"1438980571-9bac81d1fbb832ff51bf99f14f371ff5-55c519db1cd78_55c519dba7554.pdf","converted_download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/315598229\/1438980571-9bac81d1fbb832ff51bf99f14f371ff5-55c519db1cd78_55c519dba7554.pdf","converted_extension":"pdf","converted_filemime":"application\/pdf","converted_filesize":6659,"converted_md5_checksum":"e876fb2a64bbba8bdcf6aa9bf8938134"}}}}}}}
+2015-08-07T21:03:28.589024+00:00 heroku[router]: at=info method=POST path="/?req_type=courses" host=glacial-tor-7252.herokuapp.com request_id=17049aad-bbba-4f35-8708-7fb2a4ce85be fwd="50.56.38.11" dyno=web.1 connect=1ms service=65ms status=302 bytes=296
+2015-08-07T21:03:28.567511+00:00 app[web.1]:     [token_secret] => 595e3771523d7c63b374b437297fb75f
+2015-08-07T21:03:28.529884+00:00 app[web.1]: [07-Aug-2015 21:03:28 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+2015-08-07T21:03:28.571461+00:00 app[web.1]: )
+2015-08-07T21:03:28.571564+00:00 app[web.1]: 
+2015-08-07T21:03:28.576175+00:00 app[web.1]: [07-Aug-2015 21:03:28 UTC] {"uid":24224407,"timestamp":1438980690,"type":"dropbox_submission.update","data":{"realm":"section","section_id":315598229,"realm_id":315598229,"uid":"24224407","revision_id":"1","assignment_nid":"315641805","object":{"revision_id":1,"uid":24224407,"created":1438980689,"num_items":1,"late":0,"draft":0,"assignment_nid":"315641805","attachments":{"files":{"file":{"117072167":{"id":117072167,"fid":630832223,"type":"file","title":"dropbox_24224407_r1.html","filename":"dropbox_24224407_r1.html","filesize":172,"md5_checksum":"9bac81d1fbb832ff51bf99f14f371ff5","timestamp":1438980689,"filemime":"text\/html","download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/315598229\/dropbox_24224407_r1_55c51a51eac11.html","extension":"html","converted_status":"1","converted_type":4,"converted_filename":"dropbox_24224407_r1_55c51a52258a0.pdf","converted_download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/315598229\/dropbox_24224407_r1_55c51a52258a0.pdf","converted_extension":"pdf","converted_filemime":"application\/pdf","converted_filesize":6659,"converted_md5_checksum":"e876fb2a64bbba8bdcf6aa9bf8938134"}}}}}}}
+2015-08-07T21:03:28.571693+00:00 app[web.1]: 
+2015-08-07T21:03:28.579576+00:00 app[web.1]: 
+2015-08-07T21:03:28.579553+00:00 app[web.1]: [07-Aug-2015 21:03:28 UTC] Requirement Type found - courses
+2015-08-07T21:03:28.579675+00:00 app[web.1]: [07-Aug-2015 21:03:28 UTC] Array
+2015-08-07T21:03:28.579784+00:00 app[web.1]:     [req_type] => courses
+2015-08-07T21:03:28.579806+00:00 app[web.1]: )
+2015-08-07T21:03:28.579699+00:00 app[web.1]: (
+2015-08-07T21:03:28.579889+00:00 app[web.1]: 
+2015-08-07T21:03:28.579827+00:00 app[web.1]: 
+2015-08-07T21:03:28.580141+00:00 app[web.1]: 10.113.160.107 - - [07/Aug/2015:21:03:28 +0000] "POST /?req_type=courses HTTP/1.1" 302 - "-" "-
+2015-08-07T21:03:28.566400+00:00 app[web.1]: [07-Aug-2015 21:03:28 UTC] got token!
+2015-08-07T21:03:28.566489+00:00 app[web.1]: 
+2015-08-07T21:03:28.566650+00:00 app[web.1]: [07-Aug-2015 21:03:28 UTC] Array
+2015-08-07T21:03:28.566726+00:00 app[web.1]: (
+2015-08-07T21:03:28.566853+00:00 app[web.1]:     [uid] => 22135108
+2015-08-07T21:03:28.567279+00:00 app[web.1]:     [token_key] => b02bc01919e633cc4cbd3b1b6917966d0558071f2
+2015-08-07T21:03:28.571255+00:00 app[web.1]:     [token_is_access] => 1
+2015-08-07T21:03:28.579358+00:00 app[web.1]: [07-Aug-2015 21:03:28 UTC] PHP Warning:  error_log() expects parameter 1 to be string, object given in /app/web/index.php on line 192
+2015-08-07T21:09:33.273771+00:00 heroku[api]: Deploy 77ac6bd by egallo@broadcenter.org
+2015-08-07T21:09:33.273771+00:00 heroku[api]: Release v101 created by egallo@broadcenter.org
+2015-08-07T21:09:33.324822+00:00 heroku[slug-compiler]: Slug compilation started
+2015-08-07T21:09:33.324838+00:00 heroku[slug-compiler]: Slug compilation finished
+2015-08-07T21:09:34.150226+00:00 heroku[web.1]: State changed from up to starting
+2015-08-07T21:09:37.400833+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2015-08-07T21:09:38.142628+00:00 app[web.1]: Going down, terminating child processes...
+2015-08-07T21:09:39.033283+00:00 heroku[web.1]: Process exited with status 0
+2015-08-07T21:09:40.713573+00:00 heroku[web.1]: Starting process with command `vendor/bin/heroku-php-apache2 web/`
+2015-08-07T21:09:42.937365+00:00 app[web.1]: DOCUMENT_ROOT changed to 'web/'
+2015-08-07T21:09:43.186814+00:00 app[web.1]: 4 processes at 128MB memory limit.
+2015-08-07T21:09:43.227992+00:00 app[web.1]: Starting php-fpm...
+2015-08-07T21:09:43.002986+00:00 app[web.1]: Optimizing defaults for 1X dyno...
+2015-08-07T21:09:45.428942+00:00 heroku[web.1]: State changed from starting to up
+2015-08-07T21:09:45.229456+00:00 app[web.1]: Starting httpd...
+2015-08-07T21:10:12.874294+00:00 heroku[router]: at=info method=POST path="/?req_type=courses" host=glacial-tor-7252.herokuapp.com request_id=b0814f0f-d05b-4738-8d5c-acbfcbeeaa8d fwd="50.56.38.11" dyno=web.1 connect=2ms service=77ms status=302 bytes=296
+2015-08-07T21:10:12.837593+00:00 app[web.1]: [07-Aug-2015 21:10:12 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+2015-08-07T21:10:12.878991+00:00 app[web.1]:                                                     [fid] => 630841343
+2015-08-07T21:10:12.879090+00:00 app[web.1]:                                                     [type] => file
+2015-08-07T21:10:12.879230+00:00 app[web.1]:                                                     [title] => dropbox_24224407_r1.html
+2015-08-07T21:10:12.879410+00:00 app[web.1]:                                                     [filename] => dropbox_24224407_r1.html
+2015-08-07T21:10:12.879529+00:00 app[web.1]:                                                     [filesize] => 171
+2015-08-07T21:10:12.879741+00:00 app[web.1]:                                                     [md5_checksum] => 774ba7676d12f14e62537ec20691a4e5
+2015-08-07T21:10:12.880808+00:00 app[web.1]:                                                     [extension] => html
+2015-08-07T21:10:12.880905+00:00 app[web.1]:                                                     [converted_status] => 1
+2015-08-07T21:10:12.881048+00:00 app[web.1]:                                                     [converted_type] => 4
+2015-08-07T21:10:12.881319+00:00 app[web.1]:                                                     [converted_filename] => 1438981552-774ba7676d12f14e62537ec20691a4e5-55c51db01e9ec_55c51db0c495c.pdf
+2015-08-07T21:10:12.882427+00:00 app[web.1]:                                                     [converted_filesize] => 6716
+2015-08-07T21:10:12.882429+00:00 app[web.1]:                                                     [converted_md5_checksum] => 6ac054a4073f51c595f451eacc795818
+2015-08-07T21:10:12.882431+00:00 app[web.1]:                                                 )
+2015-08-07T21:10:12.882432+00:00 app[web.1]: 
+2015-08-07T21:10:12.882491+00:00 app[web.1]:                                         )
+2015-08-07T21:10:12.882493+00:00 app[web.1]: 
+2015-08-07T21:10:12.882574+00:00 app[web.1]:                                 )
+2015-08-07T21:10:12.882601+00:00 app[web.1]:                         )
+2015-08-07T21:10:12.882576+00:00 app[web.1]: 
+2015-08-07T21:10:12.882602+00:00 app[web.1]: 
+2015-08-07T21:10:12.882669+00:00 app[web.1]:                 )
+2015-08-07T21:10:12.882671+00:00 app[web.1]: 
+2015-08-07T21:10:12.882672+00:00 app[web.1]:         )
+2015-08-07T21:10:12.882673+00:00 app[web.1]: 
+2015-08-07T21:10:12.882677+00:00 app[web.1]: )
+2015-08-07T21:10:12.882678+00:00 app[web.1]: 
+2015-08-07T21:10:12.882786+00:00 app[web.1]: [07-Aug-2015 21:10:12 UTC] Requirement Type found - courses
+2015-08-07T21:10:12.882791+00:00 app[web.1]: 
+2015-08-07T21:10:12.882850+00:00 app[web.1]: [07-Aug-2015 21:10:12 UTC] Array
+2015-08-07T21:10:12.882852+00:00 app[web.1]: (
+2015-08-07T21:10:12.882900+00:00 app[web.1]:     [req_type] => courses
+2015-08-07T21:10:12.882917+00:00 app[web.1]: )
+2015-08-07T21:10:12.882918+00:00 app[web.1]: 
+2015-08-07T21:10:12.882919+00:00 app[web.1]: 
+2015-08-07T21:10:12.883082+00:00 app[web.1]: 10.144.223.82 - - [07/Aug/2015:21:10:12 +0000] "POST /?req_type=courses HTTP/1.1" 302 - "-" "-
+2015-08-07T21:10:12.872263+00:00 app[web.1]: [07-Aug-2015 21:10:12 UTC] got token!
+2015-08-07T21:10:12.872267+00:00 app[web.1]: 
+2015-08-07T21:10:12.872865+00:00 app[web.1]: [07-Aug-2015 21:10:12 UTC] Array
+2015-08-07T21:10:12.872870+00:00 app[web.1]: (
+2015-08-07T21:10:12.872907+00:00 app[web.1]:     [uid] => 22135108
+2015-08-07T21:10:12.873021+00:00 app[web.1]:     [token_key] => b02bc01919e633cc4cbd3b1b6917966d0558071f2
+2015-08-07T21:10:12.873124+00:00 app[web.1]:     [token_secret] => 595e3771523d7c63b374b437297fb75f
+2015-08-07T21:10:12.873236+00:00 app[web.1]:     [token_is_access] => 1
+2015-08-07T21:10:12.873238+00:00 app[web.1]: )
+2015-08-07T21:10:12.873240+00:00 app[web.1]: 
+2015-08-07T21:10:12.873241+00:00 app[web.1]: 
+2015-08-07T21:10:12.875455+00:00 app[web.1]: [07-Aug-2015 21:10:12 UTC] stdClass Object
+2015-08-07T21:10:12.875457+00:00 app[web.1]: (
+2015-08-07T21:10:12.875375+00:00 app[web.1]: [07-Aug-2015 21:10:12 UTC] {"uid":24224407,"timestamp":1438981541,"type":"dropbox_submission.update","data":{"realm":"section","section_id":315598229,"realm_id":315598229,"uid":"24224407","revision_id":"1","assignment_nid":"315641855","object":{"revision_id":1,"uid":24224407,"created":1438981540,"num_items":1,"late":0,"draft":0,"assignment_nid":"315641855","attachments":{"files":{"file":{"117072519":{"id":117072519,"fid":630841343,"type":"file","title":"dropbox_24224407_r1.html","filename":"dropbox_24224407_r1.html","filesize":171,"md5_checksum":"774ba7676d12f14e62537ec20691a4e5","timestamp":1438981540,"filemime":"text\/html","download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/315598229\/dropbox_24224407_r1_55c51da4cf025.html","extension":"html","converted_status":"1","converted_type":4,"converted_filename":"1438981552-774ba7676d12f14e62537ec20691a4e5-55c51db01e9ec_55c51db0c495c.pdf","converted_download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/315598229\/1438981552-774ba7676d12f14e62537ec20691a4e5-55c51db01e9ec_55c51db0c495c.pdf","converted_extension":"pdf","converted_filemime":"application\/pdf","converted_filesize":6716,"converted_md5_checksum":"6ac054a4073f51c595f451eacc795818"}}}}}}}
+2015-08-07T21:10:12.875514+00:00 app[web.1]:     [uid] => 24224407
+2015-08-07T21:10:12.875573+00:00 app[web.1]:     [timestamp] => 1438981541
+2015-08-07T21:10:12.875718+00:00 app[web.1]:     [data] => stdClass Object
+2015-08-07T21:10:12.876434+00:00 app[web.1]:             [realm] => section
+2015-08-07T21:10:12.876573+00:00 app[web.1]:             [realm_id] => 315598229
+2015-08-07T21:10:12.875652+00:00 app[web.1]:     [type] => dropbox_submission.update
+2015-08-07T21:10:12.875744+00:00 app[web.1]:         (
+2015-08-07T21:10:12.876495+00:00 app[web.1]:             [section_id] => 315598229
+2015-08-07T21:10:12.876770+00:00 app[web.1]:             [assignment_nid] => 315641855
+2015-08-07T21:10:12.876628+00:00 app[web.1]:             [uid] => 24224407
+2015-08-07T21:10:12.876698+00:00 app[web.1]:             [revision_id] => 1
+2015-08-07T21:10:12.876875+00:00 app[web.1]:                 (
+2015-08-07T21:10:12.876980+00:00 app[web.1]:                     [revision_id] => 1
+2015-08-07T21:10:12.877019+00:00 app[web.1]:                     [uid] => 24224407
+2015-08-07T21:10:12.876836+00:00 app[web.1]:             [object] => stdClass Object
+2015-08-07T21:10:12.877218+00:00 app[web.1]:                     [late] => 0
+2015-08-07T21:10:12.877288+00:00 app[web.1]:                     [draft] => 0
+2015-08-07T21:10:12.877135+00:00 app[web.1]:                     [created] => 1438981540
+2015-08-07T21:10:12.877438+00:00 app[web.1]:                     [assignment_nid] => 315641855
+2015-08-07T21:10:12.877442+00:00 app[web.1]:                     [attachments] => stdClass Object
+2015-08-07T21:10:12.877172+00:00 app[web.1]:                     [num_items] => 1
+2015-08-07T21:10:12.877597+00:00 app[web.1]:                             [files] => stdClass Object
+2015-08-07T21:10:12.877514+00:00 app[web.1]:                         (
+2015-08-07T21:10:12.877782+00:00 app[web.1]:                                     [file] => stdClass Object
+2015-08-07T21:10:12.877665+00:00 app[web.1]:                                 (
+2015-08-07T21:10:12.877846+00:00 app[web.1]:                                         (
+2015-08-07T21:10:12.878015+00:00 app[web.1]:                                             [117072519] => stdClass Object
+2015-08-07T21:10:12.878325+00:00 app[web.1]:                                                 (
+2015-08-07T21:10:12.878817+00:00 app[web.1]:                                                     [id] => 117072519
+2015-08-07T21:10:12.880211+00:00 app[web.1]:                                                     [timestamp] => 1438981540
+2015-08-07T21:10:12.880340+00:00 app[web.1]:                                                     [filemime] => text/html
+2015-08-07T21:10:12.880654+00:00 app[web.1]:                                                     [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/315598229/dropbox_24224407_r1_55c51da4cf025.html
+2015-08-07T21:10:12.881750+00:00 app[web.1]:                                                     [converted_download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/315598229/1438981552-774ba7676d12f14e62537ec20691a4e5-55c51db01e9ec_55c51db0c495c.pdf
+2015-08-07T21:10:12.881874+00:00 app[web.1]:                                                     [converted_extension] => pdf
+2015-08-07T21:10:12.882033+00:00 app[web.1]:                                                     [converted_filemime] => application/pdf
+2015-08-07T21:17:48.987123+00:00 heroku[router]: at=info method=POST path="/?req_type=courses" host=glacial-tor-7252.herokuapp.com request_id=71279a96-7f45-4a3a-aa3d-08f0ea2d99d9 fwd="50.56.38.11" dyno=web.1 connect=0ms service=83ms status=302 bytes=296
+2015-08-07T21:17:48.938629+00:00 app[web.1]: [07-Aug-2015 21:17:48 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+2015-08-07T21:17:48.976627+00:00 app[web.1]: [07-Aug-2015 21:17:48 UTC] stdClass Object
+2015-08-07T21:17:48.976629+00:00 app[web.1]: (
+2015-08-07T21:17:48.976677+00:00 app[web.1]:     [uid] => 24224407
+2015-08-07T21:17:48.976748+00:00 app[web.1]:     [timestamp] => 1438981963
+2015-08-07T21:17:48.976813+00:00 app[web.1]:     [type] => dropbox_submission.update
+2015-08-07T21:17:48.976869+00:00 app[web.1]:     [data] => stdClass Object
+2015-08-07T21:17:48.976887+00:00 app[web.1]:         (
+2015-08-07T21:17:48.976940+00:00 app[web.1]:             [realm] => section
+2015-08-07T21:17:48.977003+00:00 app[web.1]:             [section_id] => 315598229
+2015-08-07T21:17:48.977070+00:00 app[web.1]:             [realm_id] => 315598229
+2015-08-07T21:17:48.977117+00:00 app[web.1]:             [uid] => 24224407
+2015-08-07T21:17:48.977170+00:00 app[web.1]:             [revision_id] => 1
+2015-08-07T21:17:48.977273+00:00 app[web.1]:             [assignment_nid] => 315649127
+2015-08-07T21:17:48.977328+00:00 app[web.1]:             [object] => stdClass Object
+2015-08-07T21:17:48.977363+00:00 app[web.1]:                 (
+2015-08-07T21:17:48.977438+00:00 app[web.1]:                     [revision_id] => 1
+2015-08-07T21:17:48.977514+00:00 app[web.1]:                     [uid] => 24224407
+2015-08-07T21:17:48.977571+00:00 app[web.1]:                     [created] => 1438981962
+2015-08-07T21:17:48.977651+00:00 app[web.1]:                     [num_items] => 1
+2015-08-07T21:17:48.977714+00:00 app[web.1]:                     [late] => 0
+2015-08-07T21:17:48.977835+00:00 app[web.1]:
+                     [assignment_nid] => 315649127
+2015-08-07T21:17:48.977767+00:00 app[web.1]:                     [draft] => 0
+2015-08-07T21:17:48.977932+00:00 app[web.1]:                     [attachments] => stdClass Object
+2015-08-07T21:17:48.977982+00:00 app[web.1]:                         (
+2015-08-07T21:17:48.979446+00:00 app[web.1]:                             [files] => stdClass Object
+2015-08-07T21:17:48.979496+00:00 app[web.1]:                                 (
+2015-08-07T21:17:48.979624+00:00 app[web.1]:                                     [file] => stdClass Object
+2015-08-07T21:17:48.979711+00:00 app[web.1]:                                         (
+2015-08-07T21:17:48.979866+00:00 app[web.1]:                                             [117072661] => stdClass Object
+2015-08-07T21:17:48.979950+00:00 app[web.1]:                                                 (
+2015-08-07T21:17:48.980085+00:00 app[web.1]:                                                     [id] => 117072661
+2015-08-07T21:17:48.980218+00:00 app[web.1]:                                                     [fid] => 630843717
+2015-08-07T21:17:48.980334+00:00 app[web.1]:                                                     [type] => file
+2015-08-07T21:17:48.980529+00:00 app[web.1]:                                                     [title] => dropbox_24224407_r1.html
+2015-08-07T21:17:48.980671+00:00 app[web.1]:                                                     [filename] => dropbox_24224407_r1.html
+2015-08-07T21:17:48.980798+00:00 app[web.1]:                                                     [filesize] => 171
+2015-08-07T21:17:48.980961+00:00 app[web.1]:                                                     [md5_checksum] => 8ebaec2ebd1af7baff0fc0e85835264c
+2015-08-07T21:17:48.981107+00:00 app[web.1]:                                                     [timestamp] => 1438981962
+2015-08-07T21:17:48.981217+00:00 app[web.1]:                                                     [filemime] => text/html
+2015-08-07T21:17:48.981507+00:00 app[web.1]:                                                     [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/315598229/dropbox_24224407_r1_55c51f4ae21e9.html
+2015-08-07T21:17:48.981616+00:00 app[web.1]:                                                     [extension] => html
+2015-08-07T21:17:48.981935+00:00 app[web.1]:                                                     [converted_status] => 1
+2015-08-07T21:17:48.982343+00:00 app[web.1]:                                                     [converted_filename] => 1438981986-8ebaec2ebd1af7baff0fc0e85835264c-55c51f6206c15_55c51f62af0a8.pdf
+2015-08-07T21:17:48.973525+00:00 app[web.1]: [07-Aug-2015 21:17:48 UTC] got token!
+2015-08-07T21:17:48.973529+00:00 app[web.1]: 
+2015-08-07T21:17:48.973714+00:00 app[web.1]: [07-Aug-2015 21:17:48 UTC] Array
+2015-08-07T21:17:48.973717+00:00 app[web.1]: (
+2015-08-07T21:17:48.973757+00:00 app[web.1]:     [uid] => 22135108
+2015-08-07T21:17:48.973855+00:00 app[web.1]:     [token_key] => b02bc01919e633cc4cbd3b1b6917966d0558071f2
+2015-08-07T21:17:48.973948+00:00 app[web.1]:     [token_secret] => 595e3771523d7c63b374b437297fb75f
+2015-08-07T21:17:48.974001+00:00 app[web.1]:     [token_is_access] => 1
+2015-08-07T21:17:48.976385+00:00 app[web.1]: [07-Aug-2015 21:17:48 UTC] {"uid":24224407,"timestamp":1438981963,"type":"dropbox_submission.update","data":{"realm":"section","section_id":315598229,"realm_id":315598229,"uid":"24224407","revision_id":"1","assignment_nid":"315649127","object":{"revision_id":1,"uid":24224407,"created":1438981962,"num_items":1,"late":0,"draft":0,"assignment_nid":"315649127","attachments":{"files":{"file":{"117072661":{"id":117072661,"fid":630843717,"type":"file","title":"dropbox_24224407_r1.html","filename":"dropbox_24224407_r1.html","filesize":171,"md5_checksum":"8ebaec2ebd1af7baff0fc0e85835264c","timestamp":1438981962,"filemime":"text\/html","download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/315598229\/dropbox_24224407_r1_55c51f4ae21e9.html","extension":"html","converted_status":"1","converted_type":4,"converted_filename":"1438981986-8ebaec2ebd1af7baff0fc0e85835264c-55c51f6206c15_55c51f62af0a8.pdf","converted_download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201508\/course\/315598229\/1438981986-8ebaec2ebd1af7baff0fc0e85835264c-55c51f6206c15_55c51f62af0a8.pdf","converted_extension":"pdf","converted_filemime":"application\/pdf","converted_filesize":6606,"converted_md5_checksum":"24e03574db86c29c51c488c859cb6ddc"}}}}}}}
+2015-08-07T21:17:48.982110+00:00 app[web.1]:                                                     [converted_type] => 4
+2015-08-07T21:17:48.974003+00:00 app[web.1]: )
+2015-08-07T21:17:48.982819+00:00 app[web.1]:                                                     [converted_download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201508/course/315598229/1438981986-8ebaec2ebd1af7baff0fc0e85835264c-55c51f6206c15_55c51f62af0a8.pdf
+2015-08-07T21:17:48.983583+00:00 app[web.1]: 
+2015-08-07T21:17:48.983510+00:00 app[web.1]: 
+2015-08-07T21:17:48.983581+00:00 app[web.1]:                                         )
+2015-08-07T21:17:48.983774+00:00 app[web.1]: 
+2015-08-07T21:17:48.983798+00:00 app[web.1]:         )
+2015-08-07T21:17:48.983093+00:00 app[web.1]:                                                     [converted_filemime] => application/pdf
+2015-08-07T21:17:48.983418+00:00 app[web.1]:                                                     [converted_md5_checksum] => 24e03574db86c29c51c488c859cb6ddc
+2015-08-07T21:17:48.983506+00:00 app[web.1]:                                                 )
+2015-08-07T21:17:48.974008+00:00 app[web.1]: 
+2015-08-07T21:17:48.983209+00:00 app[web.1]:                                                     [converted_filesize] => 6606
+2015-08-07T21:17:48.983645+00:00 app[web.1]: 
+2015-08-07T21:17:48.974010+00:00 app[web.1]: 
+2015-08-07T21:17:48.982943+00:00 app[web.1]:                                                     [converted_extension] => pdf
+2015-08-07T21:17:48.983760+00:00 app[web.1]:                 )
+2015-08-07T21:17:48.983839+00:00 app[web.1]: 
+2015-08-07T21:17:48.984042+00:00 app[web.1]: (
+2015-08-07T21:17:48.983643+00:00 app[web.1]:                                 )
+2015-08-07T21:17:48.983704+00:00 app[web.1]:                         )
+2015-08-07T21:17:48.983956+00:00 app[web.1]: [07-Aug-2015 21:17:48 UTC] Requirement Type found - courses
+2015-08-07T21:17:48.984094+00:00 app[web.1]:     [req_type] => courses
+2015-08-07T21:17:48.987141+00:00 app[web.1]: 10.63.55.228 - - [07/Aug/2015:21:17:48 +0000] "POST /?req_type=courses HTTP/1.1" 302 - "-" "-
+2015-08-07T21:17:48.983708+00:00 app[web.1]: 
+2015-08-07T21:17:48.984038+00:00 app[web.1]: [07-Aug-2015 21:17:48 UTC] Array
+2015-08-07T21:17:48.984114+00:00 app[web.1]: 
+2015-08-07T21:17:48.984112+00:00 app[web.1]: 
+2015-08-07T21:17:48.983799+00:00 app[web.1]: 
+2015-08-07T21:17:48.983838+00:00 app[web.1]: )
+2015-08-07T21:17:48.983958+00:00 app[web.1]: 
+2015-08-07T21:17:48.984109+00:00 app[web.1]: )

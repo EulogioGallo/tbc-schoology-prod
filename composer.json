@@ -1,0 +1,16 @@
+{
+  "require" : {
+    "silex/silex": "~1.1",
+    "monolog/monolog": "~1.7",
+	"ext-oauth": "*",
+    "herrera-io/silex-pdo": "~1.2",
+    "twig/twig": "~1.0",
+    "ext-mbstring": "*",
+    "developerforce/force.com-toolkit-for-php": "*",
+    "ext-soap": "*",
+    "ebichan/silex-amqp-provider": "^1.0"
+  },
+  "require-dev": {
+    "heroku/heroku-buildpack-php": "*"
+  }
+}

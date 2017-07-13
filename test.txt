@@ -1,0 +1,104 @@
+(
+     [uid] => 24224407
+     [timestamp] => 1499794573
+     [type] => dropbox_submission.update
+     [data] => stdClass Object
+         (
+             [realm] => section
+             [section_id] => 1101895390
+             [realm_id] => 1101895390
+             [uid] => 24224407
+             [revision_id] => 74
+             [assignment_nid] => 1102002956
+             [object] => stdClass Object
+                 (
+                     [revision_id] => 74
+                     [uid] => 24224407
+                     [created] => 1499794573
+                     [num_items] => 1
+                     [late] => 1
+                     [draft] => 0
+                     [assignment_nid] => 1102002956
+                     [attachments] => stdClass Object
+                         (
+                             [files] => stdClass Object
+                                 (
+                                     [file] => stdClass Object
+                                         (
+                                             [443621306] => stdClass Object
+                                                 (
+                                                     [id] => 443621306
+                                                     [fid] => 2457013794
+                                                     [type] => file
+                                                     [title] => 1s4vod.jpg
+                                                     [filename] => 1s4vod.jpg
+                                                     [filesize] => 54593
+                                                     [md5_checksum] => 75bcc9a705ac2aa2a5777595e1e3bceb
+                                                     [timestamp] => 1499794570
+                                                     [filemime] => image/jpeg
+                                                     [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1101895390/1s4vod_59650c8a6035c.jpg
+                                                     [extension] => jpg
+                                                     [converted_status] => 1
+                                                     [converted_type] => 3
+                                                     [converted_filename] => 1s4vod.pdf
+                                                     [converted_download_path] => http://api.schoology.com/v1/submission/443621306/conversion/file.pdf
+                                                     [converted_extension] => pdf
+                                                     [converted_filemime] => application/pdf
+                                                     [converted_filesize] => 55651
+                                                     [converted_md5_checksum] => 22d9ee699dcac71c2e06cdd8846b56ff
+                                                     [dimensions] =>
+                                                     [thumbnail] => http://cdn3-2.cdn.schoology.com/system/files/imagecache/attachment_image_thumb/drop_items/m/201707/course/1101895390/1s4vod_59650c8a6035c.jpg
+                                                     [thumbnail_dimensions] => 120x90
+                                                 )
+
+                                             [443621308] => stdClass Object
+                                                 (
+                                                     [id] => 443621308
+                                                     [fid] => 2457013818
+                                                     [type] => file
+                                                     [title] => Rev #137 of Turn me in (2).pptx
+                                                     [filename] => Rev #137 of Turn me in (2).pptx
+                                                     [filesize] => 10958
+                                                     [md5_checksum] => f5e844ee8867b3bd82e4eb19bfba3bf4
+                                                     [timestamp] => 1499794571
+                                                     [filemime] => application/vnd.openxmlformats-officedocument.presentationml.presentation
+                                                     [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1101895390/Rev_137_of_Turn_me_in_2_59650c8ae2bed.pptx
+                                                     [extension] => pptx
+                                                     [converted_status] => 3
+                                                     [converted_type] => 4
+                                                 )
+
+                                             [443621304] => stdClass Object
+                                                 (
+                                                     [id] => 443621304
+                                                     [fid] => 2457013680
+                                                     [type] => file
+                                                     [title] => Word Document test.docx
+                                                     [filename] => Word Document test.docx
+                                                     [filesize] => 11744
+                                                     [md5_checksum] => 28bb89b1b39abe5318e9bc0be7be320a
+                                                     [timestamp] => 1499794569
+                                                     [filemime] => application/vnd.openxmlformats-officedocument.wordprocessingml.document
+                                                     [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1101895390/Word_Document_test_59650c896aec2.docx
+                                                     [extension] => docx
+                                                     [converted_status] => 1
+                                                     [converted_type] => 4
+                                                     [converted_filename] => Word Document test.pdf
+                                                     [converted_download_path] => http://api.schoology.com/v1/submission/443621304/conversion/file.pdf
+                                                     [converted_extension] => pdf
+                                                     [converted_filemime] => application/pdf
+                                                     [converted_filesize] => 10143
+                                                     [converted_md5_checksum] => f28437ef5aad10ae38b4dd60a9121dbc
+                                                 )
+
+                                         )
+
+                                 )
+
+                         )
+
+                 )
+
+         )
+
+ )

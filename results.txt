@@ -1,0 +1,1508 @@
+2016-02-23T19:44:47.352550+00:00 app[web.1]:             [namespace:protected] => urn:partner.soap.sforce.com
+2016-02-23T19:44:47.351163+00:00 app[web.1]:                     [__last_request] => <?xml version="1.0" encoding="UTF-8"?>
+2016-02-23T19:44:47.351075+00:00 app[web.1]:                                 )
+2016-02-23T19:44:47.351719+00:00 app[web.1]:                     [httpurl] => Resource id #11
+2016-02-23T19:44:47.352303+00:00 app[web.1]:                     [__last_response] => <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns="urn:partner.soap.sforce.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sf="urn:sobject.partner.soap.sforce.com"><soapenv:Header><LimitInfoHeader><limitInfo><current>7</current><limit>5000000</limit><type>API REQUESTS</type></limitInfo></LimitInfoHeader></soapenv:Header><soapenv:Body><queryResponse><result xsi:type="QueryResult"><done>true</done><queryLocator xsi:nil="true"/><records xsi:type="sf:sObject"><sf:type>Assessment__c</sf:type><sf:Id>a21f000000339MSAAY</sf:Id><sf:Id>a21f000000339MSAAY</sf:Id><sf:Submitted_from_Schoology__c>false</sf:Submitted_from_Schoology__c><sf:Contact_Schoology_ID__c>24224407</sf:Contact_Schoology_ID__c><sf:Schoology_Grade_ID__c>340468553</sf:Schoology_Grade_ID__c></records><size>1</size></result></queryResponse></soapenv:Body></soapenv:Envelope>
+2016-02-23T19:44:47.352469+00:00 app[web.1]:             [location:protected] => https://cs16.salesforce.com/services/Soap/u/36.0/00Df0000003cIK9
+2016-02-23T19:44:47.351632+00:00 app[web.1]:                     [httpsocket] => Resource id #10
+2016-02-23T19:44:47.349515+00:00 app[web.1]:                     [_soap_version] => 1
+2016-02-23T19:44:47.350181+00:00 app[web.1]:                     [_cookies] => Array
+2016-02-23T19:44:47.352623+00:00 app[web.1]:             [assignmentRuleHeader:protected] => 
+2016-02-23T19:44:47.352657+00:00 app[web.1]:             [emailHeader:protected] => 
+2016-02-23T19:44:47.350999+00:00 app[web.1]:                                         )
+2016-02-23T19:44:47.352695+00:00 app[web.1]:             [loginScopeHeader:protected] => 
+2016-02-23T19:44:47.352308+00:00 app[web.1]:                 )
+2016-02-23T19:44:47.352762+00:00 app[web.1]:             [queryHeader:protected] => 
+2016-02-23T19:44:47.351106+00:00 app[web.1]: 
+2016-02-23T19:44:47.349676+00:00 app[web.1]: Connection: Keep-Alive
+2016-02-23T19:44:47.352803+00:00 app[web.1]:             [userTerritoryDeleteHeader:protected] => 
+2016-02-23T19:44:47.352847+00:00 app[web.1]:             [sessionHeader:protected] => SoapHeader Object
+2016-02-23T19:44:47.352728+00:00 app[web.1]:             [mruHeader:protected] => 
+2016-02-23T19:44:47.351044+00:00 app[web.1]:                                     [mustUnderstand] => 
+2016-02-23T19:44:47.350208+00:00 app[web.1]:                         (
+2016-02-23T19:44:47.352963+00:00 app[web.1]:                     [name] => SessionHeader
+2016-02-23T19:44:47.352984+00:00 app[web.1]:                     [data] => Array
+2016-02-23T19:44:47.351583+00:00 app[web.1]: 
+2016-02-23T19:44:47.352916+00:00 app[web.1]:                     [namespace] => urn:partner.soap.sforce.com
+2016-02-23T19:44:47.352870+00:00 app[web.1]:                 (
+2016-02-23T19:44:47.353131+00:00 app[web.1]:                             [sessionId] => 00Df0000003cIK9!AQcAQMLRT0DUtzsPkCMMNSSh82NNrPZpCr54qIfEDX012VqDy0aMlwOXkpJOb_EfHQ99s7wNWVrdivoqX9Yc_bEEq5OAMJtZ
+2016-02-23T19:44:47.353214+00:00 app[web.1]: 
+2016-02-23T19:44:47.350281+00:00 app[web.1]:                                 (
+2016-02-23T19:44:47.353456+00:00 app[web.1]: 
+2016-02-23T19:44:47.353199+00:00 app[web.1]:                     [mustUnderstand] => 
+2016-02-23T19:44:47.351671+00:00 app[web.1]:                     [_use_proxy] => 0
+2016-02-23T19:44:47.353264+00:00 app[web.1]:             [allowFieldTruncationHeader:protected] => 
+2016-02-23T19:44:47.353301+00:00 app[web.1]:             [localeOptions:protected] => 
+2016-02-23T19:44:47.353502+00:00 app[web.1]: (
+2016-02-23T19:44:47.353213+00:00 app[web.1]:                 )
+2016-02-23T19:44:47.353340+00:00 app[web.1]:             [packageVersionHeader:protected] => 
+2016-02-23T19:44:47.353620+00:00 app[web.1]:             [0] => stdClass Object
+2016-02-23T19:44:47.352404+00:00 app[web.1]:             [sessionId:protected] => 00Df0000003cIK9!AQcAQMLRT0DUtzsPkCMMNSSh82NNrPZpCr54qIfEDX012VqDy0aMlwOXkpJOb_EfHQ99s7wNWVrdivoqX9Yc_bEEq5OAMJtZ
+2016-02-23T19:44:47.350482+00:00 app[web.1]: 
+2016-02-23T19:44:47.353037+00:00 app[web.1]:                         (
+2016-02-23T19:44:47.353458+00:00 app[web.1]: )
+2016-02-23T19:44:47.353550+00:00 app[web.1]:     [done] => 1
+2016-02-23T19:44:47.353712+00:00 app[web.1]:                     [Id] => Array
+2016-02-23T19:44:47.353821+00:00 app[web.1]:                             [1] => a21f000000339MSAAY
+2016-02-23T19:44:47.353460+00:00 app[web.1]: 
+2016-02-23T19:44:47.350587+00:00 app[web.1]:                     [__default_headers] => Array
+2016-02-23T19:44:47.353642+00:00 app[web.1]:                 (
+2016-02-23T19:44:47.353458+00:00 app[web.1]: 
+2016-02-23T19:44:47.353373+00:00 app[web.1]:             [client_id:protected] => 
+2016-02-23T19:44:47.354027+00:00 app[web.1]: 
+2016-02-23T19:44:47.353529+00:00 app[web.1]:     [queryLocator] => 
+2016-02-23T19:44:47.352584+00:00 app[web.1]:             [callOptions:protected] => 
+2016-02-23T19:44:47.354335+00:00 app[web.1]:                     [_features] => 1
+2016-02-23T19:44:47.352503+00:00 app[web.1]:             [version:protected] => 27.0
+2016-02-23T19:44:47.353779+00:00 app[web.1]:                             [0] => a21f000000339MSAAY
+2016-02-23T19:44:47.354544+00:00 app[web.1]: Host: cs16.salesforce.com
+2016-02-23T19:44:47.353841+00:00 app[web.1]:                         )
+2016-02-23T19:44:47.354604+00:00 app[web.1]: User-Agent: salesforce-toolkit-php/27.0
+2016-02-23T19:44:47.353842+00:00 app[web.1]: 
+2016-02-23T19:44:47.354690+00:00 app[web.1]: SOAPAction: ""
+2016-02-23T19:44:47.353502+00:00 app[web.1]: [23-Feb-2016 19:44:47 UTC] QueryResult Object
+2016-02-23T19:44:47.354050+00:00 app[web.1]:     [size] => 1
+2016-02-23T19:44:47.354026+00:00 app[web.1]:         )
+2016-02-23T19:44:47.354007+00:00 app[web.1]: 
+2016-02-23T19:44:47.354202+00:00 app[web.1]:                 (
+2016-02-23T19:44:47.354722+00:00 app[web.1]: Cookie: 
+2016-02-23T19:44:47.354416+00:00 app[web.1]:                     [_soap_version] => 1
+2016-02-23T19:44:47.354894+00:00 app[web.1]: Set-Cookie: BrowserId=PDooi7UDR7a4HCHBgqHc1w;Path=/;Domain=.salesforce.com;Expires=Sat, 23-Apr-2016 19:44:47 GMT
+2016-02-23T19:44:47.353161+00:00 app[web.1]: 
+2016-02-23T19:44:47.353739+00:00 app[web.1]:                         (
+2016-02-23T19:44:47.355792+00:00 app[web.1]:                                         (
+2016-02-23T19:44:47.354074+00:00 app[web.1]:     [pointer] => 0
+2016-02-23T19:44:47.354232+00:00 app[web.1]:                     [trace] => 1
+2016-02-23T19:44:47.354452+00:00 app[web.1]:                     [sdl] => Resource id #7
+2016-02-23T19:44:47.354569+00:00 app[web.1]: Connection: Keep-Alive
+2016-02-23T19:44:47.356428+00:00 app[web.1]: <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="urn:partner.soap.sforce.com"><SOAP-ENV:Header><ns1:SessionHeader><ns1:sessionId>00Df0000003cIK9!AQcAQMLRT0DUtzsPkCMMNSSh82NNrPZpCr54qIfEDX012VqDy0aMlwOXkpJOb_EfHQ99s7wNWVrdivoqX9Yc_bEEq5OAMJtZ</ns1:sessionId></ns1:SessionHeader></SOAP-ENV:Header><SOAP-ENV:Body><ns1:query><ns1:queryString>SELECT Id, Submitted_from_Schoology__c, Contact_Schoology_ID__c, Schoology_Grade_ID__c FROM Assessment__c WHERE Contact_Schoology_ID__c = '24224407' AND Schoology_Grade_ID__c = '340468553' LIMIT 1</ns1:queryString></ns1:query></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2016-02-23T19:44:47.354715+00:00 app[web.1]: Content-Length: 680
+2016-02-23T19:44:47.357263+00:00 app[web.1]:             [version:protected] => 27.0
+2016-02-23T19:44:47.353160+00:00 app[web.1]:                         )
+2016-02-23T19:44:47.355421+00:00 app[web.1]:                     [location] => https://cs16.salesforce.com/services/Soap/u/36.0/00Df0000003cIK9
+2016-02-23T19:44:47.354741+00:00 app[web.1]: 
+2016-02-23T19:44:47.356092+00:00 app[web.1]:                     [__last_request] => <?xml version="1.0" encoding="UTF-8"?>
+2016-02-23T19:44:47.354517+00:00 app[web.1]:                     [__last_request_headers] => POST /services/Soap/u/36.0/00Df0000003cIK9 HTTP/1.1
+2016-02-23T19:44:47.354928+00:00 app[web.1]: Expires: Thu, 01 Jan 1970 00:00:00 GMT
+2016-02-23T19:44:47.353576+00:00 app[web.1]:     [records] => Array
+2016-02-23T19:44:47.357718+00:00 app[web.1]:             [userTerritoryDeleteHeader:protected] => 
+2016-02-23T19:44:47.354987+00:00 app[web.1]: Content-Encoding: gzip
+2016-02-23T19:44:47.357229+00:00 app[web.1]:             [location:protected] => https://cs16.salesforce.com/services/Soap/u/36.0/00Df0000003cIK9
+2016-02-23T19:44:47.355016+00:00 app[web.1]: Transfer-Encoding: chunked
+2016-02-23T19:44:47.354381+00:00 app[web.1]:                     [_user_agent] => salesforce-toolkit-php/27.0
+2016-02-23T19:44:47.354117+00:00 app[web.1]:     [sf:QueryResult:private] => SforcePartnerClient Object
+2016-02-23T19:44:47.355082+00:00 app[web.1]:                         (
+2016-02-23T19:44:47.357718+00:00 app[web.1]:             [sessionHeader:protected] => SoapHeader Object
+2016-02-23T19:44:47.357749+00:00 app[web.1]:                     [namespace] => urn:partner.soap.sforce.com
+2016-02-23T19:44:47.355017+00:00 app[web.1]: 
+2016-02-23T19:44:47.357884+00:00 app[web.1]:                         (
+2016-02-23T19:44:47.355120+00:00 app[web.1]:                             [BrowserId] => Array
+2016-02-23T19:44:47.355324+00:00 app[web.1]:                                 )
+2016-02-23T19:44:47.358059+00:00 app[web.1]:                             [sessionId] => 00Df0000003cIK9!AQcAQMLRT0DUtzsPkCMMNSSh82NNrPZpCr54qIfEDX012VqDy0aMlwOXkpJOb_EfHQ99s7wNWVrdivoqX9Yc_bEEq5OAMJtZ
+2016-02-23T19:44:47.354668+00:00 app[web.1]: Content-Type: text/xml; charset=utf-8
+2016-02-23T19:44:47.353679+00:00 app[web.1]:                     [type] => Assessment__c
+2016-02-23T19:44:47.358166+00:00 app[web.1]:                         )
+2016-02-23T19:44:47.355355+00:00 app[web.1]: 
+2016-02-23T19:44:47.358183+00:00 app[web.1]: 
+2016-02-23T19:44:47.355662+00:00 app[web.1]:                                     [namespace] => urn:partner.soap.sforce.com
+2016-02-23T19:44:47.353381+00:00 app[web.1]:         )
+2016-02-23T19:44:47.358232+00:00 app[web.1]:                     [mustUnderstand] => 
+2016-02-23T19:44:47.355557+00:00 app[web.1]:                                 (
+2016-02-23T19:44:47.353976+00:00 app[web.1]:                     [any] => <sf:Submitted_from_Schoology__c>false</sf:Submitted_from_Schoology__c><sf:Contact_Schoology_ID__c>24224407</sf:Contact_Schoology_ID__c><sf:Schoology_Grade_ID__c>340468553</sf:Schoology_Grade_ID__c>
+2016-02-23T19:44:47.355486+00:00 app[web.1]:                         (
+2016-02-23T19:44:47.356006+00:00 app[web.1]:                                 )
+2016-02-23T19:44:47.354822+00:00 app[web.1]: Date: Tue, 23 Feb 2016 19:44:47 GMT
+2016-02-23T19:44:47.356007+00:00 app[web.1]: 
+2016-02-23T19:44:47.354961+00:00 app[web.1]: Content-Type: text/xml;charset=UTF-8
+2016-02-23T19:44:47.355929+00:00 app[web.1]:                                         )
+2016-02-23T19:44:47.358367+00:00 app[web.1]:             [localeOptions:protected] => 
+2016-02-23T19:44:47.357073+00:00 app[web.1]: 
+2016-02-23T19:44:47.355053+00:00 app[web.1]:                     [_cookies] => Array
+2016-02-23T19:44:47.358422+00:00 app[web.1]:             [client_id:protected] => 
+2016-02-23T19:44:47.355459+00:00 app[web.1]:                     [__default_headers] => Array
+2016-02-23T19:44:47.358424+00:00 app[web.1]:         )
+2016-02-23T19:44:47.357460+00:00 app[web.1]:             [emailHeader:protected] => 
+2016-02-23T19:44:47.354740+00:00 app[web.1]: 
+2016-02-23T19:44:47.358437+00:00 app[web.1]: 
+2016-02-23T19:44:47.355892+00:00 app[web.1]:                                             [sessionId] => 00Df0000003cIK9!AQcAQMLRT0DUtzsPkCMMNSSh82NNrPZpCr54qIfEDX012VqDy0aMlwOXkpJOb_EfHQ99s7wNWVrdivoqX9Yc_bEEq5OAMJtZ
+2016-02-23T19:44:47.357800+00:00 app[web.1]:                     [name] => SessionHeader
+2016-02-23T19:44:47.356473+00:00 app[web.1]:                     [httpsocket] => Resource id #10
+2016-02-23T19:44:47.357049+00:00 app[web.1]:                     [__last_response] => <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns="urn:partner.soap.sforce.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sf="urn:sobject.partner.soap.sforce.com"><soapenv:Header><LimitInfoHeader><limitInfo><current>7</current><limit>5000000</limit><type>API REQUESTS</type></limitInfo></LimitInfoHeader></soapenv:Header><soapenv:Body><queryResponse><result xsi:type="QueryResult"><done>true</done><queryLocator xsi:nil="true"/><records xsi:type="sf:sObject"><sf:type>Assessment__c</sf:type><sf:Id>a21f000000339MSAAY</sf:Id><sf:Id>a21f000000339MSAAY</sf:Id><sf:Submitted_from_Schoology__c>false</sf:Submitted_from_Schoology__c><sf:Contact_Schoology_ID__c>24224407</sf:Contact_Schoology_ID__c><sf:Schoology_Grade_ID__c>340468553</sf:Schoology_Grade_ID__c></records><size>1</size></result></queryResponse></soapenv:Body></soapenv:Envelope>
+2016-02-23T19:44:47.358472+00:00 app[web.1]: (
+2016-02-23T19:44:47.357544+00:00 app[web.1]:             [mruHeader:protected] => 
+2016-02-23T19:44:47.356505+00:00 app[web.1]:                     [_use_proxy] => 0
+2016-02-23T19:44:47.358438+00:00 app[web.1]: )
+2016-02-23T19:44:47.358533+00:00 app[web.1]:     [records] => Array
+2016-02-23T19:44:47.357345+00:00 app[web.1]:             [callOptions:protected] => 
+2016-02-23T19:44:47.358541+00:00 app[web.1]:         (
+2016-02-23T19:44:47.355247+00:00 app[web.1]:                                     [1] => /services/Soap/u/36.0
+2016-02-23T19:44:47.357848+00:00 app[web.1]:                     [data] => Array
+2016-02-23T19:44:47.354006+00:00 app[web.1]:                 )
+2016-02-23T19:44:47.355324+00:00 app[web.1]: 
+2016-02-23T19:44:47.357402+00:00 app[web.1]:             [assignmentRuleHeader:protected] => 
+2016-02-23T19:44:47.358635+00:00 app[web.1]:                     [type] => Assessment__c
+2016-02-23T19:44:47.358275+00:00 app[web.1]: 
+2016-02-23T19:44:47.353584+00:00 app[web.1]:         (
+2016-02-23T19:44:47.358471+00:00 app[web.1]: [23-Feb-2016 19:44:47 UTC] QueryResult Object
+2016-02-23T19:44:47.354179+00:00 app[web.1]:             [sforce:protected] => SforceSoapClient Object
+2016-02-23T19:44:47.358397+00:00 app[web.1]:             [packageVersionHeader:protected] => 
+2016-02-23T19:44:47.358503+00:00 app[web.1]:     [done] => 1
+2016-02-23T19:44:47.358576+00:00 app[web.1]:             [0] => stdClass Object
+2016-02-23T19:44:47.355975+00:00 app[web.1]:                                     [mustUnderstand] => 
+2016-02-23T19:44:47.358694+00:00 app[web.1]:                         (
+2016-02-23T19:44:47.358777+00:00 app[web.1]:                             [1] => a21f000000339MSAAY
+2016-02-23T19:44:47.358666+00:00 app[web.1]:                     [Id] => Array
+2016-02-23T19:44:47.358936+00:00 app[web.1]:                     [any] => <sf:Submitted_from_Schoology__c>false</sf:Submitted_from_Schoology__c><sf:Contact_Schoology_ID__c>24224407</sf:Contact_Schoology_ID__c><sf:Schoology_Grade_ID__c>340468553</sf:Schoology_Grade_ID__c>
+2016-02-23T19:44:47.358735+00:00 app[web.1]:                             [0] => a21f000000339MSAAY
+2016-02-23T19:44:47.358804+00:00 app[web.1]:                         )
+2016-02-23T19:44:47.358805+00:00 app[web.1]: 
+2016-02-23T19:44:47.358958+00:00 app[web.1]: 
+2016-02-23T19:44:47.356429+00:00 app[web.1]: 
+2016-02-23T19:44:47.358957+00:00 app[web.1]:                 )
+2016-02-23T19:44:47.358979+00:00 app[web.1]:         )
+2016-02-23T19:44:47.359079+00:00 app[web.1]:         (
+2016-02-23T19:44:47.359003+00:00 app[web.1]:     [size] => 1
+2016-02-23T19:44:47.358980+00:00 app[web.1]: 
+2016-02-23T19:44:47.359147+00:00 app[web.1]:                 (
+2016-02-23T19:44:47.359071+00:00 app[web.1]:     [sf:QueryResult:private] => SforcePartnerClient Object
+2016-02-23T19:44:47.359213+00:00 app[web.1]:                     [compression] => 32
+2016-02-23T19:44:47.354302+00:00 app[web.1]:                     [_encoding] => utf-8
+2016-02-23T19:44:47.357309+00:00 app[web.1]:             [namespace:protected] => urn:partner.soap.sforce.com
+2016-02-23T19:44:47.354267+00:00 app[web.1]:                     [compression] => 32
+2016-02-23T19:44:47.359126+00:00 app[web.1]:             [sforce:protected] => SforceSoapClient Object
+2016-02-23T19:44:47.359281+00:00 app[web.1]:                     [_features] => 1
+2016-02-23T19:44:47.354136+00:00 app[web.1]:         (
+2016-02-23T19:44:47.358344+00:00 app[web.1]:             [allowFieldTruncationHeader:protected] => 
+2016-02-23T19:44:47.359397+00:00 app[web.1]:                     [sdl] => Resource id #7
+2016-02-23T19:44:47.359462+00:00 app[web.1]:                     [__last_request_headers] => POST /services/Soap/u/36.0/00Df0000003cIK9 HTTP/1.1
+2016-02-23T19:44:47.359361+00:00 app[web.1]:                     [_soap_version] => 1
+2016-02-23T19:44:47.359516+00:00 app[web.1]: Connection: Keep-Alive
+2016-02-23T19:44:47.359249+00:00 app[web.1]:                     [_encoding] => utf-8
+2016-02-23T19:44:47.359616+00:00 app[web.1]: Content-Type: text/xml; charset=utf-8
+2016-02-23T19:44:47.358499+00:00 app[web.1]:     [queryLocator] => 
+2016-02-23T19:44:47.359552+00:00 app[web.1]: User-Agent: salesforce-toolkit-php/27.0
+2016-02-23T19:44:47.354634+00:00 app[web.1]: Accept-Encoding: gzip, deflate
+2016-02-23T19:44:47.359663+00:00 app[web.1]: Content-Length: 680
+2016-02-23T19:44:47.359680+00:00 app[web.1]: 
+2016-02-23T19:44:47.359678+00:00 app[web.1]: Cookie: 
+2016-02-23T19:44:47.354790+00:00 app[web.1]:                     [__last_response_headers] => HTTP/1.1 200 OK
+2016-02-23T19:44:47.359732+00:00 app[web.1]:                     [__last_response_headers] => HTTP/1.1 200 OK
+2016-02-23T19:44:47.359790+00:00 app[web.1]: Date: Tue, 23 Feb 2016 19:44:47 GMT
+2016-02-23T19:44:47.355354+00:00 app[web.1]:                         )
+2016-02-23T19:44:47.355759+00:00 app[web.1]:                                     [data] => Array
+2016-02-23T19:44:47.359895+00:00 app[web.1]: Expires: Thu, 01 Jan 1970 00:00:00 GMT
+2016-02-23T19:44:47.359327+00:00 app[web.1]:                     [_user_agent] => salesforce-toolkit-php/27.0
+2016-02-23T19:44:47.359960+00:00 app[web.1]: Content-Encoding: gzip
+2016-02-23T19:44:47.359989+00:00 app[web.1]: Transfer-Encoding: chunked
+2016-02-23T19:44:47.359959+00:00 app[web.1]: Content-Type: text/xml;charset=UTF-8
+2016-02-23T19:44:47.360153+00:00 app[web.1]:                             [BrowserId] => Array
+2016-02-23T19:44:47.356036+00:00 app[web.1]: 
+2016-02-23T19:44:47.360267+00:00 app[web.1]:                                     [0] => PDooi7UDR7a4HCHBgqHc1w
+2016-02-23T19:44:47.360077+00:00 app[web.1]:                     [_cookies] => Array
+2016-02-23T19:44:47.355153+00:00 app[web.1]:                                 (
+2016-02-23T19:44:47.357165+00:00 app[web.1]:             [sessionId:protected] => 00Df0000003cIK9!AQcAQMLRT0DUtzsPkCMMNSSh82NNrPZpCr54qIfEDX012VqDy0aMlwOXkpJOb_EfHQ99s7wNWVrdivoqX9Yc_bEEq5OAMJtZ
+2016-02-23T19:44:47.360428+00:00 app[web.1]: 
+2016-02-23T19:44:47.357716+00:00 app[web.1]:             [queryHeader:protected] => 
+2016-02-23T19:44:47.360556+00:00 app[web.1]:                     [location] => https://cs16.salesforce.com/services/Soap/u/36.0/00Df0000003cIK9
+2016-02-23T19:44:47.358260+00:00 app[web.1]:                 )
+2016-02-23T19:44:47.360606+00:00 app[web.1]:                         (
+2016-02-23T19:44:47.360193+00:00 app[web.1]:                                 (
+2016-02-23T19:44:47.360321+00:00 app[web.1]:                                     [1] => /services/Soap/u/36.0
+2016-02-23T19:44:47.359489+00:00 app[web.1]: Host: cs16.salesforce.com
+2016-02-23T19:44:47.355201+00:00 app[web.1]:                                     [0] => PDooi7UDR7a4HCHBgqHc1w
+2016-02-23T19:44:47.360457+00:00 app[web.1]:                         )
+2016-02-23T19:44:47.360679+00:00 app[web.1]:                                 (
+2016-02-23T19:44:47.360395+00:00 app[web.1]:                                     [2] => cs16.salesforce.com
+2016-02-23T19:44:47.359027+00:00 app[web.1]:     [pointer] => 0
+2016-02-23T19:44:47.360578+00:00 app[web.1]:                     [__default_headers] => Array
+2016-02-23T19:44:47.360796+00:00 app[web.1]:                                     [name] => SessionHeader
+2016-02-23T19:44:47.360979+00:00 app[web.1]:                                             [sessionId] => 00Df0000003cIK9!AQcAQMLRT0DUtzsPkCMMNSSh82NNrPZpCr54qIfEDX012VqDy0aMlwOXkpJOb_EfHQ99s7wNWVrdivoqX9Yc_bEEq5OAMJtZ
+2016-02-23T19:44:47.360648+00:00 app[web.1]:                             [0] => SoapHeader Object
+2016-02-23T19:44:47.359582+00:00 app[web.1]: Accept-Encoding: gzip, deflate
+2016-02-23T19:44:47.361064+00:00 app[web.1]:                                     [mustUnderstand] => 
+2016-02-23T19:44:47.361098+00:00 app[web.1]: 
+2016-02-23T19:44:47.359638+00:00 app[web.1]: SOAPAction: ""
+2016-02-23T19:44:47.360876+00:00 app[web.1]:                                         (
+2016-02-23T19:44:47.355293+00:00 app[web.1]:                                     [2] => cs16.salesforce.com
+2016-02-23T19:44:47.361129+00:00 app[web.1]:                         )
+2016-02-23T19:44:47.360750+00:00 app[web.1]:                                     [namespace] => urn:partner.soap.sforce.com
+2016-02-23T19:44:47.361556+00:00 app[web.1]: <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="urn:partner.soap.sforce.com"><SOAP-ENV:Header><ns1:SessionHeader><ns1:sessionId>00Df0000003cIK9!AQcAQMLRT0DUtzsPkCMMNSSh82NNrPZpCr54qIfEDX012VqDy0aMlwOXkpJOb_EfHQ99s7wNWVrdivoqX9Yc_bEEq5OAMJtZ</ns1:sessionId></ns1:SessionHeader></SOAP-ENV:Header><SOAP-ENV:Body><ns1:query><ns1:queryString>SELECT Id, Submitted_from_Schoology__c, Contact_Schoology_ID__c, Schoology_Grade_ID__c FROM Assessment__c WHERE Contact_Schoology_ID__c = '24224407' AND Schoology_Grade_ID__c = '340468553' LIMIT 1</ns1:queryString></ns1:query></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2016-02-23T19:44:47.359687+00:00 app[web.1]: 
+2016-02-23T19:44:47.359861+00:00 app[web.1]: Set-Cookie: BrowserId=PDooi7UDR7a4HCHBgqHc1w;Path=/;Domain=.salesforce.com;Expires=Sat, 23-Apr-2016 19:44:47 GMT
+2016-02-23T19:44:47.362182+00:00 app[web.1]:                     [__last_response] => <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns="urn:partner.soap.sforce.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sf="urn:sobject.partner.soap.sforce.com"><soapenv:Header><LimitInfoHeader><limitInfo><current>7</current><limit>5000000</limit><type>API REQUESTS</type></limitInfo></LimitInfoHeader></soapenv:Header><soapenv:Body><queryResponse><result xsi:type="QueryResult"><done>true</done><queryLocator xsi:nil="true"/><records xsi:type="sf:sObject"><sf:type>Assessment__c</sf:type><sf:Id>a21f000000339MSAAY</sf:Id><sf:Id>a21f000000339MSAAY</sf:Id><sf:Submitted_from_Schoology__c>false</sf:Submitted_from_Schoology__c><sf:Contact_Schoology_ID__c>24224407</sf:Contact_Schoology_ID__c><sf:Schoology_Grade_ID__c>340468553</sf:Schoology_Grade_ID__c></records><size>1</size></result></queryResponse></soapenv:Body></soapenv:Envelope>
+2016-02-23T19:44:47.360458+00:00 app[web.1]: 
+2016-02-23T19:44:47.360427+00:00 app[web.1]:                                 )
+2016-02-23T19:44:47.355527+00:00 app[web.1]:                             [0] => SoapHeader Object
+2016-02-23T19:44:47.361558+00:00 app[web.1]: 
+2016-02-23T19:44:47.355705+00:00 app[web.1]:                                     [name] => SessionHeader
+2016-02-23T19:44:47.361017+00:00 app[web.1]: 
+2016-02-23T19:44:47.361097+00:00 app[web.1]:                                 )
+2016-02-23T19:44:47.362388+00:00 app[web.1]:             [version:protected] => 27.0
+2016-02-23T19:44:47.362508+00:00 app[web.1]:             [assignmentRuleHeader:protected] => 
+2016-02-23T19:44:47.361016+00:00 app[web.1]:                                         )
+2016-02-23T19:44:47.362435+00:00 app[web.1]:             [namespace:protected] => urn:partner.soap.sforce.com
+2016-02-23T19:44:47.360839+00:00 app[web.1]:                                     [data] => Array
+2016-02-23T19:44:47.355930+00:00 app[web.1]: 
+2016-02-23T19:44:47.361130+00:00 app[web.1]: 
+2016-02-23T19:44:47.361598+00:00 app[web.1]:                     [httpsocket] => Resource id #10
+2016-02-23T19:44:47.362185+00:00 app[web.1]:                 )
+2016-02-23T19:44:47.362543+00:00 app[web.1]:             [emailHeader:protected] => 
+2016-02-23T19:44:47.361631+00:00 app[web.1]:                     [_use_proxy] => 0
+2016-02-23T19:44:47.357072+00:00 app[web.1]:                 )
+2016-02-23T19:44:47.362360+00:00 app[web.1]:             [location:protected] => https://cs16.salesforce.com/services/Soap/u/36.0/00Df0000003cIK9
+2016-02-23T19:44:47.361187+00:00 app[web.1]:                     [__last_request] => <?xml version="1.0" encoding="UTF-8"?>
+2016-02-23T19:44:47.362732+00:00 app[web.1]:             [sessionHeader:protected] => SoapHeader Object
+2016-02-23T19:44:47.362869+00:00 app[web.1]:                     [data] => Array
+2016-02-23T19:44:47.362800+00:00 app[web.1]:                     [namespace] => urn:partner.soap.sforce.com
+2016-02-23T19:44:47.362613+00:00 app[web.1]:             [mruHeader:protected] => 
+2016-02-23T19:44:47.357719+00:00 app[web.1]:                 (
+2016-02-23T19:44:47.362688+00:00 app[web.1]:             [userTerritoryDeleteHeader:protected] => 
+2016-02-23T19:44:47.362648+00:00 app[web.1]:             [queryHeader:protected] => 
+2016-02-23T19:44:47.356035+00:00 app[web.1]:                         )
+2016-02-23T19:44:47.362469+00:00 app[web.1]:             [callOptions:protected] => 
+2016-02-23T19:44:47.358598+00:00 app[web.1]:                 (
+2016-02-23T19:44:47.363090+00:00 app[web.1]:                 )
+2016-02-23T19:44:47.362989+00:00 app[web.1]:                             [sessionId] => 00Df0000003cIK9!AQcAQMLRT0DUtzsPkCMMNSSh82NNrPZpCr54qIfEDX012VqDy0aMlwOXkpJOb_EfHQ99s7wNWVrdivoqX9Yc_bEEq5OAMJtZ
+2016-02-23T19:44:47.362836+00:00 app[web.1]:                     [name] => SessionHeader
+2016-02-23T19:44:47.356543+00:00 app[web.1]:                     [httpurl] => Resource id #11
+2016-02-23T19:44:47.362186+00:00 app[web.1]: 
+2016-02-23T19:44:47.359179+00:00 app[web.1]:                     [trace] => 1
+2016-02-23T19:44:47.363053+00:00 app[web.1]:                     [mustUnderstand] => 
+2016-02-23T19:44:47.357505+00:00 app[web.1]:             [loginScopeHeader:protected] => 
+2016-02-23T19:44:47.363148+00:00 app[web.1]:             [allowFieldTruncationHeader:protected] => 
+2016-02-23T19:44:47.363091+00:00 app[web.1]: 
+2016-02-23T19:44:47.362896+00:00 app[web.1]:                         (
+2016-02-23T19:44:47.362579+00:00 app[web.1]:             [loginScopeHeader:protected] => 
+2016-02-23T19:44:47.363364+00:00 app[web.1]: (
+2016-02-23T19:44:47.360044+00:00 app[web.1]: 
+2016-02-23T19:44:47.363256+00:00 app[web.1]:             [client_id:protected] => 
+2016-02-23T19:44:47.363017+00:00 app[web.1]: 
+2016-02-23T19:44:47.358438+00:00 app[web.1]: 
+2016-02-23T19:44:47.363016+00:00 app[web.1]:                         )
+2016-02-23T19:44:47.363325+00:00 app[web.1]: 
+2016-02-23T19:44:47.363286+00:00 app[web.1]: 
+2016-02-23T19:44:47.362281+00:00 app[web.1]:             [sessionId:protected] => 00Df0000003cIK9!AQcAQMLRT0DUtzsPkCMMNSSh82NNrPZpCr54qIfEDX012VqDy0aMlwOXkpJOb_EfHQ99s7wNWVrdivoqX9Yc_bEEq5OAMJtZ
+2016-02-23T19:44:47.363183+00:00 app[web.1]:             [localeOptions:protected] => 
+2016-02-23T19:44:47.360101+00:00 app[web.1]:                         (
+2016-02-23T19:44:47.363265+00:00 app[web.1]: 
+2016-02-23T19:44:47.363324+00:00 app[web.1]: [23-Feb-2016 19:44:47 UTC] Lets see....
+2016-02-23T19:44:47.361672+00:00 app[web.1]:                     [httpurl] => Resource id #11
+2016-02-23T19:44:47.363683+00:00 app[web.1]: 
+2016-02-23T19:44:47.363679+00:00 app[web.1]:     [any] => <sf:Submitted_from_Schoology__c>false</sf:Submitted_from_Schoology__c><sf:Contact_Schoology_ID__c>24224407</sf:Contact_Schoology_ID__c><sf:Schoology_Grade_ID__c>340468553</sf:Schoology_Grade_ID__c>
+2016-02-23T19:44:47.363222+00:00 app[web.1]:             [packageVersionHeader:protected] => 
+2016-02-23T19:44:47.363682+00:00 app[web.1]: 
+2016-02-23T19:44:47.363418+00:00 app[web.1]:     [Id] => Array
+2016-02-23T19:44:47.363502+00:00 app[web.1]:             [1] => a21f000000339MSAAY
+2016-02-23T19:44:47.363511+00:00 app[web.1]: 
+2016-02-23T19:44:47.363263+00:00 app[web.1]:         )
+2016-02-23T19:44:47.363725+00:00 app[web.1]: [23-Feb-2016 19:44:47 UTC] In Salesforce Call
+2016-02-23T19:44:47.363286+00:00 app[web.1]: 
+2016-02-23T19:44:47.362754+00:00 app[web.1]:                 (
+2016-02-23T19:44:47.363396+00:00 app[web.1]:     [type] => Assessment__c
+2016-02-23T19:44:47.363363+00:00 app[web.1]: [23-Feb-2016 19:44:47 UTC] stdClass Object
+2016-02-23T19:44:47.363285+00:00 app[web.1]: )
+2016-02-23T19:44:47.363726+00:00 app[web.1]: 
+2016-02-23T19:44:47.363435+00:00 app[web.1]:         (
+2016-02-23T19:44:47.363680+00:00 app[web.1]: )
+2016-02-23T19:44:47.363469+00:00 app[web.1]:             [0] => a21f000000339MSAAY
+2016-02-23T19:44:47.363509+00:00 app[web.1]:         )
+2016-02-23T19:44:47.754469+00:00 app[web.1]:     [0] => stdClass Object
+2016-02-23T19:44:47.754419+00:00 app[web.1]: [23-Feb-2016 19:44:47 UTC] Salesforce Call Go!
+2016-02-23T19:44:47.754472+00:00 app[web.1]:         (
+2016-02-23T19:44:47.754423+00:00 app[web.1]: 
+2016-02-23T19:44:47.754713+00:00 app[web.1]:                                     [0] => Id
+2016-02-23T19:44:47.754746+00:00 app[web.1]: 
+2016-02-23T19:44:47.754427+00:00 app[web.1]: [23-Feb-2016 19:44:47 UTC] Array
+2016-02-23T19:44:47.754807+00:00 app[web.1]:                             [message] => Record ID: id value of incorrect type: Array
+2016-02-23T19:44:47.754576+00:00 app[web.1]:                     [0] => stdClass Object
+2016-02-23T19:44:47.754604+00:00 app[web.1]:                         (
+2016-02-23T19:44:47.754641+00:00 app[web.1]:                             [fields] => Array
+2016-02-23T19:44:47.754905+00:00 app[web.1]:                 )
+2016-02-23T19:44:47.754906+00:00 app[web.1]: 
+2016-02-23T19:44:47.754971+00:00 app[web.1]: 
+2016-02-23T19:44:47.754745+00:00 app[web.1]:                                 )
+2016-02-23T19:44:47.754429+00:00 app[web.1]: (
+2016-02-23T19:44:47.755060+00:00 app[web.1]:     [0] => stdClass Object
+2016-02-23T19:44:47.754879+00:00 app[web.1]:                         )
+2016-02-23T19:44:47.755029+00:00 app[web.1]: [23-Feb-2016 19:44:47 UTC] Array
+2016-02-23T19:44:47.755188+00:00 app[web.1]:                         (
+2016-02-23T19:44:47.755160+00:00 app[web.1]:                     [0] => stdClass Object
+2016-02-23T19:44:47.755030+00:00 app[web.1]: (
+2016-02-23T19:44:47.754511+00:00 app[web.1]:             [errors] => Array
+2016-02-23T19:44:47.754991+00:00 app[web.1]: )
+2016-02-23T19:44:47.755386+00:00 app[web.1]:                             [message] => Record ID: id value of incorrect type: Array
+2016-02-23T19:44:47.755326+00:00 app[web.1]:                                 )
+2016-02-23T19:44:47.755591+00:00 app[web.1]:             [success] => 
+2016-02-23T19:44:47.755327+00:00 app[web.1]: 
+2016-02-23T19:44:47.755659+00:00 app[web.1]: 
+2016-02-23T19:44:47.755467+00:00 app[web.1]:                         )
+2016-02-23T19:44:47.754962+00:00 app[web.1]:             [success] => 
+2016-02-23T19:44:47.755731+00:00 app[web.1]: (
+2016-02-23T19:44:47.755225+00:00 app[web.1]:                             [fields] => Array
+2016-02-23T19:44:47.755511+00:00 app[web.1]:                 )
+2016-02-23T19:44:47.755294+00:00 app[web.1]:                                     [0] => Id
+2016-02-23T19:44:47.755842+00:00 app[web.1]:                 (
+2016-02-23T19:44:47.754851+00:00 app[web.1]:                             [statusCode] => MALFORMED_ID
+2016-02-23T19:44:47.755915+00:00 app[web.1]:                         (
+2016-02-23T19:44:47.755557+00:00 app[web.1]:             [id] => 
+2016-02-23T19:44:47.754934+00:00 app[web.1]:             [id] => 
+2016-02-23T19:44:47.755887+00:00 app[web.1]:                     [0] => stdClass Object
+2016-02-23T19:44:47.755527+00:00 app[web.1]: 
+2016-02-23T19:44:47.755257+00:00 app[web.1]:                                 (
+2016-02-23T19:44:47.754540+00:00 app[web.1]:                 (
+2016-02-23T19:44:47.756714+00:00 app[web.1]: 
+2016-02-23T19:44:47.755628+00:00 app[web.1]: 
+2016-02-23T19:44:47.756752+00:00 app[web.1]: 
+2016-02-23T19:44:47.754993+00:00 app[web.1]: 
+2016-02-23T19:44:47.754992+00:00 app[web.1]: 
+2016-02-23T19:44:47.756199+00:00 app[web.1]:                             [message] => Record ID: id value of incorrect type: Array
+2016-02-23T19:44:47.755483+00:00 app[web.1]: 
+2016-02-23T19:44:47.755780+00:00 app[web.1]:     [0] => stdClass Object
+2016-02-23T19:44:47.755783+00:00 app[web.1]:         (
+2016-02-23T19:44:47.755431+00:00 app[web.1]:                             [statusCode] => MALFORMED_ID
+2016-02-23T19:44:47.754673+00:00 app[web.1]:                                 (
+2016-02-23T19:44:47.755998+00:00 app[web.1]:                                 (
+2016-02-23T19:44:47.756712+00:00 app[web.1]:                         )
+2016-02-23T19:44:47.756715+00:00 app[web.1]:                 )
+2016-02-23T19:44:47.755962+00:00 app[web.1]:                             [fields] => Array
+2016-02-23T19:44:47.755613+00:00 app[web.1]:         )
+2016-02-23T19:44:47.754880+00:00 app[web.1]: 
+2016-02-23T19:44:47.755067+00:00 app[web.1]:         (
+2016-02-23T19:44:47.755674+00:00 app[web.1]: 
+2016-02-23T19:44:47.755819+00:00 app[web.1]:             [errors] => Array
+2016-02-23T19:44:47.754969+00:00 app[web.1]:         )
+2016-02-23T19:44:47.756117+00:00 app[web.1]: 
+2016-02-23T19:44:47.756737+00:00 app[web.1]:             [success] => 
+2016-02-23T19:44:47.756749+00:00 app[web.1]: 
+2016-02-23T19:44:47.756102+00:00 app[web.1]:                                 )
+2016-02-23T19:44:47.755100+00:00 app[web.1]:             [errors] => Array
+2016-02-23T19:44:47.756816+00:00 app[web.1]: 10.149.97.188 - - [23/Feb/2016:19:44:46 +0000] "POST /?req_type=courses HTTP/1.1" 302 - "-" "-
+2016-02-23T19:44:47.755715+00:00 app[web.1]: [23-Feb-2016 19:44:47 UTC] Array
+2016-02-23T19:44:47.756736+00:00 app[web.1]:             [id] => 
+2016-02-23T19:44:47.756751+00:00 app[web.1]: 
+2016-02-23T19:44:47.755123+00:00 app[web.1]:                 (
+2016-02-23T19:44:47.756680+00:00 app[web.1]:                             [statusCode] => MALFORMED_ID
+2016-02-23T19:44:47.755644+00:00 app[web.1]: )
+2016-02-23T19:44:47.756749+00:00 app[web.1]:         )
+2016-02-23T19:44:47.756059+00:00 app[web.1]:                                     [0] => Id
+2016-02-23T19:44:47.756750+00:00 app[web.1]: )
+2016-02-23T19:44:47.756716+00:00 app[web.1]: 
+2016-02-23T19:52:20.074973+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-02-23T19:52:20.074968+00:00 heroku[slug-compiler]: Slug compilation started
+2016-02-23T19:52:19.924103+00:00 heroku[api]: Deploy 7f808a3 by egallo@broadcenter.org
+2016-02-23T19:52:19.924103+00:00 heroku[api]: Release v112 created by egallo@broadcenter.org
+2016-02-23T19:52:20.029112+00:00 heroku[web.1]: State changed from up to starting
+2016-02-23T19:52:20.028258+00:00 heroku[web.1]: Restarting
+2016-02-23T19:52:24.073925+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-02-23T19:52:25.110210+00:00 app[web.1]: Going down, terminating child processes...
+2016-02-23T19:52:25.273136+00:00 heroku[web.1]: Starting process with command `vendor/bin/heroku-php-apache2 web/`
+2016-02-23T19:52:26.047016+00:00 heroku[web.1]: Process exited with status 143
+2016-02-23T19:52:27.596101+00:00 app[web.1]: DOCUMENT_ROOT changed to 'web/'
+2016-02-23T19:52:27.841003+00:00 app[web.1]: 4 processes at 128MB memory limit.
+2016-02-23T19:52:27.653960+00:00 app[web.1]: Optimizing defaults for 1X dyno...
+2016-02-23T19:52:27.846166+00:00 app[web.1]: Starting php-fpm...
+2016-02-23T19:52:29.852086+00:00 app[web.1]: Starting httpd...
+2016-02-23T19:52:30.154989+00:00 heroku[web.1]: State changed from starting to up
+2016-02-23T19:59:24.155323+00:00 app[web.1]: [23-Feb-2016 19:59:24 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; SforceEnterpriseClient has a deprecated constructor in /app/salesforce/soapclient/SforceEnterpriseClient.php on line 38
+2016-02-23T19:59:24.179405+00:00 app[web.1]: [23-Feb-2016 19:59:24 UTC] got token!
+2016-02-23T19:59:24.179410+00:00 app[web.1]: 
+2016-02-23T19:59:24.179857+00:00 app[web.1]: [23-Feb-2016 19:59:24 UTC] Array
+2016-02-23T19:59:24.179859+00:00 app[web.1]: (
+2016-02-23T19:59:24.179883+00:00 app[web.1]:     [uid] => 22135108
+2016-02-23T19:59:24.179939+00:00 app[web.1]:     [token_key] => b02bc01919e633cc4cbd3b1b6917966d0558071f2
+2016-02-23T19:59:24.179990+00:00 app[web.1]:     [token_secret] => 595e3771523d7c63b374b437297fb75f
+2016-02-23T19:59:24.180018+00:00 app[web.1]:     [token_is_access] => 1
+2016-02-23T19:59:24.180021+00:00 app[web.1]: 
+2016-02-23T19:59:24.180019+00:00 app[web.1]: )
+2016-02-23T19:59:24.180023+00:00 app[web.1]: 
+2016-02-23T19:59:24.180899+00:00 app[web.1]: (
+2016-02-23T19:59:24.180866+00:00 app[web.1]: [23-Feb-2016 19:59:24 UTC] {"uid":24224407,"timestamp":1456257158,"type":"dropbox_submission.update","data":{"realm":"section","section_id":315598229,"realm_id":315598229,"uid":"24224407","revision_id":"15","assignment_nid":"340468553","object":{"revision_id":15,"uid":24224407,"created":1456257157,"num_items":1,"late":0,"draft":0,"assignment_nid":"340468553","attachments":{"files":{"file":{"201405135":{"id":201405135,"fid":1143286307,"type":"file","title":"dropbox_24224407_r15.html","filename":"dropbox_24224407_r15.html","filesize":166,"md5_checksum":"17908909203b3425bd5d7dad2eddc450","timestamp":1456257157,"filemime":"text\/html","download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201602\/course\/315598229\/dropbox_24224407_r15_56ccb885f2b4a.html","extension":"html","converted_status":"1","converted_type":4,"converted_filename":"1456257161-17908909203b3425bd5d7dad2eddc450-56ccb8898abfd_56ccb88a3d604.pdf","converted_download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201602\/course\/315598229\/1456257161-17908909203b3425bd5d7dad2eddc450-56ccb8898abfd_56ccb88a3d604.pdf","converted_extension":"pdf","converted_filemime":"application\/pdf","converted_filesize":7585,"converted_md5_checksum":"0f6543308e1185fad54ebbb4641eac39"}}}}}}}
+2016-02-23T19:59:24.180897+00:00 app[web.1]: [23-Feb-2016 19:59:24 UTC] stdClass Object
+2016-02-23T19:59:24.180925+00:00 app[web.1]:     [uid] => 24224407
+2016-02-23T19:59:24.180985+00:00 app[web.1]:     [type] => dropbox_submission.update
+2016-02-23T19:59:24.180953+00:00 app[web.1]:     [timestamp] => 1456257158
+2016-02-23T19:59:24.181012+00:00 app[web.1]:     [data] => stdClass Object
+2016-02-23T19:59:24.181052+00:00 app[web.1]:             [realm] => section
+2016-02-23T19:59:24.181039+00:00 app[web.1]:         (
+2016-02-23T19:59:24.181088+00:00 app[web.1]:             [section_id] => 315598229
+2016-02-23T19:59:24.181118+00:00 app[web.1]:             [realm_id] => 315598229
+2016-02-23T19:59:24.181146+00:00 app[web.1]:             [uid] => 24224407
+2016-02-23T19:59:24.181174+00:00 app[web.
+1]:             [revision_id] => 15
+2016-02-23T19:59:24.181210+00:00 app[web.1]:             [assignment_nid] => 340468553
+2016-02-23T19:59:24.181255+00:00 app[web.1]:             [object] => stdClass Object
+2016-02-23T19:59:24.181275+00:00 app[web.1]:                 (
+2016-02-23T19:59:24.181307+00:00 app[web.1]:                     [revision_id] => 15
+2016-02-23T19:59:24.181340+00:00 app[web.1]:                     [uid] => 24224407
+2016-02-23T19:59:24.181391+00:00 app[web.1]:                     [created] => 1456257157
+2016-02-23T19:59:24.181443+00:00 app[web.1]:                     [num_items] => 1
+2016-02-23T19:59:24.181470+00:00 app[web.1]:                     [late] => 0
+2016-02-23T19:59:24.181499+00:00 app[web.1]:                     [draft] => 0
+2016-02-23T19:59:24.181547+00:00 app[web.1]:                     [assignment_nid] => 340468553
+2016-02-23T19:59:24.181585+00:00 app[web.1]:                     [attachments] => stdClass Object
+2016-02-23T19:59:24.181611+00:00 app[web.1]:                         (
+2016-02-23T19:59:24.181649+00:00 app[web.1]:                             [files] => stdClass Object
+2016-02-23T19:59:24.181679+00:00 app[web.1]:                                 (
+2016-02-23T19:59:24.181729+00:00 app[web.1]:                                     [file] => stdClass Object
+2016-02-23T19:59:24.181764+00:00 app[web.1]:                                         (
+2016-02-23T19:59:24.181813+00:00 app[web.1]:                                             [201405135] => stdClass Object
+2016-02-23T19:59:24.181858+00:00 app[web.1]:                                                 (
+2016-02-23T19:59:24.181932+00:00 app[web.1]:                                                     [id] => 201405135
+2016-02-23T19:59:24.181979+00:00 app[web.1]:                                                     [fid] => 1143286307
+2016-02-23T19:59:24.182023+00:00 app[web.1]:                                                     [type] => file
+2016-02-23T19:59:24.182085+00:00 app[web.1]:                                                     [title] => dropbox_24224407_r15.html
+2016-02-23T19:59:24.182196+00:00 app[web.1]:                                                     [filesize] => 166
+2016-02-23T19:59:24.182151+00:00 app[web.1]:                                                     [filename] => dropbox_24224407_r15.html
+2016-02-23T19:59:24.182271+00:00 app[web.1]:                                                     [md5_checksum] => 17908909203b3425bd5d7dad2eddc450
+2016-02-23T19:59:24.182368+00:00 app[web.1]:                                                     [filemime] => text/html
+2016-02-23T19:59:24.182320+00:00 app[web.1]:                                                     [timestamp] => 1456257157
+2016-02-23T19:59:24.182524+00:00 app[web.1]:                                                     [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201602/course/315598229/dropbox_24224407_r15_56ccb885f2b4a.html
+2016-02-23T19:59:24.182577+00:00 app[web.1]:                                                     [extension] => html
+2016-02-23T19:59:24.182624+00:00 app[web.1]:                                                     [converted_status] => 1
+2016-02-23T19:59:24.182673+00:00 app[web.1]:                                                     [converted_type] => 4
+2016-02-23T19:59:24.182759+00:00 app[web.1]:                                                     [converted_filename] => 1456257161-17908909203b3425bd5d7dad2eddc450-56ccb8898abfd_56ccb88a3d604.pdf
+2016-02-23T19:59:24.182893+00:00 app[web.1]:                                                     [converted_download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201602/course/315598229/1456257161-17908909203b3425bd5d7dad2eddc450-56ccb8898abfd_56ccb88a3d604.pdf
+2016-02-23T19:59:24.182958+00:00 app[web.1]:                                                     [converted_extension] => pdf
+2016-02-23T19:59:24.183014+00:00 app[web.1]:                                                     [converted_filemime] => application/pdf
+2016-02-23T19:59:24.183065+00:00 app[web.1]:                                                     [converted_filesize] => 7585
+2016-02-23T19:59:24.183148+00:00 app[web.1]:                                                     [converted_md5_checksum] => 0f6543308e1185fad54ebbb4641eac39
+2016-02-23T19:59:24.183183+00:00 app[web.1]:                                                 )
+2016-02-23T19:59:24.183185+00:00 app[web.1]: 
+2016-02-23T19:59:24.183219+00:00 app[web.1]:                                         )
+2016-02-23T19:59:24.183220+00:00 app[web.1]: 
+2016-02-23T19:59:24.183260+00:00 app[web.1]:                                 )
+2016-02-23T19:59:24.183261+00:00 app[web.1]: 
+2016-02-23T19:59:24.183298+00:00 app[web.1]: 
+2016-02-23T19:59:24.183277+00:00 app[web.1]:                         )
+2016-02-23T19:59:24.183320+00:00 app[web.1]:                 )
+2016-02-23T19:59:24.183321+00:00 app[web.1]: 
+2016-02-23T19:59:24.183339+00:00 app[web.1]:         )
+2016-02-23T19:59:24.183340+00:00 app[web.1]: 
+2016-02-23T19:59:24.183342+00:00 app[web.1]: )
+2016-02-23T19:59:24.183344+00:00 app[web.1]: 
+2016-02-23T19:59:24.183381+00:00 app[web.1]: [23-Feb-2016 19:59:24 UTC] UID: 24224407
+2016-02-23T19:59:24.183428+00:00 app[web.1]: [23-Feb-2016 19:59:24 UTC] Section ID: 315598229
+2016-02-23T19:59:24.183463+00:00 app[web.1]: [23-Feb-2016 19:59:24 UTC] Assignment ID: 340468553
+2016-02-23T19:59:24.183505+00:00 app[web.1]: [23-Feb-2016 19:59:24 UTC] Requirement Type found - courses
+2016-02-23T19:59:24.183512+00:00 app[web.1]: 
+2016-02-23T19:59:24.183643+00:00 app[web.1]: [23-Feb-2016 19:59:24 UTC] SELECT Id, Submitted_from_Schoology__c, Contact_Schoology_ID__c, Schoology_Grade_ID__c FROM Assessment__c WHERE Contact_Schoology_ID__c = '24224407' AND Schoology_Grade_ID__c = '340468553' LIMIT 1
+2016-02-23T19:59:24.183644+00:00 app[web.1]: 
+2016-02-23T19:59:24.183681+00:00 app[web.1]: [23-Feb-2016 19:59:24 UTC] In Salesforce Query
+2016-02-23T19:59:24.183682+00:00 app[web.1]: 
+2016-02-23T19:59:24.159865+00:00 app[web.1]: [23-Feb-2016 19:59:24 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; SforcePartnerClient has a deprecated constructor in /app/salesforce/soapclient/SforcePartnerClient.php on line 74
+2016-02-23T19:59:24.664985+00:00 app[web.1]: (
+2016-02-23T19:59:24.664978+00:00 app[web.1]: [23-Feb-2016 19:59:24 UTC] QueryResult Object
+2016-02-23T19:59:24.664991+00:00 app[web.1]:     [queryLocator] => 
+2016-02-23T19:59:24.664992+00:00 app[web.1]:     [done] => 1
+2016-02-23T19:59:24.665079+00:00 app[web.1]:                 (
+2016-02-23T19:59:24.664994+00:00 app[web.1]:     [records] => Array
+2016-02-23T19:59:24.665020+00:00 app[web.1]:         (
+2016-02-23T19:59:24.665123+00:00 app[web.1]:                     [type] => Assessment__c
+2016-02-23T19:59:24.665160+00:00 app[web.1]:                     [Id] => Array
+2016-02-23T19:59:24.665189+00:00 app[web.1]:                         (
+2016-02-23T19:59:24.665059+00:00 app[web.1]:             [0] => stdClass Object
+2016-02-23T19:59:24.665276+00:00 app[web.1]:                             [1] => a21f000000339MSAAY
+2016-02-23T19:59:24.665235+00:00 app[web.1]:                             [0] => a21f000000339MSAAY
+2016-02-23T19:59:24.665304+00:00 app[web.1]:                         )
+2016-02-23T19:59:24.665305+00:00 app[web.1]: 
+2016-02-23T19:59:24.665464+00:00 app[web.1]:                     [any] => <sf:Submitted_from_Schoology__c>false</sf:Submitted_from_Schoology__c><sf:Contact_Schoology_ID__c>24224407</sf:Contact_Schoology_ID__c><sf:Schoology_Grade_ID__c>340468553</sf:Schoology_Grade_ID__c>
+2016-02-23T19:59:24.665469+00:00 app[web.1]:                 )
+2016-02-23T19:59:24.665470+00:00 app[web.1]: 
+2016-02-23T19:59:24.665471+00:00 app[web.1]:         )
+2016-02-23T19:59:24.665472+00:00 app[web.1]: 
+2016-02-23T19:59:24.665491+00:00 app[web.1]:     [size] => 1
+2016-02-23T19:59:24.665516+00:00 app[web.1]:     [pointer] => 0
+2016-02-23T19:59:24.665549+00:00 app[web.1]:     [sf:QueryResult:private] => SforcePartnerClient Object
+2016-02-23T19:59:24.665550+00:00 app[web.1]:         (
+2016-02-23T19:59:24.665589+00:00 app[web.1]:             [sforce:protected] => SforceSoapClient Object
+2016-02-23T19:59:24.665591+00:00 app[web.1]:                 (
+2016-02-23T19:59:24.665621+00:00 app[web.1]:                     [trace] => 1
+2016-02-23T19:59:24.665649+00:00 app[web.1]:                     [compression] => 32
+2016-02-23T19:59:24.665699+00:00 app[web.1]:                     [_features] => 1
+2016-02-23T19:59:24.665674+00:00 app[web.1]:                     [_encoding] => utf-8
+2016-02-23T19:59:24.665737+00:00 app[web.1]:                     [_user_agent] => salesforce-toolkit-php/27.0
+2016-02-23T19:59:24.665762+00:00 app[web.1]:                     [_soap_version] => 1
+2016-02-23T19:59:24.665789+00:00 app[web.1]:                     [sdl] => Resource id #26
+2016-02-23T19:59:24.665847+00:00 app[web.1]:                     [__last_request_headers] => POST /services/Soap/u/36.0/00Df0000003cIK9 HTTP/1.1
+2016-02-23T19:59:24.665860+00:00 app[web.1]: Host: cs16.salesforce.com
+2016-02-23T19:59:24.665881+00:00 app[web.1]: Connection: Keep-Alive
+2016-02-23T19:59:24.665928+00:00 app[web.1]: Accept-Encoding: gzip, deflate
+2016-02-23T19:59:24.665907+00:00 app[web.1]: User-Agent: salesforce-toolkit-php/27.0
+2016-02-23T19:59:24.665952+00:00 app[web.1]: Content-Type: text/xml; charset=utf-8
+2016-02-23T19:59:24.665959+00:00 app[web.1]: SOAPAction: ""
+2016-02-23T19:59:24.665985+00:00 app[web.1]: Content-Length: 680
+2016-02-23T19:59:24.665986+00:00 app[web.1]: Cookie: 
+2016-02-23T19:59:24.665987+00:00 app[web.1]: 
+2016-02-23T19:59:24.665989+00:00 app[web.1]: 
+2016-02-23T19:59:24.666034+00:00 app[web.1]:                     [__last_response_headers] => HTTP/1.1 200 OK
+2016-02-23T19:59:24.666120+00:00 app[web.1]: Set-Cookie: BrowserId=x8sZo_f9R32oK3IRg6zmlg;Path=/;Domain=.salesforce.com;Expires=Sat, 23-Apr-2016 19:59:24 GMT
+2016-02-23T19:59:24.666056+00:00 app[web.1]: Date: Tue, 23 Feb 2016 19:59:24 GMT
+2016-02-23T19:59:24.666141+00:00 app[web.1]: Expires: Thu, 01 Jan 1970 00:00:00 GMT
+2016-02-23T19:59:24.666167+00:00 app[web.1]: Content-Type: text/xml;charset=UTF-8
+2016-02-23T19:59:24.666185+00:00 app[web.1]: Content-Encoding: gzip
+2016-02-23T19:59:24.666205+00:00 app[web.1]: 
+2016-02-23T19:59:24.666204+00:00 app[web.1]: Transfer-Encoding: chunked
+2016-02-23T19:59:24.666233+00:00 app[web.1]:                     [_cookies] => Array
+2016-02-23T19:59:24.666241+00:00 app[web.1]:                         (
+2016-02-23T19:59:24.666280+00:00 app[web.1]:                             [BrowserId] => Array
+2016-02-23T19:59:24.666303+00:00 app[web.1]:                                 (
+2016-02-23T19:59:24.666373+00:00 app[web.1]:                                     [1] => /services/Soap/u/36.0
+2016-02-23T19:59:24.666452+00:00 app[web.1]:                         )
+2016-02-23T19:59:24.666410+00:00 app[web.1]:                                     [2] => cs16.salesforce.com
+2016-02-23T19:59:24.666453+00:00 app[web.1]: 
+2016-02-23T19:59:24.666336+00:00 app[web.1]:                                     [0] => x8sZo_f9R32oK3IRg6zmlg
+2016-02-23T19:59:24.666507+00:00 app[web.1]:                     [location] => https://cs16.salesforce.com/services/Soap/u/36.0/00Df0000003cIK9
+2016-02-23T19:59:24.666432+00:00 app[web.1]:                                 )
+2016-02-23T19:59:24.666432+00:00 app[web.1]: 
+2016-02-23T19:59:24.666594+00:00 app[web.1]:                             [0] => SoapHeader Object
+2016-02-23T19:59:24.666660+00:00 app[web.1]:                                     [namespace] => urn:partner.soap.sforce.com
+2016-02-23T19:59:24.666693+00:00 app[web.1]:                                     [name] => SessionHeader
+2016-02-23T19:59:24.666865+00:00 app[web.1]:                                         )
+2016-02-23T19:59:24.666536+00:00 app[web.1]:                     [__default_headers] => Array
+2016-02-23T19:59:24.666559+00:00 app[web.1]:                         (
+2016-02-23T19:59:24.666615+00:00 app[web.1]:                                 (
+2016-02-23T19:59:24.666921+00:00 app[web.1]: 
+2016-02-23T19:59:24.666723+00:00 app[web.1]:                                     [data] => Array
+2016-02-23T19:59:24.666751+00:00 app[web.1]:                                         (
+2016-02-23T19:59:24.666845+00:00 app[web.1]:                                             [sessionId] => 00Df0000003cIK9!AQcAQMLRT0DUtzsPkCMMNSSh82NNrPZpCr54qIfEDX012VqDy0aMlwOXkpJOb_EfHQ99s7wNWVrdivoqX9Yc_bEEq5OAMJtZ
+2016-02-23T19:59:24.666866+00:00 app[web.1]: 
+2016-02-23T19:59:24.666920+00:00 app[web.1]:                                 )
+2016-02-23T19:59:24.666940+00:00 app[web.1]:                         )
+2016-02-23T19:59:24.666898+00:00 app[web.1]:                                     [mustUnderstand] => 
+2016-02-23T19:59:24.666941+00:00 app[web.1]: 
+2016-02-23T19:59:24.667422+00:00 app[web.1]:                     [_use_proxy] => 0
+2016-02-23T19:59:24.666995+00:00 app[web.1]:                     [__last_request] => <?xml version="1.0" encoding="UTF-8"?>
+2016-02-23T19:59:24.667380+00:00 app[web.1]: <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="urn:partner.soap.sforce.com"><SOAP-ENV:Header><ns1:SessionHeader><ns1:sessionId>00Df0000003cIK9!AQcAQMLRT0DUtzsPkCMMNSSh82NNrPZpCr54qIfEDX012VqDy0aMlwOXkpJOb_EfHQ99s7wNWVrdivoqX9Yc_bEEq5OAMJtZ</ns1:sessionId></ns1:SessionHeader></SOAP-ENV:Header><SOAP-ENV:Body><ns1:query><ns1:queryString>SELECT Id, Submitted_from_Schoology__c, Contact_Schoology_ID__c, Schoology_Grade_ID__c FROM Assessment__c WHERE Contact_Schoology_ID__c = '24224407' AND Schoology_Grade_ID__c = '340468553' LIMIT 1</ns1:queryString></ns1:query></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2016-02-23T19:59:24.667381+00:00 app[web.1]: 
+2016-02-23T19:59:24.667451+00:00 app[web.1]:                     [httpurl] => Resource id #30
+2016-02-23T19:59:24.667922+00:00 app[web.1]:                     [__last_response] => <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns="urn:partner.soap.sforce.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sf="urn:sobject.partner.soap.sforce.com"><soapenv:Header><LimitInfoHeader><limitInfo><current>13</current><limit>5000000</limit><type>API REQUESTS</type></limitInfo></LimitInfoHeader></soapenv:Header><soapenv:Body><queryResponse><result xsi:type="QueryResult"><done>true</done><queryLocator xsi:nil="true"/><records xsi:type="sf:sObject"><sf:type>Assessment__c</sf:type><sf:Id>a21f000000339MSAAY</sf:Id><sf:Id>a21f000000339MSAAY</sf:Id><sf:Submitted_from_Schoology__c>false</sf:Submitted_from_Schoology__c><sf:Contact_Schoology_ID__c>24224407</sf:Contact_Schoology_ID__c><sf:Schoology_Grade_ID__c>340468553</sf:Schoology_Grade_ID__c></records><size>1</size></result></queryResponse></soapenv:Body></soapenv:Envelope>
+2016-02-23T19:59:24.668152+00:00 app[web.1]:             [namespace:protected] => urn:partner.soap.sforce.com
+2016-02-23T19:59:24.667399+00:00 app[web.1]:                     [httpsocket] => Resource id #29
+2016-02-23T19:59:24.667925+00:00 app[web.1]:                 )
+2016-02-23T19:59:24.667925+00:00 app[web.1]: 
+2016-02-23T19:59:24.667997+00:00 app[web.1]:             [sessionId:protected] => 00Df0000003cIK9!AQcAQMLRT0DUtzsPkCMMNSSh82NNrPZpCr54qIfEDX012VqDy0aMlwOXkpJOb_EfHQ99s7wNWVrdivoqX9Yc_bEEq5OAMJtZ
+2016-02-23T19:59:24.668093+00:00 app[web.1]:             [location:protected] => https://cs16.salesforce.com/services/Soap/u/36.0/00Df0000003cIK9
+2016-02-23T19:59:24.668116+00:00 app[web.1]:             [version:protected] => 27.0
+2016-02-23T19:59:24.668193+00:00 app[web.1]:             [callOptions:protected] => 
+2016-02-23T19:59:24.668307+00:00 app[web.1]:             [mruHeader:protected] => 
+2016-02-23T19:59:24.668373+00:00 app[web.1]:             [userTerritoryDeleteHeader:protected] => 
+2016-02-23T19:59:24.668232+00:00 app[web.1]:             [assignmentRuleHeader:protecte
+d] => 
+2016-02-23T19:59:24.668256+00:00 app[web.1]:             [emailHeader:protected] => 
+2016-02-23T19:59:24.668283+00:00 app[web.1]:             [loginScopeHeader:protected] => 
+2016-02-23T19:59:24.668332+00:00 app[web.1]:             [queryHeader:protected] => 
+2016-02-23T19:59:24.668407+00:00 app[web.1]:             [sessionHeader:protected] => SoapHeader Object
+2016-02-23T19:59:24.668418+00:00 app[web.1]:                 (
+2016-02-23T19:59:24.668455+00:00 app[web.1]:                     [namespace] => urn:partner.soap.sforce.com
+2016-02-23T19:59:24.668484+00:00 app[web.1]:                     [name] => SessionHeader
+2016-02-23T19:59:24.668535+00:00 app[web.1]:                         (
+2016-02-23T19:59:24.668507+00:00 app[web.1]:                     [data] => Array
+2016-02-23T19:59:24.668613+00:00 app[web.1]:                             [sessionId] => 00Df0000003cIK9!AQcAQMLRT0DUtzsPkCMMNSSh82NNrPZpCr54qIfEDX012VqDy0aMlwOXkpJOb_EfHQ99s7wNWVrdivoqX9Yc_bEEq5OAMJtZ
+2016-02-23T19:59:24.668631+00:00 app[web.1]:                         )
+2016-02-23T19:59:24.668631+00:00 app[web.1]: 
+2016-02-23T19:59:24.668658+00:00 app[web.1]:                     [mustUnderstand] => 
+2016-02-23T19:59:24.668688+00:00 app[web.1]:                 )
+2016-02-23T19:59:24.668689+00:00 app[web.1]: 
+2016-02-23T19:59:24.668718+00:00 app[web.1]:             [allowFieldTruncationHeader:protected] => 
+2016-02-23T19:59:24.668742+00:00 app[web.1]:             [localeOptions:protected] => 
+2016-02-23T19:59:24.668796+00:00 app[web.1]:             [client_id:protected] => 
+2016-02-23T19:59:24.668772+00:00 app[web.1]:             [packageVersionHeader:protected] => 
+2016-02-23T19:59:24.668796+00:00 app[web.1]:         )
+2016-02-23T19:59:24.668798+00:00 app[web.1]: 
+2016-02-23T19:59:24.668798+00:00 app[web.1]: )
+2016-02-23T19:59:24.668811+00:00 app[web.1]: 
+2016-02-23T19:59:24.668811+00:00 app[web.1]: 
+2016-02-23T19:59:24.668849+00:00 app[web.1]: [23-Feb-2016 19:59:24 UTC] QueryResult Object
+2016-02-23T19:59:24.668850+00:00 app[web.1]: (
+2016-02-23T19:59:24.668853+00:00 app[web.1]:     [queryLocator] => 
+2016-02-23T19:59:24.668870+00:00 app[web.1]:     [done] => 1
+2016-02-23T19:59:24.668873+00:00 app[web.1]:     [records] => Array
+2016-02-23T19:59:24.668891+00:00 app[web.1]:         (
+2016-02-23T19:59:24.668909+00:00 app[web.1]:             [0] => stdClass Object
+2016-02-23T19:59:24.668910+00:00 app[web.1]:                 (
+2016-02-23T19:59:24.668952+00:00 app[web.1]:                     [type] => Assessment__c
+2016-02-23T19:59:24.668955+00:00 app[web.1]:                     [Id] => Array
+2016-02-23T19:59:24.668975+00:00 app[web.1]:                         (
+2016-02-23T19:59:24.669015+00:00 app[web.1]:                             [0] => a21f000000339MSAAY
+2016-02-23T19:59:24.669035+00:00 app[web.1]:                             [1] => a21f000000339MSAAY
+2016-02-23T19:59:24.669055+00:00 app[web.1]:                         )
+2016-02-23T19:59:24.669056+00:00 app[web.1]: 
+2016-02-23T19:59:24.669176+00:00 app[web.1]:                     [any] => <sf:Submitted_from_Schoology__c>false</sf:Submitted_from_Schoology__c><sf:Contact_Schoology_ID__c>24224407</sf:Contact_Schoology_ID__c><sf:Schoology_Grade_ID__c>340468553</sf:Schoology_Grade_ID__c>
+2016-02-23T19:59:24.669178+00:00 app[web.1]: 
+2016-02-23T19:59:24.669178+00:00 app[web.1]:                 )
+2016-02-23T19:59:24.669181+00:00 app[web.1]:         )
+2016-02-23T19:59:24.669182+00:00 app[web.1]: 
+2016-02-23T19:59:24.669200+00:00 app[web.1]:     [size] => 1
+2016-02-23T19:59:24.669220+00:00 app[web.1]:     [pointer] => 0
+2016-02-23T19:59:24.669260+00:00 app[web.1]:     [sf:QueryResult:private] => SforcePartnerClient Object
+2016-02-23T19:59:24.669299+00:00 app[web.1]:                 (
+2016-02-23T19:59:24.669261+00:00 app[web.1]:         (
+2016-02-23T19:59:24.669351+00:00 app[web.1]:                     [compression] => 32
+2016-02-23T19:59:24.669494+00:00 app[web.1]:                     [_soap_version] => 1
+2016-02-23T19:59:24.669298+00:00 app[web.1]:             [sforce:protected] => SforceSoapClient Object
+2016-02-23T19:59:24.669333+00:00 app[web.1]:                     [trace] => 1
+2016-02-23T19:59:24.669382+00:00 app[web.1]:                     [_encoding] => utf-8
+2016-02-23T19:59:24.669575+00:00 app[web.1]:                     [__last_request_headers] => POST /services/Soap/u/36.0/00Df0000003cIK9 HTTP/1.1
+2016-02-23T19:59:24.669596+00:00 app[web.1]: Connection: Keep-Alive
+2016-02-23T19:59:24.669415+00:00 app[web.1]:                     [_features] => 1
+2016-02-23T19:59:24.669473+00:00 app[web.1]:                     [_user_agent] => salesforce-toolkit-php/27.0
+2016-02-23T19:59:24.669511+00:00 app[web.1]:                     [sdl] => Resource id #26
+2016-02-23T19:59:24.669693+00:00 app[web.1]: 
+2016-02-23T19:59:24.669736+00:00 app[web.1]:                     [__last_response_headers] => HTTP/1.1 200 OK
+2016-02-23T19:59:24.669670+00:00 app[web.1]: Content-Type: text/xml; charset=utf-8
+2016-02-23T19:59:24.669754+00:00 app[web.1]: Date: Tue, 23 Feb 2016 19:59:24 GMT
+2016-02-23T19:59:24.669672+00:00 app[web.1]: SOAPAction: ""
+2016-02-23T19:59:24.669845+00:00 app[web.1]: Expires: Thu, 01 Jan 1970 00:00:00 GMT
+2016-02-23T19:59:24.669863+00:00 app[web.1]: Content-Type: text/xml;charset=UTF-8
+2016-02-23T19:59:24.669866+00:00 app[web.1]: Content-Encoding: gzip
+2016-02-23T19:59:24.669577+00:00 app[web.1]: Host: cs16.salesforce.com
+2016-02-23T19:59:24.669692+00:00 app[web.1]: Content-Length: 680
+2016-02-23T19:59:24.669900+00:00 app[web.1]: 
+2016-02-23T19:59:24.669936+00:00 app[web.1]:                         (
+2016-02-23T19:59:24.669632+00:00 app[web.1]: Accept-Encoding: gzip, deflate
+2016-02-23T19:59:24.669629+00:00 app[web.1]: User-Agent: salesforce-toolkit-php/27.0
+2016-02-23T19:59:24.669692+00:00 app[web.1]: Cookie: 
+2016-02-23T19:59:24.669969+00:00 app[web.1]:                             [BrowserId] => Array
+2016-02-23T19:59:24.669918+00:00 app[web.1]:                     [_cookies] => Array
+2016-02-23T19:59:24.669973+00:00 app[web.1]:                                 (
+2016-02-23T19:59:24.670019+00:00 app[web.1]:                                     [0] => x8sZo_f9R32oK3IRg6zmlg
+2016-02-23T19:59:24.670089+00:00 app[web.1]:                                     [2] => cs16.salesforce.com
+2016-02-23T19:59:24.670052+00:00 app[web.1]:                                     [1] => /services/Soap/u/36.0
+2016-02-23T19:59:24.669694+00:00 app[web.1]: 
+2016-02-23T19:59:24.669814+00:00 app[web.1]: Set-Cookie: BrowserId=x8sZo_f9R32oK3IRg6zmlg;Path=/;Domain=.salesforce.com;Expires=Sat, 23-Apr-2016 19:59:24 GMT
+2016-02-23T19:59:24.669899+00:00 app[web.1]: Transfer-Encoding: chunked
+2016-02-23T19:59:24.670110+00:00 app[web.1]:                                 )
+2016-02-23T19:59:24.670110+00:00 app[web.1]: 
+2016-02-23T19:59:24.670130+00:00 app[web.1]:                         )
+2016-02-23T19:59:24.670130+00:00 app[web.1]: 
+2016-02-23T19:59:24.670184+00:00 app[web.1]:                     [location] => https://cs16.salesforce.com/services/Soap/u/36.0/00Df0000003cIK9
+2016-02-23T19:59:24.670213+00:00 app[web.1]:                     [__default_headers] => Array
+2016-02-23T19:59:24.670231+00:00 app[web.1]:                         (
+2016-02-23T19:59:24.670263+00:00 app[web.1]:                             [0] => SoapHeader Object
+2016-02-23T19:59:24.670284+00:00 app[web.1]:                                 (
+2016-02-23T19:59:24.670328+00:00 app[web.1]:                                     [namespace] => urn:partner.soap.sforce.com
+2016-02-23T19:59:24.670373+00:00 app[web.1]:                                     [name] => SessionHeader
+2016-02-23T19:59:24.670402+00:00 app[web.1]:                                     [data] => Array
+2016-02-23T19:59:24.670428+00:00 app[web.1]:                                         (
+2016-02-23T19:59:24.670525+00:00 app[web.1]:                                             [sessionId] => 00Df0000003cIK9!AQcAQMLRT0DUtzsPkCMMNSSh82NNrPZpCr54qIfEDX012VqDy0aMlwOXkpJOb_EfHQ99s7wNWVrdivoqX9Yc_bEEq5OAMJtZ
+2016-02-23T19:59:24.670551+00:00 app[web.1]: 
+2016-02-23T19:59:24.670550+00:00 app[web.1]:                                         )
+2016-02-23T19:59:24.670585+00:00 app[web.1]:                                     [mustUnderstand] => 
+2016-02-23T19:59:24.670609+00:00 app[web.1]:                                 )
+2016-02-23T19:59:24.670610+00:00 app[web.1]: 
+2016-02-23T19:59:24.670629+00:00 app[web.1]:                         )
+2016-02-23T19:59:24.670630+00:00 app[web.1]: 
+2016-02-23T19:59:24.670675+00:00 app[web.1]:                     [__last_request] => <?xml version="1.0" encoding="UTF-8"?>
+2016-02-23T19:59:24.670994+00:00 app[web.1]: <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="urn:partner.soap.sforce.com"><SOAP-ENV:Header><ns1:SessionHeader><ns1:sessionId>00Df0000003cIK9!AQcAQMLRT0DUtzsPkCMMNSSh82NNrPZpCr54qIfEDX012VqDy0aMlwOXkpJOb_EfHQ99s7wNWVrdivoqX9Yc_bEEq5OAMJtZ</ns1:sessionId></ns1:SessionHeader></SOAP-ENV:Header><SOAP-ENV:Body><ns1:query><ns1:queryString>SELECT Id, Submitted_from_Schoology__c, Contact_Schoology_ID__c, Schoology_Grade_ID__c FROM Assessment__c WHERE Contact_Schoology_ID__c = '24224407' AND Schoology_Grade_ID__c = '340468553' LIMIT 1</ns1:queryString></ns1:query></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2016-02-23T19:59:24.671023+00:00 app[web.1]:                     [httpsocket] => Resource id #29
+2016-02-23T19:59:24.671046+00:00 app[web.1]:                     [_use_proxy] => 0
+2016-02-23T19:59:24.670996+00:00 app[web.1]: 
+2016-02-23T19:59:24.671076+00:00 app[web.1]:                     [httpurl] => Resource id #30
+2016-02-23T19:59:24.671546+00:00 app[web.1]:                     [__last_response] => <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns="urn:partner.soap.sforce.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sf="urn:sobject.partner.soap.sforce.com"><soapenv:Header><LimitInfoHeader><limitInfo><current>13</current><limit>5000000</limit><type>API REQUESTS</type></limitInfo></LimitInfoHeader></soapenv:Header><soapenv:Body><queryResponse><result xsi:type="QueryResult"><done>true</done><queryLocator xsi:nil="true"/><records xsi:type="sf:sObject"><sf:type>Assessment__c</sf:type><sf:Id>a21f000000339MSAAY</sf:Id><sf:Id>a21f000000339MSAAY</sf:Id><sf:Submitted_from_Schoology__c>false</sf:Submitted_from_Schoology__c><sf:Contact_Schoology_ID__c>24224407</sf:Contact_Schoology_ID__c><sf:Schoology_Grade_ID__c>340468553</sf:Schoology_Grade_ID__c></records><size>1</size></result></queryResponse></soapenv:Body></soapenv:Envelope>
+2016-02-23T19:59:24.671548+00:00 app[web.1]:                 )
+2016-02-23T19:59:24.671549+00:00 app[web.1]: 
+2016-02-23T19:59:24.671625+00:00 app[web.1]:             [sessionId:protected] => 00Df0000003cIK9!AQcAQMLRT0DUtzsPkCMMNSSh82NNrPZpCr54qIfEDX012VqDy0aMlwOXkpJOb_EfHQ99s7wNWVrdivoqX9Yc_bEEq5OAMJtZ
+2016-02-23T19:59:24.671676+00:00 app[web.1]:             [location:protected] => https://cs16.salesforce.com/services/Soap/u/36.0/00Df0000003cIK9
+2016-02-23T19:59:24.671701+00:00 app[web.1]:             [version:protected] => 27.0
+2016-02-23T19:59:24.671738+00:00 app[web.1]:             [namespace:protected] => urn:partner.soap.sforce.com
+2016-02-23T19:59:24.671763+00:00 app[web.1]:             [callOptions:protected] => 
+2016-02-23T19:59:24.671816+00:00 app[web.1]:             [emailHeader:protected] => 
+2016-02-23T19:59:24.671792+00:00 app[web.1]:             [assignmentRuleHeader:protected] => 
+2016-02-23T19:59:24.671844+00:00 app[web.1]:             [loginScopeHeader:protected] => 
+2016-02-23T19:59:24.671868+00:00 app[web.1]:             [mruHeader:protected] => 
+2016-02-23T19:59:24.671893+00:00 app[web.1]:             [queryHeader:protected] => 
+2016-02-23T19:59:24.671924+00:00 app[web.1]:             [userTerritoryDeleteHeader:protected] => 
+2016-02-23T19:59:24.671957+00:00 app[web.1]:             [sessionHeader:protected] => SoapHeader Object
+2016-02-23T19:59:24.671968+00:00 app[web.1]:                 (
+2016-02-23T19:59:24.672005+00:00 app[web.1]:                     [namespace] => urn:partner.soap.sforce.com
+2016-02-23T19:59:24.672031+00:00 app[web.1]:                     [name] => SessionHeader
+2016-02-23T19:59:24.672055+00:00 app[web.1]:                     [data] => Array
+2016-02-23T19:59:24.672074+00:00 app[web.1]:                         (
+2016-02-23T19:59:24.672167+00:00 app[web.1]: 
+2016-02-23T19:59:24.672155+00:00 app[web.1]:                             [sessionId] => 00Df0000003cIK9!AQcAQMLRT0DUtzsPkCMMNSSh82NNrPZpCr54qIfEDX012VqDy0aMlwOXkpJOb_EfHQ99s7wNWVrdivoqX9Yc_bEEq5OAMJtZ
+2016-02-23T19:59:24.672197+00:00 app[web.1]:                     [mustUnderstand] => 
+2016-02-23T19:59:24.672209+00:00 app[web.1]: 
+2016-02-23T19:59:24.672208+00:00 app[web.1]:                 )
+2016-02-23T19:59:24.672243+00:00 app[web.1]:             [allowFieldTruncationHeader:protected] => 
+2016-02-23T19:59:24.672297+00:00 app[web.1]:             [packageVersionHeader:protected] => 
+2016-02-23T19:59:24.672321+00:00 app[web.1]:             [client_id:protected] => 
+2016-02-23T19:59:24.672167+00:00 app[web.1]:                         )
+2016-02-23T19:59:24.672268+00:00 app[web.1]:             [localeOptions:protected] => 
+2016-02-23T19:59:24.672323+00:00 app[web.1]: )
+2016-02-23T19:59:24.672321+00:00 app[web.1]:         )
+2016-02-23T19:59:24.672323+00:00 app[web.1]: 
+2016-02-23T19:59:24.672333+00:00 app[web.1]: 
+2016-02-23T19:59:24.672382+00:00 app[web.1]:     [queryLocator] => 
+2016-02-23T19:59:24.672364+00:00 app[web.1]: (
+2016-02-23T19:59:24.672383+00:00 app[web.1]:     [done] => 1
+2016-02-23T19:59:24.672409+00:00 app[web.1]:         (
+2016-02-23T19:59:24.672364+00:00 app[web.1]: [23-Feb-2016 19:59:24 UTC] QueryResult Object
+2016-02-23T19:59:24.672408+00:00 app[web.1]:     [records] => Array
+2016-02-23T19:59:24.672476+00:00 app[web.1]:                     [type] => Assessment__c
+2016-02-23T19:59:24.672436+00:00 app[web.1]:             [0] => stdClass Object
+2016-02-23T19:59:24.672447+00:00 app[web.1]:                 (
+2016-02-23T19:59:24.672512+00:00 app[web.1]:                         (
+2016-02-23T19:59:24.672575+00:00 app[web.1]:                             [1] => a21f000000339MSAAY
+2016-02-23T19:59:24.672497+00:00 app[web.1]:                     [Id] => Array
+2016-02-23T19:59:24.672542+00:00 app[web.1]:                             [0] => a21f000000339MSAAY
+2016-02-23T19:59:24.672721+00:00 app[web.1]:         )
+2016-02-23T19:59:24.672594+00:00 app[web.1]:                         )
+2016-02-23T19:59:24.672710+00:00 app[web.1]:                 )
+2016-02-23T19:59:24.672708+00:00 app[web.1]:                     [any] => <sf:Submitted_from_Schoology__c>false</sf:Submitted_from_Schoology__c><sf:Contact_Schoology_ID__c>24224407</sf:Contact_Schoology_ID__c><sf:Schoology_Grade_ID__c>340468553</sf:Schoology_Grade_ID__c>
+2016-02-23T19:59:24.672720+00:00 app[web.1]: 
+2016-02-23T19:59:24.672594+00:00 app[web.1]: 
+2016-02-23T19:59:24.672722+00:00 app[web.1]: 
+2016-02-23T19:59:24.672742+00:00 app[web.1]:     [size] => 1
+2016-02-23T19:59:24.672753+00:00 app[web.1]:     [pointer] => 0
+2016-02-23T19:59:24.672789+00:00 app[web.1]:         (
+2016-02-23T19:59:24.672789+00:00 app[web.1]:     [sf:QueryResult:private] => SforcePartnerClient Object
+2016-02-23T19:59:24.672828+00:00 app[web.1]:             [sforce:protected] => SforceSoapClient Object
+2016-02-23T19:59:24.672830+00:00 app[web.1]:                 (
+2016-02-23T19:59:24.672870+00:00 app[web.1]:                     [trace] => 1
+2016-02-23T19:59:24.672931+00:00 app[web.1]:                     [_encoding] => utf-8
+2016-02-23T19:59:24.672907+00:00 app[web.1]:                     [compression] => 32
+2016-02-23T19:59:24.672954+00:00 app[web.1]:                     [_features] => 1
+2016-02-23T19:59:24.672997+00:00 app[web.1]:                     [_user_agent] => salesforce-toolkit-php/27.0
+2016-02-23T19:59:24.673016+00:00 app[web.1]:                     [_soap_version] => 1
+2016-02-23T19:
+59:24.673040+00:00 app[web.1]:                     [sdl] => Resource id #26
+2016-02-23T19:59:24.673093+00:00 app[web.1]:                     [__last_request_headers] => POST /services/Soap/u/36.0/00Df0000003cIK9 HTTP/1.1
+2016-02-23T19:59:24.673123+00:00 app[web.1]: Connection: Keep-Alive
+2016-02-23T19:59:24.673112+00:00 app[web.1]: Host: cs16.salesforce.com
+2016-02-23T19:59:24.673151+00:00 app[web.1]: User-Agent: salesforce-toolkit-php/27.0
+2016-02-23T19:59:24.673172+00:00 app[web.1]: Accept-Encoding: gzip, deflate
+2016-02-23T19:59:24.673197+00:00 app[web.1]: Content-Type: text/xml; charset=utf-8
+2016-02-23T19:59:24.673198+00:00 app[web.1]: SOAPAction: ""
+2016-02-23T19:59:24.673222+00:00 app[web.1]: Content-Length: 680
+2016-02-23T19:59:24.673222+00:00 app[web.1]: Cookie: 
+2016-02-23T19:59:24.673224+00:00 app[web.1]: 
+2016-02-23T19:59:24.673280+00:00 app[web.1]:                     [__last_response_headers] => HTTP/1.1 200 OK
+2016-02-23T19:59:24.673224+00:00 app[web.1]: 
+2016-02-23T19:59:24.673303+00:00 app[web.1]: Date: Tue, 23 Feb 2016 19:59:24 GMT
+2016-02-23T19:59:24.673365+00:00 app[web.1]: Set-Cookie: BrowserId=x8sZo_f9R32oK3IRg6zmlg;Path=/;Domain=.salesforce.com;Expires=Sat, 23-Apr-2016 19:59:24 GMT
+2016-02-23T19:59:24.673388+00:00 app[web.1]: Expires: Thu, 01 Jan 1970 00:00:00 GMT
+2016-02-23T19:59:24.673412+00:00 app[web.1]: Content-Type: text/xml;charset=UTF-8
+2016-02-23T19:59:24.673438+00:00 app[web.1]: Content-Encoding: gzip
+2016-02-23T19:59:24.673457+00:00 app[web.1]: Transfer-Encoding: chunked
+2016-02-23T19:59:24.673457+00:00 app[web.1]: 
+2016-02-23T19:59:24.673483+00:00 app[web.1]:                     [_cookies] => Array
+2016-02-23T19:59:24.673501+00:00 app[web.1]:                         (
+2016-02-23T19:59:24.673531+00:00 app[web.1]:                             [BrowserId] => Array
+2016-02-23T19:59:24.673558+00:00 app[web.1]:                                 (
+2016-02-23T19:59:24.673671+00:00 app[web.1]:                                 )
+2016-02-23T19:59:24.673668+00:00 app[web.1]:                                     [2] => cs16.salesforce.com
+2016-02-23T19:59:24.673597+00:00 app[web.1]:                                     [0] => x8sZo_f9R32oK3IRg6zmlg
+2016-02-23T19:59:24.673672+00:00 app[web.1]: 
+2016-02-23T19:59:24.673631+00:00 app[web.1]:                                     [1] => /services/Soap/u/36.0
+2016-02-23T19:59:24.673707+00:00 app[web.1]:                         )
+2016-02-23T19:59:24.673708+00:00 app[web.1]: 
+2016-02-23T19:59:24.673762+00:00 app[web.1]:                     [location] => https://cs16.salesforce.com/services/Soap/u/36.0/00Df0000003cIK9
+2016-02-23T19:59:24.673781+00:00 app[web.1]:                     [__default_headers] => Array
+2016-02-23T19:59:24.673827+00:00 app[web.1]:                             [0] => SoapHeader Object
+2016-02-23T19:59:24.673798+00:00 app[web.1]:                         (
+2016-02-23T19:59:24.673848+00:00 app[web.1]:                                 (
+2016-02-23T19:59:24.673890+00:00 app[web.1]:                                     [namespace] => urn:partner.soap.sforce.com
+2016-02-23T19:59:24.673924+00:00 app[web.1]:                                     [name] => SessionHeader
+2016-02-23T19:59:24.673956+00:00 app[web.1]:                                     [data] => Array
+2016-02-23T19:59:24.673982+00:00 app[web.1]:                                         (
+2016-02-23T19:59:24.674070+00:00 app[web.1]:                                             [sessionId] => 00Df0000003cIK9!AQcAQMLRT0DUtzsPkCMMNSSh82NNrPZpCr54qIfEDX012VqDy0aMlwOXkpJOb_EfHQ99s7wNWVrdivoqX9Yc_bEEq5OAMJtZ
+2016-02-23T19:59:24.674095+00:00 app[web.1]: 
+2016-02-23T19:59:24.674151+00:00 app[web.1]:                                 )
+2016-02-23T19:59:24.674095+00:00 app[web.1]:                                         )
+2016-02-23T19:59:24.674152+00:00 app[web.1]: 
+2016-02-23T19:59:24.674130+00:00 app[web.1]:                                     [mustUnderstand] => 
+2016-02-23T19:59:24.674173+00:00 app[web.1]: 
+2016-02-23T19:59:24.674172+00:00 app[web.1]:                         )
+2016-02-23T19:59:24.674217+00:00 app[web.1]:                     [__last_request] => <?xml version="1.0" encoding="UTF-8"?>
+2016-02-23T19:59:24.674552+00:00 app[web.1]: <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="urn:partner.soap.sforce.com"><SOAP-ENV:Header><ns1:SessionHeader><ns1:sessionId>00Df0000003cIK9!AQcAQMLRT0DUtzsPkCMMNSSh82NNrPZpCr54qIfEDX012VqDy0aMlwOXkpJOb_EfHQ99s7wNWVrdivoqX9Yc_bEEq5OAMJtZ</ns1:sessionId></ns1:SessionHeader></SOAP-ENV:Header><SOAP-ENV:Body><ns1:query><ns1:queryString>SELECT Id, Submitted_from_Schoology__c, Contact_Schoology_ID__c, Schoology_Grade_ID__c FROM Assessment__c WHERE Contact_Schoology_ID__c = '24224407' AND Schoology_Grade_ID__c = '340468553' LIMIT 1</ns1:queryString></ns1:query></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2016-02-23T19:59:24.674553+00:00 app[web.1]: 
+2016-02-23T19:59:24.674579+00:00 app[web.1]:                     [_use_proxy] => 0
+2016-02-23T19:59:24.674557+00:00 app[web.1]:                     [httpsocket] => Resource id #29
+2016-02-23T19:59:24.674607+00:00 app[web.1]:                     [httpurl] => Resource id #30
+2016-02-23T19:59:24.675082+00:00 app[web.1]:                     [__last_response] => <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns="urn:partner.soap.sforce.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sf="urn:sobject.partner.soap.sforce.com"><soapenv:Header><LimitInfoHeader><limitInfo><current>13</current><limit>5000000</limit><type>API REQUESTS</type></limitInfo></LimitInfoHeader></soapenv:Header><soapenv:Body><queryResponse><result xsi:type="QueryResult"><done>true</done><queryLocator xsi:nil="true"/><records xsi:type="sf:sObject"><sf:type>Assessment__c</sf:type><sf:Id>a21f000000339MSAAY</sf:Id><sf:Id>a21f000000339MSAAY</sf:Id><sf:Submitted_from_Schoology__c>false</sf:Submitted_from_Schoology__c><sf:Contact_Schoology_ID__c>24224407</sf:Contact_Schoology_ID__c><sf:Schoology_Grade_ID__c>340468553</sf:Schoology_Grade_ID__c></records><size>1</size></result></queryResponse></soapenv:Body></soapenv:Envelope>
+2016-02-23T19:59:24.675088+00:00 app[web.1]: 
+2016-02-23T19:59:24.675215+00:00 app[web.1]:             [location:protected] => https://cs16.salesforce.com/services/Soap/u/36.0/00Df0000003cIK9
+2016-02-23T19:59:24.675087+00:00 app[web.1]:                 )
+2016-02-23T19:59:24.675162+00:00 app[web.1]:             [sessionId:protected] => 00Df0000003cIK9!AQcAQMLRT0DUtzsPkCMMNSSh82NNrPZpCr54qIfEDX012VqDy0aMlwOXkpJOb_EfHQ99s7wNWVrdivoqX9Yc_bEEq5OAMJtZ
+2016-02-23T19:59:24.675239+00:00 app[web.1]:             [version:protected] => 27.0
+2016-02-23T19:59:24.675277+00:00 app[web.1]:             [namespace:protected] => urn:partner.soap.sforce.com
+2016-02-23T19:59:24.675301+00:00 app[web.1]:             [callOptions:protected] => 
+2016-02-23T19:59:24.675332+00:00 app[web.1]:             [assignmentRuleHeader:protected] => 
+2016-02-23T19:59:24.675350+00:00 app[web.1]:             [emailHeader:protected] => 
+2016-02-23T19:59:24.675380+00:00 app[web.1]:             [loginScopeHeader:protected] => 
+2016-02-23T19:59:24.675494+00:00 app[web.1]:             [sessionHeader:protected] => SoapHeader Object
+2016-02-23T19:59:24.675404+00:00 app[web.1]:             [mruHeader:protected] => 
+2016-02-23T19:59:24.675433+00:00 app[web.1]:             [queryHeader:protected] => 
+2016-02-23T19:59:24.675461+00:00 app[web.1]:             [userTerritoryDeleteHeader:protected] => 
+2016-02-23T19:59:24.675710+00:00 app[web.1]: 
+2016-02-23T19:59:24.675544+00:00 app[web.1]:                     [namespace] => urn:partner.soap.sforce.com
+2016-02-23T19:59:24.675571+00:00 app[web.1]:                     [name] => SessionHeader
+2016-02-23T19:59:24.675598+00:00 app[web.1]:                     [data] => Array
+2016-02-23T19:59:24.675753+00:00 app[web.1]:                 )
+2016-02-23T19:59:24.675736+00:00 app[web.1]:                     [mustUnderstand] => 
+2016-02-23T19:59:24.675754+00:00 app[web.1]: 
+2016-02-23T19:59:24.675709+00:00 app[web.1]:                         )
+2016-02-23T19:59:24.675785+00:00 app[web.1]:             [allowFieldTruncationHeader:protected] => 
+2016-02-23T19:59:24.675863+00:00 app[web.1]:             [client_id:protected] => 
+2016-02-23T19:59:24.675509+00:00 app[web.1]:                 (
+2016-02-23T19:59:24.675839+00:00 app[web.1]:             [packageVersionHeader:protected] => 
+2016-02-23T19:59:24.675908+00:00 app[web.1]: [23-Feb-2016 19:59:24 UTC] SObject Object
+2016-02-23T19:59:24.675864+00:00 app[web.1]:         )
+2016-02-23T19:59:24.675876+00:00 app[web.1]: )
+2016-02-23T19:59:24.675810+00:00 app[web.1]:             [localeOptions:protected] => 
+2016-02-23T19:59:24.675613+00:00 app[web.1]:                         (
+2016-02-23T19:59:24.675691+00:00 app[web.1]:                             [sessionId] => 00Df0000003cIK9!AQcAQMLRT0DUtzsPkCMMNSSh82NNrPZpCr54qIfEDX012VqDy0aMlwOXkpJOb_EfHQ99s7wNWVrdivoqX9Yc_bEEq5OAMJtZ
+2016-02-23T19:59:24.675908+00:00 app[web.1]: (
+2016-02-23T19:59:24.675940+00:00 app[web.1]:     [fields] => Array
+2016-02-23T19:59:24.675954+00:00 app[web.1]:         (
+2016-02-23T19:59:24.676002+00:00 app[web.1]: 
+2016-02-23T19:59:24.676089+00:00 app[web.1]: 
+2016-02-23T19:59:24.676027+00:00 app[web.1]:         (
+2016-02-23T19:59:24.676122+00:00 app[web.1]: [23-Feb-2016 19:59:24 UTC] In Salesforce Call
+2016-02-23T19:59:24.675875+00:00 app[web.1]: 
+2016-02-23T19:59:24.676055+00:00 app[web.1]:             [0] => a21f000000339MSAAY
+2016-02-23T19:59:24.676080+00:00 app[web.1]:         )
+2016-02-23T19:59:24.675933+00:00 app[web.1]:     [type] => Assessment__c
+2016-02-23T19:59:24.676080+00:00 app[web.1]: 
+2016-02-23T19:59:24.676089+00:00 app[web.1]: )
+2016-02-23T19:59:24.675998+00:00 app[web.1]:             [Submitted_from_Schoology__c] => 1
+2016-02-23T19:59:24.676089+00:00 app[web.1]: 
+2016-02-23T19:59:24.676123+00:00 app[web.1]: 
+2016-02-23T19:59:24.675876+00:00 app[web.1]: 
+2016-02-23T19:59:24.675877+00:00 app[web.1]: 
+2016-02-23T19:59:24.676000+00:00 app[web.1]:         )
+2016-02-23T19:59:24.676016+00:00 app[web.1]:     [Id] => Array
+2016-02-23T19:59:24.676079+00:00 app[web.1]:             [1] => a21f000000339MSAAY
+2016-02-23T19:59:25.172209+00:00 app[web.1]: [23-Feb-2016 19:59:25 UTC] Array
+2016-02-23T19:59:25.172199+00:00 app[web.1]: [23-Feb-2016 19:59:25 UTC] Salesforce Call Go!
+2016-02-23T19:59:25.172210+00:00 app[web.1]: (
+2016-02-23T19:59:25.172203+00:00 app[web.1]: 
+2016-02-23T19:59:25.172286+00:00 app[web.1]:             [errors] => Array
+2016-02-23T19:59:25.172408+00:00 app[web.1]:                             [fields] => Array
+2016-02-23T19:59:25.172246+00:00 app[web.1]:     [0] => stdClass Object
+2016-02-23T19:59:25.172302+00:00 app[web.1]:                 (
+2016-02-23T19:59:25.172342+00:00 app[web.1]:                     [0] => stdClass Object
+2016-02-23T19:59:25.172249+00:00 app[web.1]:         (
+2016-02-23T19:59:25.172513+00:00 app[web.1]: 
+2016-02-23T19:59:25.172574+00:00 app[web.1]:                             [message] => Record ID: id value of incorrect type: Array
+2016-02-23T19:59:25.172617+00:00 app[web.1]:                             [statusCode] => MALFORMED_ID
+2016-02-23T19:59:25.172511+00:00 app[web.1]:                                 )
+2016-02-23T19:59:25.172370+00:00 app[web.1]:                         (
+2016-02-23T19:59:25.172441+00:00 app[web.1]:                                 (
+2016-02-23T19:59:25.172672+00:00 app[web.1]:                 )
+2016-02-23T19:59:25.172479+00:00 app[web.1]:                                     [0] => Id
+2016-02-23T19:59:25.172673+00:00 app[web.1]: 
+2016-02-23T19:59:25.172645+00:00 app[web.1]: 
+2016-02-23T19:59:25.172645+00:00 app[web.1]:                         )
+2016-02-23T19:59:25.172730+00:00 app[web.1]:         )
+2016-02-23T19:59:25.172784+00:00 app[web.1]: (
+2016-02-23T19:59:25.172817+00:00 app[web.1]:         (
+2016-02-23T19:59:25.172698+00:00 app[web.1]:             [id] => 
+2016-02-23T19:59:25.172732+00:00 app[web.1]: 
+2016-02-23T19:59:25.172865+00:00 app[web.1]:                 (
+2016-02-23T19:59:25.172852+00:00 app[web.1]:             [errors] => Array
+2016-02-23T19:59:25.172727+00:00 app[web.1]:             [success] => 
+2016-02-23T19:59:25.172748+00:00 app[web.1]: 
+2016-02-23T19:59:25.172970+00:00 app[web.1]:                             [fields] => Array
+2016-02-23T19:59:25.172746+00:00 app[web.1]: )
+2016-02-23T19:59:25.172932+00:00 app[web.1]:                         (
+2016-02-23T19:59:25.172783+00:00 app[web.1]: [23-Feb-2016 19:59:25 UTC] Array
+2016-02-23T19:59:25.173039+00:00 app[web.1]:                                     [0] => Id
+2016-02-23T19:59:25.172815+00:00 app[web.1]:     [0] => stdClass Object
+2016-02-23T19:59:25.173001+00:00 app[web.1]:                                 (
+2016-02-23T19:59:25.173083+00:00 app[web.1]:                                 )
+2016-02-23T19:59:25.172747+00:00 app[web.1]: 
+2016-02-23T19:59:25.172905+00:00 app[web.1]:                     [0] => stdClass Object
+2016-02-23T19:59:25.173291+00:00 app[web.1]:                             [message] => Record ID: id value of incorrect type: Array
+2016-02-23T19:59:25.173423+00:00 app[web.1]:                 )
+2016-02-23T19:59:25.173499+00:00 app[web.1]: 
+2016-02-23T19:59:25.173097+00:00 app[web.1]: 
+2016-02-23T19:59:25.173480+00:00 app[web.1]:             [success] => 
+2016-02-23T19:59:25.173449+00:00 app[web.1]:             [id] => 
+2016-02-23T19:59:25.173333+00:00 app[web.1]:                             [statusCode] => MALFORMED_ID
+2016-02-23T19:59:25.173365+00:00 app[web.1]:                         )
+2016-02-23T19:59:25.173424+00:00 app[web.1]: 
+2016-02-23T19:59:25.173366+00:00 app[web.1]: 
+2016-02-23T19:59:25.173498+00:00 app[web.1]:         )
+2016-02-23T19:59:25.173521+00:00 app[web.1]: 
+2016-02-23T19:59:25.173521+00:00 app[web.1]: 
+2016-02-23T19:59:25.173501+00:00 app[web.1]: )
+2016-02-23T19:59:25.173637+00:00 app[web.1]:             [errors] => Array
+2016-02-23T19:59:25.173801+00:00 app[web.1]:                         (
+2016-02-23T19:59:25.173555+00:00 app[web.1]: [23-Feb-2016 19:59:25 UTC] Array
+2016-02-23T19:59:25.173589+00:00 app[web.1]:     [0] => stdClass Object
+2016-02-23T19:59:25.173607+00:00 app[web.1]:         (
+2016-02-23T19:59:25.173556+00:00 app[web.1]: (
+2016-02-23T19:59:25.173901+00:00 app[web.1]:                                     [0] => Id
+2016-02-23T19:59:25.173742+00:00 app[web.1]:                 (
+2016-02-23T19:59:25.173836+00:00 app[web.1]:                             [fields] => Array
+2016-02-23T19:59:25.173775+00:00 app[web.1]:                     [0] => stdClass Object
+2016-02-23T19:59:25.173866+00:00 app[web.1]:                                 (
+2016-02-23T19:59:25.173995+00:00 app[web.1]:                             [message] => Record ID: id value of incorrect type: Array
+2016-02-23T19:59:25.173937+00:00 app[web.1]:                                 )
+2016-02-23T19:59:25.173938+00:00 app[web.1]: 
+2016-02-23T19:59:25.174153+00:00 app[web.1]:                             [statusCode] => MALFORMED_ID
+2016-02-23T19:59:25.174190+00:00 app[web.1]:                         )
+2016-02-23T19:59:25.174192+00:00 app[web.1]: 
+2016-02-23T19:59:25.174213+00:00 app[web.1]:                 )
+2016-02-23T19:59:25.174214+00:00 app[web.1]: 
+2016-02-23T19:59:25.174240+00:00 app[web.1]:             [id] => 
+2016-02-23T19:59:25.174266+00:00 app[web.1]:             [success] => 
+2016-02-23T19:59:25.174284+00:00 app[web.1]: 
+2016-02-23T19:59:25.174283+00:00 app[web.1]:         )
+2016-02-23T19:59:25.174286+00:00 app[web.1]: )
+2016-02-23T19:59:25.174287+00:00 app[web.1]: 
+2016-02-23T19:59:25.174293+00:00 app[web.1]: 
+2016-02-23T19:59:25.174381+00:00 app[web.1]: 10.149.76.234 - - [23/Feb/2016:19:59:24 +0000] "POST /?req_type=courses HTTP/1.1" 302 - "-" "-
+2016-02-23T19:59:25.173679+00:00 heroku[router]: at=info method=POST path="/?req_type=courses" host=glacial-tor-7252.herokuapp.com request_id=77ed2a9a-ddb0-4b39-bc89-6594ce2a1284 fwd="50.56.38.11" dyno=web.1 connect=0ms service=1052ms status=302 bytes=298
+2016
+-02-23T20:00:02.254035+00:00 app[web.1]: 
+2016-02-23T20:00:02.255373+00:00 app[web.1]:                     [num_items] => 1
+2016-02-23T20:00:02.255402+00:00 app[web.1]:                     [late] => 0
+2016-02-23T20:00:02.255430+00:00 app[web.1]:                     [draft] => 0
+2016-02-23T20:00:02.255459+00:00 app[web.1]:                     [assignment_nid] => 340468553
+2016-02-23T20:00:02.255500+00:00 app[web.1]:                     [attachments] => stdClass Object
+2016-02-23T20:00:02.255522+00:00 app[web.1]:                         (
+2016-02-23T20:00:02.255881+00:00 app[web.1]:                                                     [type] => file
+2016-02-23T20:00:02.255793+00:00 app[web.1]:                                                     [id] => 201407599
+2016-02-23T20:00:02.255843+00:00 app[web.1]:                                                     [fid] => 1143299463
+2016-02-23T20:00:02.255930+00:00 app[web.1]:                                                     [title] => dropbox_24224407_r16.html
+2016-02-23T20:00:02.255557+00:00 app[web.1]:                             [files] => stdClass Object
+2016-02-23T20:00:02.255589+00:00 app[web.1]:                                 (
+2016-02-23T20:00:02.255642+00:00 app[web.1]:                                     [file] => stdClass Object
+2016-02-23T20:00:02.255666+00:00 app[web.1]:                                         (
+2016-02-23T20:00:02.255705+00:00 app[web.1]:                                             [201407599] => stdClass Object
+2016-02-23T20:00:02.255744+00:00 app[web.1]:                                                 (
+2016-02-23T20:00:02.255993+00:00 app[web.1]:                                                     [filename] => dropbox_24224407_r16.html
+2016-02-23T20:00:02.256039+00:00 app[web.1]:                                                     [filesize] => 166
+2016-02-23T20:00:02.256103+00:00 app[web.1]:                                                     [md5_checksum] => 86ec4a2c1773a3d4cc12bbe5f5f3dd5e
+2016-02-23T20:00:02.256151+00:00 app[web.1]:                                                     [timestamp] => 1456257295
+2016-02-23T20:00:02.256193+00:00 app[web.1]:                                                     [filemime] => text/html
+2016-02-23T20:00:02.256309+00:00 app[web.1]:                                                     [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201602/course/315598229/dropbox_24224407_r16_56ccb90fcbe9a.html
+2016-02-23T20:00:02.254171+00:00 app[web.1]:     [token_is_access] => 1
+2016-02-23T20:00:02.254040+00:00 app[web.1]: (
+2016-02-23T20:00:02.256359+00:00 app[web.1]:                                                     [extension] => html
+2016-02-23T20:00:02.256420+00:00 app[web.1]:                                                     [converted_status] => 1
+2016-02-23T20:00:02.256971+00:00 app[web.1]: 
+2016-02-23T20:00:02.256463+00:00 app[web.1]:                                                     [converted_type] => 4
+2016-02-23T20:00:02.256551+00:00 app[web.1]:                                                     [converted_filename] => 1456257297-86ec4a2c1773a3d4cc12bbe5f5f3dd5e-56ccb911aa816_56ccb91278390.pdf
+2016-02-23T20:00:02.256700+00:00 app[web.1]:                                                     [converted_download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201602/course/315598229/1456257297-86ec4a2c1773a3d4cc12bbe5f5f3dd5e-56ccb911aa816_56ccb91278390.pdf
+2016-02-23T20:00:02.256758+00:00 app[web.1]:                                                     [converted_extension] => pdf
+2016-02-23T20:00:02.256810+00:00 app[web.1]:                                                     [converted_filemime] => application/pdf
+2016-02-23T20:00:02.256863+00:00 app[web.1]:                                                     [converted_filesize] => 7606
+2016-02-23T20:00:02.254172+00:00 app[web.1]: )
+2016-02-23T20:00:02.254156+00:00 app[web.1]:     [token_secret] => 595e3771523d7c63b374b437297fb75f
+2016-02-23T20:00:02.257043+00:00 app[web.1]:                         )
+2016-02-23T20:00:02.257044+00:00 app[web.1]: 
+2016-02-23T20:00:02.257067+00:00 app[web.1]:                 )
+2016-02-23T20:00:02.257068+00:00 app[web.1]: 
+2016-02-23T20:00:02.257085+00:00 app[web.1]:         )
+2016-02-23T20:00:02.257086+00:00 app[web.1]: 
+2016-02-23T20:00:02.254173+00:00 app[web.1]: 
+2016-02-23T20:00:02.257125+00:00 app[web.1]: [23-Feb-2016 20:00:02 UTC] UID: 24224407
+2016-02-23T20:00:02.257155+00:00 app[web.1]: [23-Feb-2016 20:00:02 UTC] Section ID: 315598229
+2016-02-23T20:00:02.254943+00:00 app[web.1]: (
+2016-02-23T20:00:02.254965+00:00 app[web.1]:     [uid] => 24224407
+2016-02-23T20:00:02.257210+00:00 app[web.1]: [23-Feb-2016 20:00:02 UTC] Assignment ID: 340468553
+2016-02-23T20:00:02.257236+00:00 app[web.1]: [23-Feb-2016 20:00:02 UTC] Requirement Type found - courses
+2016-02-23T20:00:02.257237+00:00 app[web.1]: 
+2016-02-23T20:00:02.257359+00:00 app[web.1]: [23-Feb-2016 20:00:02 UTC] SELECT Id, Submitted_from_Schoology__c, Contact_Schoology_ID__c, Schoology_Grade_ID__c FROM Assessment__c WHERE Contact_Schoology_ID__c = '24224407' AND Schoology_Grade_ID__c = '340468553' LIMIT 1
+2016-02-23T20:00:02.257360+00:00 app[web.1]: 
+2016-02-23T20:00:02.254992+00:00 app[web.1]:     [timestamp] => 1456257296
+2016-02-23T20:00:02.257433+00:00 app[web.1]: 
+2016-02-23T20:00:02.254931+00:00 app[web.1]: [23-Feb-2016 20:00:02 UTC] {"uid":24224407,"timestamp":1456257296,"type":"dropbox_submission.update","data":{"realm":"section","section_id":315598229,"realm_id":315598229,"uid":"24224407","revision_id":"16","assignment_nid":"340468553","object":{"revision_id":16,"uid":24224407,"created":1456257295,"num_items":1,"late":0,"draft":0,"assignment_nid":"340468553","attachments":{"files":{"file":{"201407599":{"id":201407599,"fid":1143299463,"type":"file","title":"dropbox_24224407_r16.html","filename":"dropbox_24224407_r16.html","filesize":166,"md5_checksum":"86ec4a2c1773a3d4cc12bbe5f5f3dd5e","timestamp":1456257295,"filemime":"text\/html","download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201602\/course\/315598229\/dropbox_24224407_r16_56ccb90fcbe9a.html","extension":"html","converted_status":"1","converted_type":4,"converted_filename":"1456257297-86ec4a2c1773a3d4cc12bbe5f5f3dd5e-56ccb911aa816_56ccb91278390.pdf","converted_download_path":"http:\/\/api.schoology.com\/v1\/system\/files\/drop_items\/m\/201602\/course\/315598229\/1456257297-86ec4a2c1773a3d4cc12bbe5f5f3dd5e-56ccb911aa816_56ccb91278390.pdf","converted_extension":"pdf","converted_filemime":"application\/pdf","converted_filesize":7606,"converted_md5_checksum":"2fdfe3f403c0097f2962929122beb73d"}}}}}}}
+2016-02-23T20:00:02.254031+00:00 app[web.1]: [23-Feb-2016 20:00:02 UTC] got token!
+2016-02-23T20:00:02.255154+00:00 app[web.1]:             [uid] => 24224407
+2016-02-23T20:00:02.255076+00:00 app[web.1]:             [realm] => section
+2016-02-23T20:00:02.255020+00:00 app[web.1]:     [type] => dropbox_submission.update
+2016-02-23T20:00:02.255252+00:00 app[web.1]:                 (
+2016-02-23T20:00:02.254062+00:00 app[web.1]:     [uid] => 22135108
+2016-02-23T20:00:02.255285+00:00 app[web.1]:                     [revision_id] => 16
+2016-02-23T20:00:02.255244+00:00 app[web.1]:             [object] => stdClass Object
+2016-02-23T20:00:02.256970+00:00 app[web.1]:                                                 )
+2016-02-23T20:00:02.256939+00:00 app[web.1]:                                                     [converted_md5_checksum] => 2fdfe3f403c0097f2962929122beb73d
+2016-02-23T20:00:02.255050+00:00 app[web.1]:         (
+2016-02-23T20:00:02.255337+00:00 app[web.1]:                     [created] => 1456257295
+2016-02-23T20:00:02.254039+00:00 app[web.1]: [23-Feb-2016 20:00:02 UTC] Array
+2016-02-23T20:00:02.255124+00:00 app[web.1]:             [realm_id] => 315598229
+2016-02-23T20:00:02.254174+00:00 app[web.1]: 
+2016-02-23T20:00:02.257087+00:00 app[web.1]: )
+2016-02-23T20:00:02.257087+00:00 app[web.1]: 
+2016-02-23T20:00:02.255100+00:00 app[web.1]:             [section_id] => 315598229
+2016-02-23T20:00:02.255214+00:00 app[web.1]:             [assignment_nid] => 340468553
+2016-02-23T20:00:02.255049+00:00 app[web.1]:     [data] => stdClass Object
+2016-02-23T20:00:02.256999+00:00 app[web.1]:                                         )
+2016-02-23T20:00:02.255310+00:00 app[web.1]:                     [uid] => 24224407
+2016-02-23T20:00:02.257432+00:00 app[web.1]: [23-Feb-2016 20:00:02 UTC] In Salesforce Query
+2016-02-23T20:00:02.256999+00:00 app[web.1]: 
+2016-02-23T20:00:02.257029+00:00 app[web.1]: 
+2016-02-23T20:00:02.257027+00:00 app[web.1]:                                 )
+2016-02-23T20:00:02.740384+00:00 app[web.1]:     [queryLocator] => 
+2016-02-23T20:00:02.740408+00:00 app[web.1]:     [done] => 1
+2016-02-23T20:00:02.740439+00:00 app[web.1]:     [records] => Array
+2016-02-23T20:00:02.740466+00:00 app[web.1]:         (
+2016-02-23T20:00:02.740578+00:00 app[web.1]:                 (
+2016-02-23T20:00:02.740309+00:00 app[web.1]: [23-Feb-2016 20:00:02 UTC] QueryResult Object
+2016-02-23T20:00:02.740704+00:00 app[web.1]:                     [Id] => Array
+2016-02-23T20:00:02.740749+00:00 app[web.1]:                         (
+2016-02-23T20:00:02.740540+00:00 app[web.1]:             [0] => stdClass Object
+2016-02-23T20:00:02.740812+00:00 app[web.1]:                             [0] => a21f000000339MSAAY
+2016-02-23T20:00:02.740630+00:00 app[web.1]:                     [type] => Assessment__c
+2016-02-23T20:00:02.740946+00:00 app[web.1]:                         )
+2016-02-23T20:00:02.740905+00:00 app[web.1]:                             [1] => a21f000000339MSAAY
+2016-02-23T20:00:02.741407+00:00 app[web.1]: 
+2016-02-23T20:00:02.741391+00:00 app[web.1]:         )
+2016-02-23T20:00:02.741292+00:00 app[web.1]:                     [any] => <sf:Submitted_from_Schoology__c>false</sf:Submitted_from_Schoology__c><sf:Contact_Schoology_ID__c>24224407</sf:Contact_Schoology_ID__c><sf:Schoology_Grade_ID__c>340468553</sf:Schoology_Grade_ID__c>
+2016-02-23T20:00:02.741322+00:00 app[web.1]:                 )
+2016-02-23T20:00:02.740966+00:00 app[web.1]: 
+2016-02-23T20:00:02.741549+00:00 app[web.1]:     [sf:QueryResult:private] => SforcePartnerClient Object
+2016-02-23T20:00:02.741631+00:00 app[web.1]:             [sforce:protected] => SforceSoapClient Object
+2016-02-23T20:00:02.740352+00:00 app[web.1]: (
+2016-02-23T20:00:02.741724+00:00 app[web.1]:                     [trace] => 1
+2016-02-23T20:00:02.741819+00:00 app[web.1]:                     [_encoding] => utf-8
+2016-02-23T20:00:02.741659+00:00 app[web.1]:                 (
+2016-02-23T20:00:02.741958+00:00 app[web.1]:                     [_user_agent] => salesforce-toolkit-php/27.0
+2016-02-23T20:00:02.741570+00:00 app[web.1]:         (
+2016-02-23T20:00:02.741772+00:00 app[web.1]:                     [compression] => 32
+2016-02-23T20:00:02.741336+00:00 app[web.1]: 
+2016-02-23T20:00:02.741433+00:00 app[web.1]:     [size] => 1
+2016-02-23T20:00:02.742234+00:00 app[web.1]: Host: cs16.salesforce.com
+2016-02-23T20:00:02.742003+00:00 app[web.1]:                     [_soap_version] => 1
+2016-02-23T20:00:02.741462+00:00 app[web.1]:     [pointer] => 0
+2016-02-23T20:00:02.742170+00:00 app[web.1]:                     [__last_request_headers] => POST /services/Soap/u/36.0/00Df0000003cIK9 HTTP/1.1
+2016-02-23T20:00:02.741889+00:00 app[web.1]:                     [_features] => 1
+2016-02-23T20:00:02.742565+00:00 app[web.1]: 
+2016-02-23T20:00:02.742271+00:00 app[web.1]: Connection: Keep-Alive
+2016-02-23T20:00:02.742550+00:00 app[web.1]: Cookie: 
+2016-02-23T20:00:02.743422+00:00 app[web.1]:                                     [0] => vLuX_Jr4QOmTs6doeQj99Q
+2016-02-23T20:00:02.742441+00:00 app[web.1]: Content-Type: text/xml; charset=utf-8
+2016-02-23T20:00:02.742469+00:00 app[web.1]: SOAPAction: ""
+2016-02-23T20:00:02.742326+00:00 app[web.1]: User-Agent: salesforce-toolkit-php/27.0
+2016-02-23T20:00:02.742076+00:00 app[web.1]:                     [sdl] => Resource id #7
+2016-02-23T20:00:02.742649+00:00 app[web.1]:                     [__last_response_headers] => HTTP/1.1 200 OK
+2016-02-23T20:00:02.742916+00:00 app[web.1]: Expires: Thu, 01 Jan 1970 00:00:00 GMT
+2016-02-23T20:00:02.743066+00:00 app[web.1]: Transfer-Encoding: chunked
+2016-02-23T20:00:02.743589+00:00 app[web.1]:                                     [2] => cs16.salesforce.com
+2016-02-23T20:00:02.742582+00:00 app[web.1]: 
+2016-02-23T20:00:02.742965+00:00 app[web.1]: Content-Type: text/xml;charset=UTF-8
+2016-02-23T20:00:02.743176+00:00 app[web.1]:                         (
+2016-02-23T20:00:02.742842+00:00 app[web.1]: Set-Cookie: BrowserId=vLuX_Jr4QOmTs6doeQj99Q;Path=/;Domain=.salesforce.com;Expires=Sat, 23-Apr-2016 20:00:02 GMT
+2016-02-23T20:00:02.743634+00:00 app[web.1]:                                 )
+2016-02-23T20:00:02.742503+00:00 app[web.1]: Content-Length: 680
+2016-02-23T20:00:02.743997+00:00 app[web.1]:                             [0] => SoapHeader Object
+2016-02-23T20:00:02.742396+00:00 app[web.1]: Accept-Encoding: gzip, deflate
+2016-02-23T20:00:02.743650+00:00 app[web.1]: 
+2016-02-23T20:00:02.743493+00:00 app[web.1]:                                     [1] => /services/Soap/u/36.0
+2016-02-23T20:00:02.743136+00:00 app[web.1]:                     [_cookies] => Array
+2016-02-23T20:00:02.743325+00:00 app[web.1]:                                 (
+2016-02-23T20:00:02.744321+00:00 app[web.1]:                                         (
+2016-02-23T20:00:02.744042+00:00 app[web.1]:                                 (
+2016-02-23T20:00:02.742728+00:00 app[web.1]: Date: Tue, 23 Feb 2016 20:00:02 GMT
+2016-02-23T20:00:02.743001+00:00 app[web.1]: Content-Encoding: gzip
+2016-02-23T20:00:02.743919+00:00 app[web.1]:                     [__default_headers] => Array
+2016-02-23T20:00:02.743825+00:00 app[web.1]:                     [location] => https://cs16.salesforce.com/services/Soap/u/36.0/00Df0000003cIK9
+2016-02-23T20:00:02.745575+00:00 app[web.1]:                     [httpurl] => Resource id #11
+2016-02-23T20:00:02.743731+00:00 app[web.1]: 
+2016-02-23T20:00:02.743277+00:00 app[web.1]:                             [BrowserId] => Array
+2016-02-23T20:00:02.744640+00:00 app[web.1]: 
+2016-02-23T20:00:02.745344+00:00 app[web.1]: <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="urn:partner.soap.sforce.com"><SOAP-ENV:Header><ns1:SessionHeader><ns1:sessionId>00Df0000003cIK9!AQcAQMLRT0DUtzsPkCMMNSSh82NNrPZpCr54qIfEDX012VqDy0aMlwOXkpJOb_EfHQ99s7wNWVrdivoqX9Yc_bEEq5OAMJtZ</ns1:sessionId></ns1:SessionHeader></SOAP-ENV:Header><SOAP-ENV:Body><ns1:query><ns1:queryString>SELECT Id, Submitted_from_Schoology__c, Contact_Schoology_ID__c, Schoology_Grade_ID__c FROM Assessment__c WHERE Contact_Schoology_ID__c = '24224407' AND Schoology_Grade_ID__c = '340468553' LIMIT 1</ns1:queryString></ns1:query></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2016-02-23T20:00:02.743701+00:00 app[web.1]:                         )
+2016-02-23T20:00:02.743946+00:00 app[web.1]:                         (
+2016-02-23T20:00:02.745392+00:00 app[web.1]: 
+2016-02-23T20:00:02.743083+00:00 app[web.1]: 
+2016-02-23T20:00:02.744273+00:00 app[web.1]:                                     [data] => Array
+2016-02-23T20:00:02.744675+00:00 app[web.1]:                         )
+2016-02-23T20:00:02.747303+00:00 app[web.1]:                     [namespace] => urn:partner.soap.sforce.com
+2016-02-23T20:00:02.746408+00:00 app[web.1]:                     [__last_response] => <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns="urn:partner.soap.sforce.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sf="urn:sobject.partner.soap.sforce.com"><soapenv:Header><LimitInfoHeader><limitInfo><current>14</current><limit>5000000</limit><type>API REQUESTS</type></limitInfo></LimitInfoHeader></soapenv:Header><soapenv:Body><queryResponse><result xsi:type="QueryResult"><done>true</done><queryLocator xsi:nil="true"/><reco
+rds xsi:type="sf:sObject"><sf:type>Assessment__c</sf:type><sf:Id>a21f000000339MSAAY</sf:Id><sf:Id>a21f000000339MSAAY</sf:Id><sf:Submitted_from_Schoology__c>false</sf:Submitted_from_Schoology__c><sf:Contact_Schoology_ID__c>24224407</sf:Contact_Schoology_ID__c><sf:Schoology_Grade_ID__c>340468553</sf:Schoology_Grade_ID__c></records><size>1</size></result></queryResponse></soapenv:Body></soapenv:Envelope>
+2016-02-23T20:00:02.744483+00:00 app[web.1]:                                             [sessionId] => 00Df0000003cIK9!AQcAQMLRT0DUtzsPkCMMNSSh82NNrPZpCr54qIfEDX012VqDy0aMlwOXkpJOb_EfHQ99s7wNWVrdivoqX9Yc_bEEq5OAMJtZ
+2016-02-23T20:00:02.746424+00:00 app[web.1]:                 )
+2016-02-23T20:00:02.747726+00:00 app[web.1]:                 )
+2016-02-23T20:00:02.745470+00:00 app[web.1]:                     [httpsocket] => Resource id #10
+2016-02-23T20:00:02.744147+00:00 app[web.1]:                                     [namespace] => urn:partner.soap.sforce.com
+2016-02-23T20:00:02.747835+00:00 app[web.1]:             [localeOptions:protected] => 
+2016-02-23T20:00:02.744755+00:00 app[web.1]:                     [__last_request] => <?xml version="1.0" encoding="UTF-8"?>
+2016-02-23T20:00:02.747888+00:00 app[web.1]:             [packageVersionHeader:protected] => 
+2016-02-23T20:00:02.746990+00:00 app[web.1]:             [loginScopeHeader:protected] => 
+2016-02-23T20:00:02.747959+00:00 app[web.1]:         )
+2016-02-23T20:00:02.745510+00:00 app[web.1]:                     [_use_proxy] => 0
+2016-02-23T20:00:02.748118+00:00 app[web.1]:     [records] => Array
+2016-02-23T20:00:02.747405+00:00 app[web.1]:                     [data] => Array
+2016-02-23T20:00:02.748455+00:00 app[web.1]:                         )
+2016-02-23T20:00:02.746584+00:00 app[web.1]:             [sessionId:protected] => 00Df0000003cIK9!AQcAQMLRT0DUtzsPkCMMNSSh82NNrPZpCr54qIfEDX012VqDy0aMlwOXkpJOb_EfHQ99s7wNWVrdivoqX9Yc_bEEq5OAMJtZ
+2016-02-23T20:00:02.748803+00:00 app[web.1]:     [sf:QueryResult:private] => SforcePartnerClient Object
+2016-02-23T20:00:02.746854+00:00 app[web.1]:             [callOptions:protected] => 
+2016-02-23T20:00:02.744557+00:00 app[web.1]: 
+2016-02-23T20:00:02.747093+00:00 app[web.1]:             [queryHeader:protected] => 
+2016-02-23T20:00:02.747220+00:00 app[web.1]:             [sessionHeader:protected] => SoapHeader Object
+2016-02-23T20:00:02.744639+00:00 app[web.1]:                                 )
+2016-02-23T20:00:02.744203+00:00 app[web.1]:                                     [name] => SessionHeader
+2016-02-23T20:00:02.748311+00:00 app[web.1]:                         (
+2016-02-23T20:00:02.749116+00:00 app[web.1]:                     [_user_agent] => salesforce-toolkit-php/27.0
+2016-02-23T20:00:02.746753+00:00 app[web.1]:             [version:protected] => 27.0
+2016-02-23T20:00:02.746443+00:00 app[web.1]: 
+2016-02-23T20:00:02.744601+00:00 app[web.1]:                                     [mustUnderstand] => 
+2016-02-23T20:00:02.748743+00:00 app[web.1]:     [pointer] => 0
+2016-02-23T20:00:02.747611+00:00 app[web.1]:                             [sessionId] => 00Df0000003cIK9!AQcAQMLRT0DUtzsPkCMMNSSh82NNrPZpCr54qIfEDX012VqDy0aMlwOXkpJOb_EfHQ99s7wNWVrdivoqX9Yc_bEEq5OAMJtZ
+2016-02-23T20:00:02.747645+00:00 app[web.1]:                         )
+2016-02-23T20:00:02.749206+00:00 app[web.1]:                     [sdl] => Resource id #7
+2016-02-23T20:00:02.747048+00:00 app[web.1]:             [mruHeader:protected] => 
+2016-02-23T20:00:02.744556+00:00 app[web.1]:                                         )
+2016-02-23T20:00:02.747960+00:00 app[web.1]: 
+2016-02-23T20:00:02.747727+00:00 app[web.1]: 
+2016-02-23T20:00:02.747921+00:00 app[web.1]:             [client_id:protected] => 
+2016-02-23T20:00:02.748371+00:00 app[web.1]:                             [0] => a21f000000339MSAAY
+2016-02-23T20:00:02.747245+00:00 app[web.1]:                 (
+2016-02-23T20:00:02.749609+00:00 app[web.1]:                     [__last_response_headers] => HTTP/1.1 200 OK
+2016-02-23T20:00:02.749539+00:00 app[web.1]: SOAPAction: ""
+2016-02-23T20:00:02.746905+00:00 app[web.1]:             [assignmentRuleHeader:protected] => 
+2016-02-23T20:00:02.747962+00:00 app[web.1]: )
+2016-02-23T20:00:02.747695+00:00 app[web.1]:                     [mustUnderstand] => 
+2016-02-23T20:00:02.748805+00:00 app[web.1]:         (
+2016-02-23T20:00:02.748456+00:00 app[web.1]: 
+2016-02-23T20:00:02.749722+00:00 app[web.1]: Expires: Thu, 01 Jan 1970 00:00:00 GMT
+2016-02-23T20:00:02.748727+00:00 app[web.1]:     [size] => 1
+2016-02-23T20:00:02.749802+00:00 app[web.1]: 
+2016-02-23T20:00:02.747446+00:00 app[web.1]:                         (
+2016-02-23T20:00:02.748088+00:00 app[web.1]:     [done] => 1
+2016-02-23T20:00:02.748121+00:00 app[web.1]:         (
+2016-02-23T20:00:02.749050+00:00 app[web.1]:                     [_features] => 1
+2016-02-23T20:00:02.747789+00:00 app[web.1]:             [allowFieldTruncationHeader:protected] => 
+2016-02-23T20:00:02.749911+00:00 app[web.1]:                                 (
+2016-02-23T20:00:02.749521+00:00 app[web.1]: Content-Type: text/xml; charset=utf-8
+2016-02-23T20:00:02.748424+00:00 app[web.1]:                             [1] => a21f000000339MSAAY
+2016-02-23T20:00:02.747962+00:00 app[web.1]: 
+2016-02-23T20:00:02.748664+00:00 app[web.1]:                     [any] => <sf:Submitted_from_Schoology__c>false</sf:Submitted_from_Schoology__c><sf:Contact_Schoology_ID__c>24224407</sf:Contact_Schoology_ID__c><sf:Schoology_Grade_ID__c>340468553</sf:Schoology_Grade_ID__c>
+2016-02-23T20:00:02.749158+00:00 app[web.1]:                     [_soap_version] => 1
+2016-02-23T20:00:02.748696+00:00 app[web.1]:         )
+2016-02-23T20:00:02.749694+00:00 app[web.1]: Set-Cookie: BrowserId=vLuX_Jr4QOmTs6doeQj99Q;Path=/;Domain=.salesforce.com;Expires=Sat, 23-Apr-2016 20:00:02 GMT
+2016-02-23T20:00:02.749889+00:00 app[web.1]:                             [BrowserId] => Array
+2016-02-23T20:00:02.748886+00:00 app[web.1]:                 (
+2016-02-23T20:00:02.749839+00:00 app[web.1]:                     [_cookies] => Array
+2016-02-23T20:00:02.749334+00:00 app[web.1]: Host: cs16.salesforce.com
+2016-02-23T20:00:02.750099+00:00 app[web.1]:                                     [2] => cs16.salesforce.com
+2016-02-23T20:00:02.747366+00:00 app[web.1]:                     [name] => SessionHeader
+2016-02-23T20:00:02.748025+00:00 app[web.1]: (
+2016-02-23T20:00:02.750314+00:00 app[web.1]:                     [location] => https://cs16.salesforce.com/services/Soap/u/36.0/00Df0000003cIK9
+2016-02-23T20:00:02.749568+00:00 app[web.1]: 
+2016-02-23T20:00:02.750037+00:00 app[web.1]:                                     [1] => /services/Soap/u/36.0
+2016-02-23T20:00:02.748281+00:00 app[web.1]:                     [Id] => Array
+2016-02-23T20:00:02.746695+00:00 app[web.1]:             [location:protected] => https://cs16.salesforce.com/services/Soap/u/36.0/00Df0000003cIK9
+2016-02-23T20:00:02.749569+00:00 app[web.1]: 
+2016-02-23T20:00:02.744675+00:00 app[web.1]: 
+2016-02-23T20:00:02.749976+00:00 app[web.1]:                                     [0] => vLuX_Jr4QOmTs6doeQj99Q
+2016-02-23T20:00:02.750158+00:00 app[web.1]: 
+2016-02-23T20:00:02.748869+00:00 app[web.1]:             [sforce:protected] => SforceSoapClient Object
+2016-02-23T20:00:02.749801+00:00 app[web.1]: Transfer-Encoding: chunked
+2016-02-23T20:00:02.750214+00:00 app[web.1]: 
+2016-02-23T20:00:02.751207+00:00 app[web.1]:                     [__last_request] => <?xml version="1.0" encoding="UTF-8"?>
+2016-02-23T20:00:02.750373+00:00 app[web.1]:                     [__default_headers] => Array
+2016-02-23T20:00:02.750475+00:00 app[web.1]:                             [0] => SoapHeader Object
+2016-02-23T20:00:02.747646+00:00 app[web.1]: 
+2016-02-23T20:00:02.751073+00:00 app[web.1]:                                     [mustUnderstand] => 
+2016-02-23T20:00:02.751588+00:00 app[web.1]:                     [httpurl] => Resource id #11
+2016-02-23T20:00:02.749304+00:00 app[web.1]:                     [__last_request_headers] => POST /services/Soap/u/36.0/00Df0000003cIK9 HTTP/1.1
+2016-02-23T20:00:02.749557+00:00 app[web.1]: Cookie: 
+2016-02-23T20:00:02.749859+00:00 app[web.1]:                         (
+2016-02-23T20:00:02.750673+00:00 app[web.1]:                                     [name] => SessionHeader
+2016-02-23T20:00:02.750197+00:00 app[web.1]:                         )
+2016-02-23T20:00:02.750605+00:00 app[web.1]:                                     [namespace] => urn:partner.soap.sforce.com
+2016-02-23T20:00:02.752232+00:00 app[web.1]:             [location:protected] => https://cs16.salesforce.com/services/Soap/u/36.0/00Df0000003cIK9
+2016-02-23T20:00:02.750138+00:00 app[web.1]:                                 )
+2016-02-23T20:00:02.752237+00:00 app[web.1]:             [version:protected] => 27.0
+2016-02-23T20:00:02.750412+00:00 app[web.1]:                         (
+2016-02-23T20:00:02.750790+00:00 app[web.1]:                                         (
+2016-02-23T20:00:02.751021+00:00 app[web.1]:                                         )
+2016-02-23T20:00:02.751127+00:00 app[web.1]:                                 )
+2016-02-23T20:00:02.750522+00:00 app[web.1]:                                 (
+2016-02-23T20:00:02.748668+00:00 app[web.1]:                 )
+2016-02-23T20:00:02.751581+00:00 app[web.1]: <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="urn:partner.soap.sforce.com"><SOAP-ENV:Header><ns1:SessionHeader><ns1:sessionId>00Df0000003cIK9!AQcAQMLRT0DUtzsPkCMMNSSh82NNrPZpCr54qIfEDX012VqDy0aMlwOXkpJOb_EfHQ99s7wNWVrdivoqX9Yc_bEEq5OAMJtZ</ns1:sessionId></ns1:SessionHeader></SOAP-ENV:Header><SOAP-ENV:Body><ns1:query><ns1:queryString>SELECT Id, Submitted_from_Schoology__c, Contact_Schoology_ID__c, Schoology_Grade_ID__c FROM Assessment__c WHERE Contact_Schoology_ID__c = '24224407' AND Schoology_Grade_ID__c = '340468553' LIMIT 1</ns1:queryString></ns1:query></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2016-02-23T20:00:02.752434+00:00 app[web.1]:             [loginScopeHeader:protected] => 
+2016-02-23T20:00:02.750737+00:00 app[web.1]:                                     [data] => Array
+2016-02-23T20:00:02.254113+00:00 app[web.1]:     [token_key] => b02bc01919e633cc4cbd3b1b6917966d0558071f2
+2016-02-23T20:00:02.751587+00:00 app[web.1]:                     [_use_proxy] => 0
+2016-02-23T20:00:02.752465+00:00 app[web.1]:             [mruHeader:protected] => 
+2016-02-23T20:00:02.748239+00:00 app[web.1]:                     [type] => Assessment__c
+2016-02-23T20:00:02.751023+00:00 app[web.1]: 
+2016-02-23T20:00:02.254942+00:00 app[web.1]: [23-Feb-2016 20:00:02 UTC] stdClass Object
+2016-02-23T20:00:02.752708+00:00 app[web.1]:                     [data] => Array
+2016-02-23T20:00:02.752055+00:00 app[web.1]:                     [__last_response] => <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns="urn:partner.soap.sforce.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sf="urn:sobject.partner.soap.sforce.com"><soapenv:Header><LimitInfoHeader><limitInfo><current>14</current><limit>5000000</limit><type>API REQUESTS</type></limitInfo></LimitInfoHeader></soapenv:Header><soapenv:Body><queryResponse><result xsi:type="QueryResult"><done>true</done><queryLocator xsi:nil="true"/><records xsi:type="sf:sObject"><sf:type>Assessment__c</sf:type><sf:Id>a21f000000339MSAAY</sf:Id><sf:Id>a21f000000339MSAAY</sf:Id><sf:Submitted_from_Schoology__c>false</sf:Submitted_from_Schoology__c><sf:Contact_Schoology_ID__c>24224407</sf:Contact_Schoology_ID__c><sf:Schoology_Grade_ID__c>340468553</sf:Schoology_Grade_ID__c></records><size>1</size></result></queryResponse></soapenv:Body></soapenv:Envelope>
+2016-02-23T20:00:02.751159+00:00 app[web.1]: 
+2016-02-23T20:00:02.752145+00:00 app[web.1]:             [sessionId:protected] => 00Df0000003cIK9!AQcAQMLRT0DUtzsPkCMMNSSh82NNrPZpCr54qIfEDX012VqDy0aMlwOXkpJOb_EfHQ99s7wNWVrdivoqX9Yc_bEEq5OAMJtZ
+2016-02-23T20:00:02.751583+00:00 app[web.1]: 
+2016-02-23T20:00:02.752848+00:00 app[web.1]:                         )
+2016-02-23T20:00:02.748697+00:00 app[web.1]: 
+2016-02-23T20:00:02.752399+00:00 app[web.1]:             [emailHeader:protected] => 
+2016-02-23T20:00:02.752849+00:00 app[web.1]: 
+2016-02-23T20:00:02.749011+00:00 app[web.1]:                     [_encoding] => utf-8
+2016-02-23T20:00:02.752884+00:00 app[web.1]:                     [mustUnderstand] => 
+2016-02-23T20:00:02.752058+00:00 app[web.1]:                 )
+2016-02-23T20:00:02.752905+00:00 app[web.1]:                 )
+2016-02-23T20:00:02.749555+00:00 app[web.1]: Content-Length: 680
+2016-02-23T20:00:02.752737+00:00 app[web.1]:                         (
+2016-02-23T20:00:02.752980+00:00 app[web.1]:             [localeOptions:protected] => 
+2016-02-23T20:00:02.752600+00:00 app[web.1]:                 (
+2016-02-23T20:00:02.752947+00:00 app[web.1]:             [allowFieldTruncationHeader:protected] => 
+2016-02-23T20:00:02.753047+00:00 app[web.1]:             [client_id:protected] => 
+2016-02-23T20:00:02.750953+00:00 app[web.1]:                                             [sessionId] => 00Df0000003cIK9!AQcAQMLRT0DUtzsPkCMMNSSh82NNrPZpCr54qIfEDX012VqDy0aMlwOXkpJOb_EfHQ99s7wNWVrdivoqX9Yc_bEEq5OAMJtZ
+2016-02-23T20:00:02.752059+00:00 app[web.1]: 
+2016-02-23T20:00:02.753016+00:00 app[web.1]:             [packageVersionHeader:protected] => 
+2016-02-23T20:00:02.752677+00:00 app[web.1]:                     [name] => SessionHeader
+2016-02-23T20:00:02.752288+00:00 app[web.1]:             [namespace:protected] => urn:partner.soap.sforce.com
+2016-02-23T20:00:02.753065+00:00 app[web.1]:         )
+2016-02-23T20:00:02.748968+00:00 app[web.1]:                     [compression] => 32
+2016-02-23T20:00:02.753068+00:00 app[web.1]: )
+2016-02-23T20:00:02.753065+00:00 app[web.1]: 
+2016-02-23T20:00:02.752320+00:00 app[web.1]:             [callOptions:protected] => 
+2016-02-23T20:00:02.753149+00:00 app[web.1]:     [queryLocator] => 
+2016-02-23T20:00:02.753122+00:00 app[web.1]: [23-Feb-2016 20:00:02 UTC] QueryResult Object
+2016-02-23T20:00:02.255179+00:00 app[web.1]:             [revision_id] => 16
+2016-02-23T20:00:02.753123+00:00 app[web.1]: (
+2016-02-23T20:00:02.753171+00:00 app[web.1]:     [done] => 1
+2016-02-23T20:00:02.753195+00:00 app[web.1]:     [records] => Array
+2016-02-23T20:00:02.753212+00:00 app[web.1]:         (
+2016-02-23T20:00:02.752398+00:00 app[web.1]:             [assignmentRuleHeader:protected] => 
+2016-02-23T20:00:02.753242+00:00 app[web.1]:             [0] => stdClass Object
+2016-02-23T20:00:02.749464+00:00 app[web.1]: Accept-Encoding: gzip, deflate
+2016-02-23T20:00:02.753264+00:00 app[web.1]:                 (
+2016-02-23T20:00:02.753329+00:00 app[web.1]:                     [Id] => Array
+2016-02-23T20:00:02.753299+00:00 app[web.1]:                     [type] => Assessment__c
+2016-02-23T20:00:02.746809+00:00 app[web.1]:             [namespace:protected] => urn:partner.soap.sforce.com
+2016-02-23T20:00:02.753419+00:00 app[web.1]:                             [0] => a21f000000339MSAAY
+2016-02-23T20:00:02.753485+00:00 app[web.1]: 
+2016-02-23T20:00:02.753458+00:00 app[web.1]:                             [1] => a21f000000339MSAAY
+2016-02-23T20:00:02.753629+00:00 app[web.1]:                 )
+2016-02-23T20:00:02.752536+00:00 app[web.1]:             [userTerritoryDeleteHeader:protected] => 
+2016-02-23T20:00:02.752578+00:00 app[web.1]:             [sessionHeader:protected] => SoapHeader Object
+2016-02-23T20:00:02.753484+00:00 app[web.1]:                         )
+2016-02-23T20:00:02.749636+00:00 app[web.1]: Date: Tue, 23 Feb 2016 20:00:02 GMT
+2016-02-23T20:00:02.752823+00:00 app[web.1]:                             [sessionId] => 00Df0000003cIK9!AQcAQMLRT0DUtzsPkCMMNSSh82NNrPZpCr54qIfEDX012VqDy0aMlwOXkpJOb_EfHQ99s7wNWVrdivoqX9Yc_bEEq5OAMJtZ
+2016-02-23T20:00:02.753630+00:00 app[web.1]: 
+2016-02-23T20:00:02.753085+00:00 app[web.1]: 
+2016-02-23T20:00:02.753695+00:00 app[web.1]:     [pointer] => 0
+2016-02-23T20:00:02.746948+00:00 app[web.1]:             [emailHeader:protected] => 
+2016-02-23T20:00:02.748024+00:0
+0 app[web.1]: [23-Feb-2016 20:00:02 UTC] QueryResult Object
+2016-02-23T20:00:02.753648+00:00 app[web.1]:         )
+2016-02-23T20:00:02.753672+00:00 app[web.1]:     [size] => 1
+2016-02-23T20:00:02.753944+00:00 app[web.1]:                     [_features] => 1
+2016-02-23T20:00:02.753818+00:00 app[web.1]:                 (
+2016-02-23T20:00:02.753736+00:00 app[web.1]:     [sf:QueryResult:private] => SforcePartnerClient Object
+2016-02-23T20:00:02.751587+00:00 app[web.1]:                     [httpsocket] => Resource id #10
+2016-02-23T20:00:02.753847+00:00 app[web.1]:                     [trace] => 1
+2016-02-23T20:00:02.753649+00:00 app[web.1]: 
+2016-02-23T20:00:02.753881+00:00 app[web.1]:                     [compression] => 32
+2016-02-23T20:00:02.753913+00:00 app[web.1]:                     [_encoding] => utf-8
+2016-02-23T20:00:02.747142+00:00 app[web.1]:             [userTerritoryDeleteHeader:protected] => 
+2016-02-23T20:00:02.748059+00:00 app[web.1]:     [queryLocator] => 
+2016-02-23T20:00:02.754057+00:00 app[web.1]:                     [sdl] => Resource id #7
+2016-02-23T20:00:02.754022+00:00 app[web.1]:                     [_soap_version] => 1
+2016-02-23T20:00:02.754265+00:00 app[web.1]: Content-Type: text/xml; charset=utf-8
+2016-02-23T20:00:02.757345+00:00 app[web.1]: 
+2016-02-23T20:00:02.748166+00:00 app[web.1]:             [0] => stdClass Object
+2016-02-23T20:00:02.754171+00:00 app[web.1]: Connection: Keep-Alive
+2016-02-23T20:00:02.754511+00:00 app[web.1]: Expires: Thu, 01 Jan 1970 00:00:00 GMT
+2016-02-23T20:00:02.754887+00:00 app[web.1]:                                 )
+2016-02-23T20:00:02.754310+00:00 app[web.1]: Content-Length: 680
+2016-02-23T20:00:02.754332+00:00 app[web.1]: 
+2016-02-23T20:00:02.754594+00:00 app[web.1]: Transfer-Encoding: chunked
+2016-02-23T20:00:02.755161+00:00 app[web.1]:                                     [namespace] => urn:partner.soap.sforce.com
+2016-02-23T20:00:02.755517+00:00 app[web.1]:                                 )
+2016-02-23T20:00:02.754120+00:00 app[web.1]:                     [__last_request_headers] => POST /services/Soap/u/36.0/00Df0000003cIK9 HTTP/1.1
+2016-02-23T20:00:02.754595+00:00 app[web.1]: 
+2016-02-23T20:00:02.755957+00:00 app[web.1]:                     [httpsocket] => Resource id #10
+2016-02-23T20:00:02.755017+00:00 app[web.1]:                     [__default_headers] => Array
+2016-02-23T20:00:02.747973+00:00 app[web.1]: 
+2016-02-23T20:00:02.756886+00:00 app[web.1]:             [loginScopeHeader:protected] => 
+2016-02-23T20:00:02.748669+00:00 app[web.1]: 
+2016-02-23T20:00:02.757451+00:00 app[web.1]:             [localeOptions:protected] => 
+2016-02-23T20:00:02.757488+00:00 app[web.1]:             [packageVersionHeader:protected] => 
+2016-02-23T20:00:02.757521+00:00 app[web.1]:             [client_id:protected] => 
+2016-02-23T20:00:02.757524+00:00 app[web.1]:         )
+2016-02-23T20:00:02.757539+00:00 app[web.1]: 
+2016-02-23T20:00:02.754329+00:00 app[web.1]: Cookie: 
+2016-02-23T20:00:02.754567+00:00 app[web.1]: Content-Encoding: gzip
+2016-02-23T20:00:02.755242+00:00 app[web.1]:                                     [name] => SessionHeader
+2016-02-23T20:00:02.757026+00:00 app[web.1]:             [sessionHeader:protected] => SoapHeader Object
+2016-02-23T20:00:02.754234+00:00 app[web.1]: Accept-Encoding: gzip, deflate
+2016-02-23T20:00:02.748191+00:00 app[web.1]:                 (
+2016-02-23T20:00:02.754478+00:00 app[web.1]: Set-Cookie: BrowserId=vLuX_Jr4QOmTs6doeQj99Q;Path=/;Domain=.salesforce.com;Expires=Sat, 23-Apr-2016 20:00:02 GMT
+2016-02-23T20:00:02.757088+00:00 app[web.1]:                     [namespace] => urn:partner.soap.sforce.com
+2016-02-23T20:00:02.757122+00:00 app[web.1]:                     [name] => SessionHeader
+2016-02-23T20:00:02.757151+00:00 app[web.1]:                     [data] => Array
+2016-02-23T20:00:02.757178+00:00 app[web.1]:                         (
+2016-02-23T20:00:02.748926+00:00 app[web.1]:                     [trace] => 1
+2016-02-23T20:00:02.754920+00:00 app[web.1]: 
+2016-02-23T20:00:02.757263+00:00 app[web.1]:                             [sessionId] => 00Df0000003cIK9!AQcAQMLRT0DUtzsPkCMMNSSh82NNrPZpCr54qIfEDX012VqDy0aMlwOXkpJOb_EfHQ99s7wNWVrdivoqX9Yc_bEEq5OAMJtZ
+2016-02-23T20:00:02.755599+00:00 app[web.1]:                     [__last_request] => <?xml version="1.0" encoding="UTF-8"?>
+2016-02-23T20:00:02.749417+00:00 app[web.1]: User-Agent: salesforce-toolkit-php/27.0
+2016-02-23T20:00:02.749362+00:00 app[web.1]: Connection: Keep-Alive
+2016-02-23T20:00:02.753796+00:00 app[web.1]:             [sforce:protected] => SforceSoapClient Object
+2016-02-23T20:00:02.755302+00:00 app[web.1]:                                         (
+2016-02-23T20:00:02.754411+00:00 app[web.1]: Date: Tue, 23 Feb 2016 20:00:02 GMT
+2016-02-23T20:00:02.754887+00:00 app[web.1]: 
+2016-02-23T20:00:02.756985+00:00 app[web.1]:             [userTerritoryDeleteHeader:protected] => 
+2016-02-23T20:00:02.757403+00:00 app[web.1]:             [allowFieldTruncationHeader:protected] => 
+2016-02-23T20:00:02.753608+00:00 app[web.1]:                     [any] => <sf:Submitted_from_Schoology__c>false</sf:Submitted_from_Schoology__c><sf:Contact_Schoology_ID__c>24224407</sf:Contact_Schoology_ID__c><sf:Schoology_Grade_ID__c>340468553</sf:Schoology_Grade_ID__c>
+2016-02-23T20:00:02.749744+00:00 app[web.1]: Content-Type: text/xml;charset=UTF-8
+2016-02-23T20:00:02.749770+00:00 app[web.1]: Content-Encoding: gzip
+2016-02-23T20:00:02.754691+00:00 app[web.1]:                             [BrowserId] => Array
+2016-02-23T20:00:02.755043+00:00 app[web.1]:                         (
+2016-02-23T20:00:02.755438+00:00 app[web.1]: 
+2016-02-23T20:00:02.757540+00:00 app[web.1]: )
+2016-02-23T20:00:02.753989+00:00 app[web.1]:                     [_user_agent] => salesforce-toolkit-php/27.0
+2016-02-23T20:00:02.757542+00:00 app[web.1]: 
+2016-02-23T20:00:02.754814+00:00 app[web.1]:                                     [1] => /services/Soap/u/36.0
+2016-02-23T20:00:02.755487+00:00 app[web.1]:                                     [mustUnderstand] => 
+2016-02-23T20:00:02.755545+00:00 app[web.1]:                         )
+2016-02-23T20:00:02.754147+00:00 app[web.1]: Host: cs16.salesforce.com
+2016-02-23T20:00:02.751129+00:00 app[web.1]: 
+2016-02-23T20:00:02.751159+00:00 app[web.1]:                         )
+2016-02-23T20:00:02.752497+00:00 app[web.1]:             [queryHeader:protected] => 
+2016-02-23T20:00:02.757610+00:00 app[web.1]:     [type] => Assessment__c
+2016-02-23T20:00:02.757582+00:00 app[web.1]: (
+2016-02-23T20:00:02.757633+00:00 app[web.1]:     [fields] => Array
+2016-02-23T20:00:02.755082+00:00 app[web.1]:                             [0] => SoapHeader Object
+2016-02-23T20:00:02.757685+00:00 app[web.1]:             [Submitted_from_Schoology__c] => 1
+2016-02-23T20:00:02.757701+00:00 app[web.1]:         )
+2016-02-23T20:00:02.755989+00:00 app[web.1]:                     [_use_proxy] => 0
+2016-02-23T20:00:02.757702+00:00 app[web.1]: 
+2016-02-23T20:00:02.757724+00:00 app[web.1]:     [Id] => Array
+2016-02-23T20:00:02.757772+00:00 app[web.1]:             [0] => a21f000000339MSAAY
+2016-02-23T20:00:02.754287+00:00 app[web.1]: SOAPAction: ""
+2016-02-23T20:00:02.757826+00:00 app[web.1]: )
+2016-02-23T20:00:02.755518+00:00 app[web.1]: 
+2016-02-23T20:00:02.757741+00:00 app[web.1]:         (
+2016-02-23T20:00:02.756707+00:00 app[web.1]:             [version:protected] => 27.0
+2016-02-23T20:00:02.755916+00:00 app[web.1]: <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="urn:partner.soap.sforce.com"><SOAP-ENV:Header><ns1:SessionHeader><ns1:sessionId>00Df0000003cIK9!AQcAQMLRT0DUtzsPkCMMNSSh82NNrPZpCr54qIfEDX012VqDy0aMlwOXkpJOb_EfHQ99s7wNWVrdivoqX9Yc_bEEq5OAMJtZ</ns1:sessionId></ns1:SessionHeader></SOAP-ENV:Header><SOAP-ENV:Body><ns1:query><ns1:queryString>SELECT Id, Submitted_from_Schoology__c, Contact_Schoology_ID__c, Schoology_Grade_ID__c FROM Assessment__c WHERE Contact_Schoology_ID__c = '24224407' AND Schoology_Grade_ID__c = '340468553' LIMIT 1</ns1:queryString></ns1:query></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2016-02-23T20:00:02.756025+00:00 app[web.1]:                     [httpurl] => Resource id #11
+2016-02-23T20:00:02.757805+00:00 app[web.1]:             [1] => a21f000000339MSAAY
+2016-02-23T20:00:02.756917+00:00 app[web.1]:             [mruHeader:protected] => 
+2016-02-23T20:00:02.752643+00:00 app[web.1]:                     [namespace] => urn:partner.soap.sforce.com
+2016-02-23T20:00:02.757823+00:00 app[web.1]:         )
+2016-02-23T20:00:02.756783+00:00 app[web.1]:             [callOptions:protected] => 
+2016-02-23T20:00:02.754330+00:00 app[web.1]: 
+2016-02-23T20:00:02.756499+00:00 app[web.1]:                     [__last_response] => <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns="urn:partner.soap.sforce.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sf="urn:sobject.partner.soap.sforce.com"><soapenv:Header><LimitInfoHeader><limitInfo><current>14</current><limit>5000000</limit><type>API REQUESTS</type></limitInfo></LimitInfoHeader></soapenv:Header><soapenv:Body><queryResponse><result xsi:type="QueryResult"><done>true</done><queryLocator xsi:nil="true"/><records xsi:type="sf:sObject"><sf:type>Assessment__c</sf:type><sf:Id>a21f000000339MSAAY</sf:Id><sf:Id>a21f000000339MSAAY</sf:Id><sf:Submitted_from_Schoology__c>false</sf:Submitted_from_Schoology__c><sf:Contact_Schoology_ID__c>24224407</sf:Contact_Schoology_ID__c><sf:Schoology_Grade_ID__c>340468553</sf:Schoology_Grade_ID__c></records><size>1</size></result></queryResponse></soapenv:Body></soapenv:Envelope>
+2016-02-23T20:00:02.757287+00:00 app[web.1]:                         )
+2016-02-23T20:00:02.757828+00:00 app[web.1]: 
+2016-02-23T20:00:02.756676+00:00 app[web.1]:             [location:protected] => https://cs16.salesforce.com/services/Soap/u/36.0/00Df0000003cIK9
+2016-02-23T20:00:02.752906+00:00 app[web.1]: 
+2016-02-23T20:00:02.756750+00:00 app[web.1]:             [namespace:protected] => urn:partner.soap.sforce.com
+2016-02-23T20:00:02.753355+00:00 app[web.1]:                         (
+2016-02-23T20:00:02.756948+00:00 app[web.1]:             [queryHeader:protected] => 
+2016-02-23T20:00:02.755546+00:00 app[web.1]: 
+2016-02-23T20:00:02.755917+00:00 app[web.1]: 
+2016-02-23T20:00:02.753756+00:00 app[web.1]:         (
+2016-02-23T20:00:02.756818+00:00 app[web.1]:             [assignmentRuleHeader:protected] => 
+2016-02-23T20:00:02.757869+00:00 app[web.1]: [23-Feb-2016 20:00:02 UTC] In Salesforce Call
+2016-02-23T20:00:02.754380+00:00 app[web.1]:                     [__last_response_headers] => HTTP/1.1 200 OK
+2016-02-23T20:00:02.754542+00:00 app[web.1]: Content-Type: text/xml;charset=UTF-8
+2016-02-23T20:00:02.756850+00:00 app[web.1]:             [emailHeader:protected] => 
+2016-02-23T20:00:02.757288+00:00 app[web.1]: 
+2016-02-23T20:00:02.757323+00:00 app[web.1]:                     [mustUnderstand] => 
+2016-02-23T20:00:02.754205+00:00 app[web.1]: User-Agent: salesforce-toolkit-php/27.0
+2016-02-23T20:00:02.754857+00:00 app[web.1]:                                     [2] => cs16.salesforce.com
+2016-02-23T20:00:02.757344+00:00 app[web.1]:                 )
+2016-02-23T20:00:02.757544+00:00 app[web.1]: 
+2016-02-23T20:00:02.757581+00:00 app[web.1]: [23-Feb-2016 20:00:02 UTC] SObject Object
+2016-02-23T20:00:02.755437+00:00 app[web.1]:                                         )
+2016-02-23T20:00:02.754629+00:00 app[web.1]:                     [_cookies] => Array
+2016-02-23T20:00:02.757824+00:00 app[web.1]: 
+2016-02-23T20:00:02.757650+00:00 app[web.1]:         (
+2016-02-23T20:00:02.757830+00:00 app[web.1]: 
+2016-02-23T20:00:02.756590+00:00 app[web.1]:             [sessionId:protected] => 00Df0000003cIK9!AQcAQMLRT0DUtzsPkCMMNSSh82NNrPZpCr54qIfEDX012VqDy0aMlwOXkpJOb_EfHQ99s7wNWVrdivoqX9Yc_bEEq5OAMJtZ
+2016-02-23T20:00:02.754723+00:00 app[web.1]:                                 (
+2016-02-23T20:00:02.757046+00:00 app[web.1]:                 (
+2016-02-23T20:00:02.754654+00:00 app[web.1]:                         (
+2016-02-23T20:00:02.757870+00:00 app[web.1]: 
+2016-02-23T20:00:02.754981+00:00 app[web.1]:                     [location] => https://cs16.salesforce.com/services/Soap/u/36.0/00Df0000003cIK9
+2016-02-23T20:00:02.755403+00:00 app[web.1]:                                             [sessionId] => 00Df0000003cIK9!AQcAQMLRT0DUtzsPkCMMNSSh82NNrPZpCr54qIfEDX012VqDy0aMlwOXkpJOb_EfHQ99s7wNWVrdivoqX9Yc_bEEq5OAMJtZ
+2016-02-23T20:00:02.754770+00:00 app[web.1]:                                     [0] => vLuX_Jr4QOmTs6doeQj99Q
+2016-02-23T20:00:02.756504+00:00 app[web.1]: 
+2016-02-23T20:00:02.754919+00:00 app[web.1]:                         )
+2016-02-23T20:00:02.755111+00:00 app[web.1]:                                 (
+2016-02-23T20:00:02.755268+00:00 app[web.1]:                                     [data] => Array
+2016-02-23T20:00:02.756502+00:00 app[web.1]:                 )
+2016-02-23T20:00:03.216352+00:00 app[web.1]:     [0] => stdClass Object
+2016-02-23T20:00:03.216383+00:00 app[web.1]:         (
+2016-02-23T20:00:03.216310+00:00 app[web.1]: (
+2016-02-23T20:00:03.216243+00:00 app[web.1]: 
+2016-02-23T20:00:03.216457+00:00 app[web.1]:                 (
+2016-02-23T20:00:03.216218+00:00 app[web.1]: [23-Feb-2016 20:00:03 UTC] Salesforce Call Go!
+2016-02-23T20:00:03.216425+00:00 app[web.1]:             [errors] => Array
+2016-02-23T20:00:03.216609+00:00 app[web.1]:                             [fields] => Array
+2016-02-23T20:00:03.216553+00:00 app[web.1]:                         (
+2016-02-23T20:00:03.216777+00:00 app[web.1]: 
+2016-02-23T20:00:03.216871+00:00 app[web.1]:                             [message] => Record ID: id value of incorrect type: Array
+2016-02-23T20:00:03.216712+00:00 app[web.1]:                                     [0] => Id
+2016-02-23T20:00:03.216513+00:00 app[web.1]:                     [0] => stdClass Object
+2016-02-23T20:00:03.216997+00:00 app[web.1]: 
+2016-02-23T20:00:03.216981+00:00 app[web.1]:                         )
+2016-02-23T20:00:03.216292+00:00 app[web.1]: [23-Feb-2016 20:00:03 UTC] Array
+2016-02-23T20:00:03.217082+00:00 app[web.1]:             [id] => 
+2016-02-23T20:00:03.217047+00:00 app[web.1]: 
+2016-02-23T20:00:03.217122+00:00 app[web.1]:             [success] => 
+2016-02-23T20:00:03.216655+00:00 app[web.1]:                                 (
+2016-02-23T20:00:03.217182+00:00 app[web.1]: )
+2016-02-23T20:00:03.217262+00:00 app[web.1]: [23-Feb-2016 20:00:03 UTC] Array
+2016-02-23T20:00:03.217722+00:00 app[web.1]:                                     [0] => Id
+2016-02-23T20:00:03.217030+00:00 app[web.1]:                 )
+2016-02-23T20:00:03.216759+00:00 app[web.1]:                                 )
+2016-02-23T20:00:03.217199+00:00 app[web.1]: 
+2016-02-23T20:00:03.217322+00:00 app[web.1]:     [0] => stdClass Object
+2016-02-23T20:00:03.217349+00:00 app[web.1]:         (
+2016-02-23T20:00:03.217910+00:00 app[web.1]:                             [statusCode] => MALFORMED_ID
+2016-02-23T20:00:03.217986+00:00 app[web.1]:                 )
+2016-02-23T20:00:03.217606+00:00 app[web.1]:                             [fields] => Array
+2016-02-23T20:00:03.217416+00:00 app[web.1]:             [errors] => Array
+2016-02-23T20:00:03.218003+00:00 app[web.1]: 
+2016-02-23T20:00:03.218120+00:00 app[web.1]: 
+2016-02-23T20:00:03.217165+00:00 app[web.1]: 
+2016-02-23T20:00:03.217854+00:00 app[web.1]:                             [message] => Record ID: id value of incorrect type: Array
+2016-02-23T20:00:03.217509+00:00 app[web.1]:                     [0] => stdClass Object
+2016-02-23T20:00:03.217763+00:00 app[web.1]:                                 )
+2016-02-23T20:00:03.218285+00:00 app[web.1]:     [0] => stdClass Object
+2016-02-23T20:00:03.218302+00:00 app[web.1]:         (
+2016-02-23T20:00:03.217214+00:00 app[web.1]: 
+2016-02-23T20:00:03.218415+00:00 app[web.1]:                     [0] => stdClass Object
+2016-02-23T20:00:03.2
+18367+00:00 app[web.1]:                 (
+2016-02-23T20:00:03.218959+00:00 app[web.1]: 
+2016-02-23T20:00:03.218501+00:00 app[web.1]:                             [fields] => Array
+2016-02-23T20:00:03.217280+00:00 app[web.1]: (
+2016-02-23T20:00:03.218859+00:00 app[web.1]: 
+2016-02-23T20:00:03.218137+00:00 app[web.1]: )
+2016-02-23T20:00:03.217452+00:00 app[web.1]:                 (
+2016-02-23T20:00:03.217549+00:00 app[web.1]:                         (
+2016-02-23T20:00:03.218103+00:00 app[web.1]:         )
+2016-02-23T20:00:03.218168+00:00 app[web.1]: 
+2016-02-23T20:00:03.218450+00:00 app[web.1]:                         (
+2016-02-23T20:00:03.217653+00:00 app[web.1]:                                 (
+2016-02-23T20:00:03.217960+00:00 app[web.1]:                         )
+2016-02-23T20:00:03.218153+00:00 app[web.1]: 
+2016-02-23T20:00:03.218233+00:00 app[web.1]: (
+2016-02-23T20:00:03.217765+00:00 app[web.1]: 
+2016-02-23T20:00:03.218823+00:00 app[web.1]:                         )
+2016-02-23T20:00:03.218639+00:00 app[web.1]: 
+2016-02-23T20:00:03.218922+00:00 app[web.1]:             [success] => 
+2016-02-23T20:00:03.216940+00:00 app[web.1]:                             [statusCode] => MALFORMED_ID
+2016-02-23T20:00:03.217962+00:00 app[web.1]: 
+2016-02-23T20:00:03.219068+00:00 app[web.1]: 10.150.113.71 - - [23/Feb/2016:20:00:02 +0000] "POST /?req_type=courses HTTP/1.1" 302 - "-" "-
+2016-02-23T20:00:03.218790+00:00 app[web.1]:                             [statusCode] => MALFORMED_ID
+2016-02-23T20:00:03.218038+00:00 app[web.1]:             [id] => 
+2016-02-23T20:00:03.218216+00:00 app[web.1]: [23-Feb-2016 20:00:03 UTC] Array
+2016-02-23T20:00:03.218942+00:00 app[web.1]:         )
+2016-02-23T20:00:03.218343+00:00 app[web.1]:             [errors] => Array
+2016-02-23T20:00:03.218943+00:00 app[web.1]: 
+2016-02-23T20:00:03.218544+00:00 app[web.1]:                                 (
+2016-02-23T20:00:03.218858+00:00 app[web.1]:                 )
+2016-02-23T20:00:03.218973+00:00 app[web.1]: 
+2016-02-23T20:00:03.218958+00:00 app[web.1]: )
+2016-02-23T20:00:03.218076+00:00 app[web.1]:             [success] => 
+2016-02-23T20:00:03.218596+00:00 app[web.1]:                                     [0] => Id
+2016-02-23T20:00:03.217148+00:00 app[web.1]:         )
+2016-02-23T20:00:03.218637+00:00 app[web.1]:                                 )
+2016-02-23T20:00:03.218888+00:00 app[web.1]:             [id] => 
+2016-02-23T20:00:03.218825+00:00 app[web.1]: 
+2016-02-23T20:00:03.218729+00:00 app[web.1]:                             [message] => Record ID: id value of incorrect type: Array
+2016-02-23T20:00:03.250602+00:00 heroku[router]: at=info method=POST path="/?req_type=courses" host=glacial-tor-7252.herokuapp.com request_id=334e3b00-b122-4ff5-b04d-b2faf8a061f3 fwd="50.56.38.11" dyno=web.1 connect=2ms service=1015ms status=302 bytes=298
