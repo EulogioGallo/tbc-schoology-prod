@@ -12,8 +12,7 @@ $object_result = json_decode(file_get_contents("php://input"));
 error_log(print_r($object_result,true));
 error_log(print_r($object_result->action,true));
 
-error_log("Hey Me!");
-$SchoologyApi->syncCohort($schoologyCourseID = '271966732');
+
 
 // determine operation type and object
 switch($object_result->action) {
@@ -47,9 +46,6 @@ switch($object_result->action) {
 			$SchoologyApi->getAssignmentSubmission($object_result->data);
 		}
 		break;
-
-		error_log("Hey!");
-
 }
 
 ?>

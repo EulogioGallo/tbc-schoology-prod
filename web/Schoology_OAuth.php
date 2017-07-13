@@ -9,10 +9,10 @@
 	class SchoologyStorage implements SchoologyApi_OauthStorage {
 	  //private $db; SHOULD REMAIN PRIVATE
 	  public $db;
-	  private $dbHost = 'host=ec2-54-83-26-65.compute-1.amazonaws.com';
-	  private $dbName = 'dbname=df6v2am65gvvil';
-	  private $dbUser = 'dsskzsufyjspyz';
-	  private $dbPassword = '5573cbf997c1edb2c3d416fd6b4af3e59549df9f547bca100c8ee362f553767c';
+	  private $dbHost = 'host=ec2-50-17-217-166.compute-1.amazonaws.com';
+	  private $dbName = 'dbname=daka2f1gn3kb3j';
+	  private $dbUser = 'qcjnvylighdjod';
+	  private $dbPassword = '4412f62ecfc5fddf5f159d87e33e8480d2438b67370091dd29efb60eb6b84a11';
 	 
 	  public function __construct(){
 		// heroku connect db
@@ -443,7 +443,7 @@
 			try{
 			$mySforceConnection = new SforceEnterpriseClient();
 			$mySoapClient = $mySforceConnection->createConnection("/app/tbc_wsdl.xml");
-			$mylogin = $mySforceConnection->login("elopez@broadcenter.org.ram", "eloxacto1OnAg0TY3CysokjGuj7LkD761x");
+			$mylogin = $mySforceConnection->login("egallo@broadcenter.org", "TBCfosho2015!PXa3wr5xilaCKglSdkw9tfOvH");
 			error_log('Connecting to Salesforce. . .');
 			} catch(Exception $e){
 				error_log('Error Connecting to Salesforce!');
@@ -618,8 +618,9 @@
 				throw new Exception('Invalid Grading data');
 			}
 
-			//A new Course/Course Section will be added anually, Use Course Section URL to extract the ID and enter it into Salesforce
-			$schoologyCourseSectionID = '1101895390';
+			// Course Section ID for TBR 2017-2019
+			// Need to update this to query from DB instead
+			$schoologyCourseSectionID = '1104817298';
 
 			//RSET Call for Enrollement ID
 			try {
@@ -649,10 +650,7 @@
 					)
 				)
 			);
-			*/	
-
-			$lineBreak = "&lt;br&gt;";
-			$commentString = nl2br("--\n--------------*"); 
+			*/	 
 
 			$gradeOptions = array(
 				"grades"=>array(
@@ -660,8 +658,8 @@
 							"type"=>"assignment",
 							"enrollment_id" =>$enrollementID,	
 							"assignment_id" =>$thisAss->data->schoology_assignment_id__c,
-							"grade" => $thisAss->data->score_formula__c,
-							"comment" => $commentString,
+							"grade" => ($thisAss->data->Grade_Type__c == 'Graded' ? $thisAss->data->score_formula__c : $thisAss->data->Completed__c),
+							"comment" => $thisAss->data->Grader_Comments__c,
 							"comment_status"=>"1"
 					)
 				)
