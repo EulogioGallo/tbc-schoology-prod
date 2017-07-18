@@ -1,7 +1,7 @@
 <?php
  require_once('Schoology_OAuth.php');
  require('../vendor/autoload.php');
- ini_set('log_errors_max_len', 0);
+ ini_set('memory_limit','10M');
  
  
  // establish connection
