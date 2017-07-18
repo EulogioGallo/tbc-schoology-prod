@@ -616,7 +616,7 @@
 			try{
 			$mySforceConnection = new SforceEnterpriseClient();
 			$mySoapClient = $mySforceConnection->createConnection("/app/tbc_wsdl.xml");
-			$mylogin = $mySforceConnection->login("elopez@broadcenter.org.ram", "eloxacto1OnAg0TY3CysokjGuj7LkD761x"); 
+			$mylogin = $mySforceConnection->login("egallo@broadcenter.org", "TBCfosho2015!PXa3wr5xilaCKglSdkw9tfOvH"); 
 			} catch(Exception $e){	//Setup for Production Salesforce
 				error_log('Error Connecting to Salesforce!');
 				error_log($e->faultstring);
