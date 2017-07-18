@@ -602,6 +602,161 @@
 
 		
 		/**
+		 * Retrieves all Assignment submissions from Schoology for any specified Assignment
+		 *
+		 * @param JSON   $schoologySectionID, $schoologyAssignmentID
+		 * 
+		 * @throws "Exception When Making API Call" If API call is unsuccessful
+		 * @author Edgar Lopez <elopez@broadcenter.org>
+		 * @return
+		 */ 
+
+		public function sessionOneGrabAssignment($schoologySectionID,$schoologyAssignmentID){
+			//Setup Salesforce Connection
+			try{
+			$mySforceConnection = new SforceEnterpriseClient();
+			$mySoapClient = $mySforceConnection->createConnection("/app/tbc_wsdl.xml");
+			$mylogin = $mySforceConnection->login("elopez@broadcenter.org.ram", "eloxacto1OnAg0TY3CysokjGuj7LkD761x"); 
+			} catch(Exception $e){	//Setup for Production Salesforce
+				error_log('Error Connecting to Salesforce!');
+				error_log($e->faultstring);
+			}
+
+			//REST Call for list of all Submissions of a specified Assignment
+			//course_section_id needs to be specified for specific cohorts
+			try {
+				$api_sub_result = $this->schoology->api('/sections/'.$schoologySectionID.'/submissions/'.$schoologyAssignmentID.'?with_attachments=1', 'GET'); 								
+				error_log(print_r($api_sub_result,true));
+			} catch(Exception $e) {
+				error_log('Exception when making syncAPI call');
+				error_log($e->getMessage());
+			}
+			
+			do {
+				$schoologyUserID = current($api_sub_result->result->revision)->uid;				
+				do {
+					$downloadPath = current(current($api_sub_result->result->revision)->attachments->files->file)->download_path;
+					$submissionType  = current(current($api_sub_result->result->revision)->attachments->files->file)->filemime;
+					$submissionName  = current(current($api_sub_result->result->revision)->attachments->files->file)->filename;
+
+					switch($submissionType){
+						//Word Documents
+						case'application/vnd.openxmlformats-officedocument.wordprocessingml.document':
+						case'application/msword':
+						case'application/vnd.google-apps.document':
+						case'application/vnd.ms-word.document.macroEnabled.12':
+						case'application/vnd.openxmlformats-officedocument.wordprocessingml.document':
+						case'application/vnd.openxmlformats-officedocument.wordprocessingml.template':
+						case'application/vnd.oasis.opendocument.text':
+							$submissionType = 'application/msword';
+							break;
+
+						//Powerpoints
+						case 'application/vnd.google-apps.presentation':
+						case'application/vnd.ms-powerpoint':
+						case'application/vnd.ms-powerpoint.presentation.macroEnabled.12':
+						case'application/vnd.oasis.opendocument.presentation':
+						case'application/vnd.openxmlformats-officedocument.presentationml.slideshow':
+						case'application/vnd.openxmlformats-officedocument.presentationml.presentation':
+						case'application/vnd.openxmlformats-officedocument.presentationml.template':
+							$submissionType = 'application/vnd.ms-powerpoint';
+							break;
+
+						//Excel Sheets
+						case 'application/vnd.google-apps.spreadsheet':
+						case'application/vnd.ms-excel':
+						case'application/vnd.ms-excel.sheet.macroEnabled.12':
+						case'application/vnd.oasis.opendocument.spreadsheet':
+						case'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet':
+						case'application/vnd.openxmlformats-officedocument.spreadsheetml.template':
+							$submissionType = 'application/vnd.ms-excel';
+							break;
+
+						//Images
+						case 'image/jpeg':
+							$submissionType = 'image/jpeg';
+							break;
+
+						case 'image/png':
+							$submissionType = 'image/png';
+							break;
+
+						default:
+							$submissionType = 'application/pdf';
+							break;
+					}
+
+					$revisionNum = current($api_sub_result->result->revision)->revision_id;
+					$attachmentName = 'v'.$revisionNum.' '.$submissionName;                             
+
+					//Grab submission content (now using Oauth)
+					$attachmentBody = null;
+					try {
+						$oauth = new OAuth($this->getSchoologyKey(),$this->getSchoologySecret());
+						$oauth->setToken($this->token['token_key'],$this->token['token_secret']);
+						$oauth->fetch($downloadPath,null,OAUTH_HTTP_METHOD_GET);
+						$response_info = $oauth->getLastResponseInfo();			
+						/*
+						// Uncomment this section to view response headers
+						
+						$keys = array_keys($response_info);
+						for($i = 0; $i < count($keys); $i++) {
+							error_log($keys[$i]);
+							error_log(print_r($response_info[$keys[$i]],true));
+						}
+						*/					
+						$attachmentBody = $oauth->getLastResponse();										
+					} catch(OAuthException $E) {
+						error_log("Exception caught while downloading assignment attachment!\n");
+						error_log("Response: ". $E->getMessage() . "\n");
+						error_log($E->debugInfo . "\n");
+					}
+
+					$timeStamp = current(current($api_sub_result->result->revision)->attachments->files->file)->timestamp;
+					$subDate = Date('Y-m-d\TH:i:s\Z', $timeStamp);
+
+					//Query for the Salesforce Assignment record (sfid) matching the Schoology Assignment ID of the submission
+					$queryID = $this->storage->db->prepare("SELECT sfid FROM salesforce.ram_assignment__c WHERE (schoology_assignment_id__c = :schoologyAssId) AND (schoology_user_id__c = :schoologyUserId)");
+					if($queryID->execute(array(':schoologyAssId' => $schoologyAssignmentID , ':schoologyUserId' => $schoologyUserID))) {
+						error_log('Successful Query Call ');
+					} else {
+						error_log('Could not perform Query call. Either you are not the correct User or you are submitting to the wrong assignment');
+						throw new Exception('Could not get Assignment Submission');
+					}
+
+					$queryRes = $queryID->fetch(PDO::FETCH_ASSOC);
+					
+					if ($queryRes == null) {
+					error_log("Missing sfid");
+					} else {
+					error_log('The Salesforce Assignment ID is: '.$queryRes[sfid]);
+					}
+
+					$records = array();
+					$records[0] = new stdclass();
+					$records[0]->Body = base64_encode($attachmentBody);
+					$records[0]->Name = $attachmentName;
+			        $records[0]->ParentID = $queryRes[sfid];
+			        $records[0]->IsPrivate = 'false';
+			        $records[0]->ContentType = $submissionType;
+
+			        $upsertResponse = $mySforceConnection->create($records,'Attachment');       	
+			        print_r($upsertResponse,true);
+
+					//Set newest Submission Date and Time in the Assignment record of Salesforce
+					$queryTime = $this->storage->db->prepare("UPDATE salesforce.ram_assignment__c SET submission_date_time__c  = :currTime, publish__c = FALSE, synced_to_schoology__c = TRUE WHERE (schoology_assignment_id__c = :schoologyAssignId) AND (schoology_user_id__c = :schoologyUserId)");
+					if($queryTime->execute(array(':currTime' => $subDate, ':schoologyAssignId' => $schoologyAssignmentID, ':schoologyUserId' => $schoologyUserID))) {
+						error_log('Successful Query Call ');
+					} else {
+						error_log('Could not perform Query call.');
+						throw new Exception('Could not add timestamp to Assignment Submission');
+					}
+				} while(next(current($api_sub_result->result->revision)->attachments->files->file));
+			} while(next($api_sub_result->result->revision));
+		}
+		
+		
+		/**
 		 * Creates a Schoology Grade from a grades Salesforce Assignment
 		 *
 		 * @param JSON   $thisAss Salesforce Assignment 
