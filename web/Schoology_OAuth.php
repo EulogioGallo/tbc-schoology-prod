@@ -729,6 +729,8 @@
 					
 					if ($queryRes == null) {
 					error_log("Missing sfid");
+					error_log("Assignment ID: " . $schoologyAssignmentID);
+					error_log("User ID: " . $schoologyUserID);
 					} else {
 					error_log('The Salesforce Assignment ID is: '.$queryRes[sfid]);
 					}
