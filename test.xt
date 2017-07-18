@@ -1,0 +1,1501 @@
+2017-07-18T19:45:49.050739+00:00 app[web.1]:                                                             [extension] => docx
+2017-07-18T19:45:49.050894+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.050992+00:00 app[web.1]:                                                             [converted_filename] => Bao_Rui-S1 ALP-Data Profile.pdf
+2017-07-18T19:45:49.029432+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.051117+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443988004/conversion/file.pdf
+2017-07-18T19:45:49.029588+00:00 app[web.1]:                                                             [converted_filename] => regional action plan 2017-2018 LA.pdf
+2017-07-18T19:45:49.051215+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.029667+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443987498/conversion/file.pdf
+2017-07-18T19:45:49.029741+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.029848+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.051395+00:00 app[web.1]:                                                             [converted_filesize] => 79646
+2017-07-18T19:45:49.051315+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.029913+00:00 app[web.1]:                                                             [converted_filesize] => 159327
+2017-07-18T19:45:49.051500+00:00 app[web.1]:                                                             [converted_md5_checksum] => 2e353eecf060467dc397d35007665da2
+2017-07-18T19:45:49.051563+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.051628+00:00 app[web.1]:                                                 )
+2017-07-18T19:45:49.051645+00:00 app[web.1]: 
+2017-07-18T19:45:49.051578+00:00 app[web.1]: 
+2017-07-18T19:45:49.051693+00:00 app[web.1]:                                         )
+2017-07-18T19:45:49.051710+00:00 app[web.1]: 
+2017-07-18T19:45:49.030014+00:00 app[web.1]:                                                             [converted_md5_checksum] => 174ccf79f8b3454e2150ace7931707d8
+2017-07-18T19:45:49.030064+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.051755+00:00 app[web.1]:                                 )
+2017-07-18T19:45:49.030067+00:00 app[web.1]: 
+2017-07-18T19:45:49.051821+00:00 app[web.1]: 
+2017-07-18T19:45:49.051772+00:00 app[web.1]: 
+2017-07-18T19:45:49.030182+00:00 app[web.1]:                                                     [6] => stdClass Object
+2017-07-18T19:45:49.051865+00:00 app[web.1]:                     [12] => stdClass Object
+2017-07-18T19:45:49.030185+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.051806+00:00 app[web.1]:                         )
+2017-07-18T19:45:49.051971+00:00 app[web.1]:                             [revision_id] => 1
+2017-07-18T19:45:49.030260+00:00 app[web.1]:                                                             [id] => 443987496
+2017-07-18T19:45:49.051899+00:00 app[web.1]:                         (
+2017-07-18T19:45:49.052032+00:00 app[web.1]:                             [uid] => 53362476
+2017-07-18T19:45:49.030339+00:00 app[web.1]:                                                             [fid] => 2459336762
+2017-07-18T19:45:49.052089+00:00 app[web.1]:                             [created] => 1500060330
+2017-07-18T19:45:49.052135+00:00 app[web.1]:                             [num_items] => 1
+2017-07-18T19:45:49.052174+00:00 app[web.1]:                             [late] => 0
+2017-07-18T19:45:49.030406+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.052215+00:00 app[web.1]:                             [draft] => 0
+2017-07-18T19:45:49.052276+00:00 app[web.1]:                             [attachments] => stdClass Object
+2017-07-18T19:45:49.030492+00:00 app[web.1]:                                                             [title] => Strat Plan Slides.pptx
+2017-07-18T19:45:49.052316+00:00 app[web.1]:                                 (
+2017-07-18T19:45:49.030569+00:00 app[web.1]:                                                             [filename] => Strat Plan Slides.pptx
+2017-07-18T19:45:49.052378+00:00 app[web.1]:                                     [files] => stdClass Object
+2017-07-18T19:45:49.030639+00:00 app[web.1]:                                                             [filesize] => 2082665
+2017-07-18T19:45:49.030735+00:00 app[web.1]:                                                             [md5_checksum] => 2abc201d15696c76b37e81b80b74a10a
+2017-07-18T19:45:49.052428+00:00 app[web.1]:                                         (
+2017-07-18T19:45:49.030811+00:00 app[web.1]:                                                             [timestamp] => 1500333607
+2017-07-18T19:45:49.052489+00:00 app[web.1]:                                             [file] => Array
+2017-07-18T19:45:49.031189+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Strat_Plan_Slides_596d462778ed1.pptx
+2017-07-18T19:45:49.052551+00:00 app[web.1]:                                                 (
+2017-07-18T19:45:49.030926+00:00 app[web.1]:                                                             [filemime] => application/vnd.openxmlformats-officedocument.presentationml.presentation
+2017-07-18T19:45:49.031274+00:00 app[web.1]:                                                             [extension] => pptx
+2017-07-18T19:45:49.052622+00:00 app[web.1]:                                                     [0] => stdClass Object
+2017-07-18T19:45:49.031334+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.052679+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.052754+00:00 app[web.1]:                                                             [id] => 443836714
+2017-07-18T19:45:49.031404+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.052836+00:00 app[web.1]:                                                             [fid] => 2458498534
+2017-07-18T19:45:49.031492+00:00 app[web.1]:                                                             [converted_filename] => Strat Plan Slides.pdf
+2017-07-18T19:45:49.052908+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.031622+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443987496/conversion/file.pdf
+2017-07-18T19:45:49.053002+00:00 app[web.1]:                                                             [title] => dropbox_53362476_r1.html
+2017-07-18T19:45:49.031690+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.053101+00:00 app[web.1]:                                                             [filename] => dropbox_53362476_r1.html
+2017-07-18T19:45:49.053185+00:00 app[web.1]:                                                             [filesize] => 586
+2017-07-18T19:45:49.053278+00:00 app[web.1]:                                                             [md5_checksum] => f6cdea38acfb0eccbcc51ff4f96e9734
+2017-07-18T19:45:49.053374+00:00 app[web.1]:                                                             [timestamp] => 1500060331
+2017-07-18T19:45:49.031777+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.053448+00:00 app[web.1]:                                                             [filemime] => text/html
+2017-07-18T19:45:49.031857+00:00 app[web.1]:                                                             [converted_filesize] => 228753
+2017-07-18T19:45:49.031963+00:00 app[web.1]:                                                             [converted_md5_checksum] => ad9930ad38fdb9bff44d6c236ea4ab89
+2017-07-18T19:45:49.032023+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.053613+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/dropbox_53362476_r1_59691aab39952.html
+2017-07-18T19:45:49.032025+00:00 app[web.1]: 
+2017-07-18T19:45:49.053698+00:00 app[web.1]:                                                             [extension] => html
+2017-07-18T19:45:49.032073+00:00 app[web.1]:                                                 )
+2017-07-18T19:45:49.053785+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.053861+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.053954+00:00 app[web.1]:                                                             [converted_filename] => dropbox_53362476_r1.pdf
+2017-07-18T19:45:49.054081+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443836714/conversion/file.pdf
+2017-07-18T19:45:49.032074+00:00 app[web.1]: 
+2017-07-18T19:45:49.054160+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.032116+00:00 app[web.1]:                                         )
+2017-07-18T19:45:49.032117+00:00 app[web.1]: 
+2017-07-18T19:45:49.032149+00:00 app[web.1]:                                 )
+2017-07-18T19:45:49.032150+00:00 app[web.1]: 
+2017-07-18T19:45:49.054251+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.032182+00:00 app[web.1]:                         )
+2017-07-18T19:45:49.054333+00:00 app[web.1]:                                                             [converted_filesize] => 13636
+2017-07-18T19:45:49.032183+00:00 app[web.1]: 
+2017-07-18T19:45:49.032226+00:00 app[web.1]:                     [9] => stdClass Object
+2017-07-18T19:45:49.032252+00:00 app[web.1]:                         (
+2017-07-18T19:45:49.054445+00:00 app[web.1]:                                                             [converted_md5_checksum] => 38fc59f11cbd3e95332e7771f06245f8
+2017-07-18T19:45:49.054507+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.032293+00:00 app[web.1]:                             [revision_id] => 1
+2017-07-18T19:45:49.054526+00:00 app[web.1]: 
+2017-07-18T19:45:49.032340+00:00 app[web.1]:                             [uid] => 53530978
+2017-07-18T19:45:49.054582+00:00 app[web.1]:                                                 )
+2017-07-18T19:45:49.032396+00:00 app[web.1]:                             [created] => 1500314734
+2017-07-18T19:45:49.054598+00:00 app[web.1]: 
+2017-07-18T19:45:49.054643+00:00 app[web.1]:                                         )
+2017-07-18T19:45:49.032445+00:00 app[web.1]:                             [num_items] => 2
+2017-07-18T19:45:49.032492+00:00 app[web.1]:                             [late] => 0
+2017-07-18T19:45:49.054658+00:00 app[web.1]: 
+2017-07-18T19:45:49.032526+00:00 app[web.1]:                             [draft] => 0
+2017-07-18T19:45:49.032584+00:00 app[web.1]:                             [attachments] => stdClass Object
+2017-07-18T19:45:49.032625+00:00 app[web.1]:                                 (
+2017-07-18T19:45:49.054696+00:00 app[web.1]:                                 )
+2017-07-18T19:45:49.054710+00:00 app[web.1]: 
+2017-07-18T19:45:49.054747+00:00 app[web.1]:                         )
+2017-07-18T19:45:49.032691+00:00 app[web.1]:                                     [files] => stdClass Object
+2017-07-18T19:45:49.054762+00:00 app[web.1]: 
+2017-07-18T19:45:49.032731+00:00 app[web.1]:                                         (
+2017-07-18T19:45:49.032781+00:00 app[web.1]:                                             [file] => Array
+2017-07-18T19:45:49.054808+00:00 app[web.1]:                     [13] => stdClass Object
+2017-07-18T19:45:49.032837+00:00 app[web.1]:                                                 (
+2017-07-18T19:45:49.054848+00:00 app[web.1]:                         (
+2017-07-18T19:45:49.054898+00:00 app[web.1]:                             [revision_id] => 1
+2017-07-18T19:45:49.054945+00:00 app[web.1]:                             [uid] => 53362410
+2017-07-18T19:45:49.054997+00:00 app[web.1]:                             [created] => 1500269427
+2017-07-18T19:45:49.055047+00:00 app[web.1]:                             [num_items] => 3
+2017-07-18T19:45:49.032947+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.033023+00:00 app[web.1]:                                                             [id] => 443967918
+2017-07-18T19:45:49.032893+00:00 app[web.1]:                                                     [0] => stdClass Object
+2017-07-18T19:45:49.055091+00:00 app[web.1]:                             [late] => 0
+2017-07-18T19:45:49.033101+00:00 app[web.1]:                                                             [fid] => 2459210998
+2017-07-18T19:45:49.033173+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.033273+00:00 app[web.1]:                                                             [title] => Foe_K- S1 ALP - Org LT Presentation.pdf
+2017-07-18T19:45:49.033373+00:00 app[web.1]:                                                             [filename] => Foe_K- S1 ALP - Org LT Presentation.pdf
+2017-07-18T19:45:49.033442+00:00 app[web.1]:                                                             [filesize] => 36717286
+2017-07-18T19:45:49.055352+00:00 app[web.1]:                                         (
+2017-07-18T19:45:49.033548+00:00 app[web.1]:                                                             [md5_checksum] => ace79dcd598aa1a913cd29379636394b
+2017-07-18T19:45:49.055493+00:00 app[web.1]:                                                 (
+2017-07-18T19:45:49.055132+00:00 app[web.1]:                             [draft] => 0
+2017-07-18T19:45:49.033607+00:00 app[web.1]:                                                             [timestamp] => 1500314601
+2017-07-18T19:45:49.033834+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Foe_K-_S1_ALP_-_Org_LT_Presentation_596cfbe7a5cdf.pdf
+2017-07-18T19:45:49.055193+00:00 app[web.1]:                             [attachments] => stdClass Object
+2017-07-18T19:45:49.055795+00:00 app[web.1]:                                                             [fid] => 2458908282
+2017-07-18T19:45:49.055881+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.055998+00:00 app[web.1]:                                                             [title] => Banchy_K-S1-ALP-Data Profile.docx
+2017-07-18T19:45:49.056112+00:00 app[web.1]:                                                             [filename] => Banchy_K-S1-ALP-Data Profile.docx
+2017-07-18T19:45:49.056184+00:00 app[web.1]:                                                             [filesize] => 57488
+2017-07-18T19:45:49.056298+00:00 app[web.1]:                                                             [md5_checksum] => 7550a299ee09cf2567994a7938e76073
+2017-07-18T19:45:49.056378+00:00 app[web.1]:                                                             [timestamp] => 1500269412
+2017-07-18T19:45:49.056501+00:00 app[web.1]:                                                             [filemime] => application/vnd.openxmlformats-officedocument.wordprocessingml.document
+2017-07-18T19:45:49.033906+00:00 app[web.1]:                                                             [extension] => pdf
+2017-07-18T19:45:49.033679+00:00 app[web.1]:                                                             [filemime] => application/pdf
+2017-07-18T19:45:49.033974+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.056674+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Banchy_K-S1-ALP-Data_Profile_596c4b646efab.docx
+2017-07-18T19:45:49.034042+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.055412+00:00 app[web.1]:                                             [file] => Array
+2017-07-18T19:45:49.034144+00:00 app[web.1]:                                                             [converted_filename] => Foe_K- S1 ALP - Org LT Presentation.pdf
+2017-07-18T19:45:49.055706+00:00 app[web.1]:                                                             [id] => 443934604
+2017-07-18T19:45:49.034279+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443967918/conversion/file.pdf
+2017-07-18T19:45:49.055234+00:00 app[web.1]:                                 (
+2017-07-18T19:45:49.055626+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.055298+00:00 app[web.1]:                                     [files] => stdClass Object
+2017-07-18T19:45:49.034359+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.055565+00:00 app[web.1]:                                                     [0] => stdClass Object
+2017-07-18T19:45:49.034439+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.034529+00:00 app[web.1]:                                                             [converted_filesize] => 36717286
+2017-07-18T19:45:49.034653+00:00 app[web.1]:                                                             [converted_md5_checksum] => ace79dcd598aa1a913cd29379636394b
+2017-07-18T19:45:49.034692+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.056839+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.056754+00:00 app[web.1]:                                                             [extension] => docx
+2017-07-18T19:45:49.056920+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.057032+00:00 app[web.1]:                                                             [converted_filename] => Banchy_K-S1-ALP-Data Profile.pdf
+2017-07-18T19:45:49.057171+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443934604/conversion/file.pdf
+2017-07-18T19:45:49.057252+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.057348+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.057444+00:00 app[web.1]:                                                             [converted_filesize] => 73524
+2017-07-18T19:45:49.057617+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.057555+00:00 app[web.1]:                                                             [converted_md5_checksum] => 01a204b30a04e0201fd598986d8fad32
+2017-07-18T19:45:49.057634+00:00 app[web.1]: 
+2017-07-18T19:45:49.057708+00:00 app[web.1]:                                                     [1] => stdClass Object
+2017-07-18T19:45:49.057770+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.057852+00:00 app[web.1]:                                                             [id] => 443934608
+2017-07-18T19:45:49.057942+00:00 app[web.1]:                                                             [fid] => 2458908296
+2017-07-18T19:45:49.058030+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.058138+00:00 app[web.1]:                                                             [title] => Banchy_K-S1-ALP-Org LT Notes.pdf
+2017-07-18T19:45:49.058240+00:00 app[web.1]:                                                             [filename] => Banchy_K-S1-ALP-Org LT Notes.pdf
+2017-07-18T19:45:49.058432+00:00 app[web.1]:                                                             [md5_checksum] => fa0bb12310b16e19e2e25a8c558c4285
+2017-07-18T19:45:49.058322+00:00 app[web.1]:                                                             [filesize] => 2006854
+2017-07-18T19:45:49.058513+00:00 app[web.1]:                                                             [timestamp] => 1500269426
+2017-07-18T19:45:49.058763+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Banchy_K-S1-ALP-Org_LT_Notes_596c4b722aa97.pdf
+2017-07-18T19:45:49.058839+00:00 app[web.1]:                                                             [extension] => pdf
+2017-07-18T19:45:49.058599+00:00 app[web.1]:                                                             [filemime] => application/pdf
+2017-07-18T19:45:49.058934+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.059024+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.059291+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443934608/conversion/file.pdf
+2017-07-18T19:45:49.059143+00:00 app[web.1]:                                                             [converted_filename] => Banchy_K-S1-ALP-Org LT Notes.pdf
+2017-07-18T19:45:49.059391+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.059594+00:00 app[web.1]:                                                             [converted_filesize] => 2006854
+2017-07-18T19:45:49.059492+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.059715+00:00 app[web.1]:                                                             [converted_md5_checksum] => fa0bb12310b16e19e2e25a8c558c4285
+2017-07-18T19:45:49.059780+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.059889+00:00 app[web.1]:                                                     [2] => stdClass Object
+2017-07-18T19:45:49.059794+00:00 app[web.1]: 
+2017-07-18T19:45:49.059979+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.060084+00:00 app[web.1]:                                                             [id] => 443934606
+2017-07-18T19:45:49.060162+00:00 app[web.1]:                                                             [fid] => 2458908292
+2017-07-18T19:45:49.060354+00:00 app[web.1]:                                                             [title] => Banchy_K-S1-ALP-Org LT Presentation.pdf
+2017-07-18T19:45:49.060257+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.060452+00:00 app[web.1]:                                                             [filename] => Banchy_K-S1-ALP-Org LT Presentation.pdf
+2017-07-18T19:45:49.060526+00:00 app[web.1]:                                                             [filesize] => 1203079
+2017-07-18T19:45:49.060628+00:00 app[web.1]:                                                             [md5_checksum] => 15952583bdd02425274c1c61e3bcd069
+2017-07-18T19:45:49.060732+00:00 app[web.1]:                                                             [timestamp] => 1500269421
+2017-07-18T19:45:49.060827+00:00 app[web.1]:                                                             [filemime] => application/pdf
+2017-07-18T19:45:49.061015+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Banchy_K-S1-ALP-Org_LT_Presentation_596c4b6d47830.pdf
+2017-07-18T19:45:49.061112+00:00 app[web.1]:                                                             [extension] => pdf
+2017-07-18T19:45:49.061214+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.061456+00:00 app[web.1]:                                                             [converted_filename] => Banchy_K-S1-ALP-Org LT Presentation.pdf
+2017-07-18T19:45:49.061317+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.061660+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443934606/conversion/file.pdf
+2017-07-18T19:45:49.061770+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.061881+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.061960+00:00 app[web.1]:                                                             [converted_filesize] => 1203079
+2017-07-18T19:45:49.062066+00:00 app[web.1]:                                                             [converted_md5_checksum] => 15952583bdd02425274c1c61e3bcd069
+2017-07-18T19:45:49.062131+00:00 app[web.1]: 
+2017-07-18T19:45:49.062117+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.062177+00:00 app[web.1]:                                                 )
+2017-07-18T19:45:49.062231+00:00 app[web.1]:                                         )
+2017-07-18T19:45:49.062190+00:00 app[web.1]: 
+2017-07-18T19:45:49.062243+00:00 app[web.1]: 
+2017-07-18T19:45:49.062278+00:00 app[web.1]:                                 )
+2017-07-18T19:45:49.062293+00:00 app[web.1]: 
+2017-07-18T19:45:49.062344+00:00 app[web.1]: 
+2017-07-18T19:45:49.062330+00:00 app[web.1]:                         )
+2017-07-18T19:45:49.062401+00:00 app[web.1]:                     [14] => stdClass Object
+2017-07-18T19:45:49.062442+00:00 app[web.1]:                         (
+2017-07-18T19:45:49.062505+00:00 app[web.1]:                             [revision_id] => 1
+2017-07-18T19:45:49.062598+00:00 app[web.1]:                             [created] => 1500326241
+2017-07-18T19:45:49.062552+00:00 app[web.1]:                             [uid] => 53362406
+2017-07-18T19:45:49.062640+00:00 app[web.1]:                             [num_items] => 3
+2017-07-18T19:45:49.062682+00:00 app[web.1]:                             [late] => 0
+2017-07-18T19:45:49.062722+00:00 app[web.1]:                             [draft] => 0
+2017-07-18T19:45:49.062826+00:00 app[web.1]:                                 (
+2017-07-18T19:45:49.062777+00:00 app[web.1]:                             [attachments] => stdClass Object
+2017-07-18T19:45:49.062940+00:00 app[web.1]:                                         (
+2017-07-18T19:45:49.062899+00:00 app[web.1]:                                     [files] => stdClass Object
+2017-07-18T19:45:49.062993+00:00 app[web.1]:                                             [file] => Array
+2017-07-18T19:45:49.063043+00:00 app[web.1]:                                                 (
+2017-07-18T19:45:49.063105+00:00 app[web.1]:                                                     [0] => stdClass Object
+2017-07-18T19:45:49.063158+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.063258+00:00 app[web.1]:                                                             [id] => 443979838
+2017-07-18T19:45:49.063345+00:00 app[web.1]:                                                             [fid] => 2459304984
+2017-07-18T19:45:49.063433+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.063526+00:00 app[web.1]:                                                             [title] => Rolle_J-S1 ALP - Org LT Notes.pdf
+2017-07-18T19:45:49.063620+00:00 app[web.1]:                                                             [filename] => Rolle_J-S1 ALP - Org LT Notes.pdf
+2017-07-18T19:45:49.063708+00:00 app[web.1]:                                                             [filesize] => 898984
+2017-07-18T19:45:49.063798+00:00 app[web.1]:                                                             [md5_checksum] => 3aeae29efeb41c194990d2af0341f9e8
+2017-07-18T19:45:49.063893+00:00 app[web.1]:                                                             [timestamp] => 1500326203
+2017-07-18T19:45:49.064020+00:00 app[web.1]:                                                             [filemime] => application/pdf
+2017-07-18T19:45:49.064193+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Rolle_J-S1_ALP_-_Org_LT_Notes_596d293b334bf.pdf
+2017-07-18T19:45:49.064260+00:00 app[web.1]:                                                             [extension] => pdf
+2017-07-18T19:45:49.064329+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.064395+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.064489+00:00 app[web.1]:                                                             [converted_filename] => Rolle_J-S1 ALP - Org LT Notes.pdf
+2017-07-18T19:45:49.064704+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.064613+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443979838/conversion/file.pdf
+2017-07-18T19:45:49.064791+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.064876+00:00 app[web.1]:                                                             [converted_filesize] => 898984
+2017-07-18T19:45:49.065017+00:00 app[web.1]:                                                             [converted_md5_checksum] => 3aeae29efeb41c194990d2af0341f9e8
+2017-07-18T19:45:49.065082+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.065101+00:00 app[web.1]: 
+2017-07-18T19:45:49.065173+00:00 app[web.1]:                                                     [1] => stdClass Object
+2017-07-18T19:45:49.065232+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.065303+00:00 app[web.1]:                                                             [id] => 443979836
+2017-07-18T19:45:49.065387+00:00 app[web.1]:                                                             [fid] => 2459304966
+2017-07-18T19:45:49.065455+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.065548+00:00 app[web.1]:                                                             [title] => Rolle_J-S1 ALP - Org LT Presentation.pdf
+2017-07-18T19:45:49.065646+00:00 app[web.1]:                                                             [filename] => Rolle_J-S1 ALP - Org LT Presentation.pdf
+2017-07-18T19:45:49.065719+00:00 app[web.1]:                                                             [filesize] => 482609
+2017-07-18T19:45:49.065816+00:00 app[web.1]:                                                             [md5_checksum] => b424e9832ba0805d575fb87a9a8553d0
+2017-07-18T19:45:49.065905+00:00 app[web.1]:                                                             [timestamp] => 1500326194
+2017-07-18T19:45:49.065995+00:00 app[web.1]:                                                             [filemime] => application/pdf
+2017-07-18T19:45:49.066163+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Rolle_J-S1_ALP_-_Org_LT_Presentation_596d29327567b.pdf
+2017-07-18T19:45:49.066232+00:00 app[web.1]:                                                             [extension] => pdf
+2017-07-18T19:45:49.066306+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.066382+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.066492+00:00 app[web.1]:                                                             [converted_filename] => Rolle_J-S1 ALP - Org LT Presentation.pdf
+2017-07-18T19:45:49.066618+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443979836/conversion/file.pdf
+2017-07-18T19:45:49.066694+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.066780+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.066858+00:00 app[web.1]:                                                             [converted_filesize] => 482609
+2017-07-18T19:45:49.066956+00:00 app[web.1]:                                                             [converted_md5_checksum] => b424e9832ba0805d575fb87a9a8553d0
+2017-07-18T19:45:49.067015+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.067033+00:00 app[web.1]: 
+2017-07-18T19:45:49.067099+00:00 app[web.1]:                                                     [2] => stdClass Object
+2017-07-18T19:45:49.067154+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.067230+00:00 app[web.1]:                                                             [id] => 443979834
+2017-07-18T19:45:49.067373+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.067302+00:00 app[web.1]:                                                             [fid] => 2459304946
+2017-07-18T19:45:49.067463+00:00 app[web.1]:                                                             [title] => Rolle_J-S1 ALP-Data Profile.docx
+2017-07-18T19:45:49.067573+00:00 app[web.1]:                                                             [filename] => Rolle_J-S1 ALP-Data Profile.docx
+2017-07-18T19:45:49.067816+00:00 app[web.1]:                                                             [filesize] => 70860
+2017-07-18T19:45:49.068043+00:00 app[web.1]:                                                             [timestamp] => 1500326183
+2017-07-18T19:45:49.067932+00:00 app[web.1]:                                                             [md5_checksum] => 80d0a7a4e591b3fff163ea6bece089d1
+2017-07-18T19:45:49.068355+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Rolle_J-S1_ALP-Data_Profile_596d292754f1b.docx
+2017-07-18T19:45:49.068179+00:00 app[web.1]:                                                             [filemime] => application/vnd.openxmlformats-officedocument.wordprocessingml.document
+2017-07-18T19:45:49.068429+00:00 app[web.1]:                                                             [extension] => docx
+2017-07-18T19:45:49.068513+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.068600+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.068704+00:00 app[web.1]:                                                             [converted_filename] => Rolle_J-S1 ALP-Data Profile.pdf
+2017-07-18T19:45:49.068838+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443979834/conversion/file.pdf
+2017-07-18T19:45:49.068919+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.069105+00:00 app[web.1]:                                                             [converted_filesize] => 77091
+2017-07-18T19:45:49.069015+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.069211+00:00 app[web.1]:                                                             [converted_md5_checksum] => 9f906226c0fb363e271c3e4530c88282
+2017-07-18T19:45:49.069275+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.069292+00:00 app[web.1]: 
+2017-07-18T19:45:49.069360+00:00 app[web.1]: 
+2017-07-18T19:45:49.069345+00:00 app[web.1]:                                                 )
+2017-07-18T19:45:49.069404+00:00 app[web.1]:                                         )
+2017-07-18T19:45:49.069420+00:00 app[web.1]: 
+2017-07-18T19:45:49.069462+00:00 app[web.1]:                                 )
+2017-07-18T19:45:49.069479+00:00 app[web.1]: 
+2017-07-18T19:45:49.069518+00:00 app[web.1]:                         )
+2017-07-18T19:45:49.069534+00:00 app[web.1]: 
+2017-07-18T19:45:49.069579+00:00 app[web.1]:                     [15] => stdClass Object
+2017-07-18T19:45:49.069732+00:00 app[web.1]:                             [uid] => 50976036
+2017-07-18T19:45:49.069620+00:00 app[web.1]:                         (
+2017-07-18T19:45:49.069797+00:00 app[web.1]:                             [created] => 1500330372
+2017-07-18T19:45:49.069674+00:00 app[web.1]:                             [revision_id] => 1
+2017-07-18T19:45:49.069852+00:00 app[web.1]:                             [num_items] => 3
+2017-07-18T19:45:49.069901+00:00 app[web.1]:                             [late] => 0
+2017-07-18T19:45:49.070015+00:00 app[web.1]:                             [attachments] => stdClass Object
+2017-07-18T19:45:49.069952+00:00 app[web.1]:                             [draft] => 0
+2017-07-18T19:45:49.070121+00:00 app[web.1]:                                     [files] => stdClass Object
+2017-07-18T19:45:49.070057+00:00 app[web.1]:                                 (
+2017-07-18T19:45:49.070226+00:00 app[web.1]:                                             [file] => Array
+2017-07-18T19:45:49.070166+00:00 app[web.1]:                                         (
+2017-07-18T19:45:49.070274+00:00 app[web.1]:                                                 (
+2017-07-18T19:45:49.070348+00:00 app[web.1]:                                                     [0] => stdClass Object
+2017-07-18T19:45:49.070409+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.070485+00:00 app[web.1]:                                                             [id] => 443984104
+2017-07-18T19:45:49.070557+00:00 app[web.1]:                                                             [fid] => 2459324996
+2017-07-18T19:45:49.070628+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.070726+00:00 app[web.1]:                                                             [title] => Richards_Richard-S1 ALP - Org LT Notes.pdf
+2017-07-18T19:45:49.070832+00:00 app[web.1]:                                                             [filename] => Richards_Richard-S1 ALP - Org LT Notes.pdf
+2017-07-18T19:45:49.070910+00:00 app[web.1]:                                                             [filesize] => 5253649
+2017-07-18T19:45:49.071009+00:00 app[web.1]:                                                             [md5_checksum] => 215b561b3b30096b86678ffeede28ee5
+2017-07-18T19:45:49.071093+00:00 app[web.1]:                                                             [timestamp] => 1500330367
+2017-07-18T19:45:49.071179+00:00 app[web.1]:                                                             [filemime] => application/pdf
+2017-07-18T19:45:49.071361+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Richards_Richard-S1_ALP_-_Org_LT_Notes_596d397f226ea.pdf
+2017-07-18T19:45:49.071438+00:00 app[web.1]:                                                             [extension] => pdf
+2017-07-18T19:45:49.071518+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.071598+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.071713+00:00 app[web.1]:                                                             [converted_filename] => Richards_Richard-S1 ALP - Org LT Notes.pdf
+2017-07-18T19:45:49.071849+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443984104/conversion/file.pdf
+2017-07-18T19:45:49.071989+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.072079+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.072164+00:00 app[web.1]:                                                             [converted_filesize] => 5253649
+2017-07-18T19:45:49.072281+00:00 app[web.1]:                                                             [converted_md5_checksum] => 215b561b3b30096b86678ffeede28ee5
+2017-07-18T19:45:49.072340+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.072358+00:00 app[web.1]: 
+2017-07-18T19:45:49.072493+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.072437+00:00 app[web.1]:                                                     [1] => stdClass Object
+2017-07-18T19:45:49.074573+00:00 app[web.1]:                                                             [fid] => 2459324964
+2017-07-18T19:45:49.072564+00:00 app[web.1]:                                                             [id] => 443984102
+2017-07-18T19:45:49.074752+00:00 app[web.1]:                                                             [title] => Richards_Richard-S1 ALP - Org LT Presentation.pdf
+2017-07-18T19:45:49.074647+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.074866+00:00 app[web.1]:                                                             [filename] => Richards_Richard-S1 ALP - Org LT Presentation.pdf
+2017-07-18T19:45:49.074939+00:00 app[web.1]:                                                             [filesize] => 19861408
+2017-07-18T19:45:49.075046+00:00 app[web.1]:                                                             [md5_checksum] => 232367d2686e4783ad1d79cdc5ff99e6
+2017-07-18T19:45:49.075126+00:00 app[web.1]:                                                             [timestamp] => 1500330357
+2017-07-18T19:45:49.075790+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Richards_Richard-S1_ALP_-_Org_LT_Presentation_596d39744d772.pdf
+2017-07-18T19:45:49.075219+00:00 app[web.1]:                                                             [filemime] => application/pdf
+2017-07-18T19:45:49.076250+00:00 app[web.1]:                                                             [extension] => pdf
+2017-07-18T19:45:49.076548+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.076890+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.077267+00:00 app[web.1]:                                                             [converted_filename] => Richards_Richard-S1 ALP - Org LT Presentation.pdf
+2017-07-18T19:45:49.077624+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443984102/conversion/file.pdf
+2017-07-18T19:45:49.078094+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.078438+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.078776+00:00 app[web.1]:                                                             [converted_filesize] => 19861408
+2017-07-18T19:45:49.079153+00:00 app[web.1]:                                                             [converted_md5_checksum] => 232367d2686e4783ad1d79cdc5ff99e6
+2017-07-18T19:45:49.079437+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.079737+00:00 app[web.1]: 
+2017-07-18T19:45:49.079953+00:00 app[web.1]:                                                     [2] => stdClass Object
+2017-07-18T19:45:49.080122+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.080897+00:00 app[web.1]:                                                             [id] => 443984100
+2017-07-18T19:45:49.080987+00:00 app[web.1]:                                                             [fid] => 2459324854
+2017-07-18T19:45:49.081283+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.081629+00:00 app[web.1]:                                                             [title] => S1-2017-ALP-Associate_Resident_Organization_Data_Profile_and_Listening_Tour (2).pdf
+2017-07-18T19:45:49.081848+00:00 app[web.1]:                                                             [filename] => S1-2017-ALP-Associate_Resident_Organization_Data_Profile_and_Listening_Tour (2).pdf
+2017-07-18T19:45:49.082645+00:00 app[web.1]:                                                             [filesize] => 152135
+2017-07-18T19:45:49.083176+00:00 app[web.1]:                                                             [md5_checksum] => 1a39da0d045922921127e933e5b542ed
+2017-07-18T19:45:49.083498+00:00 app[web.1]:                                                             [timestamp] => 1500330315
+2017-07-18T19:45:49.083853+00:00 app[web.1]:                                                             [filemime] => application/pdf
+2017-07-18T19:45:49.084532+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/S1-2017-ALP-Associate_Resident_Organization_Data_Profile_and_Listening_Tour_2_596d394b8bc82.pdf
+2017-07-18T19:45:49.085875+00:00 app[web.1]:                                                             [extension] => pdf
+2017-07-18T19:45:49.085987+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.086734+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.087926+00:00 app[web.1]:                                                             [converted_filename] => S1-2017-ALP-Associate_Resident_Organization_Data_Profile_and_Listening_Tour (2).pdf
+2017-07-18T19:45:49.088095+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443984100/conversion/file.pdf
+2017-07-18T19:45:49.088555+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.089855+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.089954+00:00 app[web.1]:                                                             [converted_filesize] => 152135
+2017-07-18T19:45:49.090628+00:00 app[web.1]:                                                             [converted_md5_checksum] => 1a39da0d045922921127e933e5b542ed
+2017-07-18T19:45:49.090729+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.090749+00:00 app[web.1]: 
+2017-07-18T19:45:49.090806+00:00 app[web.1]:                                                 )
+2017-07-18T19:45:49.090824+00:00 app[web.1]: 
+2017-07-18T19:45:49.090904+00:00 app[web.1]:                                         )
+2017-07-18T19:45:49.090920+00:00 app[web.1]: 
+2017-07-18T19:45:49.091070+00:00 app[web.1]:                                 )
+2017-07-18T19:45:49.091089+00:00 app[web.1]: 
+2017-07-18T19:45:49.091129+00:00 app[web.1]:                         )
+2017-07-18T19:45:49.091214+00:00 app[web.1]: 
+2017-07-18T19:45:49.091421+00:00 app[web.1]:                     [16] => stdClass Object
+2017-07-18T19:45:49.091459+00:00 app[web.1]:                         (
+2017-07-18T19:45:49.091527+00:00 app[web.1]:                             [revision_id] => 1
+2017-07-18T19:45:49.091773+00:00 app[web.1]:                             [uid] => 53127052
+2017-07-18T19:45:49.091839+00:00 app[web.1]:                             [created] => 1500331338
+2017-07-18T19:45:49.092100+00:00 app[web.1]:                             [num_items] => 3
+2017-07-18T19:45:49.092151+00:00 app[web.1]:                             [late] => 0
+2017-07-18T19:45:49.092267+00:00 app[web.1]:                             [draft] => 0
+2017-07-18T19:45:49.092450+00:00 app[web.1]:                             [attachments] => stdClass Object
+2017-07-18T19:45:49.092599+00:00 app[web.1]:                                 (
+2017-07-18T19:45:49.092665+00:00 app[web.1]:                                     [files] => stdClass Object
+2017-07-18T19:45:49.092945+00:00 app[web.1]:                                         (
+2017-07-18T19:45:49.093006+00:00 app[web.1]:                                             [file] => Array
+2017-07-18T19:45:49.093119+00:00 app[web.1]:                                                 (
+2017-07-18T19:45:49.093309+00:00 app[web.1]:                                                     [0] => stdClass Object
+2017-07-18T19:45:49.093467+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.093652+00:00 app[web.1]:                                                             [id] => 443985042
+2017-07-18T19:45:49.093825+00:00 app[web.1]:                                                             [fid] => 2459328240
+2017-07-18T19:45:49.094159+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.094462+00:00 app[web.1]:                                                             [title] => Aristizabal_R-S1 ALP-Data Profile.pdf
+2017-07-18T19:45:49.094565+00:00 app[web.1]:                                                             [filename] => Aristizabal_R-S1 ALP-Data Profile.pdf
+2017-07-18T19:45:49.094841+00:00 app[web.1]:                                                             [filesize] => 114093
+2017-07-18T19:45:49.095031+00:00 app[web.1]:                                                             [md5_checksum] => a21c3dea9d80b483d5f5c83a243580f2
+2017-07-18T19:45:49.095355+00:00 app[web.1]:                                                             [timestamp] => 1500331319
+2017-07-18T19:45:49.095651+00:00 app[web.1]:                                                             [filemime] => application/pdf
+2017-07-18T19:45:49.096025+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Aristizabal_R-S1_ALP-Data_Profile_596d3d37c3e81.pdf
+2017-07-18T19:45:49.096192+00:00 app[web.1]:                                                             [extension] => pdf
+2017-07-18T19:45:49.096364+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.096531+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.097277+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.097205+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443985042/conversion/file.pdf
+2017-07-18T19:45:49.096894+00:00 app[web.1]:                                                             [converted_filename] => Aristizabal_R-S1 ALP-Data Profile.pdf
+2017-07-18T19:45:49.097562+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.097714+00:00 app[web.1]:                                                             [converted_filesize] => 114093
+2017-07-18T19:45:49.098092+00:00 app[web.1]:                                                             [converted_md5_checksum] => a21c3dea9d80b483d5f5c83a243580f2
+2017-07-18T19:45:49.098197+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.098401+00:00 app[web.1]: 
+2017-07-18T19:45:49.098467+00:00 app[web.1]:                                                     [1] => stdClass Object
+2017-07-18T19:45:49.098527+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.098614+00:00 app[web.1]:                                                             [id] => 443985044
+2017-07-18T19:45:49.098679+00:00 app[web.1]:                                                             [fid] => 2459328462
+2017-07-18T19:45:49.098793+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.098899+00:00 app[web.1]:                                                             [title] => Aristizabal_R-S1 ALP-Org LT Notes.pdf
+2017-07-18T19:45:49.098985+00:00 app[web.1]:                                                             [filename] => Aristizabal_R-S1 ALP-Org LT Notes.pdf
+2017-07-18T19:45:49.099094+00:00 app[web.1]:                                                             [filesize] => 1732705
+2017-07-18T19:45:49.099200+00:00 app[web.1]:                                                             [md5_checksum] => cea4a8a0fdc15313ef830e25f7a606c5
+2017-07-18T19:45:49.099291+00:00 app[web.1]:                                                             [timestamp] => 1500331327
+2017-07-18T19:45:49.099733+00:00 app[web.1]:                                                             [filemime] => application/pdf
+2017-07-18T19:45:49.099889+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Aristizabal_R-S1_ALP-Org_LT_Notes_596d3d3f1c9cd.pdf
+2017-07-18T19:45:49.100232+00:00 app[web.1]:                                                             [extension] => pdf
+2017-07-18T19:45:49.100609+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.100674+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.100763+00:00 app[web.1]:                                                             [converted_filename] => Aristizabal_R-S1 ALP-Org LT Notes.pdf
+2017-07-18T19:45:49.100895+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443985044/conversion/file.pdf
+2017-07-18T19:45:49.100998+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.101116+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.101208+00:00 app[web.1]:                                                             [converted_filesize] => 1732705
+2017-07-18T19:45:49.101320+00:00 app[web.1]:                                                             [converted_md5_checksum] => cea4a8a0fdc15313ef830e25f7a606c5
+2017-07-18T19:45:49.101397+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.101415+00:00 app[web.1]: 
+2017-07-18T19:45:49.101514+00:00 app[web.1]:                                                     [2] => stdClass Object
+2017-07-18T19:45:49.101588+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.101685+00:00 app[web.1]:                                                             [id] => 443985046
+2017-07-18T19:45:49.103776+00:00 app[web.1]:                                                             [fid] => 2459328702
+2017-07-18T19:45:49.103846+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.103942+00:00 app[web.1]:                                                             [title] => Aristizabal_R-S1 ALP-Org LT Presentation.pdf
+2017-07-18T19:45:49.104103+00:00 app[web.1]:                                                             [filename] => Aristizabal_R-S1 ALP-Org LT Presentation.pdf
+2017-07-18T19:45:49.104198+00:00 app[web.1]:                                                             [filesize] => 3637574
+2017-07-18T19:45:49.104289+00:00 app[web.1]:                                                             [md5_checksum] => 3bf75ce309d75c32875fb6d727f076b1
+2017-07-18T19:45:49.104365+00:00 app[web.1]:                                                             [timestamp] => 1500331331
+2017-07-18T19:45:49.104452+00:00 app[web.1]:                                                             [filemime] => application/pdf
+2017-07-18T19:45:49.104630+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Aristizabal_R-S1_ALP-Org_LT_Presentation_596d3d4392731.pdf
+2017-07-18T19:45:49.104715+00:00 app[web.1]:                                                             [extension] => pdf
+2017-07-18T19:45:49.104792+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.104868+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.105011+00:00 app[web.1]:                                                             [converted_filename] => Aristizabal_R-S1 ALP-Org LT Presentation.pdf
+2017-07-18T19:45:49.105149+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443985046/conversion/file.pdf
+2017-07-18T19:45:49.105503+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.105583+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.105668+00:00 app[web.1]:                                                             [converted_filesize] => 3637574
+2017-07-18T19:45:49.105771+00:00 app[web.1]:                                                             [converted_md5_checksum] => 3bf75ce309d75c32875fb6d727f076b1
+2017-07-18T19:45:49.105835+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.136064+00:00 app[web.1]:                                                             [fid] => 2459174122
+2017-07-18T19:45:49.136169+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.136264+00:00 app[web.1]:                                                             [title] => Broad Assignment 1 July17.pdf
+2017-07-18T19:45:49.105849+00:00 app[web.1]: 
+2017-07-18T19:45:49.136360+00:00 app[web.1]:                                                             [filename] => Broad Assignment 1 July17.pdf
+2017-07-18T19:45:49.136439+00:00 app[web.1]:                                                             [filesize] => 928714
+2017-07-18T19:45:49.136537+00:00 app[web.1]:                                                             [md5_checksum] => eb677058a973539cd100d5381227ac40
+2017-07-18T19:45:49.136704+00:00 app[web.1]:                                                             [filemime] => application/pdf
+2017-07-18T19:45:49.136620+00:00 app[web.1]:                                                             [timestamp] => 1500309739
+2017-07-18T19:45:49.136883+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Broad_Assignment_1_July17_596ce8eb895da.pdf
+2017-07-18T19:45:49.136962+00:00 app[web.1]:                                                             [extension] => pdf
+2017-07-18T19:45:49.105900+00:00 app[web.1]:                                                 )
+2017-07-18T19:45:49.137044+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.137129+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.137236+00:00 app[web.1]:                                                             [converted_filename] => Broad Assignment 1 July17.pdf
+2017-07-18T19:45:49.137381+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443961250/conversion/file.pdf
+2017-07-18T19:45:49.137468+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.137567+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.105918+00:00 app[web.1]: 
+2017-07-18T19:45:49.137660+00:00 app[web.1]:                                                             [converted_filesize] => 928714
+2017-07-18T19:45:49.137771+00:00 app[web.1]:                                                             [converted_md5_checksum] => eb677058a973539cd100d5381227ac40
+2017-07-18T19:45:49.137832+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.137849+00:00 app[web.1]: 
+2017-07-18T19:45:49.106440+00:00 app[web.1]:                                         )
+2017-07-18T19:45:49.137927+00:00 app[web.1]:                                                     [1] => stdClass Object
+2017-07-18T19:45:49.137999+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.138088+00:00 app[web.1]:                                                             [id] => 443961252
+2017-07-18T19:45:49.106456+00:00 app[web.1]: 
+2017-07-18T19:45:49.138181+00:00 app[web.1]:                                                             [fid] => 2459174126
+2017-07-18T19:45:49.138262+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.138384+00:00 app[web.1]:                                                             [title] => Butler_L_Gray_D_Martin_A_Willey_M-S1 ALP-Data Profile.pdf
+2017-07-18T19:45:49.138508+00:00 app[web.1]:                                                             [filename] => Butler_L_Gray_D_Martin_A_Willey_M-S1 ALP-Data Profile.pdf
+2017-07-18T19:45:49.106490+00:00 app[web.1]:                                 )
+2017-07-18T19:45:49.138590+00:00 app[web.1]:                                                             [filesize] => 155266
+2017-07-18T19:45:49.138695+00:00 app[web.1]:                                                             [md5_checksum] => 3d4ad7c26093888de4e59e5ff0d37963
+2017-07-18T19:45:49.138779+00:00 app[web.1]:                                                             [timestamp] => 1500309740
+2017-07-18T19:45:49.138857+00:00 app[web.1]:                                                             [filemime] => application/pdf
+2017-07-18T19:45:49.106502+00:00 app[web.1]: 
+2017-07-18T19:45:49.139058+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Butler_L_Gray_D_Martin_A_Willey_M-S1_ALP-Data_Profile_596ce8ebed5c9.pdf
+2017-07-18T19:45:49.139136+00:00 app[web.1]:                                                             [extension] => pdf
+2017-07-18T19:45:49.139215+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.139297+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.139426+00:00 app[web.1]:                                                             [converted_filename] => Butler_L_Gray_D_Martin_A_Willey_M-S1 ALP-Data Profile.pdf
+2017-07-18T19:45:49.139564+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443961252/conversion/file.pdf
+2017-07-18T19:45:49.106531+00:00 app[web.1]:                         )
+2017-07-18T19:45:49.139650+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.139753+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.139844+00:00 app[web.1]:                                                             [converted_filesize] => 155266
+2017-07-18T19:45:49.139941+00:00 app[web.1]:                                                             [converted_md5_checksum] => 3d4ad7c26093888de4e59e5ff0d37963
+2017-07-18T19:45:49.140026+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.106547+00:00 app[web.1]: 
+2017-07-18T19:45:49.140043+00:00 app[web.1]: 
+2017-07-18T19:45:49.140117+00:00 app[web.1]:                                                     [2] => stdClass Object
+2017-07-18T19:45:49.140183+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.106608+00:00 app[web.1]:                     [17] => stdClass Object
+2017-07-18T19:45:49.140261+00:00 app[web.1]:                                                             [id] => 443961254
+2017-07-18T19:45:49.140338+00:00 app[web.1]:                                                             [fid] => 2459174134
+2017-07-18T19:45:49.140415+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.140520+00:00 app[web.1]:                                                             [title] => Gray_D_Martin_A_Willey_M-S1-ALP-Org LT Notes.pdf
+2017-07-18T19:45:49.140630+00:00 app[web.1]:                                                             [filename] => Gray_D_Martin_A_Willey_M-S1-ALP-Org LT Notes.pdf
+2017-07-18T19:45:49.106651+00:00 app[web.1]:                         (
+2017-07-18T19:45:49.140722+00:00 app[web.1]:                                                             [filesize] => 2001731
+2017-07-18T19:45:49.140840+00:00 app[web.1]:                                                             [md5_checksum] => e9dec8a5515d4ba2eab84a9d7a97d0d1
+2017-07-18T19:45:49.140939+00:00 app[web.1]:                                                             [timestamp] => 1500309741
+2017-07-18T19:45:49.141051+00:00 app[web.1]:                                                             [filemime] => application/pdf
+2017-07-18T19:45:49.141284+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Gray_D_Martin_A_Willey_M-S1-ALP-Org_LT_Notes_596ce8ed7913b.pdf
+2017-07-18T19:45:49.106702+00:00 app[web.1]:                             [revision_id] => 1
+2017-07-18T19:45:49.141383+00:00 app[web.1]:                                                             [extension] => pdf
+2017-07-18T19:45:49.141470+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.141547+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.141656+00:00 app[web.1]:                                                             [converted_filename] => Gray_D_Martin_A_Willey_M-S1-ALP-Org LT Notes.pdf
+2017-07-18T19:45:49.141801+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443961254/conversion/file.pdf
+2017-07-18T19:45:49.141882+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.141967+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.142048+00:00 app[web.1]:                                                             [converted_filesize] => 2001731
+2017-07-18T19:45:49.106743+00:00 app[web.1]:                             [uid] => 50618262
+2017-07-18T19:45:49.142152+00:00 app[web.1]:                                                             [converted_md5_checksum] => e9dec8a5515d4ba2eab84a9d7a97d0d1
+2017-07-18T19:45:49.142209+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.142224+00:00 app[web.1]: 
+2017-07-18T19:45:49.142276+00:00 app[web.1]:                                                 )
+2017-07-18T19:45:49.142291+00:00 app[web.1]: 
+2017-07-18T19:45:49.142337+00:00 app[web.1]:                                         )
+2017-07-18T19:45:49.142353+00:00 app[web.1]: 
+2017-07-18T19:45:49.142398+00:00 app[web.1]:                                 )
+2017-07-18T19:45:49.106791+00:00 app[web.1]:                             [created] => 1500338327
+2017-07-18T19:45:49.142414+00:00 app[web.1]: 
+2017-07-18T19:45:49.142448+00:00 app[web.1]:                         )
+2017-07-18T19:45:49.142465+00:00 app[web.1]: 
+2017-07-18T19:45:49.142512+00:00 app[web.1]:                     [23] => stdClass Object
+2017-07-18T19:45:49.142604+00:00 app[web.1]:                             [revision_id] => 1
+2017-07-18T19:45:49.142547+00:00 app[web.1]:                         (
+2017-07-18T19:45:49.142654+00:00 app[web.1]:                             [uid] => 53362402
+2017-07-18T19:45:49.106846+00:00 app[web.1]:                             [num_items] => 3
+2017-07-18T19:45:49.142705+00:00 app[web.1]:                             [created] => 1499928931
+2017-07-18T19:45:49.142754+00:00 app[web.1]:                             [num_items] => 3
+2017-07-18T19:45:49.142808+00:00 app[web.1]:                             [late] => 0
+2017-07-18T19:45:49.142856+00:00 app[web.1]:                             [draft] => 0
+2017-07-18T19:45:49.142917+00:00 app[web.1]:                             [attachments] => stdClass Object
+2017-07-18T19:45:49.142961+00:00 app[web.1]:                                 (
+2017-07-18T19:45:49.143018+00:00 app[web.1]:                                     [files] => stdClass Object
+2017-07-18T19:45:49.143070+00:00 app[web.1]:                                         (
+2017-07-18T19:45:49.107195+00:00 app[web.1]:                             [late] => 1
+2017-07-18T19:45:49.143133+00:00 app[web.1]:                                             [file] => Array
+2017-07-18T19:45:49.143274+00:00 app[web.1]:                                                     [0] => stdClass Object
+2017-07-18T19:45:49.143193+00:00 app[web.1]:                                                 (
+2017-07-18T19:45:49.143336+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.143415+00:00 app[web.1]:                                                             [id] => 443736462
+2017-07-18T19:45:49.143494+00:00 app[web.1]:                                                             [fid] => 2457825132
+2017-07-18T19:45:49.143543+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.107241+00:00 app[web.1]:                             [draft] => 0
+2017-07-18T19:45:49.143606+00:00 app[web.1]:                                                             [title] => Chao_D-S1-ALP-Data Profile.pdf
+2017-07-18T19:45:49.143683+00:00 app[web.1]:                                                             [filename] => Chao_D-S1-ALP-Data Profile.pdf
+2017-07-18T19:45:49.143759+00:00 app[web.1]:                                                             [filesize] => 467572
+2017-07-18T19:45:49.143848+00:00 app[web.1]:                                                             [md5_checksum] => a2fe41925cf7e33a1c772c5e0425e8b6
+2017-07-18T19:45:49.143902+00:00 app[web.1]:                                                             [timestamp] => 1499928922
+2017-07-18T19:45:49.107301+00:00 app[web.1]:                             [attachments] => stdClass Object
+2017-07-18T19:45:49.143969+00:00 app[web.1]:                                                             [filemime] => application/pdf
+2017-07-18T19:45:49.144115+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Chao_D-S1-ALP-Data_Profile_5967195a6aafa.pdf
+2017-07-18T19:45:49.107341+00:00 app[web.1]:                                 (
+2017-07-18T19:45:49.144199+00:00 app[web.1]:                                                             [extension] => pdf
+2017-07-18T19:45:49.144306+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.144553+00:00 app[web.1]:                                                             [converted_filename] => Chao_D-S1-ALP-Data Profile.pdf
+2017-07-18T19:45:49.144352+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.144606+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443736462/conversion/file.pdf
+2017-07-18T19:45:49.107401+00:00 app[web.1]:                                     [files] => stdClass Object
+2017-07-18T19:45:49.144675+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.144809+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.144854+00:00 app[web.1]:                                                             [converted_filesize] => 467572
+2017-07-18T19:45:49.144926+00:00 app[web.1]:                                                             [converted_md5_checksum] => a2fe41925cf7e33a1c772c5e0425e8b6
+2017-07-18T19:45:49.145064+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.145065+00:00 app[web.1]: 
+2017-07-18T19:45:49.145066+00:00 app[web.1]:                                                     [1] => stdClass Object
+2017-07-18T19:45:49.145215+00:00 app[web.1]:                                                             [id] => 443736464
+2017-07-18T19:45:49.107446+00:00 app[web.1]:                                         (
+2017-07-18T19:45:49.145144+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.145272+00:00 app[web.1]:                                                             [fid] => 2457825134
+2017-07-18T19:45:49.145337+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.145523+00:00 app[web.1]:                                                             [filename] => Chao_D-S1-ALP-Org LT Notes.pdf
+2017-07-18T19:45:49.145427+00:00 app[web.1]:                                                             [title] => Chao_D-S1-ALP-Org LT Notes.pdf
+2017-07-18T19:45:49.145598+00:00 app[web.1]:                                                             [filesize] => 168635
+2017-07-18T19:45:49.145686+00:00 app[web.1]:                                                             [md5_checksum] => 57748b7e0128ae78e779a641da05646d
+2017-07-18T19:45:49.107506+00:00 app[web.1]:                                             [file] => Array
+2017-07-18T19:45:49.145788+00:00 app[web.1]:                                                             [timestamp] => 1499928923
+2017-07-18T19:45:49.145855+00:00 app[web.1]:                                                             [filemime] => application/pdf
+2017-07-18T19:45:49.146080+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Chao_D-S1-ALP-Org_LT_Notes_5967195b542f2.pdf
+2017-07-18T19:45:49.146084+00:00 app[web.1]:                                                             [extension] => pdf
+2017-07-18T19:45:49.146217+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.146252+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.107558+00:00 app[web.1]:                                                 (
+2017-07-18T19:45:49.146492+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443736464/conversion/file.pdf
+2017-07-18T19:45:49.146412+00:00 app[web.1]:                                                             [converted_filename] => Chao_D-S1-ALP-Org LT Notes.pdf
+2017-07-18T19:45:49.146575+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.146657+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.146746+00:00 app[web.1]:                                                             [converted_filesize] => 168635
+2017-07-18T19:45:49.146829+00:00 app[web.1]:                                                             [converted_md5_checksum] => 57748b7e0128ae78e779a641da05646d
+2017-07-18T19:45:49.107639+00:00 app[web.1]:                                                     [0] => stdClass Object
+2017-07-18T19:45:49.146872+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.146873+00:00 app[web.1]: 
+2017-07-18T19:45:49.147553+00:00 app[web.1]:                                                     [2] => stdClass Object
+2017-07-18T19:45:49.147560+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.147560+00:00 app[web.1]:                                                             [id] => 443736466
+2017-07-18T19:45:49.109326+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.147561+00:00 app[web.1]:                                                             [fid] => 2457825136
+2017-07-18T19:45:49.147562+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.147563+00:00 app[web.1]:                                                             [title] => Chao_D-S1-ALP-Org LT Presentation.pdf
+2017-07-18T19:45:49.109418+00:00 app[web.1]:                                                             [id] => 443992500
+2017-07-18T19:45:49.147564+00:00 app[web.1]:                                                             [filename] => Chao_D-S1-ALP-Org LT Presentation.pdf
+2017-07-18T19:45:49.147565+00:00 app[web.1]:                                                             [filesize] => 124279
+2017-07-18T19:45:49.147637+00:00 app[web.1]:                                                             [md5_checksum] => 523a36d7fdf56a99bf4f54885356bc56
+2017-07-18T19:45:49.147879+00:00 app[web.1]:                                                             [timestamp] => 1499928924
+2017-07-18T19:45:49.147880+00:00 app[web.1]:                                                             [filemime] => application/pdf
+2017-07-18T19:45:49.152149+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Chao_D-S1-ALP-Org_LT_Presentation_5967195bc98ea.pdf
+2017-07-18T19:45:49.109497+00:00 app[web.1]:                                                             [fid] => 2459352948
+2017-07-18T19:45:49.152156+00:00 app[web.1]:                                                             [extension] => pdf
+2017-07-18T19:45:49.152249+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.109569+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.152306+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.152414+00:00 app[web.1]:                                                             [converted_filename] => Chao_D-S1-ALP-Org LT Presentation.pdf
+2017-07-18T19:45:49.152542+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443736466/conversion/file.pdf
+2017-07-18T19:45:49.109665+00:00 app[web.1]:                                                             [title] => Clark_B-S1-ALP-Data Profile). .docx
+2017-07-18T19:45:49.152619+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.152706+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.152787+00:00 app[web.1]:                                                             [converted_filesize] => 124279
+2017-07-18T19:45:49.109766+00:00 app[web.1]:                                                             [filename] => Clark_B-S1-ALP-Data Profile). .docx
+2017-07-18T19:45:49.152895+00:00 app[web.1]:                                                             [converted_md5_checksum] => 523a36d7fdf56a99bf4f54885356bc56
+2017-07-18T19:45:49.152950+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.152954+00:00 app[web.1]: 
+2017-07-18T19:45:49.153002+00:00 app[web.1]:                                                 )
+2017-07-18T19:45:49.153005+00:00 app[web.1]: 
+2017-07-18T19:45:49.153047+00:00 app[web.1]:                                         )
+2017-07-18T19:45:49.153050+00:00 app[web.1]: 
+2017-07-18T19:45:49.153088+00:00 app[web.1]:                                 )
+2017-07-18T19:45:49.153091+00:00 app[web.1]: 
+2017-07-18T19:45:49.153121+00:00 app[web.1]:                         )
+2017-07-18T19:45:49.109843+00:00 app[web.1]:                                                             [filesize] => 22510
+2017-07-18T19:45:49.153123+00:00 app[web.1]: 
+2017-07-18T19:45:49.153235+00:00 app[web.1]:                     [24] => stdClass Object
+2017-07-18T19:45:49.153237+00:00 app[web.1]:                         (
+2017-07-18T19:45:49.153245+00:00 app[web.1]:                             [revision_id] => 1
+2017-07-18T19:45:49.153289+00:00 app[web.1]:                             [uid] => 53362404
+2017-07-18T19:45:49.153339+00:00 app[web.1]:                             [created] => 1500335199
+2017-07-18T19:45:49.109947+00:00 app[web.1]:                                                             [md5_checksum] => 7009741ccf3adebc02b689b9beb9fb17
+2017-07-18T19:45:49.153383+00:00 app[web.1]:                             [num_items] => 3
+2017-07-18T19:45:49.153423+00:00 app[web.1]:                             [late] => 0
+2017-07-18T19:45:49.153477+00:00 app[web.1]:                             [draft] => 0
+2017-07-18T19:45:49.153561+00:00 app[web.1]:                             [attachments] => stdClass Object
+2017-07-18T19:45:49.153564+00:00 app[web.1]:                                 (
+2017-07-18T19:45:49.153625+00:00 app[web.1]:                                     [files] => stdClass Object
+2017-07-18T19:45:49.110030+00:00 app[web.1]:                                                             [timestamp] => 1500338274
+2017-07-18T19:45:49.153668+00:00 app[web.1]:                                         (
+2017-07-18T19:45:49.153758+00:00 app[web.1]:                                             [file] => Array
+2017-07-18T19:45:49.153779+00:00 app[web.1]:                                                 (
+2017-07-18T19:45:49.153900+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.153972+00:00 app[web.1]:                                                             [id] => 443989030
+2017-07-18T19:45:49.153847+00:00 app[web.1]:                                                     [0] => stdClass Object
+2017-07-18T19:45:49.154087+00:00 app[web.1]:                                                             [fid] => 2459341842
+2017-07-18T19:45:49.154123+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.110163+00:00 app[web.1]:                                                             [filemime] => application/vnd.openxmlformats-officedocument.wordprocessingml.document
+2017-07-18T19:45:49.154221+00:00 app[web.1]:                                                             [title] => Drennon_E-S1 ALP- Org LT Presentation.pdf
+2017-07-18T19:45:49.154325+00:00 app[web.1]:                                                             [filename] => Drennon_E-S1 ALP- Org LT Presentation.pdf
+2017-07-18T19:45:49.154503+00:00 app[web.1]:                                                             [md5_checksum] => 9911d3dbd71f40a2fb745618f55a2cab
+2017-07-18T19:45:49.154467+00:00 app[web.1]:                                                             [filesize] => 1467694
+2017-07-18T19:45:49.154583+00:00 app[web.1]:                                                             [timestamp] => 1500335180
+2017-07-18T19:45:49.154671+00:00 app[web.1]:                                                             [filemime] => application/pdf
+2017-07-18T19:45:49.154848+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Drennon_E-S1_ALP-_Org_LT_Presentation_596d4c4c62a8d.pdf
+2017-07-18T19:45:49.154917+00:00 app[web.1]:                                                             [extension] => pdf
+2017-07-18T19:45:49.154990+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.110349+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Clark_B-S1-ALP-Data_Profile.__596d58629e504.docx
+2017-07-18T19:45:49.155063+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.155168+00:00 app[web.1]:                                                             [converted_filename] => Drennon_E-S1 ALP- Org LT Presentation.pdf
+2017-07-18T19:45:49.155306+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443989030/conversion/file.pdf
+2017-07-18T19:45:49.155380+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.155437+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.155495+00:00 app[web.1]:                                                             [converted_filesize] => 1467694
+2017-07-18T19:45:49.110436+00:00 app[web.1]:                                                             [extension] => docx
+2017-07-18T19:45:49.155616+00:00 app[web.1]:                                                             [converted_md5_checksum] => 9911d3dbd71f40a2fb745618f55a2cab
+2017-07-18T19:45:49.155636+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.155639+00:00 app[web.1]: 
+2017-07-18T19:45:49.155771+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.155717+00:00 app[web.1]:                                                     [1] => stdClass Object
+2017-07-18T19:45:49.155845+00:00 app[web.1]:                                                             [id] => 443989028
+2017-07-18T19:45:49.110586+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.156089+00:00 app[web.1]:                                                             [fid] => 2459341818
+2017-07-18T19:45:49.157456+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.157536+00:00 app[web.1]:                                                             [title] => Drennon_E-S1 ALP-Data Profile.docx
+2017-07-18T19:45:49.157666+00:00 app[web.1]:                                                             [filename] => Drennon_E-S1 ALP-Data Profile.docx
+2017-07-18T19:45:49.157705+00:00 app[web.1]:                                                             [filesize] => 57804
+2017-07-18T19:45:49.157798+00:00 app[web.1]:                                                             [md5_checksum] => 7930a7017c97ec466e21a06cf26e1bf7
+2017-07-18T19:45:49.157867+00:00 app[web.1]:                                                             [timestamp] => 1500335167
+2017-07-18T19:45:49.110665+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.157985+00:00 app[web.1]:                                                             [filemime] => application/vnd.openxmlformats-officedocument.wordprocessingml.document
+2017-07-18T19:45:49.158208+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Drennon_E-S1_ALP-Data_Profile_596d4c3fdb17b.docx
+2017-07-18T19:45:49.158307+00:00 app[web.1]:                                                             [extension] => docx
+2017-07-18T19:45:49.158378+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.110777+00:00 app[web.1]:                                                             [converted_filename] => Clark_B-S1-ALP-Data Profile). .pdf
+2017-07-18T19:45:49.158477+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.158729+00:00 app[web.1]:                                                             [converted_filename] => Drennon_E-S1 ALP-Data Profile.pdf
+2017-07-18T19:45:49.158956+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443989028/conversion/file.pdf
+2017-07-18T19:45:49.159038+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.159642+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.159644+00:00 app[web.1]:                                                             [converted_filesize] => 77126
+2017-07-18T19:45:49.110920+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443992500/conversion/file.pdf
+2017-07-18T19:45:49.160673+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.160671+00:00 app[web.1]:                                                             [converted_md5_checksum] => 2163b1da789f9298a06653159d461804
+2017-07-18T19:45:49.160674+00:00 app[web.1]: 
+2017-07-18T19:45:49.160675+00:00 app[web.1]:                                                     [2] => stdClass Object
+2017-07-18T19:45:49.160675+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.160676+00:00 app[web.1]:                                                             [id] => 443989032
+2017-07-18T19:45:49.160677+00:00 app[web.1]:                                                             [fid] => 2459341890
+2017-07-18T19:45:49.160677+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.111009+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.160678+00:00 app[web.1]:                                                             [title] => Drennon_E-S1 ALP-Org LT Notes.pdf
+2017-07-18T19:45:49.111114+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.160679+00:00 app[web.1]:                                                             [filename] => Drennon_E-S1 ALP-Org LT Notes.pdf
+2017-07-18T19:45:49.160682+00:00 app[web.1]:                                                             [filesize] => 1468084
+2017-07-18T19:45:49.160781+00:00 app[web.1]:                                                             [md5_checksum] => 57ecb14b76752cd563f036e02cf59d9f
+2017-07-18T19:45:49.160853+00:00 app[web.1]:                                                             [timestamp] => 1500335193
+2017-07-18T19:45:49.111172+00:00 app[web.1]:                                                             [converted_filesize] => 64903
+2017-07-18T19:45:49.160942+00:00 app[web.1]:                                                             [filemime] => application/pdf
+2017-07-18T19:45:49.161155+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Drennon_E-S1_ALP-Org_LT_Notes_596d4c599a807.pdf
+2017-07-18T19:45:49.161224+00:00 app[web.1]:                                                             [extension] => pdf
+2017-07-18T19:45:49.161307+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.111245+00:00 app[web.1]:                                                             [converted_md5_checksum] => 2a27fd6e92ee161a19188e9b850c2dde
+2017-07-18T19:45:49.161396+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.161520+00:00 app[web.1]:                                                             [converted_filename] => Drennon_E-S1 ALP-Org LT Notes.pdf
+2017-07-18T19:45:49.161685+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443989032/conversion/file.pdf
+2017-07-18T19:45:49.161902+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.161792+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.162007+00:00 app[web.1]:                                                             [converted_filesize] => 1468084
+2017-07-18T19:45:49.111288+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.162129+00:00 app[web.1]:                                                             [converted_md5_checksum] => 57ecb14b76752cd563f036e02cf59d9f
+2017-07-18T19:45:49.162201+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.162219+00:00 app[web.1]: 
+2017-07-18T19:45:49.111289+00:00 app[web.1]: 
+2017-07-18T19:45:49.162284+00:00 app[web.1]:                                                 )
+2017-07-18T19:45:49.162301+00:00 app[web.1]: 
+2017-07-18T19:45:49.162359+00:00 app[web.1]:                                         )
+2017-07-18T19:45:49.162376+00:00 app[web.1]: 
+2017-07-18T19:45:49.162425+00:00 app[web.1]:                                 )
+2017-07-18T19:45:49.162442+00:00 app[web.1]: 
+2017-07-18T19:45:49.111345+00:00 app[web.1]:                                                     [1] => stdClass Object
+2017-07-18T19:45:49.162484+00:00 app[web.1]:                         )
+2017-07-18T19:45:49.162501+00:00 app[web.1]: 
+2017-07-18T19:45:49.162606+00:00 app[web.1]:                         (
+2017-07-18T19:45:49.162564+00:00 app[web.1]:                     [25] => stdClass Object
+2017-07-18T19:45:49.162660+00:00 app[web.1]:                             [revision_id] => 1
+2017-07-18T19:45:49.162712+00:00 app[web.1]:                             [uid] => 53362398
+2017-07-18T19:45:49.162766+00:00 app[web.1]:                             [created] => 1500389443
+2017-07-18T19:45:49.111387+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.162818+00:00 app[web.1]:                             [num_items] => 3
+2017-07-18T19:45:49.162866+00:00 app[web.1]:                             [late] => 1
+2017-07-18T19:45:49.162913+00:00 app[web.1]:                             [draft] => 0
+2017-07-18T19:45:49.162972+00:00 app[web.1]:                             [attachments] => stdClass Object
+2017-07-18T19:45:49.111439+00:00 app[web.1]:                                                             [id] => 443992502
+2017-07-18T19:45:49.163012+00:00 app[web.1]:                                 (
+2017-07-18T19:45:49.163118+00:00 app[web.1]:                                         (
+2017-07-18T19:45:49.163071+00:00 app[web.1]:                                     [files] => stdClass Object
+2017-07-18T19:45:49.163179+00:00 app[web.1]:                                             [file] => Array
+2017-07-18T19:45:49.163233+00:00 app[web.1]:                                                 (
+2017-07-18T19:45:49.163307+00:00 app[web.1]:                                                     [0] => stdClass Object
+2017-07-18T19:45:49.163367+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.163443+00:00 app[web.1]:                                                             [id] => 444024870
+2017-07-18T19:45:49.163519+00:00 app[web.1]:                                                             [fid] => 2459524436
+2017-07-18T19:45:49.111524+00:00 app[web.1]:                                                             [fid] => 2459352962
+2017-07-18T19:45:49.163590+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.163690+00:00 app[web.1]:                                                             [title] => Bartles_A-S1 ALP-Data Profile.docx
+2017-07-18T19:45:49.163792+00:00 app[web.1]:                                                             [filename] => Bartles_A-S1 ALP-Data Profile.docx
+2017-07-18T19:45:49.163869+00:00 app[web.1]:                                                             [filesize] => 57341
+2017-07-18T19:45:49.164004+00:00 app[web.1]:                                                             [md5_checksum] => 21e511ae4990530265332214b3a23d0b
+2017-07-18T19:45:49.164097+00:00 app[web.1]:                                                             [timestamp] => 1500389437
+2017-07-18T19:45:49.164225+00:00 app[web.1]:                                                             [filemime] => application/vnd.openxmlformats-officedocument.wordprocessingml.document
+2017-07-18T19:45:49.164399+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Bartles_A-S1_ALP-Data_Profile_596e203d5f734.docx
+2017-07-18T19:45:49.164480+00:00 app[web.1]:                                                             [extension] => docx
+2017-07-18T19:45:49.111591+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.164569+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.111681+00:00 app[web.1]:                                                             [title] => Clark_B-S1-ALP-Org LT Notes.pdf
+2017-07-18T19:45:49.164648+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.164754+00:00 app[web.1]:                                                             [converted_filename] => Bartles_A-S1 ALP-Data Profile.pdf
+2017-07-18T19:45:49.164889+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/444024870/conversion/file.pdf
+2017-07-18T19:45:49.164983+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.165086+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.165167+00:00 app[web.1]:                                                             [converted_filesize] => 81262
+2017-07-18T19:45:49.111812+00:00 app[web.1]:                                                             [filename] => Clark_B-S1-ALP-Org LT Notes.pdf
+2017-07-18T19:45:49.165276+00:00 app[web.1]:                                                             [converted_md5_checksum] => b04e8a7eb8545b66534815e077250180
+2017-07-18T19:45:49.165334+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.165349+00:00 app[web.1]: 
+2017-07-18T19:45:49.165416+00:00 app[web.1]:                                                     [1] => stdClass Object
+2017-07-18T19:45:49.165473+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.165542+00:00 app[web.1]:                                                             [id] => 444024874
+2017-07-18T19:45:49.111857+00:00 app[web.1]:                                                             [filesize] => 637012
+2017-07-18T19:45:49.165612+00:00 app[web.1]:                                                             [fid] => 2459524444
+2017-07-18T19:45:49.165683+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.165770+00:00 app[web.1]:                                                             [title] => Bartles_A-S1 ALP-Org LT Notes.pdf
+2017-07-18T19:45:49.165857+00:00 app[web.1]:                                                             [filename] => Bartles_A-S1 ALP-Org LT Notes.pdf
+2017-07-18T19:45:49.165928+00:00 app[web.1]:                                                             [filesize] => 911191
+2017-07-18T19:45:49.166020+00:00 app[web.1]:                                                             [md5_checksum] => d937669ee5b624f6df171f459ae03bf6
+2017-07-18T19:45:49.166182+00:00 app[web.1]:                                                             [filemime] => application/pdf
+2017-07-18T19:45:49.166098+00:00 app[web.1]:                                                             [timestamp] => 1500389438
+2017-07-18T19:45:49.111995+00:00 app[web.1]:                                                             [md5_checksum] => faf3c5433dbc0be0f6c6902f8c0abff6
+2017-07-18T19:45:49.166350+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Bartles_A-S1_ALP-Org_LT_Notes_596e203ea1021.pdf
+2017-07-18T19:45:49.166425+00:00 app[web.1]:                                                             [extension] => pdf
+2017-07-18T19:45:49.166503+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.166577+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.166681+00:00 app[web.1]:                                                             [converted_filename] => Bartles_A-S1 ALP-Org LT Notes.pdf
+2017-07-18T19:45:49.166810+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/444024874/conversion/file.pdf
+2017-07-18T19:45:49.166888+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.166970+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.167056+00:00 app[web.1]:                                                             [converted_filesize] => 911191
+2017-07-18T19:45:49.112066+00:00 app[web.1]:                                                             [timestamp] => 1500338282
+2017-07-18T19:45:49.167147+00:00 app[web.1]:                                                             [converted_md5_checksum] => d937669ee5b624f6df171f459ae03bf6
+2017-07-18T19:45:49.167198+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.167211+00:00 app[web.1]: 
+2017-07-18T19:45:49.167281+00:00 app[web.1]:                                                     [2] => stdClass Object
+2017-07-18T19:45:49.167340+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.112156+00:00 app[web.1]:                                                             [filemime] => application/pdf
+2017-07-18T19:45:49.167411+00:00 app[web.1]:                                                             [id] => 444024872
+2017-07-18T19:45:49.112316+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Clark_B-S1-ALP-Org_LT_Notes_596d586a24484.pdf
+2017-07-18T19:45:49.167481+00:00 app[web.1]:                                                             [fid] => 2459524442
+2017-07-18T19:45:49.167549+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.167645+00:00 app[web.1]:                                                             [title] => Bartles_A-S1 ALP-Org LT Presentation.pptx
+2017-07-18T19:45:49.167747+00:00 app[web.1]:                                                             [filename] => Bartles_A-S1 ALP-Org LT Presentation.pptx
+2017-07-18T19:45:49.112419+00:00 app[web.1]:                                                             [extension] => pdf
+2017-07-18T19:45:49.167830+00:00 app[web.1]:                                                             [filesize] => 233095
+2017-07-18T19:45:49.167935+00:00 app[web.1]:                                                             [md5_checksum] => de2830e9721b10f1c919c41f14e99384
+2017-07-18T19:45:49.168096+00:00 app[web.1]:                                                             [timestamp] => 1500389438
+2017-07-18T19:45:49.168230+00:00 app[web.1]:                                                             [filemime] => application/vnd.openxmlformats-officedocument.presentationml.presentation
+2017-07-18T19:45:49.168403+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Bartles_A-S1_ALP-Org_LT_Presentation_596e203dda159.pptx
+2017-07-18T19:45:49.168479+00:00 app[web.1]:                                                             [extension] => pptx
+2017-07-18T19:45:49.168558+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.168632+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.168888+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/444024872/conversion/file.pdf
+2017-07-18T19:45:49.168748+00:00 app[web.1]:                                                             [converted_filename] => Bartles_A-S1 ALP-Org LT Presentation.pdf
+2017-07-18T19:45:49.168984+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.169180+00:00 app[web.1]:                                                             [converted_filesize] => 130444
+2017-07-18T19:45:49.112493+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.169285+00:00 app[web.1]:                                                             [converted_md5_checksum] => 2a268abd325068c8a5adafdd5659af0b
+2017-07-18T19:45:49.169092+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.169346+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.169362+00:00 app[web.1]: 
+2017-07-18T19:45:49.169415+00:00 app[web.1]:                                                 )
+2017-07-18T19:45:49.169432+00:00 app[web.1]: 
+2017-07-18T19:45:49.169482+00:00 app[web.1]:                                         )
+2017-07-18T19:45:49.112568+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.169538+00:00 app[web.1]:                                 )
+2017-07-18T19:45:49.169498+00:00 app[web.1]: 
+2017-07-18T19:45:49.169554+00:00 app[web.1]: 
+2017-07-18T19:45:49.169586+00:00 app[web.1]:                         )
+2017-07-18T19:45:49.169647+00:00 app[web.1]:                     [26] => stdClass Object
+2017-07-18T19:45:49.169601+00:00 app[web.1]: 
+2017-07-18T19:45:49.112802+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443992502/conversion/file.pdf
+2017-07-18T19:45:49.112662+00:00 app[web.1]:                                                             [converted_filename] => Clark_B-S1-ALP-Org LT Notes.pdf
+2017-07-18T19:45:49.169688+00:00 app[web.1]:                         (
+2017-07-18T19:45:49.169748+00:00 app[web.1]:                             [revision_id] => 1
+2017-07-18T19:45:49.169914+00:00 app[web.1]:                             [num_items] => 3
+2017-07-18T19:45:49.169802+00:00 app[web.1]:                             [uid] => 53127350
+2017-07-18T19:45:49.169859+00:00 app[web.1]:                             [created] => 1500315218
+2017-07-18T19:45:49.169959+00:00 app[web.1]:                             [late] => 0
+2017-07-18T19:45:49.112939+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.112986+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.170005+00:00 app[web.1]:                             [draft] => 0
+2017-07-18T19:45:49.170188+00:00 app[web.1]:                                     [files] => stdClass Object
+2017-07-18T19:45:49.170073+00:00 app[web.1]:                             [attachments] => stdClass Object
+2017-07-18T19:45:49.170123+00:00 app[web.1]:                                 (
+2017-07-18T19:45:49.170243+00:00 app[web.1]:                                         (
+2017-07-18T19:45:49.170313+00:00 app[web.1]:                                             [file] => Array
+2017-07-18T19:45:49.170363+00:00 app[web.1]:                                                 (
+2017-07-18T19:45:49.170427+00:00 app[web.1]:                                                     [0] => stdClass Object
+2017-07-18T19:45:49.170479+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.113068+00:00 app[web.1]:                                                             [converted_filesize] => 637012
+2017-07-18T19:45:49.170558+00:00 app[web.1]:                                                             [id] => 443968416
+2017-07-18T19:45:49.170629+00:00 app[web.1]:                                                             [fid] => 2459217568
+2017-07-18T19:45:49.170710+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.170836+00:00 app[web.1]:                                                             [title] => Butler_L_Gray_D_Martin_A_Willey_M-S1 ALP-Data Profile.pdf
+2017-07-18T19:45:49.170951+00:00 app[web.1]:                                                             [filename] => Butler_L_Gray_D_Martin_A_Willey_M-S1 ALP-Data Profile.pdf
+2017-07-18T19:45:49.171137+00:00 app[web.1]:                                                             [md5_checksum] => b5d231dcb930d33e5cffaf2556a9ef8c
+2017-07-18T19:45:49.113174+00:00 app[web.1]:                                                             [converted_md5_checksum] => faf3c5433dbc0be0f6c6902f8c0abff6
+2017-07-18T19:45:49.171218+00:00 app[web.1]:                                                             [timestamp] => 1500315201
+2017-07-18T19:45:49.171029+00:00 app[web.1]:                                                             [filesize] => 137561
+2017-07-18T19:45:49.171302+00:00 app[web.1]:                                                             [filemime] => application/pdf
+2017-07-18T19:45:49.171491+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Butler_L_Gray_D_Martin_A_Willey_M-S1_ALP-Data_Profile_596cfe4136f8c.pdf
+2017-07-18T19:45:49.171579+00:00 app[web.1]:                                                             [extension] => pdf
+2017-07-18T19:45:49.171673+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.171747+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.113230+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.171866+00:00 app[web.1]:                                                             [converted_filename] => Butler_L_Gray_D_Martin_A_Willey_M-S1 ALP-Data Profile.pdf
+2017-07-18T19:45:49.172047+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443968416/conversion/file.pdf
+2017-07-18T19:45:49.173789+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.113233+00:00 app[web.1]: 
+2017-07-18T19:45:49.173870+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.173928+00:00 app[web.1]:                                                             [converted_filesize] => 137561
+2017-07-18T19:45:49.174001+00:00 app[web.1]:                                                             [converted_md5_checksum] => b5d231dcb930d33e5cffaf2556a9ef8c
+2017-07-18T19:45:49.174113+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.174114+00:00 app[web.1]: 
+2017-07-18T19:45:49.113300+00:00 app[web.1]:                                                     [2] => stdClass Object
+2017-07-18T19:45:49.174115+00:00 app[web.1]:                                                     [1] => stdClass Object
+2017-07-18T19:45:49.174214+00:00 app[web.1]:                                                             [id] => 443968418
+2017-07-18T19:45:49.174281+00:00 app[web.1]:                                                             [fid] => 2459217570
+2017-07-18T19:45:49.174161+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.113355+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.174327+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.174399+00:00 app[web.1]:                                                             [title] => Gray_D_Martin_A_Willey_M-S1-ALP-Org LT Notes.pdf
+2017-07-18T19:45:49.174677+00:00 app[web.1]:                                                             [filename] => Gray_D_Martin_A_Willey_M-S1-ALP-Org LT Notes.pdf
+2017-07-18T19:45:49.113445+00:00 app[web.1]:                                                             [id] => 443992504
+2017-07-18T19:45:49.174678+00:00 app[web.1]:                                                             [filesize] => 1990598
+2017-07-18T19:45:49.174681+00:00 app[web.1]:                                                             [md5_checksum] => 8ec504a94609fd2d2e486ff1f8652bb6
+2017-07-18T19:45:49.174765+00:00 app[web.1]:                                                             [timestamp] => 1500315203
+2017-07-18T19:45:49.174840+00:00 app[web.1]:                                                             [filemime] => application/pdf
+2017-07-18T19:45:49.113499+00:00 app[web.1]:                                                             [fid] => 2459353032
+2017-07-18T19:45:49.175033+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Gray_D_Martin_A_Willey_M-S1-ALP-Org_LT_Notes_596cfe42e86fc.pdf
+2017-07-18T19:45:49.175086+00:00 app[web.1]:                                                             [extension] => pdf
+2017-07-18T19:45:49.175140+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.175263+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.175319+00:00 app[web.1]:                                                             [converted_filename] => Gray_D_Martin_A_Willey_M-S1-ALP-Org LT Notes.pdf
+2017-07-18T19:45:49.175431+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443968418/conversion/file.pdf
+2017-07-18T19:45:49.113568+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.175492+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.175699+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.175703+00:00 app[web.1]:                                                             [converted_filesize] => 1990598
+2017-07-18T19:45:49.175757+00:00 app[web.1]:                                                             [converted_md5_checksum] => 8ec504a94609fd2d2e486ff1f8652bb6
+2017-07-18T19:45:49.113661+00:00 app[web.1]:                                                             [title] => Clark_B-S1-ALP-Org LT Presentation.pptx
+2017-07-18T19:45:49.175812+00:00 app[web.1]: 
+2017-07-18T19:45:49.175885+00:00 app[web.1]:                                                     [2] => stdClass Object
+2017-07-18T19:45:49.175937+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.175809+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.176754+00:00 app[web.1]:                                                             [id] => 443968420
+2017-07-18T19:45:49.176824+00:00 app[web.1]:                                                             [fid] => 2459217576
+2017-07-18T19:45:49.176931+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.177009+00:00 app[web.1]:                                                             [title] => Gray_D_Martin_A_Willey_M-S1-ALP-Org LT Presentation.pptx
+2017-07-18T19:45:49.113770+00:00 app[web.1]:                                                             [filename] => Clark_B-S1-ALP-Org LT Presentation.pptx
+2017-07-18T19:45:49.177187+00:00 app[web.1]:                                                             [filename] => Gray_D_Martin_A_Willey_M-S1-ALP-Org LT Presentation.pptx
+2017-07-18T19:45:49.177303+00:00 app[web.1]:                                                             [md5_checksum] => 79260fa61645e25531e6ea1373de99e9
+2017-07-18T19:45:49.177189+00:00 app[web.1]:                                                             [filesize] => 2073571
+2017-07-18T19:45:49.177382+00:00 app[web.1]:                                                             [timestamp] => 1500315205
+2017-07-18T19:45:49.177730+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Gray_D_Martin_A_Willey_M-S1-ALP-Org_LT_Presentation_596cfe44cc929.pptx
+2017-07-18T19:45:49.113834+00:00 app[web.1]:                                                             [filesize] => 103319
+2017-07-18T19:45:49.177823+00:00 app[web.1]:                                                             [extension] => pptx
+2017-07-18T19:45:49.177903+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.177522+00:00 app[web.1]:                                                             [filemime] => application/vnd.openxmlformats-officedocument.presentationml.presentation
+2017-07-18T19:45:49.177988+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.178100+00:00 app[web.1]:                                                             [converted_filename] => Gray_D_Martin_A_Willey_M-S1-ALP-Org LT Presentation.pdf
+2017-07-18T19:45:49.178295+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443968420/conversion/file.pdf
+2017-07-18T19:45:49.181196+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.181194+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.181241+00:00 app[web.1]:                                                             [converted_filesize] => 1777276
+2017-07-18T19:45:49.181369+00:00 app[web.1]:                                                             [converted_md5_checksum] => dbe96539ea2133db61d145cf7f518bdc
+2017-07-18T19:45:49.181404+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.181789+00:00 app[web.1]: 
+2017-07-18T19:45:49.113982+00:00 app[web.1]:                                                             [md5_checksum] => b7bef5c6317d5b5161eb3bf17a1af2e9
+2017-07-18T19:45:49.181790+00:00 app[web.1]:                                                 )
+2017-07-18T19:45:49.114019+00:00 app[web.1]:                                                             [timestamp] => 1500338291
+2017-07-18T19:45:49.181792+00:00 app[web.1]:                                         )
+2017-07-18T19:45:49.181791+00:00 app[web.1]: 
+2017-07-18T19:45:49.181793+00:00 app[web.1]: 
+2017-07-18T19:45:49.181793+00:00 app[web.1]:                                 )
+2017-07-18T19:45:49.181794+00:00 app[web.1]: 
+2017-07-18T19:45:49.181795+00:00 app[web.1]:                         )
+2017-07-18T19:45:49.181795+00:00 app[web.1]: 
+2017-07-18T19:45:49.114143+00:00 app[web.1]:                                                             [filemime] => application/vnd.openxmlformats-officedocument.presentationml.presentation
+2017-07-18T19:45:49.181796+00:00 app[web.1]:                     [27] => stdClass Object
+2017-07-18T19:45:49.181798+00:00 app[web.1]:                             [revision_id] => 1
+2017-07-18T19:45:49.181797+00:00 app[web.1]:                         (
+2017-07-18T19:45:49.181798+00:00 app[web.1]:                             [uid] => 53127338
+2017-07-18T19:45:49.181801+00:00 app[web.1]:                             [created] => 1500313735
+2017-07-18T19:45:49.181887+00:00 app[web.1]:                             [num_items] => 2
+2017-07-18T19:45:49.181889+00:00 app[web.1]:                             [late] => 0
+2017-07-18T19:45:49.114457+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Clark_B-S1-ALP-Org_LT_Presentation_596d5871df552.pptx
+2017-07-18T19:45:49.181933+00:00 app[web.1]:                             [draft] => 0
+2017-07-18T19:45:49.181993+00:00 app[web.1]:                             [attachments] => stdClass Object
+2017-07-18T19:45:49.182066+00:00 app[web.1]:                                 (
+2017-07-18T19:45:49.182095+00:00 app[web.1]:                                     [files] => stdClass Object
+2017-07-18T19:45:49.182207+00:00 app[web.1]:                                             [file] => Array
+2017-07-18T19:45:49.182250+00:00 app[web.1]:                                                 (
+2017-07-18T19:45:49.182310+00:00 app[web.1]:                                                     [0] => stdClass Object
+2017-07-18T19:45:49.114541+00:00 app[web.1]:                                                             [extension] => pptx
+2017-07-18T19:45:49.182452+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.182453+00:00 app[web.1]:                                                             [id] => 443966740
+2017-07-18T19:45:49.182516+00:00 app[web.1]:                                                             [fid] => 2459203426
+2017-07-18T19:45:49.182595+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.182681+00:00 app[web.1]:                                                             [title] => Hayes_J-S1-ALP - Data Profile.pdf
+2017-07-18T19:45:49.182139+00:00 app[web.1]:                                         (
+2017-07-18T19:45:49.182778+00:00 app[web.1]:                                                             [filename] => Hayes_J-S1-ALP - Data Profile.pdf
+2017-07-18T19:45:49.182976+00:00 app[web.1]:                                                             [md5_checksum] => 5a6f9cbeac071a3913895511bd4804ec
+2017-07-18T19:45:49.183031+00:00 app[web.1]:                                                             [timestamp] => 1500313728
+2017-07-18T19:45:49.183114+00:00 app[web.1]:                                                             [filemime] => application/pdf
+2017-07-18T19:45:49.183296+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Hayes_J-S1-ALP_-_Data_Profile_596cf87fd7681.pdf
+2017-07-18T19:45:49.183393+00:00 app[web.1]:                                                             [extension] => pdf
+2017-07-18T19:45:49.183449+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.182850+00:00 app[web.1]:                                                             [filesize] => 74799
+2017-07-18T19:45:49.114663+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.183525+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.183626+00:00 app[web.1]:                                                             [converted_filename] => Hayes_J-S1-ALP - Data Profile.pdf
+2017-07-18T19:45:49.183762+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443966740/conversion/file.pdf
+2017-07-18T19:45:49.183930+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.184071+00:00 app[web.1]:                                                             [converted_filesize] => 74799
+2017-07-18T19:45:49.114706+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.184261+00:00 app[web.1]:                                                             [converted_md5_checksum] => 5a6f9cbeac071a3913895511bd4804ec
+2017-07-18T19:45:49.184265+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.183840+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.114811+00:00 app[web.1]:                                                             [converted_filename] => Clark_B-S1-ALP-Org LT Presentation.pdf
+2017-07-18T19:45:49.184274+00:00 app[web.1]:                                                     [1] => stdClass Object
+2017-07-18T19:45:49.184271+00:00 app[web.1]: 
+2017-07-18T19:45:49.184327+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.184402+00:00 app[web.1]:                                                             [id] => 443966742
+2017-07-18T19:45:49.184478+00:00 app[web.1]:                                                             [fid] => 2459203450
+2017-07-18T19:45:49.114954+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443992504/conversion/file.pdf
+2017-07-18T19:45:49.184653+00:00 app[web.1]:                                                             [title] => Hayes_J-S1-ALP-Org LT Presentation.pdf
+2017-07-18T19:45:49.184560+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.184795+00:00 app[web.1]:                                                             [filename] => Hayes_J-S1-ALP-Org LT Presentation.pdf
+2017-07-18T19:45:49.184843+00:00 app[web.1]:                                                             [filesize] => 479159
+2017-07-18T19:45:49.115033+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.185013+00:00 app[web.1]:                                                             [md5_checksum] => 4904cae667b5d89c78d19110983c9446
+2017-07-18T19:45:49.185032+00:00 app[web.1]:                                                             [timestamp] => 1500313732
+2017-07-18T19:45:49.185119+00:00 app[web.1]:                                                             [filemime] => application/pdf
+2017-07-18T19:45:49.185309+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Hayes_J-S1-ALP-Org_LT_Presentation_596cf883e9919.pdf
+2017-07-18T19:45:49.185411+00:00 app[web.1]:                                                             [extension] => pdf
+2017-07-18T19:45:49.115116+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.185471+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.185607+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.185663+00:00 app[web.1]:                                                             [converted_filename] => Hayes_J-S1-ALP-Org LT Presentation.pdf
+2017-07-18T19:45:49.185802+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443966742/conversion/file.pdf
+2017-07-18T19:45:49.115194+00:00 app[web.1]:                                                             [converted_filesize] => 75935
+2017-07-18T19:45:49.185893+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.186040+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.186186+00:00 app[web.1]:                                                             [converted_md5_checksum] => 4904cae667b5d89c78d19110983c9446
+2017-07-18T19:45:49.186108+00:00 app[web.1]:                                                             [converted_filesize] => 479159
+2017-07-18T19:45:49.186246+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.115294+00:00 app[web.1]:                                                             [converted_md5_checksum] => 9378ef603439ea9877deba270541dc1c
+2017-07-18T19:45:49.186249+00:00 app[web.1]: 
+2017-07-18T19:45:49.186303+00:00 app[web.1]: 
+2017-07-18T19:45:49.186300+00:00 app[web.1]:                                                 )
+2017-07-18T19:45:49.115348+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.115351+00:00 app[web.1]: 
+2017-07-18T19:45:49.115401+00:00 app[web.1]:                                                 )
+2017-07-18T19:45:49.115404+00:00 app[web.1]: 
+2017-07-18T19:45:49.115447+00:00 app[web.1]:                                         )
+2017-07-18T19:45:49.115450+00:00 app[web.1]: 
+2017-07-18T19:45:49.115491+00:00 app[web.1]:                                 )
+2017-07-18T19:45:49.115494+00:00 app[web.1]: 
+2017-07-18T19:45:49.115526+00:00 app[web.1]:                         )
+2017-07-18T19:45:49.115529+00:00 app[web.1]: 
+2017-07-18T19:45:49.115666+00:00 app[web.1]:                     [18] => stdClass Object
+2017-07-18T19:45:49.115668+00:00 app[web.1]:                         (
+2017-07-18T19:45:49.115669+00:00 app[web.1]:                             [revision_id] => 1
+2017-07-18T19:45:49.115699+00:00 app[web.1]:                             [uid] => 50618258
+2017-07-18T19:45:49.115750+00:00 app[web.1]:                             [created] => 1500326039
+2017-07-18T19:45:49.115802+00:00 app[web.1]:                             [num_items] => 3
+2017-07-18T19:45:49.115837+00:00 app[web.1]:                             [late] => 0
+2017-07-18T19:45:49.115879+00:00 app[web.1]:                             [draft] => 0
+2017-07-18T19:45:49.115935+00:00 app[web.1]:                             [attachments] => stdClass Object
+2017-07-18T19:45:49.116227+00:00 app[web.1]:                                 (
+2017-07-18T19:45:49.116228+00:00 app[web.1]:                                     [files] => stdClass Object
+2017-07-18T19:45:49.116229+00:00 app[web.1]:                                         (
+2017-07-18T19:45:49.116234+00:00 app[web.1]:                                             [file] => Array
+2017-07-18T19:45:49.116235+00:00 app[web.1]:                                                 (
+2017-07-18T19:45:49.116430+00:00 app[web.1]:                                                     [0] => stdClass Object
+2017-07-18T19:45:49.116435+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.116447+00:00 app[web.1]:                                                             [id] => 443979610
+2017-07-18T19:45:49.116524+00:00 app[web.1]:                                                             [fid] => 2459304164
+2017-07-18T19:45:49.116600+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.116697+00:00 app[web.1]:                                                             [title] => Gramelspacher_J-S1 ALP-Data Profile.pdf
+2017-07-18T19:45:49.116797+00:00 app[web.1]:                                                             [filename] => Gramelspacher_J-S1 ALP-Data Profile.pdf
+2017-07-18T19:45:49.116878+00:00 app[web.1]:                                                             [filesize] => 59397
+2017-07-18T19:45:49.116976+00:00 app[web.1]:                                                             [md5_checksum] => 4dbd9f2bfc62ea8aed95eb5adc9d503a
+2017-07-18T19:45:49.117055+00:00 app[web.1]:                                                             [timestamp] => 1500326034
+2017-07-18T19:45:49.117137+00:00 app[web.1]:                                                             [filemime] => application/pdf
+2017-07-18T19:45:49.117324+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Gramelspacher_J-S1_ALP-Data_Profile_596d28921c002.pdf
+2017-07-18T19:45:49.117411+00:00 app[web.1]:                                                             [extension] => pdf
+2017-07-18T19:45:49.117502+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.117585+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.117708+00:00 app[web.1]:                                                             [converted_filename] => Gramelspacher_J-S1 ALP-Data Profile.pdf
+2017-07-18T19:45:49.117848+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443979610/conversion/file.pdf
+2017-07-18T19:45:49.117927+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.118023+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.118106+00:00 app[web.1]:                                                             [converted_filesize] => 59397
+2017-07-18T19:45:49.118207+00:00 app[web.1]:                                                             [converted_md5_checksum] => 4dbd9f2bfc62ea8aed95eb5adc9d503a
+2017-07-18T19:45:49.118261+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.118274+00:00 app[web.1]: 
+2017-07-18T19:45:49.118334+00:00 app[web.1]:                                                     [1] => stdClass Object
+2017-07-18T19:45:49.118388+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.118452+00:00 app[web.1]:                                                             [id] => 443979612
+2017-07-18T19:45:49.118517+00:00 app[web.1]:                                                             [fid] => 2459304172
+2017-07-18T19:45:49.118578+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.118663+00:00 app[web.1]:                                                             [title] => Gramelspacher_J-S1 ALP-Org LT Notes.pdf
+2017-07-18T19:45:49.118752+00:00 app[web.1]:                                                             [filename] => Gramelspacher_J-S1 ALP-Org LT Notes.pdf
+2017-07-18T19:45:49.118818+00:00 app[web.1]:                                                             [filesize] => 787721
+2017-07-18T19:45:49.118924+00:00 app[web.1]:                                                             [md5_checksum] => 9feea38bf70342dbe227725f5bee6e61
+2017-07-18T19:45:49.119013+00:00 app[web.1]:                                                             [timestamp] => 1500326035
+2017-07-18T19:45:49.119098+00:00 app[web.1]:                                                             [filemime] => application/pdf
+2017-07-18T19:45:49.119285+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Gramelspacher_J-S1_ALP-Org_LT_Notes_596d28936b323.pdf
+2017-07-18T19:45:49.119365+00:00 app[web.1]:                                                             [extension] => pdf
+2017-07-18T19:45:49.119451+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.119532+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.119644+00:00 app[web.1]:                                                             [converted_filename] => Gramelspacher_J-S1 ALP-Org LT Notes.pdf
+2017-07-18T19:45:49.119784+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443979612/conversion/file.pdf
+2017-07-18T19:45:49.119865+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.119981+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.120078+00:00 app[web.1]:                                                             [converted_filesize] => 787721
+2017-07-18T19:45:49.120215+00:00 app[web.1]:                                                             [converted_md5_checksum] => 9feea38bf70342dbe227725f5bee6e61
+2017-07-18T19:45:49.120276+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.120293+00:00 app[web.1]: 
+2017-07-18T19:45:49.120360+00:00 app[web.1]:                                                     [2] => stdClass Object
+2017-07-18T19:45:49.120421+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.120500+00:00 app[web.1]:                                                             [id] => 443979614
+2017-07-18T19:45:49.120594+00:00 app[web.1]:                                                             [fid] => 2459304180
+2017-07-18T19:45:49.120643+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.120713+00:00 app[web.1]:                                                             [title] => Gramelspacher_J-S1 ALP-Org LT Presentation.pdf
+2017-07-18T19:45:49.120785+00:00 app[web.1]:                                                             [filename] => Gramelspacher_J-S1 ALP-Org LT Presentation.pdf
+2017-07-18T19:45:49.120838+00:00 app[web.1]:                                                             [filesize] => 423232
+2017-07-18T19:45:49.120903+00:00 app[web.1]:                                                             [md5_checksum] => 28f0641129610543aaee762c05d8b5cc
+2017-07-18T19:45:49.120965+00:00 app[web.1]:                                                             [timestamp] => 1500326037
+2017-07-18T19:45:49.121020+00:00 app[web.1]:                                                             [filemime] => application/pdf
+2017-07-18T19:45:49.121313+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Gramelspacher_J-S1_ALP-Org_LT_Presentation_596d2894ae984.pdf
+2017-07-18T19:45:49.121315+00:00 app[web.1]:                                                             [extension] => pdf
+2017-07-18T19:45:49.121358+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.121437+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.121552+00:00 app[web.1]:                                                             [converted_filename] => Gramelspacher_J-S1 ALP-Org LT Presentation.pdf
+2017-07-18T19:45:49.121865+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443979614/conversion/file.pdf
+2017-07-18T19:45:49.121866+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.121867+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.121940+00:00 app[web.1]:                                                             [converted_filesize] => 423232
+2017-07-18T19:45:49.122030+00:00 app[web.1]:                                                             [converted_md5_checksum] => 28f0641129610543aaee762c05d8b5cc
+2017-07-18T19:45:49.122099+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.122100+00:00 app[web.1]: 
+2017-07-18T19:45:49.122198+00:00 app[web.1]:                                                 )
+2017-07-18T19:45:49.122199+00:00 app[web.1]: 
+2017-07-18T19:45:49.122200+00:00 app[web.1]:                                         )
+2017-07-18T19:45:49.122200+00:00 app[web.1]: 
+2017-07-18T19:45:49.122234+00:00 app[web.1]:                                 )
+2017-07-18T19:45:49.122235+00:00 app[web.1]: 
+2017-07-18T19:45:49.122259+00:00 app[web.1]:                         )
+2017-07-18T19:45:49.122259+00:00 app[web.1]: 
+2017-07-18T19:45:49.122287+00:00 app[web.1]:                     [19] => stdClass Object
+2017-07-18T19:45:49.122304+00:00 app[web.1]:                         (
+2017-07-18T19:45:49.122332+00:00 app[web.1]:                             [revision_id] => 1
+2017-07-18T19:45:49.122362+00:00 app[web.1]:                             [uid] => 50618252
+2017-07-18T19:45:49.122405+00:00 app[web.1]:                             [created] => 1500339239
+2017-07-18T19:45:49.122454+00:00 app[web.1]:                             [num_items] => 2
+2017-07-18T19:45:49.122493+00:00 app[web.1]:                             [late] => 1
+2017-07-18T19:45:49.122531+00:00 app[web.1]:                             [draft] => 0
+2017-07-18T19:45:49.122584+00:00 app[web.1]:                             [attachments] => stdClass Object
+2017-07-18T19:45:49.122617+00:00 app[web.1]:                                 (
+2017-07-18T19:45:49.122673+00:00 app[web.1]:                                     [files] => stdClass Object
+2017-07-18T19:45:49.122710+00:00 app[web.1]:                                         (
+2017-07-18T19:45:49.122761+00:00 app[web.1]:                                             [file] => Array
+2017-07-18T19:45:49.122804+00:00 app[web.1]:                                                 (
+2017-07-18T19:45:49.122867+00:00 app[web.1]:                                                     [0] => stdClass Object
+2017-07-18T19:45:49.122917+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.122983+00:00 app[web.1]:                                                             [id] => 443993234
+2017-07-18T19:45:49.123054+00:00 app[web.1]:                                                             [fid] => 2459356438
+2017-07-18T19:45:49.123207+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.123209+00:00 app[web.1]:                                                             [title] => Godt_K-S1-ALP-Data Profile.docx
+2017-07-18T19:45:49.123284+00:00 app[web.1]:                                                             [filename] => Godt_K-S1-ALP-Data Profile.docx
+2017-07-18T19:45:49.123353+00:00 app[web.1]:                                                             [filesize] => 59209
+2017-07-18T19:45:49.123444+00:00 app[web.1]:                                                             [md5_checksum] => b309af1e9c7b58293aca16a142e59a39
+2017-07-18T19:45:49.123511+00:00 app[web.1]:                                                             [timestamp] => 1500339117
+2017-07-18T19:45:49.123627+00:00 app[web.1]:                                                             [filemime] => application/vnd.openxmlformats-officedocument.wordprocessingml.document
+2017-07-18T19:45:49.123798+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Godt_K-S1-ALP-Data_Profile_596d5bacf2162.docx
+2017-07-18T19:45:49.123860+00:00 app[web.1]:                                                             [extension] => docx
+2017-07-18T19:45:49.123925+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.124023+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.124097+00:00 app[web.1]:                                                             [converted_filename] => Godt_K-S1-ALP-Data Profile.pdf
+2017-07-18T19:45:49.124214+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443993234/conversion/file.pdf
+2017-07-18T19:45:49.124279+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.124354+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.124419+00:00 app[web.1]:                                                             [converted_filesize] => 85082
+2017-07-18T19:45:49.124511+00:00 app[web.1]:                                                             [converted_md5_checksum] => b39f69a3fc8fa8f6998abef615447213
+2017-07-18T19:45:49.124559+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.124560+00:00 app[web.1]: 
+2017-07-18T19:45:49.124636+00:00 app[web.1]:                                                     [1] => stdClass Object
+2017-07-18T19:45:49.124701+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.124764+00:00 app[web.1]:                                                             [id] => 443993236
+2017-07-18T19:45:49.124826+00:00 app[web.1]:                                                             [fid] => 2459356756
+2017-07-18T19:45:49.124881+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.124963+00:00 app[web.1]:                                                             [title] => Godt_K-S1-ALP-Org LT Presentation.pptx
+2017-07-18T19:45:49.125047+00:00 app[web.1]:                                                             [filename] => Godt_K-S1-ALP-Org LT Presentation.pptx
+2017-07-18T19:45:49.125111+00:00 app[web.1]:                                                             [filesize] => 5326465
+2017-07-18T19:45:49.125205+00:00 app[web.1]:                                                             [md5_checksum] => cdeee7814513003c9913ee82044c8f32
+2017-07-18T19:45:49.125278+00:00 app[web.1]:                                                             [timestamp] => 1500339219
+2017-07-18T19:45:49.125391+00:00 app[web.1]:                                                             [filemime] => application/vnd.openxmlformats-officedocument.presentationml.presentation
+2017-07-18T19:45:49.125554+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Godt_K-S1-ALP-Org_LT_Presentation_596d5c12891df.pptx
+2017-07-18T19:45:49.125618+00:00 app[web.1]:                                                             [extension] => pptx
+2017-07-18T19:45:49.125689+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.125763+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.125868+00:00 app[web.1]:                                                             [converted_filename] => Godt_K-S1-ALP-Org LT Presentation.pdf
+2017-07-18T19:45:49.125999+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443993236/conversion/file.pdf
+2017-07-18T19:45:49.126073+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.126150+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.126225+00:00 app[web.1]:                                                             [converted_filesize] => 623013
+2017-07-18T19:45:49.126320+00:00 app[web.1]:                                                             [converted_md5_checksum] => 1429610ebb5f9a1d22a9c0567f6e3bf9
+2017-07-18T19:45:49.126369+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.126415+00:00 app[web.1]: 
+2017-07-18T19:45:49.126481+00:00 app[web.1]:                                                 )
+2017-07-18T19:45:49.126483+00:00 app[web.1]: 
+2017-07-18T19:45:49.126503+00:00 app[web.1]:                                         )
+2017-07-18T19:45:49.126504+00:00 app[web.1]: 
+2017-07-18T19:45:49.126541+00:00 app[web.1]:                                 )
+2017-07-18T19:45:49.126542+00:00 app[web.1]: 
+2017-07-18T19:45:49.126573+00:00 app[web.1]:                         )
+2017-07-18T19:45:49.126575+00:00 app[web.1]: 
+2017-07-18T19:45:49.126656+00:00 app[web.1]:                     [20] => stdClass Object
+2017-07-18T19:45:49.126659+00:00 app[web.1]:                         (
+2017-07-18T19:45:49.126708+00:00 app[web.1]:                             [revision_id] => 1
+2017-07-18T19:45:49.126758+00:00 app[web.1]:                             [uid] => 50618256
+2017-07-18T19:45:49.126831+00:00 app[web.1]:                             [created] => 1500322063
+2017-07-18T19:45:49.126870+00:00 app[web.1]:                             [num_items] => 3
+2017-07-18T19:45:49.126911+00:00 app[web.1]:                             [late] => 0
+2017-07-18T19:45:49.126951+00:00 app[web.1]:                             [draft] => 0
+2017-07-18T19:45:49.127004+00:00 app[web.1]:                             [attachments] => stdClass Object
+2017-07-18T19:45:49.127040+00:00 app[web.1]:                                 (
+2017-07-18T19:45:49.127091+00:00 app[web.1]:                                     [files] => stdClass Object
+2017-07-18T19:45:49.127133+00:00 app[web.1]:                                         (
+2017-07-18T19:45:49.127183+00:00 app[web.1]:                                             [file] => Array
+2017-07-18T19:45:49.127238+00:00 app[web.1]:                                                 (
+2017-07-18T19:45:49.127309+00:00 app[web.1]:                                                     [0] => stdClass Object
+2017-07-18T19:45:49.127369+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.127442+00:00 app[web.1]:                                                             [id] => 443975652
+2017-07-18T19:45:49.127516+00:00 app[web.1]:                                                             [fid] => 2459274632
+2017-07-18T19:45:49.127588+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.127691+00:00 app[web.1]:                                                             [title] => Zaunbrecher_D-S1 ALP-Data Profile.pdf
+2017-07-18T19:45:49.127790+00:00 app[web.1]:                                                             [filename] => Zaunbrecher_D-S1 ALP-Data Profile.pdf
+2017-07-18T19:45:49.127879+00:00 app[web.1]:                                                             [filesize] => 139290
+2017-07-18T19:45:49.128017+00:00 app[web.1]:                                                             [md5_checksum] => a25ac71cd6c6a2d0ac9cdce2e071c79a
+2017-07-18T19:45:49.128120+00:00 app[web.1]:                                                             [timestamp] => 1500322042
+2017-07-18T19:45:49.128227+00:00 app[web.1]:                                                             [filemime] => application/pdf
+2017-07-18T19:45:49.128421+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Zaunbrecher_D-S1_ALP-Data_Profile_596d18fa19df2.pdf
+2017-07-18T19:45:49.128508+00:00 app[web.1]:                                                             [extension] => pdf
+2017-07-18T19:45:49.128751+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.128851+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.128974+00:00 app[web.1]:                                                             [converted_filename] => Zaunbrecher_D-S1 ALP-Data Profile.pdf
+2017-07-18T19:45:49.129111+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443975652/conversion/file.pdf
+2017-07-18T19:45:49.129199+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.129289+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.129373+00:00 app[web.1]:                                                             [converted_filesize] => 139290
+2017-07-18T19:45:49.129494+00:00 app[web.1]:                                                             [converted_md5_checksum] => a25ac71cd6c6a2d0ac9cdce2e071c79a
+2017-07-18T19:45:49.129552+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.129569+00:00 app[web.1]: 
+2017-07-18T19:45:49.129649+00:00 app[web.1]:                                                     [1] => stdClass Object
+2017-07-18T19:45:49.129710+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.129798+00:00 app[web.1]:                                                             [id] => 443975656
+2017-07-18T19:45:49.129891+00:00 app[web.1]:                                                             [fid] => 2459274642
+2017-07-18T19:45:49.129978+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.130094+00:00 app[web.1]:                                                             [title] => Zaunbrecher_D-S1 ALP-Org LT Notes.pdf
+2017-07-18T19:45:49.130234+00:00 app[web.1]:                                                             [filename] => Zaunbrecher_D-S1 ALP-Org LT Notes.pdf
+2017-07-18T19:45:49.130336+00:00 app[web.1]:                                                             [filesize] => 320508
+2017-07-18T19:45:49.130470+00:00 app[web.1]:                                                             [md5_checksum] => 35be0441666931274ffa246e889eb331
+2017-07-18T19:45:49.130574+00:00 app[web.1]:                                                             [timestamp] => 1500322043
+2017-07-18T19:45:49.130663+00:00 app[web.1]:                                                             [filemime] => application/pdf
+2017-07-18T19:45:49.130878+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Zaunbrecher_D-S1_ALP-Org_LT_Notes_596d18fb6ebd5.pdf
+2017-07-18T19:45:49.130969+00:00 app[web.1]:                                                             [extension] => pdf
+2017-07-18T19:45:49.131059+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.131130+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.131233+00:00 app[web.1]:                                                             [converted_filename] => Zaunbrecher_D-S1 ALP-Org LT Notes.pdf
+2017-07-18T19:45:49.131366+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443975656/conversion/file.pdf
+2017-07-18T19:45:49.131447+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.131537+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.131617+00:00 app[web.1]:                                                             [converted_filesize] => 320508
+2017-07-18T19:45:49.131717+00:00 app[web.1]:                                                             [converted_md5_checksum] => 35be0441666931274ffa246e889eb331
+2017-07-18T19:45:49.131775+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.131790+00:00 app[web.1]: 
+2017-07-18T19:45:49.131870+00:00 app[web.1]:                                                     [2] => stdClass Object
+2017-07-18T19:45:49.131928+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.132023+00:00 app[web.1]:                                                             [id] => 443975654
+2017-07-18T19:45:49.132101+00:00 app[web.1]:                                                             [fid] => 2459274634
+2017-07-18T19:45:49.132183+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.132285+00:00 app[web.1]:                                                             [title] => Zaunbrecher_D-S1 ALP-Org LT Presentation.pdf
+2017-07-18T19:45:49.132389+00:00 app[web.1]:                                                             [filename] => Zaunbrecher_D-S1 ALP-Org LT Presentation.pdf
+2017-07-18T19:45:49.132456+00:00 app[web.1]:                                                             [filesize] => 320508
+2017-07-18T19:45:49.132548+00:00 app[web.1]:                                                             [md5_checksum] => a50f30162db0a7f1fbdc06027f210f1c
+2017-07-18T19:45:49.132622+00:00 app[web.1]:                                                             [timestamp] => 1500322042
+2017-07-18T19:45:49.132704+00:00 app[web.1]:                                                             [filemime] => application/pdf
+2017-07-18T19:45:49.132884+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Zaunbrecher_D-S1_ALP-Org_LT_Presentation_596d18fad08ed.pdf
+2017-07-18T19:45:49.132973+00:00 app[web.1]:                                                             [extension] => pdf
+2017-07-18T19:45:49.133050+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.133132+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.133245+00:00 app[web.1]:                                                             [converted_filename] => Zaunbrecher_D-S1 ALP-Org LT Presentation.pdf
+2017-07-18T19:45:49.133389+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443975654/conversion/file.pdf
+2017-07-18T19:45:49.133485+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.133569+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.133650+00:00 app[web.1]:                                                             [converted_filesize] => 320508
+2017-07-18T19:45:49.133753+00:00 app[web.1]:                                                             [converted_md5_checksum] => a50f30162db0a7f1fbdc06027f210f1c
+2017-07-18T19:45:49.133815+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.133831+00:00 app[web.1]: 
+2017-07-18T19:45:49.133885+00:00 app[web.1]:                                                 )
+2017-07-18T19:45:49.133901+00:00 app[web.1]: 
+2017-07-18T19:45:49.133951+00:00 app[web.1]:                                         )
+2017-07-18T19:45:49.133971+00:00 app[web.1]: 
+2017-07-18T19:45:49.134014+00:00 app[web.1]:                                 )
+2017-07-18T19:45:49.134029+00:00 app[web.1]: 
+2017-07-18T19:45:49.134061+00:00 app[web.1]:                         )
+2017-07-18T19:45:49.134074+00:00 app[web.1]: 
+2017-07-18T19:45:49.134119+00:00 app[web.1]:                     [21] => stdClass Object
+2017-07-18T19:45:49.134164+00:00 app[web.1]:                         (
+2017-07-18T19:45:49.134215+00:00 app[web.1]:                             [revision_id] => 1
+2017-07-18T19:45:49.134273+00:00 app[web.1]:                             [uid] => 53127054
+2017-07-18T19:45:49.134336+00:00 app[web.1]:                             [created] => 1500316519
+2017-07-18T19:45:49.134392+00:00 app[web.1]:                             [num_items] => 3
+2017-07-18T19:45:49.134441+00:00 app[web.1]:                             [late] => 0
+2017-07-18T19:45:49.134483+00:00 app[web.1]:                             [draft] => 0
+2017-07-18T19:45:49.134540+00:00 app[web.1]:                             [attachments] => stdClass Object
+2017-07-18T19:45:49.134577+00:00 app[web.1]:                                 (
+2017-07-18T19:45:49.134646+00:00 app[web.1]:                                     [files] => stdClass Object
+2017-07-18T19:45:49.134700+00:00 app[web.1]:                                         (
+2017-07-18T19:45:49.134766+00:00 app[web.1]:                                             [file] => 
+2017-07-18T19:45:49.134815+00:00 app[web.1]:                                         )
+2017-07-18T19:45:49.134877+00:00 app[web.1]:                                 )
+2017-07-18T19:45:49.134833+00:00 app[web.1]: 
+2017-07-18T19:45:49.134894+00:00 app[web.1]: 
+2017-07-18T19:45:49.134935+00:00 app[web.1]:                         )
+2017-07-18T19:45:49.134953+00:00 app[web.1]: 
+2017-07-18T19:45:49.135010+00:00 app[web.1]:                     [22] => stdClass Object
+2017-07-18T19:45:49.135043+00:00 app[web.1]:                         (
+2017-07-18T19:45:49.135091+00:00 app[web.1]:                             [revision_id] => 1
+2017-07-18T19:45:49.135139+00:00 app[web.1]:                             [uid] => 53127270
+2017-07-18T19:45:49.135192+00:00 app[web.1]:                             [created] => 1500309800
+2017-07-18T19:45:49.135241+00:00 app[web.1]:                             [num_items] => 3
+2017-07-18T19:45:49.135285+00:00 app[web.1]:                             [late] => 0
+2017-07-18T19:45:49.135332+00:00 app[web.1]:                             [draft] => 0
+2017-07-18T19:45:49.135405+00:00 app[web.1]:                             [attachments] => stdClass Object
+2017-07-18T19:45:49.135448+00:00 app[web.1]:                                 (
+2017-07-18T19:45:49.135511+00:00 app[web.1]:                                     [files] => stdClass Object
+2017-07-18T19:45:49.135567+00:00 app[web.1]:                                         (
+2017-07-18T19:45:49.135635+00:00 app[web.1]:                                             [file] => Array
+2017-07-18T19:45:49.135689+00:00 app[web.1]:                                                 (
+2017-07-18T19:45:49.135762+00:00 app[web.1]:                                                     [0] => stdClass Object
+2017-07-18T19:45:49.135824+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.135898+00:00 app[web.1]:                                                             [id] => 443961250
+2017-07-18T19:45:49.186372+00:00 app[web.1]:                                         )
+2017-07-18T19:45:49.186387+00:00 app[web.1]:                                 )
+2017-07-18T19:45:49.186386+00:00 app[web.1]: 
+2017-07-18T19:45:49.186388+00:00 app[web.1]: 
+2017-07-18T19:45:49.189910+00:00 app[web.1]:                         )
+2017-07-18T19:45:49.189917+00:00 app[web.1]: 
+2017-07-18T19:45:49.189918+00:00 app[web.1]:                     [28] => stdClass Object
+2017-07-18T19:45:49.189919+00:00 app[web.1]:                         (
+2017-07-18T19:45:49.189920+00:00 app[web.1]:                             [revision_id] => 1
+2017-07-18T19:45:49.189921+00:00 app[web.1]:                             [uid] => 50618250
+2017-07-18T19:45:49.189922+00:00 app[web.1]:                             [created] => 1500318772
+2017-07-18T19:45:49.189923+00:00 app[web.1]:                             [num_items] => 3
+2017-07-18T19:45:49.189924+00:00 app[web.1]:                             [late] => 0
+2017-07-18T19:45:49.189936+00:00 app[web.1]:                             [draft] => 0
+2017-07-18T19:45:49.189937+00:00 app[web.1]:                             [attachments] => stdClass Object
+2017-07-18T19:45:49.189938+00:00 app[web.1]:                                 (
+2017-07-18T19:45:49.189939+00:00 app[web.1]:                                     [files] => stdClass Object
+2017-07-18T19:45:49.189940+00:00 app[web.1]:                                         (
+2017-07-18T19:45:49.189941+00:00 app[web.1]:                                             [file] => Array
+2017-07-18T19:45:49.189941+00:00 app[web.1]:                                                 (
+2017-07-18T19:45:49.189945+00:00 app[web.1]:                                                     [0] => stdClass Object
+2017-07-18T19:45:49.189946+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.189947+00:00 app[web.1]:                                                             [id] => 443972454
+2017-07-18T19:45:49.189947+00:00 app[web.1]:                                                             [fid] => 2459246310
+2017-07-18T19:45:49.189948+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.189950+00:00 app[web.1]:                                                             [title] => Butler_L-S1-ALP-Org LT Presentation-Notes.pdf
+2017-07-18T19:45:49.189951+00:00 app[web.1]:                                                             [filename] => Butler_L-S1-ALP-Org LT Presentation-Notes.pdf
+2017-07-18T19:45:49.189952+00:00 app[web.1]:                                                             [filesize] => 1801628
+2017-07-18T19:45:49.189958+00:00 app[web.1]:                                                             [md5_checksum] => 620b0d12d2f8e8d0df6ed2afcced3513
+2017-07-18T19:45:49.189960+00:00 app[web.1]:                                                             [filemime] => application/pdf
+2017-07-18T19:45:49.189959+00:00 app[web.1]:                                                             [timestamp] => 1500318734
+2017-07-18T19:45:49.189964+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Butler_L-S1-ALP-Org_LT_Presentation-Notes_596d0c0e0f4e3.pdf
+2017-07-18T19:45:49.189965+00:00 app[web.1]:                                                             [extension] => pdf
+2017-07-18T19:45:49.189966+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.189967+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.190016+00:00 app[web.1]:                                                             [converted_filename] => Butler_L-S1-ALP-Org LT Presentation-Notes.pdf
+2017-07-18T19:45:49.190150+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443972454/conversion/file.pdf
+2017-07-18T19:45:49.190219+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.190314+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.190587+00:00 app[web.1]:                                                             [converted_filesize] => 1801628
+2017-07-18T19:45:49.190589+00:00 app[web.1]:                                                             [converted_md5_checksum] => 620b0d12d2f8e8d0df6ed2afcced3513
+2017-07-18T19:45:49.190590+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.190591+00:00 app[web.1]: 
+2017-07-18T19:45:49.190648+00:00 app[web.1]:                                                     [1] => stdClass Object
+2017-07-18T19:45:49.190702+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.190777+00:00 app[web.1]:                                                             [id] => 443972452
+2017-07-18T19:45:49.190924+00:00 app[web.1]:                                                             [fid] => 2459246116
+2017-07-18T19:45:49.190926+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.191034+00:00 app[web.1]:                                                             [title] => Butler_L-S1-ALP-Org LT Presentation.pdf
+2017-07-18T19:45:49.191137+00:00 app[web.1]:                                                             [filename] => Butler_L-S1-ALP-Org LT Presentation.pdf
+2017-07-18T19:45:49.191287+00:00 app[web.1]:                                                             [filesize] => 1654197
+2017-07-18T19:45:49.191326+00:00 app[web.1]:                                                             [md5_checksum] => 8ac11be2e57964e31bce456d00a980d8
+2017-07-18T19:45:49.191439+00:00 app[web.1]:                                                             [timestamp] => 1500318731
+2017-07-18T19:45:49.191492+00:00 app[web.1]:                                                             [filemime] => application/pdf
+2017-07-18T19:45:49.191683+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Butler_L-S1-ALP-Org_LT_Presentation_596d0c0ba477e.pdf
+2017-07-18T19:45:49.191755+00:00 app[web.1]:                                                             [extension] => pdf
+2017-07-18T19:45:49.191859+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.191922+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.200034+00:00 app[web.1]:                                                             [converted_filename] => Butler_L-S1-ALP-Org LT Presentation.pdf
+2017-07-18T19:45:49.200044+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443972452/conversion/file.pdf
+2017-07-18T19:45:49.200045+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.200046+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.200046+00:00 app[web.1]:                                                             [converted_filesize] => 1654197
+2017-07-18T19:45:49.200047+00:00 app[web.1]:                                                             [converted_md5_checksum] => 8ac11be2e57964e31bce456d00a980d8
+2017-07-18T19:45:49.200048+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.200049+00:00 app[web.1]: 
+2017-07-18T19:45:49.200051+00:00 app[web.1]:                                                     [2] => stdClass Object
+2017-07-18T19:45:49.200051+00:00 app[web.1]:                                                         (
+2017-07-18T19:45:49.200052+00:00 app[web.1]:                                                             [id] => 443972450
+2017-07-18T19:45:49.200053+00:00 app[web.1]:                                                             [fid] => 2459245588
+2017-07-18T19:45:49.200053+00:00 app[web.1]:                                                             [type] => file
+2017-07-18T19:45:49.200055+00:00 app[web.1]:                                                             [title] => Butler_L_Gray_D_Martin_A_Willey_M-S1 ALP-Data Profile.pdf
+2017-07-18T19:45:49.200055+00:00 app[web.1]:                                                             [filename] => Butler_L_Gray_D_Martin_A_Willey_M-S1 ALP-Data Profile.pdf
+2017-07-18T19:45:49.200056+00:00 app[web.1]:                                                             [filesize] => 155266
+2017-07-18T19:45:49.200057+00:00 app[web.1]:                                                             [md5_checksum] => 3d4ad7c26093888de4e59e5ff0d37963
+2017-07-18T19:45:49.200057+00:00 app[web.1]:                                                             [timestamp] => 1500318728
+2017-07-18T19:45:49.200058+00:00 app[web.1]:                                                             [filemime] => application/pdf
+2017-07-18T19:45:49.200059+00:00 app[web.1]:                                                             [download_path] => http://api.schoology.com/v1/system/files/drop_items/m/201707/course/1104817298/Butler_L_Gray_D_Martin_A_Willey_M-S1_ALP-Data_Profile_596d0c0842d23.pdf
+2017-07-18T19:45:49.200060+00:00 app[web.1]:                                                             [extension] => pdf
+2017-07-18T19:45:49.200060+00:00 app[web.1]:                                                             [converted_status] => 1
+2017-07-18T19:45:49.200061+00:00 app[web.1]:                                                             [converted_type] => 4
+2017-07-18T19:45:49.200062+00:00 app[web.1]:                                                             [converted_filename] => Butler_L_Gray_D_Martin_A_Willey_M-S1 ALP-Data Profile.pdf
+2017-07-18T19:45:49.200063+00:00 app[web.1]:                                                             [converted_download_path] => http://api.schoology.com/v1/submission/443972450/conversion/file.pdf
+2017-07-18T19:45:49.200063+00:00 app[web.1]:                                                             [converted_extension] => pdf
+2017-07-18T19:45:49.200064+00:00 app[web.1]:                                                             [converted_filemime] => application/pdf
+2017-07-18T19:45:49.200064+00:00 app[web.1]:                                                             [converted_filesize] => 155266
+2017-07-18T19:45:49.200065+00:00 app[web.1]:                                                             [converted_md5_checksum] => 3d4ad7c26093888de4e59e5ff0d37963
+2017-07-18T19:45:49.200066+00:00 app[web.1]:                                                         )
+2017-07-18T19:45:49.200066+00:00 app[web.1]: 
+2017-07-18T19:45:49.200067+00:00 app[web.1]:                                                 )
+2017-07-18T19:45:49.200067+00:00 app[web.1]: 
+2017-07-18T19:45:49.200068+00:00 app[web.1]:                                         )
+2017-07-18T19:45:49.200069+00:00 app[web.1]: 
+2017-07-18T19:45:49.200069+00:00 app[web.1]:                                 )
+2017-07-18T19:45:49.200070+00:00 app[web.1]: 
+2017-07-18T19:45:49.200071+00:00 app[web.1]:                         )
+2017-07-18T19:45:49.200071+00:00 app[web.1]: 
+2017-07-18T19:45:49.200072+00:00 app[web.1]:                 )
+2017-07-18T19:45:49.200072+00:00 app[web.1]: 
+2017-07-18T19:45:49.200073+00:00 app[web.1]:             [total] => 29
+2017-07-18T19:45:49.200073+00:00 app[web.1]:             [links] => stdClass Object
+2017-07-18T19:45:49.200074+00:00 app[web.1]:                 (
+2017-07-18T19:45:49.200075+00:00 app[web.1]:                     [self] => http://api.schoology.com/v1/sections/1104817298/submissions/1109978502?with_attachments=1&start=0&limit=30
+2017-07-18T19:45:49.200075+00:00 app[web.1]:                 )
+2017-07-18T19:45:49.200076+00:00 app[web.1]: 
+2017-07-18T19:45:49.200076+00:00 app[web.1]:         )
+2017-07-18T19:45:49.200077+00:00 app[web.1]: 
+2017-07-18T19:45:49.200077+00:00 app[web.1]: )
+2017-07-18T19:45:49.200078+00:00 app[web.1]: 
+2017-07-18T19:45:49.384654+00:00 app[web.1]: [18-Jul-2017 19:45:49 UTC] Successful Query Call 
+2017-07-18T19:45:49.384705+00:00 app[web.1]: [18-Jul-2017 19:45:49 UTC] The Salesforce Assignment ID is: a028000000TR1qSAAT
+2017-07-18T19:45:49.389857+00:00 app[web.1]: [18-Jul-2017 19:45:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function __setSoapHeaders() on null in /app/salesforce/soapclient/SforceBaseClient.php:220
+2017-07-18T19:45:49.389931+00:00 app[web.1]: #0 /app/salesforce/soapclient/SforceBaseClient.php(498): SforceBaseClient->setHeaders('create')
+2017-07-18T19:45:49.389868+00:00 app[web.1]: Stack trace:
+2017-07-18T19:45:49.390016+00:00 app[web.1]: #1 /app/salesforce/soapclient/SforceEnterpriseClient.php(73): SforceBaseClient->_create(Object(SoapParam))
+2017-07-18T19:45:49.390092+00:00 app[web.1]: #2 /app/web/Schoology_OAuth.php(743): SforceEnterpriseClient->create(Array, 'Attachment')
+2017-07-18T19:45:49.390178+00:00 app[web.1]: #3 /app/web/index.php(11): SchoologyContainer->sessionOneGrabAssignment('1104817298', '1109978502')
+2017-07-18T19:45:49.390181+00:00 app[web.1]: #4 {main}
+2017-07-18T19:45:49.390252+00:00 app[web.1]:   thrown in /app/salesforce/soapclient/SforceBaseClient.php on line 220
+2017-07-18T19:45:49.390436+00:00 app[web.1]: 10.164.78.133 - - [18/Jul/2017:19:45:47 +0000] "GET / HTTP/1.1" 500 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+2017-07-18T19:45:49.388336+00:00 heroku[router]: at=info method=GET path="/" host=tbc-schoology-prod.herokuapp.com request_id=410c2007-3460-46f0-85d4-a878b07c573f fwd="38.93.38.58" dyno=web.1 connect=1ms service=2254ms status=500 bytes=169 protocol=https
