@@ -11,7 +11,7 @@ ini_set('max_execution_time', '1920');
 $SchoologyApi = new SchoologyContainer();
 $SchoologyApi->schoologyOAuth();
 
-$SchoologyApi->sessionOneGrabAssignment($section = '1104817298', $assignment = '1109984462');
+//$SchoologyApi->sessionOneGrabAssignment($section = '1104817298', $assignment = '1109984462');
 
 $object_result = json_decode(file_get_contents("php://input"));	
 error_log(print_r($object_result,true));

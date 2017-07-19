@@ -30,7 +30,7 @@ module.exports = function () {
                 // hitting Heroku PHP endpoint with our data payload
                 var https = require("https");
                 var options = {
-                    hostname: 'tbc-schoology.herokuapp.com',
+                    hostname: 'tbc-schoology-prod.herokuapp.com',
                     port: 443,
                     path: '/',
                     method: 'POST',
