@@ -770,74 +770,47 @@
 		 * @return
 		 */ 
 		public function gradeAssignment($thisAss) {
+			
 			if(!$thisAss) {
 				error_log('Error! Invalid data for grading assignment');
 				error_log(print_r($thisAss,true));
 				throw new Exception('Invalid Grading data');
 			}
 
-			// Course Section ID for TBR 2017-2019
-			// Need to update this to query from DB instead
+			//A new Course/Course Section will be added anually, Use Course Section URL to extract the ID and enter it into Salesforce
 			$schoologyCourseSectionID = '1104817298';
 
-			//RSET Call for Enrollement ID
-			try {
-				$api_enrollment_result = $this->schoology->api('sections/'.$schoologyCourseSectionID.'/enrollments', 'GET');
-			//	error_log(print_r($api_enrollment_result,true));
-			} catch(Exception $e) {
-				error_log('Exception when making API call');
-				error_log($e->getMessage());
-			}
-			$enrollementID = $api_enrollment_result->result->enrollment[1]->id;
-			//error_log(print_r($enrollementID,true));
-			
-			//This rest call will give a list of all the users enrolled to a specified Course Section in the form of an array.
-			//In initilization functions use UID to match to the salesforce record's schoology_user_id__c and place appropiate enrollement ID's 	
-
 			//Ideal Schology Grade Object members and coressponding salesforce object fields Once filed in
-			/*  //Use this Method once all of the fields are included into the Assignment Records	
+		   //Use this Method once all of the fields are included into the Assignment Records	
 			$gradeOptions = array(
 				"grades"=>array(
 					"grade"=>array(	
 							"type"=>"assignment",
 							"enrollment_id" =>$thisAss->data->schoology_enrollment_id__c,	
 							"assignment_id" =>$thisAss->data->schoology_assignment_id__c,
-							"grade" => $thisAss->data->score_formula__c,
-							"comment" => $commentString,
-							"comment_status"=>"1"
-					)
-				)
-			);
-			*/	 
-
-			$gradeOptions = array(
-				"grades"=>array(
-					"grade"=>array(	
-							"type"=>"assignment",
-							"enrollment_id" =>$enrollementID,	
-							"assignment_id" =>$thisAss->data->schoology_assignment_id__c,
 							"grade" => ($thisAss->data->Grade_Type__c == 'Graded' ? $thisAss->data->score_formula__c : $thisAss->data->Completed__c),
-							"comment" => $thisAss->data->Grader_Comments__c,
+							//"comment" => $commentString,
 							"comment_status"=>"1"
 					)
 				)
 			);
 
 			//were the correct values obtained?
-			//	error_log($gradeOptions["grades"]["grade"]["enrollment_id"]);
-			//	error_log($gradeOptions["grades"]["grade"]["assignment_id"]);
-			//	error_log($gradeOptions["grades"]["grade"]["grade"]);
+				error_log($gradeOptions["grades"]["grade"]["enrollment_id"]);
+				error_log($gradeOptions["grades"]["grade"]["assignment_id"]);
+				error_log($gradeOptions["grades"]["grade"]["grade"]);
 
 			
 			//Insert grade into schoology Grade object 
 			try {
 				$api_result = $this->schoology->api('/sections/'.$schoologyCourseSectionID.'/grades', 'PUT', $gradeOptions);
-			//		error_log(print_r($api_result,true));
+				//error_log(print_r($api_result,true));
 			} catch(Exception $e) {
 				error_log('Exception when making API call');
 				error_log($e->getMessage());
 			}
-				// successful call result
+			
+			// successful call result
 			if($api_result != null && in_array($api_result->http_code, $this->httpSuccessCodes)) {
 				$query = $this->storage->db->prepare("UPDATE salesforce.ram_assignment__c SET synced_to_schoology__c = TRUE, publish__c = FALSE WHERE sfid = :sfid");
 				if($query->execute(array(':sfid' => $thisAss->data->sfid))) {
