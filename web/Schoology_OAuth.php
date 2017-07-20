@@ -91,7 +91,7 @@
 		private $schoology_secret = 'da12e9775938fc21a144e8d39292f10a';
 		private $schoology_key = '1dd53b528230ad488c8545fa1c263dba05568d1e8';
 		private $schoology_uid = '22135108';
-		private $httpSuccessCodes = array(200, 201, 202, 203, 204); //Not all Values Covered
+		private $httpSuccessCodes = array(200, 201, 202, 203, 204, 205, 206, 207); //Not all Values Covered
 		public $schoology;
 		public $storage;
 		public $token;
