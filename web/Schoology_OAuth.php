@@ -805,7 +805,7 @@
 			//Insert grade into schoology Grade object 
 			try {
 				$api_result = $this->schoology->api('/sections/'.$schoologyCourseSectionID.'/grades', 'PUT', $gradeOptions);
-				//error_log(print_r($api_result,true));
+				error_log(print_r($api_result,true));
 			} catch(Exception $e) {
 				error_log('Exception when making API call');
 				error_log($e->getMessage());
