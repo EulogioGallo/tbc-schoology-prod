@@ -577,11 +577,12 @@
 				}
 
 				$records = array();
+				
 				$records[0] = new stdclass();
 				$records[0]->Body = base64_encode($attachmentBody);
 				$records[0]->Name = $attachmentName;
 		        $records[0]->ParentID = $queryRes[sfid];
-		        $records[0]->IsPrivate = 'false';
+		        $records[0]->IsPrivate = 'false';	
 		        $records[0]->ContentType = $subType;
 
 		        error_log("Creating Attachment in Salesforce. . .");
@@ -788,7 +789,7 @@
 							"type"=>"assignment",
 							"enrollment_id" =>$thisAss->data->schoology_enrollment_id__c,	
 							"assignment_id" =>$thisAss->data->schoology_assignment_id__c,
-							"grade" => ($thisAss->data->Grade_Type__c == 'Graded' ? $thisAss->data->score_formula__c : $thisAss->data->Completed__c),
+							"grade" => ($thisAss->data->grade_type__c == 'Graded' ? $thisAss->data->score_formula__c : $thisAss->data->completed__c),
 							//"comment" => $commentString,
 							"comment_status"=>"1"
 					)
