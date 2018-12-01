@@ -614,7 +614,7 @@
 		 * @return
 		 */ 
 
-		public function sessionOneGrabAssignment($schoologySectionID,$schoologyAssignmentID){
+		public function grabAssignmentSubmissions($schoologySectionID,$schoologyAssignmentID){
 			//Setup Salesforce Connection
 			try{
 			$mySforceConnection = new SforceEnterpriseClient();
@@ -635,7 +635,32 @@
 				error_log('Exception when making syncAPI call');
 				error_log($e->getMessage());
 			}
-			
+
+			//Query for the Salesforce Assignment record (sfid) matching the Schoology Assignment ID of the submission
+			$queryID = $this->storage->db->prepare("SELECT sfid, schoology_user_id__c FROM salesforce.ram_assignment__c WHERE (schoology_assignment_id__c = :schoologyAssId)");
+			if($queryID->execute(array(':schoologyAssId' => $schoologyAssignmentID))) {
+				error_log('Successful Query Call ');
+			} else {
+				error_log('Could not perform Query call. Either you are not the correct User or you are submitting to the wrong assignment');
+				throw new Exception('Could not get Assignment Submission');
+			}
+
+			$queryRes = $queryID->fetchAll(PDO::FETCH_ASSOC);
+			if ($queryRes == false) {
+				error_log("Error fetchall assignments");
+			} else {
+				error_log('The Salesforce Assignment ID is: '.$queryRes[sfid]);
+			}
+
+			$schoologyAssignmentMap = array();
+
+			foreach($queryRes as $row) {
+				$schoologyAssignmentMap[$row['schoology_user_id__c']] = $row['sfid'];
+			}
+
+			error_log($schoologyAssignmentMap);
+
+
 			do {
 				$schoologyUserID = current($api_sub_result->result->revision)->uid;				
 				do {
@@ -702,7 +727,7 @@
 						$response_info = $oauth->getLastResponseInfo();			
 						/*
 						// Uncomment this section to view response headers
-						
+
 						$keys = array_keys($response_info);
 						for($i = 0; $i < count($keys); $i++) {
 							error_log($keys[$i]);
@@ -719,36 +744,18 @@
 					$timeStamp = current(current($api_sub_result->result->revision)->attachments->files->file)->timestamp;
 					$subDate = Date('Y-m-d\TH:i:s\Z', $timeStamp);
 
-					//Query for the Salesforce Assignment record (sfid) matching the Schoology Assignment ID of the submission
-					$queryID = $this->storage->db->prepare("SELECT sfid FROM salesforce.ram_assignment__c WHERE (schoology_assignment_id__c = :schoologyAssId) AND (schoology_user_id__c = :schoologyUserId)");
-					if($queryID->execute(array(':schoologyAssId' => $schoologyAssignmentID , ':schoologyUserId' => $schoologyUserID))) {
-						error_log('Successful Query Call ');
-					} else {
-						error_log('Could not perform Query call. Either you are not the correct User or you are submitting to the wrong assignment');
-						throw new Exception('Could not get Assignment Submission');
-					}
 
-					$queryRes = $queryID->fetch(PDO::FETCH_ASSOC);
-					
-					if ($queryRes == false) {
-					error_log("Missing sfid - 732");
-					error_log("Assignment ID: " . $schoologyAssignmentID);
-					error_log("User ID: " . $schoologyUserID);
-					error_log(print_r($queryRes,true));
-					} else {
-					error_log('The Salesforce Assignment ID is: '.$queryRes[sfid]);
-					}
 
 					$records = array();
 					$records[0] = new stdclass();
 					$records[0]->Body = base64_encode($attachmentBody);
 					$records[0]->Name = $attachmentName;
-			        $records[0]->ParentID = $queryRes[sfid];
-			        $records[0]->IsPrivate = 'false';
-			        $records[0]->ContentType = $submissionType;
+				$records[0]->ParentID = $schoologyAssignmentMap[$schoologyUserId];
+				$records[0]->IsPrivate = 'false';
+				$records[0]->ContentType = $submissionType;
 
-			        $upsertResponse = $mySforceConnection->create($records,'Attachment');       	
-			        print_r($upsertResponse,true);
+				$upsertResponse = $mySforceConnection->create($records,'Attachment');       	
+				print_r($upsertResponse,true);
 
 					//Set newest Submission Date and Time in the Assignment record of Salesforce
 					$queryTime = $this->storage->db->prepare("UPDATE salesforce.ram_assignment__c SET submission_date_time__c  = :currTime, publish__c = FALSE, synced_to_schoology__c = TRUE WHERE (schoology_assignment_id__c = :schoologyAssignId) AND (schoology_user_id__c = :schoologyUserId)");
