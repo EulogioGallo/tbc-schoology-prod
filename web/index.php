@@ -11,16 +11,16 @@ ini_set('max_execution_time', '1920');
 $SchoologyApi = new SchoologyContainer();
 $SchoologyApi->schoologyOAuth();
 
-//$SchoologyApi->sessionOneGrabAssignment($section = '1625270119', $assignment = '1897933349');
-
+$SchoologyApi->sessionOneGrabAssignment($section = '1625270119', $assignment = '1897933349');
+/*
 $object_result = json_decode(file_get_contents("php://input"));	
 error_log(print_r($object_result,true));
 error_log(print_r($object_result->action,true));
-
+*/
 
 
 // determine operation type and object
-
+/*
 switch($object_result->action) {
 	case 'INSERT':
 		if($object_result->table == 'ram_cohort__c') {
@@ -53,5 +53,6 @@ switch($object_result->action) {
 		}
 		break;
 }
+*/
 
 ?>
