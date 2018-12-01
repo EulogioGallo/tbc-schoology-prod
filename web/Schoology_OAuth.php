@@ -630,7 +630,7 @@
 			//course_section_id needs to be specified for specific cohorts
 			try {
 				$api_sub_result = $this->schoology->api('/sections/'.$schoologySectionID.'/submissions/'.$schoologyAssignmentID.'?with_attachments=1&start=0&limit=30', 'GET'); 								
-				error_log(print_r($api_sub_result,true));
+				//error_log(print_r($api_sub_result,true));
 			} catch(Exception $e) {
 				error_log('Exception when making syncAPI call');
 				error_log($e->getMessage());
@@ -649,16 +649,17 @@
 			if ($queryRes == false) {
 				error_log("Error fetchall assignments");
 			} else {
-				error_log('The Salesforce Assignment ID is: '.$queryRes[sfid]);
+				//error_log('The Salesforce Assignment ID is: '.$queryRes[sfid]);
 			}
 
 			$schoologyAssignmentMap = array();
 
 			foreach($queryRes as $row) {
+				error_log($row);
 				$schoologyAssignmentMap[$row['schoology_user_id__c']] = $row['sfid'];
 			}
 
-			error_log($schoologyAssignmentMap);
+			error_log(print_r($schoologyAssignmentMap,true));
 
 
 			do {
