@@ -570,7 +570,9 @@
 				$queryRes = $queryID->fetch(PDO::FETCH_ASSOC);
 
 				if ($queryRes == null){
-				error_log("Missing sfid");
+				error_log("Missing sfid - line 573");
+				error_log("Assignment ID: " . $schoologyAssignmentID);
+				error_log("User ID: " . $schoologyUserID);
 				}
 				else{
 				error_log('The Salesforce Assignment ID is: '.$queryRes[sfid]);
@@ -729,7 +731,7 @@
 					$queryRes = $queryID->fetch(PDO::FETCH_ASSOC);
 					
 					if ($queryRes == null) {
-					error_log("Missing sfid");
+					error_log("Missing sfid - 732");
 					error_log("Assignment ID: " . $schoologyAssignmentID);
 					error_log("User ID: " . $schoologyUserID);
 					} else {
