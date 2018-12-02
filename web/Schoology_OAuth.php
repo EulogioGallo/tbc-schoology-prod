@@ -629,7 +629,7 @@
 			//REST Call for list of all Submissions of a specified Assignment
 			//course_section_id needs to be specified for specific cohorts
 			try {
-				$api_sub_result = $this->schoology->api('/sections/'.$schoologySectionID.'/submissions/'.$schoologyAssignmentID.'?with_attachments=1&start=0&limit=30', 'GET'); 								
+				$api_sub_result = $this->schoology->api('/sections/'.$schoologySectionID.'/submissions/'.$schoologyAssignmentID.'?with_attachments=1', 'GET'); 								
 				//error_log(print_r($api_sub_result,true));
 			} catch(Exception $e) {
 				error_log('Exception when making syncAPI call');
@@ -637,7 +637,7 @@
 			}
 
 			//Query for the Salesforce Assignment record (sfid) matching the Schoology Assignment ID of the submission
-			$queryID = $this->storage->db->prepare("SELECT sfid, schoology_user_id__c FROM salesforce.ram_assignment__c WHERE (schoology_assignment_id__c = :schoologyAssId)");
+			$queryID = $this->storage->db->prepare("SELECT sfid, schoology_user_id__c FROM salesforce.ram_assignment__c WHERE (schoology_assignment_id__c = :schoologyAssId) AND (submission_date_time__c IS NULL)");
 			if($queryID->execute(array(':schoologyAssId' => $schoologyAssignmentID))) {
 				error_log('Successful Query Call ');
 			} else {
@@ -655,7 +655,7 @@
 			$schoologyAssignmentMap = array();
 
 			foreach($queryRes as $row) {
-				error_log($row);
+				error_log(print_r($row,true);
 				$schoologyAssignmentMap[$row['schoology_user_id__c']] = $row['sfid'];
 			}
 
