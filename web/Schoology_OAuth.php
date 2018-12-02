@@ -655,7 +655,7 @@
 			$schoologyAssignmentMap = array();
 
 			foreach($queryRes as $row) {
-				error_log(print_r($row,true);
+				error_log(print_r($row,true));
 				$schoologyAssignmentMap[$row['schoology_user_id__c']] = $row['sfid'];
 			}
 
