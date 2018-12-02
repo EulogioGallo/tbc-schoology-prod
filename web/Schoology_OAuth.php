@@ -614,7 +614,7 @@
 		 * @return
 		 */ 
 
-		public function grabAssignmentSubmissions($schoologySectionID,$schoologyAssignmentID){
+		public function grabAssignmentSubmissions($schoologySectionID,$schoologyAssignmentID,$start = 0,$limit = 30){
 			//Setup Salesforce Connection
 			try{
 			$mySforceConnection = new SforceEnterpriseClient();
@@ -629,7 +629,7 @@
 			//REST Call for list of all Submissions of a specified Assignment
 			//course_section_id needs to be specified for specific cohorts
 			try {
-				$api_sub_result = $this->schoology->api('/sections/'.$schoologySectionID.'/submissions/'.$schoologyAssignmentID.'?with_attachments=1&start=0&limit=30', 'GET'); 								
+				$api_sub_result = $this->schoology->api('/sections/'.$schoologySectionID.'/submissions/'.$schoologyAssignmentID.'?with_attachments=1&start='.$start.'&limit='.$limit, 'GET'); 								
 				//error_log(print_r($api_sub_result,true));
 			} catch(Exception $e) {
 				error_log('Exception when making syncAPI call');
