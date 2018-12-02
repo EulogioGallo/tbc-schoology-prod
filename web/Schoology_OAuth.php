@@ -665,106 +665,110 @@
 			do {
 				$schoologyUserID = current($api_sub_result->result->revision)->uid;				
 				do {
-					$downloadPath = current(current($api_sub_result->result->revision)->attachments->files->file)->download_path;
-					$submissionType  = current(current($api_sub_result->result->revision)->attachments->files->file)->filemime;
-					$submissionName  = current(current($api_sub_result->result->revision)->attachments->files->file)->filename;
+					// only do this if we don't have a submission for this user
+					if(array_key_exists($schoologyUserID, $schoologyAssignmentMap)) {
 
-					switch($submissionType){
-						//Word Documents
-						case'application/vnd.openxmlformats-officedocument.wordprocessingml.document':
-						case'application/msword':
-						case'application/vnd.google-apps.document':
-						case'application/vnd.ms-word.document.macroEnabled.12':
-						case'application/vnd.openxmlformats-officedocument.wordprocessingml.document':
-						case'application/vnd.openxmlformats-officedocument.wordprocessingml.template':
-						case'application/vnd.oasis.opendocument.text':
-							$submissionType = 'application/msword';
-							break;
+						$downloadPath = current(current($api_sub_result->result->revision)->attachments->files->file)->download_path;
+						$submissionType  = current(current($api_sub_result->result->revision)->attachments->files->file)->filemime;
+						$submissionName  = current(current($api_sub_result->result->revision)->attachments->files->file)->filename;
 
-						//Powerpoints
-						case 'application/vnd.google-apps.presentation':
-						case'application/vnd.ms-powerpoint':
-						case'application/vnd.ms-powerpoint.presentation.macroEnabled.12':
-						case'application/vnd.oasis.opendocument.presentation':
-						case'application/vnd.openxmlformats-officedocument.presentationml.slideshow':
-						case'application/vnd.openxmlformats-officedocument.presentationml.presentation':
-						case'application/vnd.openxmlformats-officedocument.presentationml.template':
-							$submissionType = 'application/vnd.ms-powerpoint';
-							break;
+						switch($submissionType){
+							//Word Documents
+							case'application/vnd.openxmlformats-officedocument.wordprocessingml.document':
+							case'application/msword':
+							case'application/vnd.google-apps.document':
+							case'application/vnd.ms-word.document.macroEnabled.12':
+							case'application/vnd.openxmlformats-officedocument.wordprocessingml.document':
+							case'application/vnd.openxmlformats-officedocument.wordprocessingml.template':
+							case'application/vnd.oasis.opendocument.text':
+								$submissionType = 'application/msword';
+								break;
 
-						//Excel Sheets
-						case 'application/vnd.google-apps.spreadsheet':
-						case'application/vnd.ms-excel':
-						case'application/vnd.ms-excel.sheet.macroEnabled.12':
-						case'application/vnd.oasis.opendocument.spreadsheet':
-						case'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet':
-						case'application/vnd.openxmlformats-officedocument.spreadsheetml.template':
-							$submissionType = 'application/vnd.ms-excel';
-							break;
+							//Powerpoints
+							case 'application/vnd.google-apps.presentation':
+							case'application/vnd.ms-powerpoint':
+							case'application/vnd.ms-powerpoint.presentation.macroEnabled.12':
+							case'application/vnd.oasis.opendocument.presentation':
+							case'application/vnd.openxmlformats-officedocument.presentationml.slideshow':
+							case'application/vnd.openxmlformats-officedocument.presentationml.presentation':
+							case'application/vnd.openxmlformats-officedocument.presentationml.template':
+								$submissionType = 'application/vnd.ms-powerpoint';
+								break;
 
-						//Images
-						case 'image/jpeg':
-							$submissionType = 'image/jpeg';
-							break;
+							//Excel Sheets
+							case 'application/vnd.google-apps.spreadsheet':
+							case'application/vnd.ms-excel':
+							case'application/vnd.ms-excel.sheet.macroEnabled.12':
+							case'application/vnd.oasis.opendocument.spreadsheet':
+							case'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet':
+							case'application/vnd.openxmlformats-officedocument.spreadsheetml.template':
+								$submissionType = 'application/vnd.ms-excel';
+								break;
 
-						case 'image/png':
-							$submissionType = 'image/png';
-							break;
+							//Images
+							case 'image/jpeg':
+								$submissionType = 'image/jpeg';
+								break;
 
-						default:
-							$submissionType = 'application/pdf';
-							break;
-					}
+							case 'image/png':
+								$submissionType = 'image/png';
+								break;
 
-					$revisionNum = current($api_sub_result->result->revision)->revision_id;
-					$attachmentName = 'v'.$revisionNum.' '.$submissionName;                             
-
-					//Grab submission content (now using Oauth)
-					$attachmentBody = null;
-					try {
-						$oauth = new OAuth($this->getSchoologyKey(),$this->getSchoologySecret());
-						$oauth->setToken($this->token['token_key'],$this->token['token_secret']);
-						$oauth->fetch($downloadPath,null,OAUTH_HTTP_METHOD_GET);
-						$response_info = $oauth->getLastResponseInfo();			
-						/*
-						// Uncomment this section to view response headers
-
-						$keys = array_keys($response_info);
-						for($i = 0; $i < count($keys); $i++) {
-							error_log($keys[$i]);
-							error_log(print_r($response_info[$keys[$i]],true));
+							default:
+								$submissionType = 'application/pdf';
+								break;
 						}
-						*/					
-						$attachmentBody = $oauth->getLastResponse();										
-					} catch(OAuthException $E) {
-						error_log("Exception caught while downloading assignment attachment!\n");
-						error_log("Response: ". $E->getMessage() . "\n");
-						error_log($E->debugInfo . "\n");
-					}
 
-					$timeStamp = current(current($api_sub_result->result->revision)->attachments->files->file)->timestamp;
-					$subDate = Date('Y-m-d\TH:i:s\Z', $timeStamp);
+						$revisionNum = current($api_sub_result->result->revision)->revision_id;
+						$attachmentName = 'v'.$revisionNum.' '.$submissionName;                             
+
+						//Grab submission content (now using Oauth)
+						$attachmentBody = null;
+						try {
+							$oauth = new OAuth($this->getSchoologyKey(),$this->getSchoologySecret());
+							$oauth->setToken($this->token['token_key'],$this->token['token_secret']);
+							$oauth->fetch($downloadPath,null,OAUTH_HTTP_METHOD_GET);
+							$response_info = $oauth->getLastResponseInfo();			
+							/*
+							// Uncomment this section to view response headers
+
+							$keys = array_keys($response_info);
+							for($i = 0; $i < count($keys); $i++) {
+								error_log($keys[$i]);
+								error_log(print_r($response_info[$keys[$i]],true));
+							}
+							*/					
+							$attachmentBody = $oauth->getLastResponse();										
+						} catch(OAuthException $E) {
+							error_log("Exception caught while downloading assignment attachment!\n");
+							error_log("Response: ". $E->getMessage() . "\n");
+							error_log($E->debugInfo . "\n");
+						}
+
+						$timeStamp = current(current($api_sub_result->result->revision)->attachments->files->file)->timestamp;
+						$subDate = Date('Y-m-d\TH:i:s\Z', $timeStamp);
 
 
 
-					$records = array();
-					$records[0] = new stdclass();
-					$records[0]->Body = base64_encode($attachmentBody);
-					$records[0]->Name = $attachmentName;
-				$records[0]->ParentID = $schoologyAssignmentMap[$schoologyUserId];
-				$records[0]->IsPrivate = 'false';
-				$records[0]->ContentType = $submissionType;
+						$records = array();
+						$records[0] = new stdclass();
+						$records[0]->Body = base64_encode($attachmentBody);
+						$records[0]->Name = $attachmentName;
+						$records[0]->ParentID = $schoologyAssignmentMap[$schoologyUserId];
+						$records[0]->IsPrivate = 'false';
+						$records[0]->ContentType = $submissionType;
 
-				$upsertResponse = $mySforceConnection->create($records,'Attachment');       	
-				print_r($upsertResponse,true);
+						$upsertResponse = $mySforceConnection->create($records,'Attachment');       	
+						print_r($upsertResponse,true);
 
-					//Set newest Submission Date and Time in the Assignment record of Salesforce
-					$queryTime = $this->storage->db->prepare("UPDATE salesforce.ram_assignment__c SET submission_date_time__c  = :currTime, publish__c = FALSE, synced_to_schoology__c = TRUE WHERE (schoology_assignment_id__c = :schoologyAssignId) AND (schoology_user_id__c = :schoologyUserId)");
-					if($queryTime->execute(array(':currTime' => $subDate, ':schoologyAssignId' => $schoologyAssignmentID, ':schoologyUserId' => $schoologyUserID))) {
-						error_log('Successful Query Call ');
-					} else {
-						error_log('Could not perform Query call.');
-						throw new Exception('Could not add timestamp to Assignment Submission');
+						//Set newest Submission Date and Time in the Assignment record of Salesforce
+						$queryTime = $this->storage->db->prepare("UPDATE salesforce.ram_assignment__c SET submission_date_time__c  = :currTime, publish__c = FALSE, synced_to_schoology__c = TRUE WHERE (schoology_assignment_id__c = :schoologyAssignId) AND (schoology_user_id__c = :schoologyUserId)");
+						if($queryTime->execute(array(':currTime' => $subDate, ':schoologyAssignId' => $schoologyAssignmentID, ':schoologyUserId' => $schoologyUserID))) {
+							error_log('Successful Query Call ');
+						} else {
+							error_log('Could not perform Query call.');
+							throw new Exception('Could not add timestamp to Assignment Submission');
+						}
 					}
 				} while(next(current($api_sub_result->result->revision)->attachments->files->file));
 			} while(next($api_sub_result->result->revision));
