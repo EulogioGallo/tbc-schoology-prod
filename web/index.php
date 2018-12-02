@@ -11,7 +11,7 @@ ini_set('max_execution_time', '1920');
 $SchoologyApi = new SchoologyContainer();
 $SchoologyApi->schoologyOAuth();
 
-$SchoologyApi->grabAssignmentSubmissions($section = '1625270119', $assignment = '1897933349');
+$SchoologyApi->grabAssignmentSubmissions($section = '1625270119', $assignment = '1897933349', $start = '30', $limit = '30');
 /*
 $object_result = json_decode(file_get_contents("php://input"));	
 error_log(print_r($object_result,true));
