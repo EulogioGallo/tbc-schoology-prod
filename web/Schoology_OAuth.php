@@ -629,7 +629,7 @@
 			//REST Call for list of all Submissions of a specified Assignment
 			//course_section_id needs to be specified for specific cohorts
 			try {
-				$api_sub_result = $this->schoology->api('/sections/'.$schoologySectionID.'/submissions/'.$schoologyAssignmentID.'?with_attachments=1', 'GET'); 								
+				$api_sub_result = $this->schoology->api('/sections/'.$schoologySectionID.'/submissions/'.$schoologyAssignmentID.'?with_attachments=1&start=0&limit=30', 'GET'); 								
 				//error_log(print_r($api_sub_result,true));
 			} catch(Exception $e) {
 				error_log('Exception when making syncAPI call');
@@ -666,7 +666,7 @@
 				$schoologyUserID = current($api_sub_result->result->revision)->uid;				
 				do {
 					// only do this if we don't have a submission for this user
-					if(array_key_exists($schoologyUserID, $schoologyAssignmentMap)) {
+					//if(array_key_exists($schoologyUserID, $schoologyAssignmentMap)) {
 
 						$downloadPath = current(current($api_sub_result->result->revision)->attachments->files->file)->download_path;
 						$submissionType  = current(current($api_sub_result->result->revision)->attachments->files->file)->filemime;
@@ -769,7 +769,7 @@
 							error_log('Could not perform Query call.');
 							throw new Exception('Could not add timestamp to Assignment Submission');
 						}
-					}
+					//}
 				} while(next(current($api_sub_result->result->revision)->attachments->files->file));
 			} while(next($api_sub_result->result->revision));
 		}
